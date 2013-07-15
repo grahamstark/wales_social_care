@@ -2,5 +2,6 @@
 *.o
 bin/*
 docs/*.pdf
-docs/za
+working/users
+data/
 
