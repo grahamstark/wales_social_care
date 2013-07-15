@@ -1,0 +1,16 @@
+<h3>@_TITLE_@</h3>
+
+<p class='total_cost'>@_CHANGE-IN-POVERTY-STR_@:&nbsp;
+   @_CHANGE-IN-POVERTY_@ <img src='@_ROOT_@images/@_POVERTY-ARROW_@.png' alt=''/>&nbsp;<a href='@_ROOT_@output_page/poverty_page/' class='summary_link'>@_MORE_@&nbsp;&gt;&gt;</a>
+</p>
+   
+<table  width='100%' class='datatable'>
+  
+  <tr class='headerRow'>
+     <th width='40%'></th><th width='22%'>@_PRE_@</th><th width='22%'>@_POST_@</th><th width='16%'>@_DIFFERENCE_@</th>
+  </tr>
+      @@TABLE@@
+          @_BUD-ROWS_@
+      @@END_TABLE@@
+</table>
+

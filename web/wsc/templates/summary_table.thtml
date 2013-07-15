@@ -1,0 +1,120 @@
+   <p>Over 65s</p>
+   
+   <table class='datatable' width='70%'>
+      <tbody>
+         <tr><td></td>
+                 @@TABLE@@
+                 <th>@_YEARS_@</th>
+                 @@END_TABLE@@
+         </tr>
+         
+         <tr>
+                 <th>Population</th>
+                 @@TABLE@@
+                 <td>@_POPULATION_@</td>
+                 @@END_TABLE@@	
+         </tr>
+         <tr>
+                 <th>Total Social care clients (public and private):</th>
+                 @@TABLE@@
+                 <td>@_SOCIAL-CARE-CLIENTS_@</td>
+                 @@END_TABLE@@
+         </tr>
+         <tr>
+                 <th>Total Residential care population:</th>
+                 @@TABLE@@
+                 <td>@_RESIDENTIAL_@</td>
+                 @@END_TABLE@@
+         </tr>
+         <tr>
+                 <th>Total Non-Residential care population:</th>
+                 @@TABLE@@
+                 <td>@_NON-RESIDENTIAL_@</td>
+                 @@END_TABLE@@
+         </tr>
+         
+         <tr><td colspan='@_NUM-YEARS_@'><em>Fully Publicly supported (with no private contributions)</em></td></tr>
+         <tr><th>Residential care</th>
+         @@TABLE@@
+            <td>@_RESIDENTIAL-FULLY-PUBLICLY-FUNDED_@</td>
+         @@END_TABLE@@
+         </tr>
+         <tr><th>Community care</th>
+         @@TABLE@@
+         <td>@_NON-RESIDENTIAL-FULLY-PUBLICLY-FUNDED_@</td>
+         @@END_TABLE@@
+         </tr>
+
+         <tr><td colspan='@_NUM-YEARS_@'><em>Partially Publicly supported (with some private contributions)</em></td></tr>
+         <tr><th>Residential care</th>
+         @@TABLE@@
+            <td>@_RESIDENTIAL-PARTIALLY-PUBLICLY-FUNDED_@</td>
+         @@END_TABLE@@
+         </tr>
+         <tr><th>Community care</th>
+         @@TABLE@@
+         <td>@_NON-RESIDENTIAL-PARTIALLY-PUBLICLY-FUNDED_@</td>
+         @@END_TABLE@@
+         </tr>
+
+         <tr><td colspan='@_NUM-YEARS_@'><em>Soley Privately funded (no public contributions)</em></td></tr>
+         <tr><th>Residential care</th>
+         @@TABLE@@
+            <td>@_RESIDENTIAL-PRIVATELY-FUNDED_@</td>
+         @@END_TABLE@@
+         </tr>
+         <tr><th>Community care</th>
+         @@TABLE@@
+            <td>@_NON-RESIDENTIAL-PRIVATELY-FUNDED_@</td>
+         @@END_TABLE@@
+         </tr>
+         
+         
+         <tr><th colspan='@_NUM-YEARS_@'><strong>Social Security</strong></th></tr>
+         <tr><td colspan='@_NUM-YEARS_@'><em>Recipients</em></td></tr>
+         <tr><th>Disability Living Allowance</th>
+         @@TABLE@@
+            <td>@_DLA-CASELOAD_@</td>
+         @@END_TABLE@@
+         </tr>
+         <tr><th>Attendance Allowance</th>
+         @@TABLE@@
+            <td>@_AA-CASELOAD_@</td>
+         @@END_TABLE@@
+         </tr>
+         
+         <tr><td colspan='@_NUM-YEARS_@'><strong>Costs (&#163;000s)</strong></td></tr>
+         <tr><td colspan='@_NUM-YEARS_@'><em>Social care</em></td></tr>
+                     
+         <tr><th>Public expenditure (net of user charges and other income)</th>
+         @@TABLE@@
+            <td>@_PUBLIC-EXPENDITURE_@</td>
+         @@END_TABLE@@
+         </tr>
+         <tr>
+         <th>Private spend on social care</th>
+         @@TABLE@@
+            <td>@_PRIVATE-EXPENDITURE_@</td>
+         @@END_TABLE@@
+         </tr>
+         <tr><td colspan='@_NUM-YEARS_@'><em>Social security disability benefits</em></td></tr>
+         <tr>
+         <th>DLA (care component)</th>
+         @@TABLE@@
+            <td>@_DLA-CARE-EXPENDITURE_@</td>
+         @@END_TABLE@@
+         </tr>
+         <tr>
+         <th>DLA (mobility component)</th>
+         @@TABLE@@
+            <td>@_DLA-MOBILITY-EXPENDITURE_@</td>
+         @@END_TABLE@@
+         </tr>
+         <tr>
+         <th>Attendance Allowance</th>
+         @@TABLE@@
+            <td>@_AA-EXPENDITURE_@</td>
+         @@END_TABLE@@
+         </tr>
+      </tbody>
+   </table>

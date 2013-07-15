@@ -1,0 +1,73 @@
+with Ada.Text_IO;
+with Line_Extractor;
+with Text_Utils;
+
+package body Model.WSC.Parameters.Web_IO is
+   
+   function Read( buff : WSC_Editing_Buffer; year : Simulation_Years ) return Parameters_Rec is
+   use Text_Utils;
+      sys : Parameters_Rec;
+   begin
+      sys.benefits.state_pension.age_men := buff.Get( TuS( "benefits.state_pension.age_men" ));
+      sys.benefits.state_pension.age_women := buff.Get( TuS( "benefits.state_pension.age_women" ));
+      sys.benefits.state_pension.citizens_pension := buff.Get( TuS( "benefits.state_pension.citizens_pension" ));
+      sys.benefits.state_pension.class_a := buff.Get( TuS( "benefits.state_pension.class_a" ));
+      sys.benefits.pension_credit.guaranteed_credit.single := buff.Get( TuS( "benefits.pension_credit.guaranteed_credit.single" ));
+      sys.benefits.pension_credit.guaranteed_credit.couple := buff.Get( TuS( "benefits.pension_credit.guaranteed_credit.couple" ));
+      sys.benefits.pension_credit.guaranteed_credit.carer_single := buff.Get( TuS( "benefits.pension_credit.guaranteed_credit.carer_single" ));
+      sys.benefits.pension_credit.guaranteed_credit.severe_disability_single := buff.Get( TuS( "benefits.pension_credit.guaranteed_credit.severe_disability_single" ));
+      sys.benefits.pension_credit.guaranteed_credit.severe_disability_couple := buff.Get( TuS( "benefits.pension_credit.guaranteed_credit.severe_disability_couple" ));
+      sys.benefits.pension_credit.savings_credit.threshold_single := buff.Get( TuS( "benefits.pension_credit.savings_credit.threshold_single" ));
+      sys.benefits.pension_credit.savings_credit.threshold_couple := buff.Get( TuS( "benefits.pension_credit.savings_credit.threshold_couple" ));
+      sys.benefits.pension_credit.savings_credit.maximum_single := buff.Get( TuS( "benefits.pension_credit.savings_credit.maximum_single" ));
+      sys.benefits.pension_credit.savings_credit.maximum_couple := buff.Get( TuS( "benefits.pension_credit.savings_credit.maximum_couple" ));
+      sys.benefits.pension_credit.savings_credit.withdrawal_rate := buff.Get( TuS( "benefits.pension_credit.savings_credit.withdrawal_rate" ));
+      sys.benefits.attendance_allowance.low_age := buff.Get( TuS( "benefits.attendance_allowance.low_age" ));
+      sys.benefits.attendance_allowance.high_age := buff.Get( TuS( "benefits.attendance_allowance.high_age" ));
+      sys.benefits.attendance_allowance.benefit_rate( high ) := buff.Get( TuS( "benefits.attendance_allowance.benefit_rate( high )" ));
+      sys.benefits.attendance_allowance.benefit_rate( low ) := buff.Get( TuS( "benefits.attendance_allowance.benefit_rate( low )" ));
+      sys.benefits.attendance_allowance.test_generosity := buff.Get( TuS( "benefits.attendance_allowance.test_generosity" ));
+      sys.benefits.dla.dont_pay_for_residential_claimants := buff.Get( TuS( "benefits.dla.dont_pay_for_residential_claimants" ));
+      sys.benefits.dla.mobility.low_age := buff.Get( TuS( "benefits.dla.mobility.low_age" ));
+      sys.benefits.dla.mobility.high_age := buff.Get( TuS( "benefits.dla.mobility.high_age" ));
+      sys.benefits.dla.mobility.benefit_rate( high ) := buff.Get( TuS( "benefits.dla.mobility.benefit_rate( high )" ));
+      sys.benefits.dla.mobility.benefit_rate( low ) := buff.Get( TuS( "benefits.dla.mobility.benefit_rate( low )" ));
+      sys.benefits.dla.mobility.test_generosity := buff.Get( TuS( "benefits.dla.mobility.test_generosity" ));
+      sys.benefits.dla.care.low_age := buff.Get( TuS( "benefits.dla.care.low_age" ));
+      sys.benefits.dla.care.high_age := buff.Get( TuS( "benefits.dla.care.high_age" ));
+      sys.benefits.dla.care.benefit_rate( high ) := buff.Get( TuS( "benefits.dla.care.benefit_rate( high )" ));
+      sys.benefits.dla.care.benefit_rate( middle ) := buff.Get( TuS( "benefits.dla.care.benefit_rate( middle )" ));
+      sys.benefits.dla.care.benefit_rate( low ) := buff.Get( TuS( "benefits.dla.care.benefit_rate( low )" ));
+      sys.benefits.dla.care.test_generosity := buff.Get( TuS( "benefits.dla.care.test_generosity" ));
+      sys.social_care.abolish := buff.Get( TuS( "social_care.abolish" ));
+      sys.social_care.needs_assessment_rules.uap_category( critical ) := buff.Get( TuS( "social_care.needs_assessment_rules.uap_category_critical" ));
+      sys.social_care.needs_assessment_rules.uap_category( substantial ) := buff.Get( TuS( "social_care.needs_assessment_rules.uap_category_substantial" ));
+      sys.social_care.needs_assessment_rules.uap_category( moderate ) := buff.Get( TuS( "social_care.needs_assessment_rules.uap_category_moderate" ));
+      sys.social_care.needs_assessment_rules.use_carer_blind_system := buff.Get( TuS( "social_care.needs_assessment_rules.use_carer_blind_system" ));
+      sys.social_care.needs_assessment_rules.carer_blind_degree := buff.Get( TuS( "social_care.needs_assessment_rules.carer_blind_degree" ));
+      sys.social_care.means_test.residential.assets.include_property := buff.Get( TuS( "social_care.means_test.residential.assets.include_property" ));
+      sys.social_care.means_test.residential.assets.upper_limit := buff.Get( TuS( "social_care.means_test.residential.assets.upper_limit" ));
+      sys.social_care.means_test.residential.assets.lower_limit := buff.Get( TuS( "social_care.means_test.residential.assets.lower_limit" ));
+      sys.social_care.means_test.residential.assets.taper := buff.Get( TuS( "social_care.means_test.residential.assets.taper" ));
+      sys.social_care.means_test.residential.assets.abolish := buff.Get( TuS( "social_care.means_test.residential.assets.abolish" ));
+      sys.social_care.means_test.residential.income.floor := buff.Get( TuS( "social_care.means_test.residential.income.floor" ));
+      sys.social_care.means_test.residential.income.maximum_charge := buff.Get( TuS( "social_care.means_test.residential.income.maximum_charge" ));
+      sys.social_care.means_test.residential.income.minimum_support_level := buff.Get( TuS( "social_care.means_test.residential.income.minimum_support_level" ));
+      sys.social_care.means_test.residential.income.percent_costs_met := buff.Get( TuS( "social_care.means_test.residential.income.percent_costs_met" ));
+      sys.social_care.means_test.residential.income.abolish := buff.Get( TuS( "social_care.means_test.residential.income.abolish" ));
+      sys.social_care.means_test.non_residential.assets.include_property := buff.Get( TuS( "social_care.means_test.non_residential.assets.include_property" ));
+      sys.social_care.means_test.non_residential.assets.upper_limit := buff.Get( TuS( "social_care.means_test.non_residential.assets.upper_limit" ));
+      sys.social_care.means_test.non_residential.assets.lower_limit := buff.Get( TuS( "social_care.means_test.non_residential.assets.lower_limit" ));
+      sys.social_care.means_test.non_residential.assets.taper := buff.Get( TuS( "social_care.means_test.non_residential.assets.taper" ));
+      sys.social_care.means_test.non_residential.assets.abolish := buff.Get( TuS( "social_care.means_test.non_residential.assets.abolish" ));
+      sys.social_care.means_test.non_residential.income.floor := buff.Get( TuS( "social_care.means_test.non_residential.income.floor" ));
+      sys.social_care.means_test.non_residential.income.maximum_charge := buff.Get( TuS( "social_care.means_test.non_residential.income.maximum_charge" ));
+      sys.social_care.means_test.non_residential.income.minimum_support_level := buff.Get( TuS( "social_care.means_test.non_residential.income.minimum_support_level" ));
+      sys.social_care.means_test.non_residential.income.percent_costs_met := buff.Get( TuS( "social_care.means_test.non_residential.income.percent_costs_met" ));
+      sys.social_care.means_test.non_residential.income.abolish := buff.Get( TuS( "social_care.means_test.non_residential.income.abolish" ));
+      sys.social_care.insurance.actuarially_fair := buff.Get( TuS( "social_care.insurance.actuarially_fair" ));
+      sys.social_care.insurance.contribution := Contribution_Type'Value( TS( buff.Get( TuS( "social_care.insurance.contribution" ))));
+      return sys;
+   end Read;
+   
+end Model.WSC.Parameters.Web_IO;

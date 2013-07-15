@@ -1,0 +1,135 @@
+   <p><a name='top'>Jump to:</a></p>
+   <ul class='goto'>
+        <li><a href='#population'>Population</a></li>
+        <li><a href='#health'>Health</a></li>
+        <li><a href='#clients'>Social Care Clients</a></li>
+        <li><a href='#costs'>Social Care Costs</a></li>
+        <li><a href='#benefits'>Benefits</a></li>
+        <li><a href='#netexp'>Net Expenditure</a></li>
+   
+   </ul>
+   
+   <div class='phunpack'>
+           <p><a href='@_ROOT_@csv/summary'>Download these results as a .csv file</a></p>
+           <p><a href='@_ROOT_@csv/population'>Download population transitions data</a></p>
+   </div>
+   
+   <p><a name='population'>&nbsp;</a></p>
+   <h2>Population</h2>
+   
+   <table class='datatable' width='100%' >
+      <caption>000s</caption>
+      <tbody>
+         <tr>    
+                <th align='right'></th>
+                 @@TABLE@@
+                 <th align='right'>@_YEAR-CELLS_@</th>
+                 @@END_TABLE@@
+                 <th></th>
+         </tr>
+         @@TABLE@@
+         @_POPULATION_@
+         @@END_TABLE@@
+      </tbody>
+   </table>   
+   <p class='goto'><a href='#top'>Back To Top</a></p>
+   
+   <p><a name='health'>&nbsp;</a></p>
+   <h2>Health</h2>
+   
+   <table class='datatable' width='100%'>
+      <caption>cases</caption>
+      <tbody>
+         <tr>    
+                <th align='right'></th>
+                 @@TABLE@@
+                 <th align='right'>@_YEAR-CELLS_@</th>
+                 @@END_TABLE@@
+                 <th></th>
+         </tr>
+         @@TABLE@@
+         @_HEALTH_@
+         @@END_TABLE@@
+      </tbody>
+   </table>
+   <p class='goto'><a href='#top'>Back To Top</a></p>
+   
+   <p><a name='clients'>&nbsp;</a></p>
+   <h2>Care Clients</h2>
+   
+   <table class='datatable' width='100%' >
+      <caption>cases</caption>
+      <tbody>
+         <tr>    
+                <th align='right'></th>
+                 @@TABLE@@
+                 <th align='right'>@_YEAR-CELLS_@</th>
+                 @@END_TABLE@@
+                 <th></th>
+         </tr>
+         @@TABLE@@
+         @_CARE_CLIENTS_@
+         @@END_TABLE@@
+      </tbody>
+   </table>
+   <p class='goto'><a href='#top'>Back To Top</a></p>
+    
+   <p><a name='costs'>&nbsp;</a></p>
+   <h2>Care Costs</h2>
+   
+   <table class='datatable' width='100%'>
+      <caption>&pound;000,000s PA</caption>
+      <tbody>
+         <tr>    
+                <th align='right'></th>
+                 @@TABLE@@
+                 <th align='right'>@_YEAR-CELLS_@</th>
+                 @@END_TABLE@@
+                 <th></th>
+         </tr>
+         @@TABLE@@
+         @_CARE_COSTS_@
+         @@END_TABLE@@
+      </tbody>
+   </table>
+   <p class='goto'><a href='#top'>Back To Top</a></p>
+   
+   <p><a name='benefits'>&nbsp;</a></p>
+   <h2>Benefits</h2>
+   
+   <table class='datatable' width='100%'>
+      <caption>Costs in &pound;000,000s PA; cases in 000s</caption>
+      <tbody>
+         <tr>    
+                <th align='right'></th>
+                 @@TABLE@@
+                 <th align='right'>@_YEAR-CELLS_@</th>
+                 @@END_TABLE@@
+                 <th></th>
+         </tr>
+         @@TABLE@@
+         @_BENEFITS_@
+         @@END_TABLE@@
+      </tbody>
+   </table>
+   <p class='goto'><a href='#top'>Back To Top</a></p>
+   
+   <p><a name='netexp'>&nbsp;</a></p>
+   <h2>Net Expenditure</h2>
+   
+   <table class='datatable' width='100%'>
+      <caption>&pound;000,000s PA</caption>
+      <tbody>
+         <tr>    
+                <th align='right'></th>
+                 @@TABLE@@
+                 <th align='right'>@_YEAR-CELLS_@</th>
+                 @@END_TABLE@@
+                 <th></th>
+         </tr>
+         @@TABLE@@
+         @_NET_EXPENDITURE_@
+         @@END_TABLE@@
+      </tbody>
+   </table>
+   <p class='goto'><a href='#top'>Back To Top</a></p>

@@ -1,0 +1,220 @@
+/* MODEL CONTENT */
+ 
+@import "constants";
+
+body  { 
+        font-family: "Gill Sans", arial, helvetica, sans-serif; 
+        text-align:left;
+        font-size:11pt;
+        background-color: white;
+        color: black;
+}
+    
+
+table {
+	float:right;
+}
+td {
+	margin:0;
+	padding:2px 0 2px 5px;
+}
+
+.importantMessage {
+	width:400px;
+	font-size:12px;
+	font-style:italic;
+	font-weight:bold;
+	color:#333;
+	margin:0;
+	padding:5px;
+}
+
+.success_message{
+        color: #339911;        
+}
+
+.infobox {
+        border:1px solid @menu_background; 
+        min-height:200px;
+        background-color:#fff;
+        font-size:10pt;
+        color:#333;
+        vertical-align: top;
+        padding:2pt;
+}
+
+#spacer{
+        width: 0; // 150px;
+}
+
+.infobox h3 {
+        text-transform:uppercase;
+        margin:0;
+        padding:0;
+        text-align:center;
+        border-bottom: 1px @header_colour;
+}
+
+.infobox .bold {
+	color:#C00;
+	font-weight:bold;
+}
+#changes {
+	width:150px;
+	background-color: #e5f6ff;
+        font-size:12px;
+        color:#000;
+	margin:3px 10px 3px 3px;
+	padding:3px;
+        border: 1px solid #6CF;
+}
+
+#changes h3 {
+	text-transform:uppercase;
+	font-size:12px;
+	color:#000;
+	margin:0 0 5px 0;
+	padding:0;
+}
+
+#changes .bold {
+	color:#000;
+	font-weight:bold;
+}
+
+.changeNumber {
+	color:#00C;
+	font-weight:bold;
+}
+
+.summary_list {
+    font-size:11px;
+    margin:0;
+    padding:0;
+}
+
+.summary_list ul {
+    margin:0;
+    padding:0;
+}
+
+.summary_list li {
+	list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+#input_content {
+    font-size:14px;	
+    margin:30px 0 10px 20px;
+    padding:0;
+}
+
+
+.input_table {
+	width:500px;
+	margin:0 190px 0 0;
+	padding:0;
+}
+
+#modelContentInput {
+        width:920px;
+    font-size:12px;
+	margin:0;
+	padding:0;
+}
+#modelContentOutput { border-left:1px solid #fff;
+	width:868px;
+	float:right;
+	background-color:#7fcce5;
+    font-size:12px;
+	margin:0;
+	padding:0;
+}
+
+.navigation { border:1px solid red;
+}
+.chartgallery_a {
+	width:200px;
+	float:right;
+	margin:0;
+	padding:0;
+}
+#registration_form {
+    font-size:14px;
+    text-align:left;	
+}
+
+.is_changed_from_base{
+        background: #f3eac0; 
+}
+
+.input_error{
+        font-weight: bold;
+        background: #edafaf;
+}
+
+.input_error_message{
+        text-align:left;
+        font-size: 10pt;
+        font-weight: normal;
+        color: #c83434;
+}
+
+.error_section{
+	text-align: center;
+	font-size: 11pt;
+	font-weight: normal;
+	color: #c83434;
+	padding: 3px;
+	border: 1px solid #942525;
+}
+
+.static_value{
+	font-weight: bold;
+	font-size: 110%;
+}
+
+.value{
+	font-weight: normal;
+}
+
+.difference{
+	font-weight: bold;
+}
+
+.help_section{
+        padding: 6pt;       
+        
+}
+
+.help_link{
+        border: none;       
+}
+
+.help_section.tabs{
+        border-top: 1px solid silver;       
+}
+
+.help_section h1, .help_section h2, .help_section h3, .help_section h4{
+        text-align: center;
+        
+}
+
+.orig_value{
+        font-style: normal;
+        color: #333333;
+        font-size: 90%;
+}
+
+.run-title{
+        font-style: normal;
+        color: @menu_background;
+        font-size: 105%;
+        text-align: center;
+        border-bottom: 1px solid silver;
+}
+
+.run-title .value{
+        font-weight: bold;      
+}

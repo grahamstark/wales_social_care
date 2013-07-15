@@ -1,0 +1,1157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ParameterSystem SYSTEM "/home/graham_s/VirtualWorlds/projects/tax_benefit_model_components/etc/parameters/dtds/parameter_system.dtd" >
+<ParameterSystem name="wsc" instanceName="wsc">
+        <Description type="label" lang="en">
+             Wales Social Care - Parameter System
+         </Description>
+        <ParameterSystem name='benefits' instanceName='benefits'>
+                
+                <Description type="label" lang="en">
+                     Benefit System
+                 </Description>
+                 <ParameterSystem name='state_pension' instanceName='state_pension'>
+                        <Description type="label" lang="en">
+                             State Pension
+                         </Description>
+                         
+                         <Parameter name="age_men" instanceName="age_men" logicalType='age_limit'>
+                                <Description type="label" lang="en">
+                                     Qualifying Age - Men
+                                 </Description>
+                         </Parameter>
+                         
+                         <Parameter name="age_women" instanceName="age_women" logicalType='age_limit'>
+                                <Description type="label" lang="en">
+                                     Qualifying Age - Women
+                                 </Description>
+                         </Parameter>
+                         
+                         <Parameter name="citizens_pension" instanceName="citizens_pension" type='boolean'>
+                                <Description type="label" lang="en">
+                                     Citizen's Pension?
+                                 </Description>
+                                <Description type="description" lang="en">
+                                
+                                     Citizen's Pension: select this to create a
+                                     pension scheme that is not dependent on
+                                     previous contributions.
+                                     
+                                 </Description>
+                         </Parameter>
+                         
+                         <Parameter name="class_a" instanceName="class_a" logicalType='benefit'>
+                                <Description type="label" lang="en">
+                                     Class A Amount
+                                 </Description>
+                                <Description type="description" lang="en">
+                                
+                                     ... 
+                                     
+                                 </Description>
+                         </Parameter>
+                          <Parameter instanceName="preserve_for_existing_claimants" type='boolean'>
+                                <Description type="label" lang="en">
+                                Preserve Benefits for existing claimants?
+                                </Description>
+                                <Description type="description" lang="en">
+                                From this year on, stop the changes you have just made from
+                                applying to existing claimants. These claimants will receive
+                                the current cash value until the cash value
+                                of your changes exceeds this.
+                                </Description>
+                         </Parameter>
+                         
+                         
+                 </ParameterSystem>
+                 
+                 <ParameterSystem name='pension_credit' instanceName='pension_credit'>
+                        <Description type="label" lang="en">
+                             Pension Credit
+                         </Description>
+                         
+                         <ParameterSystem name='guaranteed_credit' instanceName='guaranteed_credit'>
+                                <Description type="label" lang="en">
+                                     Guaranteed Credit
+                                 </Description>
+                                <Parameter name='single' instanceName='single' logicalType='benefit'>
+                                        <Description type='label' lang='en'>
+                                        Single Persion
+                                        </Description>
+                                        <Description type='description' lang='en'>
+                                        Standard Minimum Guarantee - Single Persion
+                                        </Description>
+                                </Parameter>
+                               <Parameter name='couple' instanceName='couple' logicalType='benefit'>
+                                        <Description type='label' lang='en'>
+                                        Single Persion
+                                        </Description>
+                                        <Description type='description' lang='en'>
+                                        Standard Minimum Guarantee - Couple Persion
+                                        </Description>
+                                </Parameter>
+                                 <Parameter instanceName="carer_single" logicalType="benefit">
+                                        <Description type="label" lang="en">
+                                        Carers
+                                        </Description>
+                                        <Description type="description" lang="en">
+                                        Additional Amount for Carers
+                                        </Description>
+                                 </Parameter>
+
+                                 <Parameter instanceName="severe_disability_single" logicalType="benefit">
+                                        <Description type="label" lang="en">
+                                        Severe Disability - Single  
+                                        </Description>
+                                        <Description type="description" lang="en">
+                                        Severe Disability - Single Person or one person in a couple
+                                        </Description>
+                                 </Parameter>
+                                
+                                 <Parameter instanceName="severe_disability_couple" logicalType="benefit">
+                                        <Description type="label" lang="en">
+                                        Severe Disability - Couple
+                                        </Description>
+                                        <Description type="description" lang="en">
+                                        Severe Disability - Both members of a couple
+                                        </Description>
+                                 </Parameter>
+
+                                 <Parameter instanceName="preserve_for_existing_claimants" type='boolean'>
+                                        <Description type="label" lang="en">
+                                        Preserve Benefits for existing claimants?
+                                        </Description>
+                                        <Description type="description" lang="en">
+                                        From this year on, stop the changes you have just made from
+                                        applying to existing claimants. These claimants will receive
+                                        the current cash value until the cash value
+                                        of your changes exceeds this.
+                                        </Description>
+                                 </Parameter>
+                          </ParameterSystem>
+                         
+                         <ParameterSystem name='savings_credit' instanceName='savings_credit'>
+                                <Description type="label" lang="en">
+                                     Savings Credit
+                                 </Description>
+                                 <Parameter instanceName="threshold_single" logicalType="benefit">
+                                        <Description type="description" lang="en">
+                                        Threshold - Single
+                                        </Description>
+                                        <Description type="description" lang="en">
+                                        Threshold - Single person
+                                        </Description>
+                                 </Parameter>
+                                 <Parameter instanceName="threshold_couple" logicalType="benefit">
+                                        <Description type="description" lang="en">
+                                        Threshold - Couple
+                                        </Description>
+                                        <Description type="description" lang="en">
+                                        Threshold - Couple
+                                        </Description>
+                                 </Parameter>
+                                 
+                                 <Parameter instanceName="maximum_single" logicalType="benefit">
+                                        <Description type="description" lang="en">
+                                        Maximum - Single
+                                        </Description>
+                                        <Description type="description" lang="en">
+                                        Maximum - Single person
+                                        </Description>
+                                 </Parameter>
+                                 <Parameter instanceName="maximum_couple" logicalType="benefit">
+                                        <Description type="description" lang="en">
+                                        Maximum - Couple
+                                        </Description>
+                                        <Description type="description" lang="en">
+                                        Maximum - Couple
+                                        </Description>
+                                 </Parameter>
+                                 
+                                 <Parameter instanceName="withdrawal_rate" logicalType="rate" units='percent'>
+                                        <Description type="description" lang="en">
+                                        Withdrawal Rate
+                                        </Description>
+                                        <Description type="description" lang="en">
+                                        Withdrawal Rate
+                                        </Description>
+                                 </Parameter>
+
+                                 <Parameter instanceName="preserve_for_existing_claimants" type='boolean'>
+                                        <Description type="label" lang="en">
+                                        Preserve Benefits for existing claimants?
+                                        </Description>
+                                        <Description type="description" lang="en">
+                                        From this year on, stop the changes you have just made from
+                                        applying to existing claimants. These claimants will receive
+                                        the current cash value until the cash value
+                                        of your changes exceeds this.
+                                        </Description>
+                                 </Parameter>
+                                 
+                          </ParameterSystem>
+                 </ParameterSystem>
+                 
+                 <ParameterSystem name='attendance_allowance' instanceName='attendance_allowance'>
+                        <Description type="label" lang="en">
+                             Attendance Allowance (AA)
+                         </Description>
+                         
+                         <Description type="description" lang="en">
+                         <p>
+                         Attendance allowance (AA) is a beneﬁt for people aged
+                         65 and over with attention or supervision needs. There
+                         is a higher rate and a lower rate, the rules of which
+                         are similar to those for the highest and middle rates
+                         of the disability living allowance (DLA) care component
+                         respectively (see ►). Unlike DLA, AA does not have a
+                         mobility component.
+                         </p>
+                         <p>
+                         (CPAG Ch 7 Section 3).
+                         </p>
+                         </Description>
+                                  <Parameter name="low_age" instanceName="low_age" logicalType='age_limit'>
+                                        <Description type="label" lang="en">
+                                             Lower Age Limit  
+                                         </Description>
+                                 </Parameter>
+                                 <Parameter name="high_age" instanceName="high_age" logicalType='age_limit'>
+                                        <Description type="label" lang="en">
+                                             Upper Age Limit
+                                         </Description>
+                                 </Parameter>
+                                 <Parameter name="high_rate" instanceName="high_rate" logicalType='benefit'>
+                                        <Description type="label" lang="en">
+                                             Highest Rate 
+                                         </Description>
+                                 </Parameter>
+                                 <Parameter name="low_rate" instanceName="low_rate" logicalType='benefit'>
+                                        <Description type="label" lang="en">
+                                             Lower Rate 
+                                         </Description>
+                                 </Parameter>
+                                 <Parameter name="test_generosity" instanceName="test_generosity" logicalType='rate'>
+                                        <Description type="label" lang="en">
+                                             Test generosity
+                                         </Description>
+                                        <Description type="description" lang="en">
+                                             We impute AA using a probit based on characteristics including age and disability levels.
+                                             Leave this at zero to generate the current caseload given characteristics.
+                                             Setting this to -0.5 reduces caseload by 50% (for current population characteristics).
+                                             0.5 increases caseload by 50% (for current population characteristics).
+                                         </Description>
+                                 </Parameter>
+                                 <Parameter instanceName="preserve_for_existing_claimants" type='boolean'>
+                                        <Description type="label" lang="en">
+                                        Preserve Benefits for existing claimants?
+                                        </Description>
+                                        <Description type="description" lang="en">
+                                        From this year on, stop the changes you have just made from
+                                        applying to existing claimants. These claimants will receive
+                                        the current cash value until the cash value
+                                        of your changes exceeds this.
+                                        </Description>
+                                 </Parameter>
+
+                 </ParameterSystem>
+                 <ParameterSystem name='dla' instanceName='dla'>
+                        <Description type="label" lang="en">
+                             Disability Living Allowance (DLA)
+                         </Description>
+                        <Description type="description" lang="en">
+                             Disability Living Allowance (DLA). See CPAG Guide ch 7.
+                             <p>
+                             Disability living allowance (DLA) is a beneﬁt for those who are under 65 when they claim. Although it has two separate care and mobility components, DLA is a single beneﬁt for which you only have to make one claim. Each component can be paid at different rates. Attendance allowance (AA) is a beneﬁt for those who are aged 65 or over when they claim.
+                             </p>
+                             <p>
+                             Future changes:
+                             </p>
+                             <p>
+                             The government is consulting on two changes to DLA:
+                             </p>
+                             <ol>
+                             <li>
+                             
+                             A proposal to prevent the payment of the mobility
+                             component to people in residential care, in much
+                             the same way as for hospital patients (see Chapter
+                             27), may be introduced during 2011/12, but, at the
+                             time of writing, no details were known.
+                             
+                             </li>
+                             <li>
+                             
+                             Wider changes to DLA, replacing it with a ‘personal
+                             independence payment’ will not be implemented this
+                             year.
+                             
+                             </li>
+                             </ol>
+                             <p>
+                             See CPAG’s online services and Welfare Rights Bulletin for updates.
+                             </p>
+                             <p>(CPAG Guide 2011/12 Ch 7 Intro)</p>
+                         </Description>
+                         <Parameter 
+                                name='dont_pay_for_residential_claimants' 
+                                instanceName='dont_pay_for_residential_claimants' type='boolean'>
+                                <Description type='label' lang='en'>Don't pay to residential claimants</Description>
+                                <Description type='description' lang='en'>
+                                     A proposal to prevent the payment of the mobility
+                                     component to people in residential care, in much
+                                     the same way as for hospital patients (see Chapter
+                                     27), may be introduced during 2011/12, but, at the
+                                     time of writing, no details were known. (CPAG 2011/12 p120).
+                                </Description>
+                         </Parameter>
+                         <ParameterSystem name="mobility" instanceName="mobility">
+                                <Description type="label" lang="en">
+                                     Mobility Component
+                                 </Description>
+                                <Description type="description" lang="en">
+                                     For people who have difficulty walking. See CPAG Guide Ch 7-
+                                 </Description>
+                                 
+                                 <Parameter name="low_age" instanceName="low_age" logicalType='age_limit'>
+                                        <Description type="label" lang="en">
+                                             Lower Age Limit  
+                                         </Description>
+                                 </Parameter>
+                                 <Parameter name="high_age" instanceName="high_age" logicalType='age_limit'>
+                                        <Description type="label" lang="en">
+                                             Upper Age Limit
+                                         </Description>
+                                 </Parameter>
+                                 <Parameter name="high_rate" instanceName="high_rate" logicalType='benefit'>
+                                        <Description type="label" lang="en">
+                                             Highest Rate - 
+                                         </Description>
+                                 </Parameter>
+                                 <Parameter name="low_rate" instanceName="low_rate" logicalType='benefit'>
+                                        <Description type="label" lang="en">
+                                             Lower Rate - 
+                                         </Description>
+                                 </Parameter>
+                                 <Parameter name="test_generosity" instanceName="test_generosity" logicalType='rate'>
+                                        <Description type="label" lang="en">
+                                             Test generosity
+                                         </Description>
+                                        <Description type="description" lang="en">
+                                             We impute DLA using a probit based on characteristics including age and disability levels.
+                                             Leave this at zero to generate the current caseload given characteristics.
+                                             Setting this to -0.5 reduces caseload by 50% (for current population characteristics).
+                                             0.5 increases caseload by 50% (for current population characteristics).
+                                             Note that this parameter applies both to the care and mobility components.
+                                         </Description>
+                                 </Parameter>
+                                  <Parameter instanceName="preserve_for_existing_claimants" type='boolean'>
+                                        <Description type="label" lang="en">
+                                        Preserve Benefits for existing claimants?
+                                        </Description>
+                                        <Description type="description" lang="en">
+                                        From this year on, stop the changes you have just made from
+                                        applying to existing claimants. These claimants will receive
+                                        the current cash value until the cash value
+                                        of your changes exceeds this.
+                                        </Description>
+                                 </Parameter>
+
+                        </ParameterSystem>
+                         <ParameterSystem name="care" instanceName="care">
+                                <Description type="label" lang="en">
+                                     Care Component
+                                 </Description>
+                                <Description type="description" lang="en">
+                                     For people with attention or supervision needs. See CPAG Guide Ch 7 Sec 2-
+                                 </Description>
+                                 
+                                 <Parameter name="low_age" instanceName="low_age" logicalType='age_limit'>
+                                        <Description type="label" lang="en">
+                                             Lower Age Limit  
+                                         </Description>
+                                 </Parameter>
+                                 <Parameter name="high_age" instanceName="high_age" logicalType='age_limit'>
+                                        <Description type="label" lang="en">
+                                             Upper Age Limit
+                                         </Description>
+                                 </Parameter>
+                                 <Parameter name="high_rate" instanceName="high_rate" logicalType='benefit'>
+                                        <Description type="label" lang="en">
+                                             Highest Rate - 
+                                         </Description>
+                                 </Parameter>
+                                 <Parameter name="middle_rate" instanceName="middle_rate" logicalType='benefit'>
+                                        <Description type="label" lang="en">
+                                             Middle Rate - 
+                                         </Description>
+                                 </Parameter>
+                                 <Parameter name="low_rate" instanceName="low_rate" logicalType='benefit'>
+                                        <Description type="label" lang="en">
+                                             Lower Rate - 
+                                         </Description>
+                                 </Parameter>
+                                 
+                                 <Parameter name="test_generosity" instanceName="test_generosity" logicalType='rate'>
+                                        <Description type="label" lang="en">
+                                             Test generosity
+                                         </Description>
+                                        <Description type="description" lang="en">
+                                             We impute DLA using a probit based on characteristics including age and disability levels.
+                                             Leave this at zero to generate the current caseload given characteristics.
+                                             Setting this to -0.5 reduces caseload by 50% (for current population characteristics).
+                                             0.5 increases caseload by 50% (for current population characteristics).
+                                         </Description>
+                                 </Parameter>
+                                 
+                                 <Parameter instanceName="preserve_for_existing_claimants" type='boolean'>
+                                        <Description type="label" lang="en">
+                                        Preserve Benefits for existing claimants?
+                                        </Description>
+                                        <Description type="description" lang="en">
+                                        From this year on, stop the changes you have just made from
+                                        applying to existing claimants. These claimants will receive
+                                        the current cash value until the cash value
+                                        of your changes exceeds this.
+                                        </Description>
+                                 </Parameter>
+                                 
+                        </ParameterSystem>
+
+                 </ParameterSystem>
+                 <!--
+                 <ParameterSystem name='income_support' instanceName='income_support'>
+                        <Description type="label" lang="en">
+                             Income Support
+                         </Description>
+                         <ParameterSystem name="premia" instanceName="premia">
+                         
+                         <Parameter instanceName="family" logicalType="benefit">
+                            <Description type="description" lang="en">
+                                  family
+                            </Description>
+                         </Parameter>
+                         <Parameter instanceName="higher_family" logicalType="benefit">
+                            <Description type="description" lang="en">
+                                  higher family
+                            </Description>
+                         </Parameter>
+                         <Parameter instanceName="disabled_child" logicalType="benefit">
+                            <Description type="description" lang="en">
+                                  disabled child
+                            </Description>
+                         </Parameter>
+                         <Parameter instanceName="severe_disability_single" logicalType="benefit">
+                            <Description type="description" lang="en">
+                                  Severe Disability Single
+                            </Description>
+                         </Parameter>
+                         <Parameter instanceName="severe_disability_couple" logicalType="benefit">
+                            <Description type="description" lang="en">
+                                  Severe Disability Couple
+                            </Description>
+                         </Parameter>
+                         <Parameter instanceName="enhanced_disability_single" logicalType="benefit">
+                            <Description type="description" lang="en">
+                                  Enhanced Disability Single
+                            </Description>
+                         </Parameter>
+                         <Parameter instanceName="enhanced_disability_child" logicalType="benefit">
+                            <Description type="description" lang="en">
+                                  Enhanced Disability Child
+                            </Description>
+                         </Parameter>
+                         <Parameter instanceName="enhanced_disability_couple" logicalType="benefit">
+                            <Description type="description" lang="en">
+                                  Enhanced Disability Couple
+                            </Description>
+                         </Parameter>
+                         <Parameter instanceName="carer_single" logicalType="benefit">
+                            <Description type="description" lang="en">
+                                  Carer Single
+                            </Description>
+                         </Parameter>
+                         <Parameter instanceName="carer_couple" logicalType="benefit">
+                            <Description type="description" lang="en">
+                                  Carer Couple
+                            </Description>
+                         </Parameter>
+                         <Parameter instanceName="family_lone_parent" logicalType="benefit">
+                            <Description type="description" lang="en">
+                                 Family Lone Parent 
+                            </Description>
+                         </Parameter>
+                         <Parameter instanceName="disability_single" logicalType="benefit">
+                            <Description type="description" lang="en">
+                                  Disability Single
+                            </Description>
+                         </Parameter>
+                         <Parameter instanceName="disability_couple" logicalType="benefit">
+                            <Description type="description" lang="en">
+                                  Disability Couple
+                            </Description>
+                         </Parameter>
+                         <Parameter instanceName="pensioner_single" logicalType="benefit">
+                            <Description type="description" lang="en">
+                                  Pensioner Single
+                            </Description>
+                         </Parameter>
+                         <Parameter instanceName="pensioner_couple" logicalType="benefit">
+                            <Description type="description" lang="en">
+                                  Pensioner Couple
+                            </Description>
+                         </Parameter>
+                         <Parameter instanceName="pensioner_couple" logicalType="benefit">
+                            <Description type="description" lang="en">
+                                  Pensioner Couple
+                            </Description>
+                         </Parameter>
+                         <Parameter instanceName="enhannced_pensioner_couple" logicalType="benefit">
+                            <Description type="description" lang="en">
+                                  Enhanced Pensioner Couple
+                            </Description>
+                         </Parameter>
+                         <Parameter instanceName="higher_pensioner_couple" logicalType="benefit">
+                            <Description type="description" lang="en">
+                                  Higher Pensioner Couple
+                            </Description>
+                         </Parameter>
+
+                         </ParameterSystem>
+                        
+                </ParameterSystem>
+                -->
+        </ParameterSystem>
+        <ParameterSystem name='social_care' instanceName='social_care'>
+                <Description type="label" lang="en">
+                     Social Care System
+                 </Description>
+                 <ParameterSystem name="needs_assessment_rules" instanceName="needs_assessment_rules">
+                        <Description>                 
+                        Needs assessment rules - (Non Residential Cases Only)
+                        </Description>
+                        
+                        <Parameter name='uap_category_critical' instanceName='uap_category_critical'  units='percent' logicalType='rate' >
+                                <Description type='label' lang='en'>
+                                UAP - proportion critical -  
+                                </Description>
+                                <Description type='description' lang='en'>
+                                Unified Assessment Process (UAP) - proportion of Welsh Population in each category
+                                Proportion of the Welsh population falling into each UAP category 
+                                </Description>
+                        </Parameter>
+                        <Parameter name='uap_category_substantial' instanceName='uap_category_substantial'  units='percent' logicalType='rate' >
+                                <Description type='label' lang='en'>
+                                UAP - proportion substantial 
+                                </Description>
+                                <Description type='description' lang='en'>
+                                Unified Assessment Process (UAP) - proportion of Welsh Population in each category
+                                Proportion of the Welsh population falling into each UAP category 
+                                </Description>
+                        </Parameter>
+                        <Parameter name='uap_category_moderate' instanceName='uap_category_moderate'  units='percent' logicalType='rate' >
+                                <Description type='label' lang='en'>
+                                UAP - proportion moderate 
+                                </Description>
+                                <Description type='description' lang='en'>
+                                Unified Assessment Process (UAP) - proportion of Welsh Population in each category
+                                Proportion of the Welsh population falling into each UAP category 
+                                </Description>
+                        </Parameter>
+                        <Parameter name='uap_category_low' instanceName='uap_category_low'  units='percent' logicalType='rate' >
+                                <Description type='label' lang='en'>
+                                UAP - proportion low 
+                                </Description>
+                                <Description type='description' lang='en'>
+                                Unified Assessment Process (UAP) - proportion of Welsh Population in each category
+                                Proportion of the Welsh population falling into each UAP category 
+                                </Description>
+                        </Parameter>
+
+
+                        <Parameter name='share_of_category_passing_test_critical' instanceName='share_of_category_passing_test_critical'  units='percent' logicalType='rate' >
+                                <Description type='label' lang='en'>
+                                UAP - share of category passing needs test critical 
+                                </Description>
+                                <Description type='description' lang='en'>
+                                Unified Assessment Process (UAP) - share of category passing needs test of Welsh Population in each category
+                                </Description>
+                        </Parameter>
+                        <Parameter name='share_of_category_passing_test_substantial' instanceName='share_of_category_passing_test_substantial'  units='percent' logicalType='rate' >
+                                <Description type='label' lang='en'>
+                                UAP - share of category passing needs test substantial 
+                                </Description>
+                                <Description type='description' lang='en'>
+                                Unified Assessment Process (UAP) - share of category passing needs test of Welsh Population in each category
+                                </Description>
+                        </Parameter>
+                        <Parameter name='share_of_category_passing_test_moderate' instanceName='share_of_category_passing_test_moderate'  units='percent' logicalType='rate' >
+                                <Description type='label' lang='en'>
+                                UAP - share of category passing needs test moderate 
+                                </Description>
+                                <Description type='description' lang='en'>
+                                Unified Assessment Process (UAP) - share of category passing needs test of Welsh Population in each category
+                                </Description>
+                        </Parameter>
+                        <Parameter name='share_of_category_passing_test_low' instanceName='share_of_category_passing_test_low'  units='percent' logicalType='rate' >
+                                <Description type='label' lang='en'>
+                                UAP - share of category passing needs test low 
+                                </Description>
+                                <Description type='description' lang='en'>
+                                Unified Assessment Process (UAP) - share of category passing needs test of Welsh Population in each category
+                                </Description>
+                        </Parameter>
+
+                        
+                        <Parameter name='use_carer_blind_system' instanceName='use_carer_blind_system' type='boolean'>
+                                <Description type='label' lang='en'>
+                                Introduce 'Carer-Blind' needs assesment
+                                </Description>
+                                <Description type='description' lang='en'>
+                                
+                                Introduce 'Carer-Blind' needs assesment. This
+                                was analysed as an option in the Wanless Social
+                                Care review of 2006. The basic idea is that the
+                                assessment of needs (i.e. assignment to UAP
+                                levels) would not take account of whether
+                                informal care was available to the person being
+                                assessed (i.e. the UAP assessment would be based
+                                on ADLs, health and age – essentially the
+                                explanatory variables from our care needs
+                                regression – only, with no correction for the
+                                presence of informal carers from inside or
+                                outside the household.) This should (I guess) be
+                                pretty easy to implement by just having an
+                                option to adjust the option that lowers the UAP
+                                level for people who are receiving informal
+                                care.
+                                
+                                </Description>
+                        
+                        </Parameter>
+                        <Parameter name='carer_blind_degree' logicalType='rate' units='percent' instanceName='carer_blind_degree'>
+                                <Description type='label' lang='en'>
+                                Degree of ‘carer blindness’
+                                </Description>
+                                
+                                <Description type='description' lang='en'>
+                                Number between 0 (no blindness) and 1 (full blindness).
+                                I suggest that the default option in the model
+                                is that the UAP assessment takes full account of
+                                the presence of informal carers and that the
+                                care needs of people with informal carers are
+                                reduced to ‘low/none’. However we may also want
+                                an option to reduce the care needs of people
+                                with informal carers by some degree, but not
+                                fully downgrading them to ‘low/none’. For
+                                example there could be an option to downgrade
+                                people one category (e.g. from ‘critical’ to
+                                ‘substantial’, from ‘substantial’ to ‘moderate’
+                                etc.) So there could be intermediate options
+                                between ‘fully carer blind’ and ‘taking full
+                                account of informal carers’ (the default).
+                                
+                                (0 = current; 0.5 = down 2 levels 0.5-0.99 down 1; 1.0 no change in levels)
+                                
+                                </Description>
+                                <EditInfo min='0.0' max='1.0'/>
+                        </Parameter>
+                   </ParameterSystem>
+                   
+                   <ParameterSystem name='means_test' instanceName='means_test'>
+                        <Description type='label' lang='en'>
+                        Financial means-test and charging parameters
+                        </Description>
+
+                        
+                        <ParameterSystem name='residential' instanceName='residential'>
+                                <Description type='label' lang='en'>
+                                Residential Care 
+                                </Description>
+                                <ParameterSystem name='assets' instanceName='assets'>
+                                         <Description type='label' lang='en'>
+                                          Assets Means-Test 
+                                        </Description>
+                                        <Parameter instanceName='include_property' name='include_property' type='boolean'>
+                                                <Description type='label' lang='en'>
+                                                Include Property?
+                                                </Description>
+                                                <Description type='description' lang='en'>
+                                                
+                                                Whether the assets means-test
+                                                includes property assets or not
+                                                (the current situation is that
+                                                the residential care means-test
+                                                does if the person is not living
+                                                with their partner, but the
+                                                non-residential care means-test
+                                                doesn’t)
+                                                
+                                                </Description>
+                                        </Parameter>
+                                        <Parameter instanceName='upper_limit' name='upper_limit' logicalType="allowance">
+                                                <Description type='label' lang='en'>
+                                                Upper Limit
+                                                </Description>
+                                                <Description type='description' lang='en'>
+                                                
+                                                Level of assets above which no
+                                                state support is available
+                                                (currently this is around
+                                                £22,500)
+                                                
+                                                </Description>
+                                         </Parameter>
+                                        <Parameter instanceName='lower_limit' name='lower_limit' logicalType="allowance">
+                                                <Description type='label' lang='en'>
+                                                Lower Limit
+                                                </Description>
+                                                <Description type='description' lang='en'>
+                                                
+                                                Level of assets below which full
+                                                state support is available
+                                                (currently in the Welsh system
+                                                this is the same as the level
+                                                above which no state support is
+                                                available – i.e. there is an
+                                                abrupt cut-off of support at
+                                                £22,500)
+
+                                                </Description>
+                                        </Parameter>
+                                        <Parameter instanceName='taper' name='taper' type='real'>
+                                                <Description type='label' lang='en'>
+                                                Taper (&#163;pw per &#163;250 capital over lower limit)
+                                                </Description>
+                                                
+                                                <EditInfo min='0.0' max='250' />
+                                                
+                                                <Description type='description' lang='en'>
+
+                                                Taper rate. This is only operative if
+                                                the lower and upper cut-off
+                                                points are different so that
+                                                support is tapered away, as in
+                                                the current English system. 
+
+                                                Expressed as &#163;pw per &#163;250
+                                                
+                                                </Description>
+                                        </Parameter>
+                                        <Parameter instanceName='abolish' name='abolish' type='boolean'>
+                                                <Description type='label' lang='en'>
+                                                 Abolish Assets Means Test
+                                                </Description>
+                                                <Description type='description' lang='en'>
+                                                        
+                                                Abolish Assets Means-testing on residential care.                                                
+
+                                                </Description>
+                                        </Parameter>
+                                        
+                                </ParameterSystem>
+                                <ParameterSystem name='income' instanceName='income'>
+                                        <Description type='label'>Income Means Test</Description>
+                                        <Parameter instanceName='floor' name='floor' logicalType="rate" units='percent'>
+                                                <Description type='label' lang='en'>
+                                                Floor level
+                                                </Description>
+                                                <Description type='description' lang='en'>
+
+                                                 Income disregard (or ‘floor
+                                                 level’) i.e. Incomes should not
+                                                 be reduced below a level of
+                                                 Income Support/Pension Credit +
+                                                 35% – see Policy statement,
+                                                 paragraph 6).
+
+                                                </Description>
+                                        </Parameter>
+
+                                        <Parameter instanceName='minimum_support_level' name='minimum_support_level' logicalType="benefit">
+                                                <Description type='label' lang='en'>
+                                                 Minimum Level of State Support 
+                                                </Description>
+                                                <Description type='description' lang='en'>
+                                                
+                                                Another option could be minimum
+                                                levels of state support rather
+                                                than maximum charges (e.g. the
+                                                state always provides up to £100
+                                                a week towards costs)
+
+
+                                                </Description>
+                                        </Parameter>
+                                        <Parameter instanceName='percent_costs_met' name='percent_costs_met' logicalType="rate">
+                                                <Description type='label' lang='en'>
+                                                 Minimum Level of State Support 
+                                                </Description>
+                                                <Description type='description' lang='en'>
+                                                
+                                                The state could agree to always
+                                                meet a percentage of costs
+                                                rather than a fixed amount.
+
+                                                </Description>
+                                        </Parameter>
+                                        <Parameter instanceName='abolish' name='abolish' type='boolean'>
+                                                <Description type='label' lang='en'>
+                                                 Abolish Income Means Test
+                                                </Description>
+                                                <Description type='description' lang='en'>
+                                                        
+                                                Abolish Income Means-testing on residential care.                                                
+
+                                                </Description>
+                                        </Parameter>
+                                 </ParameterSystem>
+                        </ParameterSystem>
+                        <ParameterSystem name='non_residential' instanceName='non_residential'>
+                                <Description type='label' lang='en'>
+                                Non-Residential Care 
+                                </Description>
+
+
+                                <ParameterSystem name='assets' instanceName='assets'>
+                                  <Description type='label' lang='en'>
+                                  Assets Means-Test 
+                                </Description>
+                                <Parameter instanceName='include_property' name='include_property' type='boolean'>
+                                                <Description type='label' lang='en'>
+                                                Include Property?
+                                                </Description>
+                                                <Description type='description' lang='en'>
+                                                
+                                                Whether the assets means-test
+                                                includes property assets or not
+                                                (the current situation is that
+                                                the residential care means-test
+                                                does if the person is not living
+                                                with their partner, but the
+                                                non-residential care means-test
+                                                doesn’t)
+                                                
+                                                </Description>
+                                        </Parameter>
+                                        <Parameter instanceName='upper_limit' name='upper_limit' logicalType="allowance">
+                                                <Description type='label' lang='en'>
+                                                Upper Limit
+                                                </Description>
+                                                <Description type='description' lang='en'>
+                                                
+                                                Level of assets above which no
+                                                state support is available
+                                                (currently this is around
+                                                £22,500)
+                                                
+                                                </Description>
+                                         </Parameter>
+                                        <Parameter instanceName='lower_limit' name='lower_limit' logicalType="allowance">
+                                                <Description type='label' lang='en'>
+                                                Lower Limit
+                                                </Description>
+                                                <Description type='description' lang='en'>
+                                                
+                                                Level of assets below which full
+                                                state support is available
+                                                (currently in the Welsh system
+                                                this is the same as the level
+                                                above which no state support is
+                                                available – i.e. there is an
+                                                abrupt cut-off of support at
+                                                £22,500)
+
+                                                </Description>
+                                        </Parameter>
+                                        <Parameter instanceName='taper' name='taper' logicalType="rate">
+                                                <Description type='label' lang='en'>
+                                                Taper
+                                                </Description>
+                                                <Description type='description' lang='en'>
+
+                                                Taper rate (only operative if
+                                                the lower and upper cut-off
+                                                points are different so that
+                                                support is tapered away, as in
+                                                the current English system.
+
+                                                </Description>
+                                        </Parameter>
+                                        <Parameter instanceName='abolish' name='abolish' type='boolean'>
+                                                <Description type='label' lang='en'>
+                                                 Abolish Assets Means Test
+                                                </Description>
+                                                <Description type='description' lang='en'>
+                                                        
+                                                Abolish Assets Means-testing on residential care.                                                
+
+                                                </Description>
+                                        </Parameter>
+                                        
+                                </ParameterSystem>
+                                <ParameterSystem name='income' instanceName='income'>
+                                        <Description type='label'>Income Means Test</Description>
+                                        <Parameter instanceName='floor' name='floor' logicalType="rate" units='percent'>
+                                                <Description type='label' lang='en'>
+                                                Floor level
+                                                </Description>
+                                                <Description type='description' lang='en'>
+                                                 Income disregard (or ‘floor
+                                                 level’) i.e. Incomes should not
+                                                 be reduced below a level of
+                                                 Income Support/Pension Credit +
+                                                 35% – see Policy statement,
+                                                 paragraph 6).
+
+
+                                                </Description>
+                                        </Parameter>
+
+                                        <Parameter instanceName='minimum_support_level' name='minimum_support_level' logicalType="benefit">
+                                                <Description type='label' lang='en'>
+                                                 Minimum Level of State Support 
+                                                </Description>
+                                                <Description type='description' lang='en'>
+                                                
+                                                Another option could be minimum
+                                                levels of state support rather
+                                                than maximum charges (e.g. the
+                                                state always provides up to £100
+                                                a week towards costs)
+
+
+                                                </Description>
+                                        </Parameter>
+                                        <Parameter instanceName='percent_costs_met' name='percent_costs_met' logicalType="rate">
+                                                <Description type='label' lang='en'>
+                                                 Minimum Level of State Support 
+                                                </Description>
+                                                <Description type='description' lang='en'>
+                                                
+                                                The state could agree to always
+                                                meet a percentage of costs
+                                                rather than a fixed amount.
+
+                                                </Description>
+                                        </Parameter>
+                                        <Parameter instanceName='abolish' name='abolish' type='boolean'>
+                                                <Description type='label' lang='en'>
+                                                 Abolish Income Means Test
+                                                </Description>
+                                                <Description type='description' lang='en'>
+                                                        
+                                                Abolish Income Means-testing on residential care.                                                
+
+                                                </Description>
+                                        </Parameter>
+                                 </ParameterSystem>
+                                
+                           </ParameterSystem>
+
+                           <ParameterSystem name='maximums' instanceName='maxima'>
+                                                <Description type='label' lang='en'>
+                                                Maximum Charges
+                                                </Description>
+                                      <Parameter instanceName='maximum_weekly_charge_residential' name='maximum_weekly_charge_residential' logicalType="benefit">
+                                                
+                                                <Description type='label' lang='en'>
+                                                Maximum Weekly Charge - Residential Care
+                                                </Description>
+                                                
+                                                <Description type='description' lang='en'>
+                                                
+                                                The current Welsh system has
+                                                just introduced a maximum charge
+                                                of £50 per week for
+                                                non-residential care – should
+                                                include this as an option (i.e.
+                                                the state meets all costs above
+                                                this level for everyone)
+
+
+                                                </Description>
+                                        </Parameter>
+                                      <Parameter instanceName='maximum_weekly_charge_non_residential' name='maximum_weekly_charge_non_residential' logicalType="benefit">
+                                                <Description type='label' lang='en'>
+                                                Maximum Weekly Charge - Non-Residential Care
+                                                </Description>
+                                                <Description type='description' lang='en'>
+                                                
+                                                The current Welsh system has
+                                                just introduced a maximum charge
+                                                of £50 per week for
+                                                non-residential care – should
+                                                include this as an option (i.e.
+                                                the state meets all costs above
+                                                this level for everyone)
+
+
+                                                </Description>
+                                        </Parameter>
+                                      <Parameter instanceName='maximum_lifetime_payment' name='maximum_lifetime_payment' >
+                                                <Description type='label' lang='en'>
+                                                Maximum Lifetime Payment - All care types
+                                                </Description>
+                                                <Description type='description' lang='en'>
+                                                
+                                                 As in Dilnot Report - maximum payment over a persons lifetime for all social
+                                                 care, from all income sources.
+  
+                                                 </Description>
+                                        </Parameter>
+                             </ParameterSystem>
+                           
+                           
+                   </ParameterSystem>
+                   <ParameterSystem name='insurance' instanceName='insurance'>
+
+                        <Description type='label' lang='en'> 
+                        An insurance system for social care                   
+
+                        </Description>
+                        <Description type='description' lang='en'> 
+                        The stage 1 report mentions the possibility of including
+                        parameters relating to an insurance system for social
+                        care which could be introduced in the future.
+
+                        Contribution conditions
+
+                                        
+                        </Description>
+                        <Parameter name='contribution' instanceName="contribution" enumTypeRef="insurance_type" type='enumerated'>
+                                <Description type='label' lang='en'> 
+                                
+                                Contribution Type
+                                
+                                </Description>
+                                <Description type='description' lang='en'> 
+        
+                                Contribution conditions: Whether the insurance is
+                                voluntary or mandatory
+        
+                                </Description>     
+                        
+                        </Parameter>
+                        <Parameter name='actuarially_fair' instanceName="actuarially_fair" type='boolean'>
+                                <Description type='label' lang='en'> 
+                                
+                                Actuarially fair? 
+                                
+                                </Description>
+                                <Description type='description' lang='en'> 
+        
+                                Whether the system is actuarially fair or not
+                                This is important because one of the options
+                                that might emerge from the Dilnot commission is
+                                an insurance-based system, but I’d recommend
+                                leaving this for the moment and coming back to
+                                it after the meeting on 6th June as I’m not sure
+                                how all the parameters for it would work yet.
+        
+                                </Description>     
+                        
+                        </Parameter>
+                   </ParameterSystem>
+                   
+                   
+                   <ParameterSystem instanceName='options' name='options'>     
+                        
+                        <Description type='label'>Options</Description>
+                        <Description type='description'>Social Care - Optional Parameters</Description>
+                        
+                        <Parameter instanceName='abolish' name='abolish' type='boolean'>
+                                <Description type='label' lang='en'>
+                                 Abolish State Support
+                                </Description>
+                                <Description type='description' lang='en'>
+                                        
+                                Abolish state support (this is useful because it allows
+                                us to see what the distributional effects of a pure “pay
+                                for yourself” system would be)                                                
+                                
+                                </Description>
+                        </Parameter>
+                          <Parameter instanceName="preserve_for_existing_claimants" type='boolean'>
+                                <Description type="label" lang="en">
+                                Preserve Benefits for existing claimants?
+                                </Description>
+                                <Description type="description" lang="en">
+                                From this year on, stop the changes you have just made from
+                                applying to existing claimants. These claimants will receive
+                                the current cash value until the cash value
+                                of your changes exceeds this.
+                                </Description>
+                         </Parameter>
+                  </ParameterSystem>
+                 
+                             
+        </ParameterSystem>
+        
+           <ParameterSystem name='av_costs' instanceName='av_costs'>
+
+                <Description type='label' lang='en'> 
+                Average Costs
+                </Description>
+                <Description type='description' lang='en'> 
+                
+                Average Costs
+                                
+                </Description>
+                <Parameter name='hour_of_care' instanceName="hour_of_care" type='real' logicalType="benefit">
+                        <Description type='label' lang='en'> 
+                        
+                        One Hour of Care
+                        
+                        </Description>
+                        <Description type='description' lang='en'> 
+
+                        One Hour of Care
+                        
+                        </Description>     
+                
+                </Parameter>
+                <Parameter name='residential_per_week' instanceName="residential_per_week" type='real' logicalType='benefit'>
+                        <Description type='label' lang='en'> 
+                        
+                        Residential Per Week
+                        
+                        </Description>
+                        <Description type='description' lang='en'> 
+
+                        Residential Per Week
+
+                        </Description>     
+                
+                </Parameter>
+           </ParameterSystem>
+        
+
+        <EnumeratedType id='insurance_type' name='insurance_type'>
+                <EnumValue name="none">
+                        <Text lang='en'>None</Text>
+                </EnumValue>
+                <EnumValue name="voluntary">
+                        <Text lang='en'>Voluntary</Text>
+                </EnumValue>
+                <EnumValue name="manditory">
+                        <Text lang='en'>Manditory</Text>
+                </EnumValue>
+        </EnumeratedType>
+        
+        <EnumeratedType id='uap_level' name='uap_level'>
+                <EnumValue name="critical">
+                        <Text lang='en'>Critical</Text>
+                </EnumValue>
+                <EnumValue name="voluntary">
+                        <Text lang='en'>Substantial</Text>
+                </EnumValue>
+                <EnumValue name="moderate">
+                        <Text lang='en'>Moderate</Text>
+                </EnumValue>
+                <EnumValue name="low_or_none">
+                        <Text lang='en'>Low or None</Text>
+                </EnumValue>
+        </EnumeratedType>
+
+        
+</ParameterSystem>

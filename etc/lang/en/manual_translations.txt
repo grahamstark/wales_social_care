@@ -1,0 +1,18 @@
+yes=Yes
+no=No
+format_positive=This should be a number greater than or equal to zero
+format_min_only=This should be a number greater than @_MIN_@
+format_min_and_max=This should be a number between @_MIN_@ and @_MAX_@
+format_max_only=This should be a number less than @_MAX_@
+format_not_valid_number = This is not a valid number
+format_required = This is a mandatory field
+format_valid_email = Please enter a valid email address
+format_valid_url = Please enter a valid URL
+format_catch_all = Please correct this value
+
+ajax_insert_before = Insert a blank item before this one
+ajax_insert_after = Insert a blank item after this one
+ajax_delete = Delete this item
+ajax_save = Save this item
+ajax_copy = Make a copy of this item
+

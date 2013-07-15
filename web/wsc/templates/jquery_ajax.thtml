@@ -1,0 +1,22 @@
+<img id="@_KEY_@-@_ROW_@-@_ACTION_@-img" src="@_IMG_@" alt="@_ALT_@" />
+<script type='text/javascript'>
+$( "@_KEY_@-@_ROW_@-@_ACTION_@-img" ).observe( "click",
+function update( event ){
+   //alert( "img#@_KEY_@-@_ROW_@-@_ACTION_@-img" );
+                       
+   new Ajax.Request( "@_URL_@", {
+                method: 'post',                                                                 
+                parameters: { 
+                        target_params: "@_TABLE-DATA-ID_@",
+                        row: "@_ROW_@",
+                        action: "@_ACTION_@",
+                        ajax_target_key: "@_TABLE-CONTAINER-ID_@"
+                },
+                onSuccess: function( transport ){
+                       //alert( transport.responseText );
+                       $('@_TABLE-CONTAINER-ID_@').update( transport.responseText );
+                }
+       })
+   }
+);
+</script>

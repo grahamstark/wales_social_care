@@ -1,0 +1,10 @@
+      <table class='' width='100%'>
+         <tr>
+            <td  align='center'>
+                    @_OVERALL-GINI_@
+            </td>
+            <td  align='center'>
+                    @_GALLERY_@
+             </td>
+           </tr>
+       </table>

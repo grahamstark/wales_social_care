@@ -1,0 +1,116 @@
+@import "constants";
+
+/*NAVIGATION STYLES*/
+#content {
+	background: @content_background; /* #FFDDBB; lgt*/
+}
+#modelNavTop {
+	height:30px;
+	text-align:left;
+	color: white;
+	background:@menu_background;  /*drk*/
+	margin:0;
+	padding:5px 5px 0 5px;
+}
+#modelNavTop ul {
+	margin:5px 0 0 0;
+	padding:0;
+}
+#modelNavTop li {
+	font-family: arial, helvetica, san-serif;
+	font-size:12px;
+	list-style-type:none;
+	display:inline;
+	color: white;
+	background: @menu_background;  /*med*/
+	margin:0 3px 0 3px;
+	padding:5px;
+}
+#modelNavTop li.on {
+	font-family: arial, helvetica, san-serif;
+	font-size:12px;
+	list-style-type:none;
+	font-weight:bold;
+	display:inline;
+	background: @menu_selected;  /*lgt*/
+	margin:0 3px 0 3px;
+	padding:5px;
+}
+#modelNavTop a:link, #modelNavTop a:visited {
+	color: black;
+	text-decoration:none;
+	margin:0 3px 0 3px;
+	padding:5px;
+}
+#modelNavTop a:hover {
+	color:#fff;
+	text-decoration:none;
+	margin:0 3px 0 3px;
+	padding:5px;
+}
+
+#modelNavSub {
+	text-align:left;
+	background: @content_background;  /*lgt*/
+	color: white;
+	margin:5px 0 10px 0;
+	padding:5px 5px 0 5px;
+}
+#modelNavSub ul {
+	margin:0 0 5px 0;
+	padding:0 0 5px 0;
+}
+#modelNavSub li {
+	font-family: arial, helvetica, san-serif;
+	font-size:11px;
+	list-style-type:none;
+	display:inline;
+	background: @menu_background;
+	margin:0 2px 0 2px;
+	padding:3px;
+}
+#modelNavSub li.on {
+	background: @menu_selected; /*lgt*/
+	border:1px solid @menu_selected; /*drk*/
+	font-weight:bold;
+	margin:0 2px 0 2px;
+	padding:3px;
+}
+#modelNavSub a:link, #modelNavSub a:visited {
+	color: white;
+	text-decoration:none;
+	margin:0 2px 0 2px;
+	padding:3px;
+}
+#modelNavSub a:hover {
+	color:#fff;
+	text-decoration:none;
+	margin:0 2px 0 2px;
+	padding:3px;
+}
+
+.reset_table{
+       background: @menu_background;
+}
+#modelContentInput{
+        border-top: 1px solid #D2232B;
+}
+
+a[disabled]{
+        color: gray;
+        text-decoration:none;
+}
+
+.breadcrumb{
+	display:block;
+	font-family: arial, helvetica, san-serif;
+	font-size:90%;
+	font-color: #662222;
+}
+
+.breadcrumb a, .breadcrumb a:visited, .breadcrumb a:hover{
+	text-decoration: none;
+	font-size:90%;
+	font-color: #AA2222;
+}
+

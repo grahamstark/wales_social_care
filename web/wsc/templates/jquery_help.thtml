@@ -1,0 +1,9 @@
+<img id='@_KEY_@-img' src='@_ROOT_@/@_IMG_@' alt='Help' onclick="$( 'infotext' ).update( $( '@_KEY_@-text' ).innerHTML );" />
+
+<div id='@_KEY_@-text' style='display:none'>
+
+@_MAIN-HELP-TEXT_@
+
+</div>
+
+

@@ -1,0 +1,6 @@
+#!/bin/sh
+
+svn update ../../tax_benefit_model_components/
+
+svn update . 
+svn update ../javacharts/

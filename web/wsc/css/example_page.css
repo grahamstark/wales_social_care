@@ -1,0 +1,113 @@
+body{
+        font-family: "Gill Sans",  arial, helvetica, san-serif, Sans-Serif;
+        font-size: 11pt;
+}	
+
+
+.resultsTable
+{
+	text-align: left;
+	border-collapse: collapse;
+	color: black;
+}
+
+.resultsTable tfoot{
+        font-size: 90%;
+        align: center;
+}
+
+.resultsTable th
+{
+	font-size: 13pt;
+	font-weight: normal;
+	padding: 10px 8px;
+	color: #222266;
+}
+
+.resultsTable td{
+	padding: 5px;
+}
+
+
+.resultsTable .tableRowOdd{
+	background: #ffede8; /*#e8edff;*/ 
+}
+
+.examplesTable .tableRowOdd{
+	background: #ffede8; /*#e8edff;*/ 
+}
+
+.resultsTable tr, .examplesTable tr{
+        border: 0;       
+}
+
+
+
+
+.resultsTable .value {
+        text-align: right;       
+}
+
+     
+.resultsTable .tableRowChanged{
+        color: #883333;
+        
+}
+
+.resultsTable .key{
+        font-style: italic;       
+}
+
+.in-home{ font-weight: bold; }
+.to-home{ font-weight: bold; }
+
+.prev-link a{ background-color: red; font-size: 12pt }
+.next-link a{ background-color: navy; font-size: 12pt }
+
+#benefitunits{
+        font-family: "Gill Sans", "Lucida Grande", Sans-Serif;
+        font-size: 11pt;
+        padding: 3px;
+}
+.person{
+        font-family: "Gill Sans", "Lucida Grande", Sans-Serif;
+        font-size: 11pt;
+        padding: 3px;
+}
+
+.examplesTable
+{
+	font-size: 12pt;
+	text-align: center;
+	border: none;
+	border-collapse: collapse;
+	color: #4444444;
+}
+
+.examplesTable tfoot{
+        font-size: 90%;
+        align: center;
+}
+
+.examplesTable th
+{
+	font-size: 14pt;
+	font-weight: normal;
+	padding: 10px 8px;
+	text-align: center;
+	color: #222266;
+}
+
+.examplesTable td{
+	padding: 8px;
+}
+
+
+.examplesTable .tableRowOdd{
+	background: #ffede8; 
+}
+
+.examplesTable tr{
+        border: 0 0 0 0;
+}
+	

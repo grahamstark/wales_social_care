@@ -1,0 +1,9 @@
+<h3>@_TITLE_@</h3>
+<p class='total_cost'>@_GINI-CHANGE-STR_@:&nbsp;
+   @_GINI-CHANGE_@<img src='@_ROOT_@images/@_GINI-ARROW_@.png' alt=''/>&nbsp;<a href='@_ROOT_@output_page/inequality_page/' class='summary_link'>@_MORE_@&nbsp;&gt;&gt;</a></p>
+
+<table class='inequality_summary'>
+  <tr>
+     <td><img src="@_CHART_@" width='350' height='240' alt='@_TITLE_@' /></td>
+  </tr>
+</table>

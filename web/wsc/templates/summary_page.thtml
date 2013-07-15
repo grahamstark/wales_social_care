@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+@@INCLUDE@@ @_SEP_@@_TEMPLATE_ROOT_@@_LANG_@header.thtml "@_PAGE-TITLE_@"
+
+<body>
+<div id="wrapper">
+   
+@@INCLUDE@@ @_SEP_@@_TEMPLATE_ROOT_@@_LANG_@main_menu.thtml 
+
+   <div id="page">
+       <div id="page-bgtop">
+           <div id="page-bgbtm">
+               <div id="content">
+@_MODEL-MENU_@
+      
+               <form action="" method="post" id="mainform" name="mainform">
+                  <input type='hidden' name='random_string' value="@_RANDOM_STRING_@" />
+                  
+                  
+                  <div id="modelContentInput">
+                  @_GALLERY-SECTION_@
+                  @_CONTROL-SECTION_@
+                  @_CONTENT-SECTION_@
+             
+                  </div> <!-- model content -->      
+                  <div style="clear: both;">&nbsp;</div>
+                  <input type='hidden' name='which_page' id='which_page' value="@_WHICH_PAGE_@" /> 
+                  <input type='hidden' name='which_section' id='which_section' value="output_page" /> 
+      
+              </form>
+        </div> <!-- content -->
+      </div> <!-- page-bgbtm -->
+     </div> <!-- page-bgtop -->
+   </div> <!-- page -->
+</div> <!-- wrapper -->
+
+@@INCLUDE@@ @_SEP_@@_TEMPLATE_ROOT_@@_LANG_@footer.thtml
+
+</body>
+</html>

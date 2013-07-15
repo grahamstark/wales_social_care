@@ -1,0 +1,24 @@
+<table class='summary_table'>
+   <tbody>
+       <tr class='tableRowEven'>
+          <td width='33%' align='center' valign='middle'>
+               <a class='picture_thumbnail' href='gallery_popup/#@_INITIAL_@' 
+                  onclick="GalleryWindow( this.href, '@_TITLE_@', '600', '800' ); return false;" onfocus='this.blur()'>
+                     <img src='@_TAX_@' />
+              </a>
+          </td>
+           <td width='33%' align='center' valign='middle'>
+               <a class='picture_thumbnail' href='gallery_popup/#@_INITIAL_@' 
+                  onclick="GalleryWindow( this.href, '@_TITLE_@', '600', '800' ); return false;" onfocus='this.blur()'>
+                     <img src='@_SOCIAL_@' />
+              </a>
+          </td>
+              <td width='33%' align='center' valign='middle'>
+               <a class='picture_thumbnail' href='gallery_popup/#@_INITIAL_@' 
+                  onclick="GalleryWindow( this.href, '@_TITLE_@', '600', '800' ); return false;" onfocus='this.blur()'>
+                     <img src='@_CHILD_@' />
+              </a>
+          </td>
+       </tr>
+   </tbody>
+</table>

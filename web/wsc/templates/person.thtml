@@ -1,0 +1,33 @@
+
+   @@IF@@ @_IN_CARE_HOME_@
+   <p class='in-home'>In a Care Home</p>
+   @@END_IF@@
+   @@IF@@ @_MOVES_TO_CARE_THIS_PERIOD_@
+   <p class='to-home'>Moves to a care home this period</p>
+   @@END_IF@@
+
+    <div class='info'>
+   @_PERSONAL_INFO_@
+   </div>
+   
+   <div class='results'>
+   @_PERSONAL_RESULTS_@
+   </div>
+   
+
+   @@IF@@ @_FIRST_PERIOD_@
+   <p>No earlier years avaliable</p>
+   @@ELSE@@
+   <a href='@_ROOT_@example_popup?@_PREV_LINK_@' class='prev-period'>&lt;&nbsp;&lt;Previous Period</a> ||
+   @@END_IF@@
+   
+   @@IF@@ @_DIES_THIS_PERIOD_@
+   <p class='dies'>This person dies this year.</p>
+   @@ELSE@@
+        @@IF@@ @_LAST_PERIOD_@
+        <p>No later years available.</p>
+        @@ELSE@@
+        <a href='@_ROOT_@example_popup?@_NEXT_LINK_@' class='next_period'>Next Period  &gt;&nbsp;&gt;</a>
+        @@END_IF@@
+   @@END_IF@@
+

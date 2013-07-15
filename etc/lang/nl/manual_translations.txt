@@ -1,0 +1,17 @@
+yes=Ja
+no=Geen
+format_positive = Dit moet een getal groter dan of gelijk aan nul
+format_min_only = Dit moet een getal groter dan be @_MIN_@
+format_min_and_max = Dit moet een getal tussen @_MIN_@ been @_MAX_@
+format_max_only = Dit moet een getal kleiner dan worden @_MAX_@
+format_not_valid_number = Dit is geen geldig nummer
+format_required = Dit is een verplicht veld
+format_valid_email = Geef een geldig e-mailadres
+format_valid_url = Vul een geldige URL
+format_catch_all = Corrigeer deze waarde
+
+ajax_insert_before = Plaats een lege item voordat het huidige item
+ajax_insert_after = Plaats een lege post na het huidige item
+ajax_delete = Verwijder dit item
+ajax_save = Save this item
+ajax_copy = Maak een kopie van dit item

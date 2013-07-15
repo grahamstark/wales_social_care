@@ -1,0 +1,11 @@
+. /etc/profile.d/grahams.sh
+/sbin/start-stop-daemon \
+    --exec $WSC_MODEL2/scripts/run_wsc_server \
+    -d $WSC_MODEL2 \
+    -b \
+    -v \
+    --start
+    
+
+#-- " 1> $WSC_MODEL2/log/wsc_server2_output.log 2> $WSC_MODEL2/log/wsc_server2_errors.log "
+# --background \

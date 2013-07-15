@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+
+@@INCLUDE@@ @_SEP_@@_TEMPLATE_ROOT_@@_SEP_@@_LANG_@@_SEP_@header.thtml "@_PAGE-TITLE_@"
+
+@@INCLUDE@@ @_SEP_@@_TEMPLATE_ROOT_@@_SEP_@header_includes.thtml 
+
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class='twelvecol last'>
+                @_MAIN-MENU_@
+        </div>
+    </div> <!-- menu row -->
+</div>        
+
+<div class="container">
+    <div class="row">
+            <div class='twelvecol last'>
+                     <table width='90%'>
+                             @@TABLE@@
+                             
+                                 @_YEAR-PAGES_@
+                             
+                             @@END_TABLE@@
+                     </table>
+            </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+           <div class='onecol last'></div>
+            <div class='tencol'>
+@@INCLUDE@@ @_SEP_@@_TEMPLATE_ROOT_@@_LANG_@@_SEP_@footer.thtml
+           </div>
+           <div class='onecol last'></div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<td onclick='$( "#@_ID_@" ).dialog( { width: 460 } );' ><span class='@_CLASS_@'>@_SMALL-MEAN_@</span>
+
+        <div id='@_ID_@' style='display:none' title='@_TITLE_@'>    
+           <table class='datatable' >
+              <tbody>
+                 <tr>
+                        
+                        <th colspan='2' class='@_DISPLAY-CLASS_@'>Average</th><td colspan='2' align='left'>@_MEAN_@</td>
+                        
+                 </tr>
+                 <tr>
+                        <th>Smallest</th><td>@_MIN_@</td>
+                        <th>Largest</th><td>@_MAX_@</td>
+                 </tr>
+                 <tr>
+                        <th>10th Percentile</th><td>@_DEC1_@</td>
+                        <th>90th Percentile</th><td>@_DEC10_@</td>
+                 </tr>
+                 <tr>
+                        <th>Median</th><td>@_MED_@</td>
+                        <th>Standard Deviation</th><td>@_SDEV_@</td>
+                 </tr>
+              </tbody>
+           </table>
+        </div>
+</td>

@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+
+@@INCLUDE@@ @_SEP_@@_TEMPLATE_ROOT_@@_LANG_@@_SEP_@header.thtml "@_PAGE-TITLE_@"
+
+<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/themes/start/jquery-ui.css" rel="stylesheet" type="text/css"></link>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" type='text/javascript' ></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/jquery-ui.min.js" type='text/javascript' ></script>
+
+
+ <link rel="stylesheet" href="@_ROOT_@css/example_page.css" type="text/css" media="screen" />
+ 
+</head>
+<body>
+   <h1>Information on Household</h1>
+
+    <div class='info'>
+   @_HOUSEHOLD-INFO_@
+   </div>
+   
+   <div class='results'>
+   @_HOUSEHOLD-RESULTS_@
+   </div>
+   
+   <div id="benefitunits">
+
+   <ul>
+   
+        @@TABLE@@
+        <li><a href='#benefitunits-@_BUNO_@'>Benefit Unit @_BUNO_@</a></li>
+        @@END_TABLE@@
+   
+   </ul>
+   
+   @@TABLE@@
+   <div id='benefitunits-@_BUNO_@'>
+        @_BENEFIT_UNIT_@
+   </div> <!-- benefitunits-@_BUNO_@ -->
+   @@END_TABLE@@
+   
+   </div> <!-- benefit units -->
+   
+   @@INCLUDE@@ @_SEP_@@_TEMPLATE_ROOT_@@_LANG_@@_SEP_@footer.thtml
+
+<script type='text/javascript'>
+
+$( "#benefitunits, #benefitunit-1, #benefitunit-2, #benefitunit-3, #benefitunit-4, #benefitunit-5, #benefitunit-6, #benefitunit-7, #benefitunit-8, #benefitunit-9" ).tabs();
+
+</script>
+   
+</body>
+</html>

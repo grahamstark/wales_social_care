@@ -1,0 +1,26 @@
+<table class='resultsTable'>
+        <caption>@_CAPTION_@</caption>
+        <thead>
+              <tr>
+                <th></th>
+                <th></th>
+              </tr>
+        </thead>
+        <tfoot>
+                <tr>
+                        <td colspan='2' class='footer'>@_FOOTER_@</td>
+                </tr>
+        </tfoot>
+        <tbody>
+               @@TABLE@@
+               @@IF@@ @_MOD(2):TABLE_LINE_@  = 1
+               <tr class='tableRowOdd'>
+               @@ELSE@@
+               <tr class='tableRowEven'>
+               @@END_IF@@
+                 <td class='key'>@_LABEL_@</td>
+                 <td class='value'>@_VALUE_@</td>
+              </tr>
+              @@END_TABLE@@
+        </tbody>
+</table>

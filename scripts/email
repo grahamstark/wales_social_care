@@ -1,0 +1,2 @@
+#!/bin/sh
+/usr/bin/mail -s "$1" $2 < $3

@@ -1,0 +1,2 @@
+#!/bin/sh
+gnatmake -P wsc.gpr -XODBC_Driver=unixODBC -XArch=x86_64

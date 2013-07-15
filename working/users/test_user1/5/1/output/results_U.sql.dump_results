@@ -1,0 +1,3445 @@
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2eac6 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  10| day =  1| hour =  18| minute =  18| second =  5| fraction =  0
+Date_Time_Rec : 2012-10-01 18:18:05
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c302b0 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2d9ed 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c2e024 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1ab3b04 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1937c46 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65890.766568000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  5 
+INFO_LEVEL 2012: 10: 1: 65890.769355000 : retrieve: Query Run OK
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x19383d5 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1aa2bb4 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1aa3419 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1ab5b75 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1a470d6 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65890.772654000 : retrieve made this as query select username, run_id, household, other_counter, other_counter2, other_counter3, other_counter4, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user1' and run_id =  5 
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2eac6 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+INFO_LEVEL 2012: 10: 1: 65890.775786000 : retrieve: Query Run OK
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1a47e9c 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  10| day =  1| hour =  18| minute =  18| second =  10| fraction =  0
+Date_Time_Rec : 2012-10-01 18:18:10
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c302b0 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2d9ed 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c2e024 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1ab3b04 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1937c46 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65890.812102000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  5 
+INFO_LEVEL 2012: 10: 1: 65890.814837000 : retrieve: Query Run OK
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x19383d5 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1aa2bb4 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1aa3419 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1ab5b75 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1a470d6 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65890.818130000 : retrieve made this as query select username, run_id, household, other_counter, other_counter2, other_counter3, other_counter4, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user1' and run_id =  5 
+INFO_LEVEL 2012: 10: 1: 65890.820279000 : retrieve: Query Run OK
+INSERT 0 1
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1a47e9c 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2eac6 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  10| day =  1| hour =  18| minute =  18| second =  8| fraction =  0
+Date_Time_Rec : 2012-10-01 18:18:08
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c302b0 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2d9ed 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2eac6 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c2e024 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1ab3b04 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  10| day =  1| hour =  18| minute =  18| second =  13| fraction =  0
+Date_Time_Rec : 2012-10-01 18:18:13
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c302b0 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2d9ed 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c2e024 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1ab3b04 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  2 Free connections  48 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1937c46 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65893.672360000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user3' and run_id =  3 
+GET_Connection; used_connections =  3 Free connections  47 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1937c46 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65893.677053000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user3' and run_id =  3 
+INFO_LEVEL 2012: 10: 1: 65893.678696000 : retrieve: Query Run OK
+Return_Connection; used_connections =  3 Free connections  47 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x19383d5 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  3 Free connections  47 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1aa2bb4 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+INFO_LEVEL 2012: 10: 1: 65893.680975000 : retrieve: Query Run OK
+Return_Connection; used_connections =  3 Free connections  47 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1aa3419 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+Return_Connection; used_connections =  2 Free connections  48 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x19383d5 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1ab5b75 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1aa2bb4 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  2 Free connections  48 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1a470d6 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65893.681490000 : retrieve made this as query select username, run_id, household, other_counter, other_counter2, other_counter3, other_counter4, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user3' and run_id =  3 
+INFO_LEVEL 2012: 10: 1: 65893.684161000 : retrieve: Query Run OK
+Return_Connection; used_connections =  2 Free connections  48 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1aa3419 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1a47e9c 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1ab5b75 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1a470d6 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65893.685007000 : retrieve made this as query select username, run_id, household, other_counter, other_counter2, other_counter3, other_counter4, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user3' and run_id =  3 
+INFO_LEVEL 2012: 10: 1: 65893.687160000 : retrieve: Query Run OK
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1a47e9c 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2eac6 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  10| day =  1| hour =  18| minute =  18| second =  10| fraction =  0
+Date_Time_Rec : 2012-10-01 18:18:10
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c302b0 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2d9ed 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c2e024 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1ab3b04 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1937c46 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65895.853174000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  5 
+INFO_LEVEL 2012: 10: 1: 65895.855992000 : retrieve: Query Run OK
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x19383d5 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1aa2bb4 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1aa3419 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1ab5b75 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1a470d6 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65895.859428000 : retrieve made this as query select username, run_id, household, other_counter, other_counter2, other_counter3, other_counter4, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user1' and run_id =  5 
+INSERT 0 1
+INFO_LEVEL 2012: 10: 1: 65895.861635000 : retrieve: Query Run OK
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1a47e9c 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+INSERT 0 1
+GET_Connection; used_connections =  0 Free connections  50 size  50
+INSERT 0 1
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  10| day =  1| hour =  18| minute =  18| second =  15| fraction =  0
+Date_Time_Rec : 2012-10-01 18:18:15
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c302b0 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2d9ed 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c2e024 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1ab3b04 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1937c46 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65895.995429000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  5 
+INFO_LEVEL 2012: 10: 1: 65895.998115000 : retrieve: Query Run OK
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x19383d5 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1aa2bb4 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1aa3419 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1ab5b75 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1a470d6 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65896.001491000 : retrieve made this as query select username, run_id, household, other_counter, other_counter2, other_counter3, other_counter4, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user1' and run_id =  5 
+INFO_LEVEL 2012: 10: 1: 65896.003609000 : retrieve: Query Run OK
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1a47e9c 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2eac6 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  10| day =  1| hour =  18| minute =  18| second =  13| fraction =  0
+Date_Time_Rec : 2012-10-01 18:18:13
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c302b0 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2d9ed 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2eac6 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c2e024 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1ab3b04 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  10| day =  1| hour =  18| minute =  18| second =  18| fraction =  0
+Date_Time_Rec : 2012-10-01 18:18:18
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c302b0 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2d9ed 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c2e024 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1ab3b04 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  2 Free connections  48 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1937c46 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65898.735984000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user3' and run_id =  3 
+INSERT 0 1
+GET_Connection; used_connections =  3 Free connections  47 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1937c46 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65898.742243000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 10: 1: 65898.742270000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user3' and run_id =  3 
+Return_Connection; used_connections =  3 Free connections  47 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x19383d5 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  3 Free connections  47 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1aa2bb4 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65898.747564000 : retrieve: Query Run OK
+Return_Connection; used_connections =  3 Free connections  47 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x19383d5 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+Return_Connection; used_connections =  2 Free connections  48 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1aa3419 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  2 Free connections  48 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1aa2bb4 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+Return_Connection; used_connections =  2 Free connections  48 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1ab5b75 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  2 Free connections  48 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1a470d6 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65898.748631000 : retrieve made this as query select username, run_id, household, other_counter, other_counter2, other_counter3, other_counter4, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user3' and run_id =  3 
+INSERT 0 1
+Return_Connection; used_connections =  2 Free connections  48 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1aa3419 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65898.752746000 : retrieve: Query Run OK
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1ab5b75 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1a47e9c 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1a470d6 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65898.753163000 : retrieve made this as query select username, run_id, household, other_counter, other_counter2, other_counter3, other_counter4, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user3' and run_id =  3 
+INFO_LEVEL 2012: 10: 1: 65898.755414000 : retrieve: Query Run OK
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1a47e9c 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2eac6 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  10| day =  1| hour =  18| minute =  18| second =  15| fraction =  0
+Date_Time_Rec : 2012-10-01 18:18:15
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c302b0 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2d9ed 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c2e024 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1ab3b04 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1937c46 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65900.987840000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  5 
+INFO_LEVEL 2012: 10: 1: 65900.990715000 : retrieve: Query Run OK
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x19383d5 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1aa2bb4 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1aa3419 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1ab5b75 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1a470d6 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65900.994228000 : retrieve made this as query select username, run_id, household, other_counter, other_counter2, other_counter3, other_counter4, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user1' and run_id =  5 
+INFO_LEVEL 2012: 10: 1: 65900.996442000 : retrieve: Query Run OK
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1a47e9c 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2eac6 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  10| day =  1| hour =  18| minute =  18| second =  20| fraction =  0
+Date_Time_Rec : 2012-10-01 18:18:20
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c302b0 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2d9ed 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c2e024 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1ab3b04 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1937c46 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65901.095962000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  5 
+INFO_LEVEL 2012: 10: 1: 65901.098683000 : retrieve: Query Run OK
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x19383d5 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1aa2bb4 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1aa3419 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1ab5b75 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1a470d6 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65901.102117000 : retrieve made this as query select username, run_id, household, other_counter, other_counter2, other_counter3, other_counter4, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user1' and run_id =  5 
+INFO_LEVEL 2012: 10: 1: 65901.104263000 : retrieve: Query Run OK
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1a47e9c 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2eac6 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  10| day =  1| hour =  18| minute =  18| second =  18| fraction =  0
+Date_Time_Rec : 2012-10-01 18:18:18
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c302b0 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2d9ed 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2eac6 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c2e024 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1ab3b04 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  10| day =  1| hour =  18| minute =  18| second =  23| fraction =  0
+Date_Time_Rec : 2012-10-01 18:18:23
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c302b0 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2d9ed 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c2e024 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1ab3b04 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  2 Free connections  48 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1937c46 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65904.720716000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user3' and run_id =  3 
+GET_Connection; used_connections =  3 Free connections  47 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1937c46 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65904.725653000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user3' and run_id =  3 
+INFO_LEVEL 2012: 10: 1: 65904.725728000 : retrieve: Query Run OK
+Return_Connection; used_connections =  3 Free connections  47 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x19383d5 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  3 Free connections  47 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1aa2bb4 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+INFO_LEVEL 2012: 10: 1: 65904.730696000 : retrieve: Query Run OK
+Return_Connection; used_connections =  3 Free connections  47 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1aa3419 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+Return_Connection; used_connections =  2 Free connections  48 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x19383d5 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  2 Free connections  48 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1aa2bb4 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+Return_Connection; used_connections =  2 Free connections  48 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1ab5b75 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  2 Free connections  48 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1a470d6 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65904.731514000 : retrieve made this as query select username, run_id, household, other_counter, other_counter2, other_counter3, other_counter4, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user3' and run_id =  3 
+INSERT 0 1
+Return_Connection; used_connections =  2 Free connections  48 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1aa3419 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65904.735443000 : retrieve: Query Run OK
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1a47e9c 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1ab5b75 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1a470d6 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65904.736100000 : retrieve made this as query select username, run_id, household, other_counter, other_counter2, other_counter3, other_counter4, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user3' and run_id =  3 
+INFO_LEVEL 2012: 10: 1: 65904.738358000 : retrieve: Query Run OK
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1a47e9c 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2eac6 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2eac6 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  10| day =  1| hour =  18| minute =  18| second =  21| fraction =  0
+Date_Time_Rec : 2012-10-01 18:18:21
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c302b0 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2d9ed 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+Return_Connection; used_connections =  1 Free connections  49 size  50
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  10| day =  1| hour =  18| minute =  18| second =  26| fraction =  0
+Date_Time_Rec : 2012-10-01 18:18:26
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c2e024 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1ab3b04 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c302b0 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2d9ed 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c2e024 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1ab3b04 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  2 Free connections  48 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1937c46 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65906.647680000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  5 
+GET_Connection; used_connections =  3 Free connections  47 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1937c46 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65906.650929000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  5 
+INSERT 0 1
+INFO_LEVEL 2012: 10: 1: 65906.654266000 : retrieve: Query Run OK
+Return_Connection; used_connections =  3 Free connections  47 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x19383d5 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  3 Free connections  47 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1aa2bb4 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65906.656186000 : retrieve: Query Run OK
+Return_Connection; used_connections =  3 Free connections  47 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x19383d5 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  3 Free connections  47 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1aa2bb4 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+Return_Connection; used_connections =  3 Free connections  47 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1aa3419 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+Return_Connection; used_connections =  2 Free connections  48 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1ab5b75 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  2 Free connections  48 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1a470d6 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65906.660469000 : retrieve made this as query select username, run_id, household, other_counter, other_counter2, other_counter3, other_counter4, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user1' and run_id =  5 
+Return_Connection; used_connections =  2 Free connections  48 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1aa3419 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1ab5b75 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1a470d6 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65906.661953000 : retrieve made this as query select username, run_id, household, other_counter, other_counter2, other_counter3, other_counter4, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user1' and run_id =  5 
+INFO_LEVEL 2012: 10: 1: 65906.663370000 : retrieve: Query Run OK
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1a47e9c 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65906.665065000 : retrieve: Query Run OK
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1a47e9c 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2eac6 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  10| day =  1| hour =  18| minute =  18| second =  24| fraction =  0
+Date_Time_Rec : 2012-10-01 18:18:24
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c302b0 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2d9ed 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2eac6 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c2e024 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1ab3b04 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  10| day =  1| hour =  18| minute =  18| second =  29| fraction =  0
+Date_Time_Rec : 2012-10-01 18:18:29
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c302b0 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2d9ed 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c2e024 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1ab3b04 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  2 Free connections  48 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1937c46 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65910.413455000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user3' and run_id =  3 
+GET_Connection; used_connections =  3 Free connections  47 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1937c46 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65910.418490000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user3' and run_id =  3 
+INFO_LEVEL 2012: 10: 1: 65910.418538000 : retrieve: Query Run OK
+Return_Connection; used_connections =  3 Free connections  47 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x19383d5 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  3 Free connections  47 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1aa2bb4 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+INFO_LEVEL 2012: 10: 1: 65910.423301000 : retrieve: Query Run OK
+Return_Connection; used_connections =  3 Free connections  47 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x19383d5 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+Return_Connection; used_connections =  2 Free connections  48 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1aa3419 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  2 Free connections  48 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1aa2bb4 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+Return_Connection; used_connections =  2 Free connections  48 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1ab5b75 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  2 Free connections  48 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1a470d6 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65910.424374000 : retrieve made this as query select username, run_id, household, other_counter, other_counter2, other_counter3, other_counter4, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user3' and run_id =  3 
+Return_Connection; used_connections =  2 Free connections  48 size  50
+INSERT 0 1
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1aa3419 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65910.436529000 : retrieve: Query Run OK
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1ab5b75 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1a47e9c 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1a470d6 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65910.436934000 : retrieve made this as query select username, run_id, household, other_counter, other_counter2, other_counter3, other_counter4, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user3' and run_id =  3 
+INFO_LEVEL 2012: 10: 1: 65910.439177000 : retrieve: Query Run OK
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1a47e9c 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2eac6 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  10| day =  1| hour =  18| minute =  18| second =  26| fraction =  0
+Date_Time_Rec : 2012-10-01 18:18:26
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c302b0 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2d9ed 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2eac6 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c2e024 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1ab3b04 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  10| day =  1| hour =  18| minute =  18| second =  31| fraction =  0
+Date_Time_Rec : 2012-10-01 18:18:31
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c302b0 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2d9ed 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c2e024 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1ab3b04 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  2 Free connections  48 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1937c46 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65912.722319000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  5 
+INSERT 0 1
+INFO_LEVEL 2012: 10: 1: 65912.728751000 : retrieve: Query Run OK
+GET_Connection; used_connections =  3 Free connections  47 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1937c46 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65912.728954000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  5 
+Return_Connection; used_connections =  3 Free connections  47 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x19383d5 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  3 Free connections  47 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1aa2bb4 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+Return_Connection; used_connections =  3 Free connections  47 size  50
+INFO_LEVEL 2012: 10: 1: 65912.734209000 : retrieve: Query Run OK
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1aa3419 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+Return_Connection; used_connections =  2 Free connections  48 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x19383d5 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  2 Free connections  48 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1aa2bb4 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+Return_Connection; used_connections =  2 Free connections  48 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1ab5b75 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  2 Free connections  48 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1a470d6 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65912.734946000 : retrieve made this as query select username, run_id, household, other_counter, other_counter2, other_counter3, other_counter4, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user1' and run_id =  5 
+INSERT 0 1
+Return_Connection; used_connections =  2 Free connections  48 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1aa3419 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65912.739722000 : retrieve: Query Run OK
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1a47e9c 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1ab5b75 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1a470d6 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65912.740343000 : retrieve made this as query select username, run_id, household, other_counter, other_counter2, other_counter3, other_counter4, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user1' and run_id =  5 
+INFO_LEVEL 2012: 10: 1: 65912.742790000 : retrieve: Query Run OK
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1a47e9c 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2eac6 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  10| day =  1| hour =  18| minute =  18| second =  30| fraction =  0
+Date_Time_Rec : 2012-10-01 18:18:30
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c302b0 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2d9ed 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2eac6 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c2e024 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1ab3b04 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  10| day =  1| hour =  18| minute =  18| second =  35| fraction =  0
+Date_Time_Rec : 2012-10-01 18:18:35
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c302b0 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2d9ed 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c2e024 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1ab3b04 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  2 Free connections  48 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1937c46 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65915.481205000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user3' and run_id =  3 
+GET_Connection; used_connections =  3 Free connections  47 size  50
+INFO_LEVEL 2012: 10: 1: 65915.486364000 : retrieve: Query Run OK
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1937c46 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65915.486413000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user3' and run_id =  3 
+Return_Connection; used_connections =  3 Free connections  47 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x19383d5 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  3 Free connections  47 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1aa2bb4 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+Return_Connection; used_connections =  3 Free connections  47 size  50
+INFO_LEVEL 2012: 10: 1: 65915.491333000 : retrieve: Query Run OK
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1aa3419 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+Return_Connection; used_connections =  2 Free connections  48 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x19383d5 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  2 Free connections  48 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1aa2bb4 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+Return_Connection; used_connections =  2 Free connections  48 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1ab5b75 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  2 Free connections  48 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1a470d6 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65915.492067000 : retrieve made this as query select username, run_id, household, other_counter, other_counter2, other_counter3, other_counter4, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user3' and run_id =  3 
+INSERT 0 1
+Return_Connection; used_connections =  2 Free connections  48 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1aa3419 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65915.495882000 : retrieve: Query Run OK
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1a47e9c 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1ab5b75 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1a470d6 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65915.496603000 : retrieve made this as query select username, run_id, household, other_counter, other_counter2, other_counter3, other_counter4, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user3' and run_id =  3 
+INFO_LEVEL 2012: 10: 1: 65915.498741000 : retrieve: Query Run OK
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1a47e9c 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2eac6 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  10| day =  1| hour =  18| minute =  18| second =  32| fraction =  0
+Date_Time_Rec : 2012-10-01 18:18:32
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c302b0 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2d9ed 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c2e024 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1ab3b04 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1937c46 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65918.083375000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  5 
+INFO_LEVEL 2012: 10: 1: 65918.086125000 : retrieve: Query Run OK
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x19383d5 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1aa2bb4 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  2 Free connections  48 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2eac6 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+Return_Connection; used_connections =  2 Free connections  48 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1aa3419 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1ab5b75 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1a470d6 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65918.090885000 : retrieve made this as query select username, run_id, household, other_counter, other_counter2, other_counter3, other_counter4, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user1' and run_id =  5 
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  10| day =  1| hour =  18| minute =  18| second =  38| fraction =  0
+Date_Time_Rec : 2012-10-01 18:18:38
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c302b0 0x1c2d7b0 0x1c2d0eb 0x1c54620 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1c2d9ed 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1c2e024 0x1c54c5e 0x1c3c09c 0x1c58f26 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1ab3b04 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65918.131074000 : retrieve: Query Run OK
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1a47e9c 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1937c46 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65918.134154000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  5 
+INFO_LEVEL 2012: 10: 1: 65918.136855000 : retrieve: Query Run OK
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x19383d5 0x1937a1a 0x1abe887 0x1aaff62 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1aa2bb4 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+Return_Connection; used_connections =  1 Free connections  49 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1aa3419 0x1aa2988 0x1abf677 0x1ab0069 0x1ab5aeb 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1ab5b75 0x1aaf62a 0x1aac6b5 0x1c59d0a 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+GET_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Get Connection
+Call stack traceback locations:
+0x641f53 0x12a67f1 0x1eb251b 0x1eb2e24 0x12a7b0b 0x1a470d6 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INFO_LEVEL 2012: 10: 1: 65918.140191000 : retrieve made this as query select username, run_id, household, other_counter, other_counter2, other_counter3, other_counter4, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user1' and run_id =  5 
+INFO_LEVEL 2012: 10: 1: 65918.142632000 : retrieve: Query Run OK
+Return_Connection; used_connections =  0 Free connections  50 size  50
+called from Exception name: UTILS.GET_STACK_TRACE.LOCAL_EXCEPTION
+Message: Return Connection
+Call stack traceback locations:
+0x641f53 0x12a766d 0x1eb251b 0x1eb2e24 0x12a7b85 0x1a47e9c 0x1a46ea8 0x1a46874 0x1abeafc 0x1abee4f 0x1c59fa7 0x1d8525e 0x1da7e34 0x1e48c36 0x1e4a479 0x1eafa4d 0x7f7cd9f97e98 0x7f7cd9cc24bb
+
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1

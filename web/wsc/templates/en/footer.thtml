@@ -1,0 +1,14 @@
+<div id="footer">
+        <a href='http://www.landman-economics.co.uk/'>Landman Economics</a> &bull; 
+        <a href='http://www.virtual-worlds.biz/'>Virtual Worlds</a> &bull; 
+        Copyright &copy; 2013 <a href='http://wales.gov.uk'>Welsh Assembly</a> &bull;
+        Powered by <a href="http://libre.adacore.com/libre/tools/aws/">Ada Web Server</a> &bull;
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a> &bull;
+        <a href="http://validator.w3.org/check?uri=referer">Valid XHTML 1.0</a>
+</div>
+        
+<div id='users'>
+        Welcome @_USERNAME_@&nbsp;(@_USER-DESCRIPTION_@)&nbsp;<a href='@_ROOT_@logout/'>Logout</a> 
+</div>
+       
+

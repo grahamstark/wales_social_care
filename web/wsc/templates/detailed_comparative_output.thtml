@@ -1,0 +1,538 @@
+<table width='100%'>
+<tr><td style='text-align:center'>
+ <h3>Head of Household</h3>
+</td></tr>
+<tr id="demographics_block"><td>
+   <table class='summary_table' width='400'>
+   <caption>@_DEMOGRAPHICS_@</caption>
+      <tr class='tableRowOdd'  id='demographic_country'>
+         <td class='key'>@_DEMOGRAPHIC-COUNTRY-STR_@</td>
+         <td class='value'>@_DEMOGRAPHIC-COUNTRY-VALUE-PRE_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='demographic_weight'>
+         <td class='key'>@_DEMOGRAPHIC-WEIGHT-STR_@</td>
+         <td class='value'>@_DEMOGRAPHIC-WEIGHT-VALUE-PRE_@</td>
+      </tr>
+      <tr class='tableRowOdd'  id='demographic_age'>
+         <td class='key'>@_DEMOGRAPHIC-AGE-STR_@</td>
+         <td class='value'>@_DEMOGRAPHIC-AGE-VALUE-PRE_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='demographic_gender'>
+         <td class='key'>@_DEMOGRAPHIC-GENDER-STR_@</td>
+         <td class='value'>@_DEMOGRAPHIC-GENDER-VALUE-PRE_@</td>
+      </tr>
+      <tr class='tableRowOdd'  id='demographic_marital_status'>
+         <td class='key'>@_DEMOGRAPHIC-MARITAL-STATUS-STR_@</td>
+         <td class='value'>@_DEMOGRAPHIC-MARITAL-STATUS-VALUE-PRE_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='demographic_education_current_status'>
+         <td class='key'>@_DEMOGRAPHIC-EDUCATION-CURRENT-STATUS-STR_@</td>
+         <td class='value'>@_DEMOGRAPHIC-EDUCATION-CURRENT-STATUS-VALUE-PRE_@</td>
+      </tr>
+      <tr class='tableRowOdd'  id='demographic_consensual_union'>
+         <td class='key'>@_DEMOGRAPHIC-CONSENSUAL-UNION-STR_@</td>
+         <td class='value'>@_DEMOGRAPHIC-CONSENSUAL-UNION-VALUE-PRE_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='demographic_region_nuts_level_1'>
+         <td class='key'>@_DEMOGRAPHIC-REGION-NUTS-LEVEL-1-STR_@</td>
+         <td class='value'>@_DEMOGRAPHIC-REGION-NUTS-LEVEL-1-VALUE-PRE_@</td>
+      </tr>
+   </table>
+</td></tr>
+
+<tr id="identifiers_block"><td>
+   <table class='summary_table' width='400'>
+   <caption>@_IDENTIFIERS_@</caption>
+      <tr class='tableRowOdd'  id='identifier_household'>
+         <td class='key'>@_IDENTIFIER-HOUSEHOLD-STR_@</td>
+         <td class='value'>@_IDENTIFIER-HOUSEHOLD-VALUE-PRE_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='identifier_person'>
+         <td class='key'>@_IDENTIFIER-PERSON-STR_@</td>
+         <td class='value'>@_IDENTIFIER-PERSON-VALUE-PRE_@</td>
+      </tr>
+      <tr class='tableRowOdd'  id='identifier_partner'>
+         <td class='key'>@_IDENTIFIER-PARTNER-STR_@</td>
+         <td class='value'>@_IDENTIFIER-PARTNER-VALUE-PRE_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='identifier_mother'>
+         <td class='key'>@_IDENTIFIER-MOTHER-STR_@</td>
+         <td class='value'>@_IDENTIFIER-MOTHER-VALUE-PRE_@</td>
+      </tr>
+      <tr class='tableRowOdd'  id='identifier_father'>
+         <td class='key'>@_IDENTIFIER-FATHER-STR_@</td>
+         <td class='value'>@_IDENTIFIER-FATHER-VALUE-PRE_@</td>
+      </tr>
+   </table>
+</td></tr>
+
+<tr id="hh_income_block"><td>
+   <table class='summary_table' width='400'>
+   <caption>@_INCOME_@</caption>
+      <tr class='tableRowOdd'  id='income_employment'>
+         <td class='key'>@_INCOME-EMPLOYMENT-STR_@</td>
+         <td class='value'>@_INCOME-EMPLOYMENT-VALUE-PRE_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='income_investment'>
+         <td class='key'>@_INCOME-INVESTMENT-STR_@</td>
+         <td class='value'>@_INCOME-INVESTMENT-VALUE-PRE_@</td>
+      </tr>
+      <tr class='tableRowOdd'  id='income_other'>
+         <td class='key'>@_INCOME-OTHER-STR_@</td>
+         <td class='value'>@_INCOME-OTHER-VALUE-PRE_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='income_property'>
+         <td class='key'>@_INCOME-PROPERTY-STR_@</td>
+         <td class='value'>@_INCOME-PROPERTY-VALUE-PRE_@</td>
+      </tr>
+      <tr class='tableRowOdd'  id='income_private_pension'>
+         <td class='key'>@_INCOME-PRIVATE-PENSION-STR_@</td>
+         <td class='value'>@_INCOME-PRIVATE-PENSION-VALUE-PRE_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='income_private_transfers'>
+         <td class='key'>@_INCOME-PRIVATE-TRANSFERS-STR_@</td>
+         <td class='value'>@_INCOME-PRIVATE-TRANSFERS-VALUE-PRE_@</td>
+      </tr>
+      <tr class='tableRowOdd'  id='income_self_employment'>
+         <td class='key'>@_INCOME-SELF-EMPLOYMENT-STR_@</td>
+         <td class='value'>@_INCOME-SELF-EMPLOYMENT-VALUE-PRE_@</td>
+      </tr>
+   </table>
+</td></tr>
+
+<tr id="labourmarket_block"><td>
+   <table class='summary_table' width='400'>
+   <caption>@_LABOURMARKET_@</caption>
+      <tr class='tableRowOdd'  id='labour_market_economic_status'>
+         <td class='key'>@_LABOUR-MARKET-ECONOMIC-STATUS-STR_@</td>
+         <td class='value'>@_LABOUR-MARKET-ECONOMIC-STATUS-VALUE_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='labour_market_civil_servant'>
+         <td class='key'>@_LABOUR-MARKET-CIVIL-SERVANT-STR_@</td>
+         <td class='value'>@_LABOUR-MARKET-CIVIL-SERVANT-VALUE_@</td>
+      </tr>
+   </table>
+</td></tr>
+
+
+<tr id="expenditure_block"><td>
+   <table class='summary_table' width='400'>
+   <caption>@_EXPENDITURE_@</caption>
+      <tr class='tableRowOdd'  id='expenditure_maintenance_payment'>
+         <td class='key'>@_EXPENDITURE-MAINTENANCE-PAYMENT-STR_@</td>
+         <td class='value'>@_EXPENDITURE-MAINTENANCE-PAYMENT-VALUE_@</td>
+      </tr>
+   </table>
+</td></tr>
+
+<tr><td style='text-align:center'>
+<h3>Calculated Results</h3>
+</td></tr>
+
+<!-- AUTOGENERATED STARTS -->
+
+
+<div id='assets_block' class='displayBlock'>
+   <h2>@_ASSETS_@</h2>
+   <table class='dataTable'>
+   </table>
+</div>
+
+<div id='benefits_block' class='displayBlock'>
+   <h2>@_BENEFITS_@</h2>
+   <table class='dataTable'>
+      <tr class='tableRowOdd'  id='benefit_early_retirement'>
+         <td class='key'>@_BENEFIT-EARLY-RETIREMENT-STR_@</td>
+         <td class='value'>@_BENEFIT-EARLY-RETIREMENT-VALUE-PRE_@</td>
+         <td class='value'>@_BENEFIT-EARLY-RETIREMENT-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='benefit_social_assistance_simulated'>
+         <td class='key'>@_BENEFIT-SOCIAL-ASSISTANCE-SIMULATED-STR_@</td>
+         <td class='value'>@_BENEFIT-SOCIAL-ASSISTANCE-SIMULATED-VALUE-PRE_@</td>
+         <td class='value'>@_BENEFIT-SOCIAL-ASSISTANCE-SIMULATED-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowOdd'  id='benefit_social_assistance_old_age_simulated'>
+         <td class='key'>@_BENEFIT-SOCIAL-ASSISTANCE-OLD-AGE-SIMULATED-STR_@</td>
+         <td class='value'>@_BENEFIT-SOCIAL-ASSISTANCE-OLD-AGE-SIMULATED-VALUE-PRE_@</td>
+         <td class='value'>@_BENEFIT-SOCIAL-ASSISTANCE-OLD-AGE-SIMULATED-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='benefit_education'>
+         <td class='key'>@_BENEFIT-EDUCATION-STR_@</td>
+         <td class='value'>@_BENEFIT-EDUCATION-VALUE-PRE_@</td>
+         <td class='value'>@_BENEFIT-EDUCATION-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowOdd'  id='benefit_housing'>
+         <td class='key'>@_BENEFIT-HOUSING-STR_@</td>
+         <td class='value'>@_BENEFIT-HOUSING-VALUE-PRE_@</td>
+         <td class='value'>@_BENEFIT-HOUSING-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='benefit_child_simulated'>
+         <td class='key'>@_BENEFIT-CHILD-SIMULATED-STR_@</td>
+         <td class='value'>@_BENEFIT-CHILD-SIMULATED-VALUE-PRE_@</td>
+         <td class='value'>@_BENEFIT-CHILD-SIMULATED-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowOdd'  id='benefit_child_birth_or_adoption_simulated'>
+         <td class='key'>@_BENEFIT-CHILD-BIRTH-OR-ADOPTION-SIMULATED-STR_@</td>
+         <td class='value'>@_BENEFIT-CHILD-BIRTH-OR-ADOPTION-SIMULATED-VALUE-PRE_@</td>
+         <td class='value'>@_BENEFIT-CHILD-BIRTH-OR-ADOPTION-SIMULATED-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='benefit_unemployment'>
+         <td class='key'>@_BENEFIT-UNEMPLOYMENT-STR_@</td>
+         <td class='value'>@_BENEFIT-UNEMPLOYMENT-VALUE-PRE_@</td>
+         <td class='value'>@_BENEFIT-UNEMPLOYMENT-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowOdd'  id='benefit_unemployment_simulated'>
+         <td class='key'>@_BENEFIT-UNEMPLOYMENT-SIMULATED-STR_@</td>
+         <td class='value'>@_BENEFIT-UNEMPLOYMENT-SIMULATED-VALUE-PRE_@</td>
+         <td class='value'>@_BENEFIT-UNEMPLOYMENT-SIMULATED-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='benefit_family_parental_leave'>
+         <td class='key'>@_BENEFIT-FAMILY-PARENTAL-LEAVE-STR_@</td>
+         <td class='value'>@_BENEFIT-FAMILY-PARENTAL-LEAVE-VALUE-PRE_@</td>
+         <td class='value'>@_BENEFIT-FAMILY-PARENTAL-LEAVE-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowOdd'  id='benefit_maternity'>
+         <td class='key'>@_BENEFIT-MATERNITY-STR_@</td>
+         <td class='value'>@_BENEFIT-MATERNITY-VALUE-PRE_@</td>
+         <td class='value'>@_BENEFIT-MATERNITY-VALUE-POST_@</td>
+      </tr>
+   </table>
+</div>
+
+<div id='demographics_block' class='displayBlock'>
+   <h2>@_DEMOGRAPHICS_@</h2>
+   <table class='dataTable'>
+      <tr class='tableRowOdd'  id='demographic_country'>
+         <td class='key'>@_DEMOGRAPHIC-COUNTRY-STR_@</td>
+         <td class='value'>@_DEMOGRAPHIC-COUNTRY-VALUE-PRE_@</td>
+         <td class='value'>@_DEMOGRAPHIC-COUNTRY-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='demographic_weight'>
+         <td class='key'>@_DEMOGRAPHIC-WEIGHT-STR_@</td>
+         <td class='value'>@_DEMOGRAPHIC-WEIGHT-VALUE-PRE_@</td>
+         <td class='value'>@_DEMOGRAPHIC-WEIGHT-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowOdd'  id='demographic_age'>
+         <td class='key'>@_DEMOGRAPHIC-AGE-STR_@</td>
+         <td class='value'>@_DEMOGRAPHIC-AGE-VALUE-PRE_@</td>
+         <td class='value'>@_DEMOGRAPHIC-AGE-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='demographic_gender'>
+         <td class='key'>@_DEMOGRAPHIC-GENDER-STR_@</td>
+         <td class='value'>@_DEMOGRAPHIC-GENDER-VALUE-PRE_@</td>
+         <td class='value'>@_DEMOGRAPHIC-GENDER-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowOdd'  id='demographic_marital_status'>
+         <td class='key'>@_DEMOGRAPHIC-MARITAL-STATUS-STR_@</td>
+         <td class='value'>@_DEMOGRAPHIC-MARITAL-STATUS-VALUE-PRE_@</td>
+         <td class='value'>@_DEMOGRAPHIC-MARITAL-STATUS-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='demographic_education_current_status'>
+         <td class='key'>@_DEMOGRAPHIC-EDUCATION-CURRENT-STATUS-STR_@</td>
+         <td class='value'>@_DEMOGRAPHIC-EDUCATION-CURRENT-STATUS-VALUE-PRE_@</td>
+         <td class='value'>@_DEMOGRAPHIC-EDUCATION-CURRENT-STATUS-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowOdd'  id='demographic_consensual_union'>
+         <td class='key'>@_DEMOGRAPHIC-CONSENSUAL-UNION-STR_@</td>
+         <td class='value'>@_DEMOGRAPHIC-CONSENSUAL-UNION-VALUE-PRE_@</td>
+         <td class='value'>@_DEMOGRAPHIC-CONSENSUAL-UNION-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='demographic_region_nuts_level_1'>
+         <td class='key'>@_DEMOGRAPHIC-REGION-NUTS-LEVEL-1-STR_@</td>
+         <td class='value'>@_DEMOGRAPHIC-REGION-NUTS-LEVEL-1-VALUE-PRE_@</td>
+         <td class='value'>@_DEMOGRAPHIC-REGION-NUTS-LEVEL-1-VALUE-POST_@</td>
+      </tr>
+   </table>
+</div>
+
+<div id='identifiers_block' class='displayBlock'>
+   <h2>@_IDENTIFIERS_@</h2>
+   <table class='dataTable'>
+      <tr class='tableRowOdd'  id='identifier_household'>
+         <td class='key'>@_IDENTIFIER-HOUSEHOLD-STR_@</td>
+         <td class='value'>@_IDENTIFIER-HOUSEHOLD-VALUE-PRE_@</td>
+         <td class='value'>@_IDENTIFIER-HOUSEHOLD-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='identifier_person'>
+         <td class='key'>@_IDENTIFIER-PERSON-STR_@</td>
+         <td class='value'>@_IDENTIFIER-PERSON-VALUE-PRE_@</td>
+         <td class='value'>@_IDENTIFIER-PERSON-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowOdd'  id='identifier_partner'>
+         <td class='key'>@_IDENTIFIER-PARTNER-STR_@</td>
+         <td class='value'>@_IDENTIFIER-PARTNER-VALUE-PRE_@</td>
+         <td class='value'>@_IDENTIFIER-PARTNER-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='identifier_mother'>
+         <td class='key'>@_IDENTIFIER-MOTHER-STR_@</td>
+         <td class='value'>@_IDENTIFIER-MOTHER-VALUE-PRE_@</td>
+         <td class='value'>@_IDENTIFIER-MOTHER-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowOdd'  id='identifier_father'>
+         <td class='key'>@_IDENTIFIER-FATHER-STR_@</td>
+         <td class='value'>@_IDENTIFIER-FATHER-VALUE-PRE_@</td>
+         <td class='value'>@_IDENTIFIER-FATHER-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='standard_disposable_income'>
+         <td class='key'>@_STANDARD-DISPOSABLE-INCOME-STR_@</td>
+         <td class='value'>@_STANDARD-DISPOSABLE-INCOME-VALUE-PRE_@</td>
+         <td class='value'>@_STANDARD-DISPOSABLE-INCOME-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowOdd'  id='persons_monthly_original_income'>
+         <td class='key'>@_PERSONS-MONTHLY-ORIGINAL-INCOME-STR_@</td>
+         <td class='value'>@_PERSONS-MONTHLY-ORIGINAL-INCOME-VALUE-PRE_@</td>
+         <td class='value'>@_PERSONS-MONTHLY-ORIGINAL-INCOME-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='sum_of_all_benefits_received_by_the_person'>
+         <td class='key'>@_SUM-OF-ALL-BENEFITS-RECEIVED-BY-THE-PERSON-STR_@</td>
+         <td class='value'>@_SUM-OF-ALL-BENEFITS-RECEIVED-BY-THE-PERSON-VALUE-PRE_@</td>
+         <td class='value'>@_SUM-OF-ALL-BENEFITS-RECEIVED-BY-THE-PERSON-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowOdd'  id='sum_of_all_taxes_paid_by_the_person'>
+         <td class='key'>@_SUM-OF-ALL-TAXES-PAID-BY-THE-PERSON-STR_@</td>
+         <td class='value'>@_SUM-OF-ALL-TAXES-PAID-BY-THE-PERSON-VALUE-PRE_@</td>
+         <td class='value'>@_SUM-OF-ALL-TAXES-PAID-BY-THE-PERSON-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='employee_social_insurance_contributions_paid_by_the_person'>
+         <td class='key'>@_EMPLOYEE-SOCIAL-INSURANCE-CONTRIBUTIONS-PAID-BY-THE-PERSON-STR_@</td>
+         <td class='value'>@_EMPLOYEE-SOCIAL-INSURANCE-CONTRIBUTIONS-PAID-BY-THE-PERSON-VALUE-PRE_@</td>
+         <td class='value'>@_EMPLOYEE-SOCIAL-INSURANCE-CONTRIBUTIONS-PAID-BY-THE-PERSON-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowOdd'  id='employer_social_insurance_contributions_paid_for_the_person_not_included_in_ils_dispy'>
+         <td class='key'>@_EMPLOYER-SOCIAL-INSURANCE-CONTRIBUTIONS-PAID-FOR-THE-PERSON-NOT-INCLUDED-IN-ILS-DISPY-STR_@</td>
+         <td class='value'>@_EMPLOYER-SOCIAL-INSURANCE-CONTRIBUTIONS-PAID-FOR-THE-PERSON-NOT-INCLUDED-IN-ILS-DISPY-VALUE-PRE_@</td>
+         <td class='value'>@_EMPLOYER-SOCIAL-INSURANCE-CONTRIBUTIONS-PAID-FOR-THE-PERSON-NOT-INCLUDED-IN-ILS-DISPY-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='self_employed_social_insurance_contributions_paid_by_the_person'>
+         <td class='key'>@_SELF-EMPLOYED-SOCIAL-INSURANCE-CONTRIBUTIONS-PAID-BY-THE-PERSON-STR_@</td>
+         <td class='value'>@_SELF-EMPLOYED-SOCIAL-INSURANCE-CONTRIBUTIONS-PAID-BY-THE-PERSON-VALUE-PRE_@</td>
+         <td class='value'>@_SELF-EMPLOYED-SOCIAL-INSURANCE-CONTRIBUTIONS-PAID-BY-THE-PERSON-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowOdd'  id='pension'>
+         <td class='key'>@_PENSION-STR_@</td>
+         <td class='value'>@_PENSION-VALUE-PRE_@</td>
+         <td class='value'>@_PENSION-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='taxable_income'>
+         <td class='key'>@_TAXABLE-INCOME-STR_@</td>
+         <td class='value'>@_TAXABLE-INCOME-VALUE-PRE_@</td>
+         <td class='value'>@_TAXABLE-INCOME-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowOdd'  id='taxable_income_something_mq'>
+         <td class='key'>@_TAXABLE-INCOME-SOMETHING-MQ-STR_@</td>
+         <td class='value'>@_TAXABLE-INCOME-SOMETHING-MQ-VALUE-PRE_@</td>
+         <td class='value'>@_TAXABLE-INCOME-SOMETHING-MQ-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='bennt'>
+         <td class='key'>@_BENNT-STR_@</td>
+         <td class='value'>@_BENNT-VALUE-PRE_@</td>
+         <td class='value'>@_BENNT-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowOdd'  id='ils_benmt'>
+         <td class='key'>@_ILS-BENMT-STR_@</td>
+         <td class='value'>@_ILS-BENMT-VALUE-PRE_@</td>
+         <td class='value'>@_ILS-BENMT-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='bensim'>
+         <td class='key'>@_BENSIM-STR_@</td>
+         <td class='value'>@_BENSIM-VALUE-PRE_@</td>
+         <td class='value'>@_BENSIM-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowOdd'  id='taxsim'>
+         <td class='key'>@_TAXSIM-STR_@</td>
+         <td class='value'>@_TAXSIM-VALUE-PRE_@</td>
+         <td class='value'>@_TAXSIM-VALUE-POST_@</td>
+      </tr>
+   </table>
+</div>
+
+<div id='inkind_block' class='displayBlock'>
+   <h2>@_INKIND_@</h2>
+   <table class='dataTable'>
+   </table>
+</div>
+
+<div id='labourmarket_block' class='displayBlock'>
+   <h2>@_LABOURMARKET_@</h2>
+   <table class='dataTable'>
+      <tr class='tableRowOdd'  id='labour_market_economic_status'>
+         <td class='key'>@_LABOUR-MARKET-ECONOMIC-STATUS-STR_@</td>
+         <td class='value'>@_LABOUR-MARKET-ECONOMIC-STATUS-VALUE-PRE_@</td>
+         <td class='value'>@_LABOUR-MARKET-ECONOMIC-STATUS-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='labour_market_civil_servant'>
+         <td class='key'>@_LABOUR-MARKET-CIVIL-SERVANT-STR_@</td>
+         <td class='value'>@_LABOUR-MARKET-CIVIL-SERVANT-VALUE-PRE_@</td>
+         <td class='value'>@_LABOUR-MARKET-CIVIL-SERVANT-VALUE-POST_@</td>
+      </tr>
+   </table>
+</div>
+
+<div id='pension_block' class='displayBlock'>
+   <h2>@_PENSION_@</h2>
+   <table class='dataTable'>
+      <tr class='tableRowOdd'  id='pension_old_age'>
+         <td class='key'>@_PENSION-OLD-AGE-STR_@</td>
+         <td class='value'>@_PENSION-OLD-AGE-VALUE-PRE_@</td>
+         <td class='value'>@_PENSION-OLD-AGE-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='pension_survivors'>
+         <td class='key'>@_PENSION-SURVIVORS-STR_@</td>
+         <td class='value'>@_PENSION-SURVIVORS-VALUE-PRE_@</td>
+         <td class='value'>@_PENSION-SURVIVORS-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowOdd'  id='pension_disability'>
+         <td class='key'>@_PENSION-DISABILITY-STR_@</td>
+         <td class='value'>@_PENSION-DISABILITY-VALUE-PRE_@</td>
+         <td class='value'>@_PENSION-DISABILITY-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='pension_health'>
+         <td class='key'>@_PENSION-HEALTH-STR_@</td>
+         <td class='value'>@_PENSION-HEALTH-VALUE-PRE_@</td>
+         <td class='value'>@_PENSION-HEALTH-VALUE-POST_@</td>
+      </tr>
+   </table>
+</div>
+
+<div id='system_block' class='displayBlock'>
+   <h2>@_SYSTEM_@</h2>
+   <table class='dataTable'>
+   </table>
+</div>
+
+<div id='tax_block' class='displayBlock'>
+   <h2>@_TAX_@</h2>
+   <table class='dataTable'>
+      <tr class='tableRowOdd'  id='tax_income_tax_tax_allowance_tax_credit_simulated'>
+         <td class='key'>@_TAX-INCOME-TAX-TAX-ALLOWANCE-TAX-CREDIT-SIMULATED-STR_@</td>
+         <td class='value'>@_TAX-INCOME-TAX-TAX-ALLOWANCE-TAX-CREDIT-SIMULATED-VALUE-PRE_@</td>
+         <td class='value'>@_TAX-INCOME-TAX-TAX-ALLOWANCE-TAX-CREDIT-SIMULATED-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='tax_income_tax_tax_credit_replacement_income_simulated'>
+         <td class='key'>@_TAX-INCOME-TAX-TAX-CREDIT-REPLACEMENT-INCOME-SIMULATED-STR_@</td>
+         <td class='value'>@_TAX-INCOME-TAX-TAX-CREDIT-REPLACEMENT-INCOME-SIMULATED-VALUE-PRE_@</td>
+         <td class='value'>@_TAX-INCOME-TAX-TAX-CREDIT-REPLACEMENT-INCOME-SIMULATED-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowOdd'  id='tax_income_tax_tax_credit_child_simulated'>
+         <td class='key'>@_TAX-INCOME-TAX-TAX-CREDIT-CHILD-SIMULATED-STR_@</td>
+         <td class='value'>@_TAX-INCOME-TAX-TAX-CREDIT-CHILD-SIMULATED-VALUE-PRE_@</td>
+         <td class='value'>@_TAX-INCOME-TAX-TAX-CREDIT-CHILD-SIMULATED-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='tax_income_tax_tax_credit_low_pay_or_income_simulated'>
+         <td class='key'>@_TAX-INCOME-TAX-TAX-CREDIT-LOW-PAY-OR-INCOME-SIMULATED-STR_@</td>
+         <td class='value'>@_TAX-INCOME-TAX-TAX-CREDIT-LOW-PAY-OR-INCOME-SIMULATED-VALUE-PRE_@</td>
+         <td class='value'>@_TAX-INCOME-TAX-TAX-CREDIT-LOW-PAY-OR-INCOME-SIMULATED-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowOdd'  id='tax_income_tax_schedule_simulated'>
+         <td class='key'>@_TAX-INCOME-TAX-SCHEDULE-SIMULATED-STR_@</td>
+         <td class='value'>@_TAX-INCOME-TAX-SCHEDULE-SIMULATED-VALUE-PRE_@</td>
+         <td class='value'>@_TAX-INCOME-TAX-SCHEDULE-SIMULATED-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='tax_income_tax_national_government_simulated'>
+         <td class='key'>@_TAX-INCOME-TAX-NATIONAL-GOVERNMENT-SIMULATED-STR_@</td>
+         <td class='value'>@_TAX-INCOME-TAX-NATIONAL-GOVERNMENT-SIMULATED-VALUE-PRE_@</td>
+         <td class='value'>@_TAX-INCOME-TAX-NATIONAL-GOVERNMENT-SIMULATED-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowOdd'  id='tax_income_tax_capital_taxation_simulated'>
+         <td class='key'>@_TAX-INCOME-TAX-CAPITAL-TAXATION-SIMULATED-STR_@</td>
+         <td class='value'>@_TAX-INCOME-TAX-CAPITAL-TAXATION-SIMULATED-VALUE-PRE_@</td>
+         <td class='value'>@_TAX-INCOME-TAX-CAPITAL-TAXATION-SIMULATED-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='tax_income_tax_municipal_government_simulated'>
+         <td class='key'>@_TAX-INCOME-TAX-MUNICIPAL-GOVERNMENT-SIMULATED-STR_@</td>
+         <td class='value'>@_TAX-INCOME-TAX-MUNICIPAL-GOVERNMENT-SIMULATED-VALUE-PRE_@</td>
+         <td class='value'>@_TAX-INCOME-TAX-MUNICIPAL-GOVERNMENT-SIMULATED-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowOdd'  id='tax_sic_employee_simulated'>
+         <td class='key'>@_TAX-SIC-EMPLOYEE-SIMULATED-STR_@</td>
+         <td class='value'>@_TAX-SIC-EMPLOYEE-SIMULATED-VALUE-PRE_@</td>
+         <td class='value'>@_TAX-SIC-EMPLOYEE-SIMULATED-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='tax_sic_pensioner_simulated'>
+         <td class='key'>@_TAX-SIC-PENSIONER-SIMULATED-STR_@</td>
+         <td class='value'>@_TAX-SIC-PENSIONER-SIMULATED-VALUE-PRE_@</td>
+         <td class='value'>@_TAX-SIC-PENSIONER-SIMULATED-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowOdd'  id='tax_sic_disabled_simulated'>
+         <td class='key'>@_TAX-SIC-DISABLED-SIMULATED-STR_@</td>
+         <td class='value'>@_TAX-SIC-DISABLED-SIMULATED-VALUE-PRE_@</td>
+         <td class='value'>@_TAX-SIC-DISABLED-SIMULATED-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='tax_sic_employee_reduction_simulated'>
+         <td class='key'>@_TAX-SIC-EMPLOYEE-REDUCTION-SIMULATED-STR_@</td>
+         <td class='value'>@_TAX-SIC-EMPLOYEE-REDUCTION-SIMULATED-VALUE-PRE_@</td>
+         <td class='value'>@_TAX-SIC-EMPLOYEE-REDUCTION-SIMULATED-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowOdd'  id='tax_sic_employee_spouse_simulated'>
+         <td class='key'>@_TAX-SIC-EMPLOYEE-SPOUSE-SIMULATED-STR_@</td>
+         <td class='value'>@_TAX-SIC-EMPLOYEE-SPOUSE-SIMULATED-VALUE-PRE_@</td>
+         <td class='value'>@_TAX-SIC-EMPLOYEE-SPOUSE-SIMULATED-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='tax_sic_self_employed_simulated'>
+         <td class='key'>@_TAX-SIC-SELF-EMPLOYED-SIMULATED-STR_@</td>
+         <td class='value'>@_TAX-SIC-SELF-EMPLOYED-SIMULATED-VALUE-PRE_@</td>
+         <td class='value'>@_TAX-SIC-SELF-EMPLOYED-SIMULATED-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowOdd'  id='head_of_household_indentifier'>
+         <td class='key'>@_HEAD-OF-HOUSEHOLD-INDENTIFIER-STR_@</td>
+         <td class='value'>@_HEAD-OF-HOUSEHOLD-INDENTIFIER-VALUE-PRE_@</td>
+         <td class='value'>@_HEAD-OF-HOUSEHOLD-INDENTIFIER-VALUE-POST_@</td>
+      </tr>
+   </table>
+</div>
+
+<div id='expenditure_block' class='displayBlock'>
+   <h2>@_EXPENDITURE_@</h2>
+   <table class='dataTable'>
+      <tr class='tableRowOdd'  id='expenditure_maintenance_payment'>
+         <td class='key'>@_EXPENDITURE-MAINTENANCE-PAYMENT-STR_@</td>
+         <td class='value'>@_EXPENDITURE-MAINTENANCE-PAYMENT-VALUE-PRE_@</td>
+         <td class='value'>@_EXPENDITURE-MAINTENANCE-PAYMENT-VALUE-POST_@</td>
+      </tr>
+   </table>
+</div>
+
+<div id='income_block' class='displayBlock'>
+   <h2>@_INCOME_@</h2>
+   <table class='dataTable'>
+      <tr class='tableRowOdd'  id='income_employment'>
+         <td class='key'>@_INCOME-EMPLOYMENT-STR_@</td>
+         <td class='value'>@_INCOME-EMPLOYMENT-VALUE-PRE_@</td>
+         <td class='value'>@_INCOME-EMPLOYMENT-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='income_investment'>
+         <td class='key'>@_INCOME-INVESTMENT-STR_@</td>
+         <td class='value'>@_INCOME-INVESTMENT-VALUE-PRE_@</td>
+         <td class='value'>@_INCOME-INVESTMENT-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowOdd'  id='income_other'>
+         <td class='key'>@_INCOME-OTHER-STR_@</td>
+         <td class='value'>@_INCOME-OTHER-VALUE-PRE_@</td>
+         <td class='value'>@_INCOME-OTHER-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='income_property'>
+         <td class='key'>@_INCOME-PROPERTY-STR_@</td>
+         <td class='value'>@_INCOME-PROPERTY-VALUE-PRE_@</td>
+         <td class='value'>@_INCOME-PROPERTY-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowOdd'  id='income_private_pension'>
+         <td class='key'>@_INCOME-PRIVATE-PENSION-STR_@</td>
+         <td class='value'>@_INCOME-PRIVATE-PENSION-VALUE-PRE_@</td>
+         <td class='value'>@_INCOME-PRIVATE-PENSION-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='income_private_transfers'>
+         <td class='key'>@_INCOME-PRIVATE-TRANSFERS-STR_@</td>
+         <td class='value'>@_INCOME-PRIVATE-TRANSFERS-VALUE-PRE_@</td>
+         <td class='value'>@_INCOME-PRIVATE-TRANSFERS-VALUE-POST_@</td>
+      </tr>
+      <tr class='tableRowOdd'  id='income_self_employment'>
+         <td class='key'>@_INCOME-SELF-EMPLOYMENT-STR_@</td>
+         <td class='value'>@_INCOME-SELF-EMPLOYMENT-VALUE-PRE_@</td>
+         <td class='value'>@_INCOME-SELF-EMPLOYMENT-VALUE-POST_@</td>
+      </tr>
+   </table>
+</div>
+
+
+<!-- AUTOGENERATED ENDS -->
+

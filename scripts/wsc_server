@@ -1,0 +1,42 @@
+#!/bin/bash
+#
+# tomcat        
+#
+# chkconfig: 
+# description: 	Start up the WSC Server.
+
+# Source function library.
+# . /etc/init.d/functions redhat version??
+# debian version::
+ENV="env -i LANG=C PATH=/usr/local/bin:/usr/bin:/bin"
+
+. /lib/lsb/init-functions
+#
+# some paths 
+#
+. /etc/profile.d/grahams.sh
+
+RETVAL=$?
+
+case "$1" in
+ start)
+        if [ -f $WSC_MODEL/scripts/start_server ];
+          then
+	    echo $"Starting WSC Server"
+            /bin/su graham_s $WSC_MODEL/scripts/start_server
+        fi
+	;;
+ stop)
+        if [ -f $WSC_MODEL/scripts/stop_server ];
+          then
+	    echo $"Stopping WSC Server"
+            /bin/su graham_s $WSC_MODEL/scripts/stop_server
+        fi
+ 	;;
+ *)
+ 	echo $"Usage: $0 {start|stop}"
+	exit 1
+	;;
+esac
+
+exit $RETVAL

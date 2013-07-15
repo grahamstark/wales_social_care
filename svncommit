@@ -1,0 +1,21 @@
+#!/bin/sh
+#
+# list of files needed committing here and in tax benefit components
+#
+svn status -q  > tmp/svnmessage
+svn status -q ../javacharts/ >> tmp/svnmessage
+svn status -q ../../tax_benefit_model_components/ >> tmp/svnmessage
+#
+# This checks for whether tmp/svnmessage is not empty and, if so,
+# updates index.html and returns 1 (0 otherwise)
+#
+append_to_file tmp/svnmessage web/wsc/templates/index.thtml
+# 
+# recommit the index file if anything changed
+# this ensures messages are added to index.thtml for revision and date
+#
+if [ $? -eq 1 ]; then
+        svn commit  -m "$1"
+	svn commit ../javacharts/ -m "$1"
+        svn commit ../../tax_benefit_model_components/ -m "$1"
+fi

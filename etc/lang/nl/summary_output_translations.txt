@@ -1,0 +1,9 @@
+identifier_household = huishoudens
+demographic_weight = Gewicht
+standard_disposable_income = Standaard besteedbaar inkomen
+persons_monthly_original_income = maandelijkse oorspronkelijke persoon het inkomen
+sum_of_all_benefits_received_by_the_person = Som van alle voordelen genoten door de persoon
+sum_of_all_taxes_paid_by_the_person = Som van alle belastingen betaald door de persoon
+employee_social_insurance_contributions_paid_by_the_person = Werknemer sociale premies betaald door de persoon
+Werkgever employer_social_insurance_contributions_paid_for_the_person_not_included_in_ils_dispy = sociale premies betaald voor de persoon (niet inbegrepen in ils_dispy)
+self_employed_social_insurance_contributions_paid_by_the_person = Zelfstandigen sociale premies betaald door de persoon

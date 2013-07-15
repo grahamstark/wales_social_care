@@ -1,0 +1,115 @@
+/* SUMMARY PAGE CONTENT */
+@import "constants";
+
+.gain {
+	font-weight: bold;
+	color      : green;
+}
+
+.lose {
+	font-weight: bold;
+	color      : red;
+}
+
+.no-change {
+	font-weight: bold;
+	color      : gray;
+}
+
+.summary_table a, .summary_table img, .summary_table img a{
+     text-decoration: none;
+     border: 0;
+}
+
+.summary_table ul{
+	list-style-type:none;
+	padding:0;
+	margin: 0;
+}
+
+.summary_table td{
+      padding: 3px;
+      border : 1px dotted silver;
+}
+
+
+.summary_table a{
+       border: 1px solid white;
+}
+
+.summary_table a:hover{
+      background: @content_highlight;
+}
+
+.gains_and_losses_summary, .budget_summary, .inequality_summary, .poverty_summary{
+     border-collapse: collapse;
+}
+
+
+
+.gains_and_losses_summary td, .budget_summary td , .inequality_summary td, .poverty_summary td{
+     border: 0;
+     padding: 0;
+}
+
+
+/**
+.gains_and_losses_summary:hover, .budget_summary:hover , .inequality_summary:hover, .poverty_summary:hover{
+     background-color: @content_highlight;
+}
+*/
+
+.summary_link{
+        font-style: italic;        
+        font-size: 105%;
+        color: red;
+}
+
+.summary_items{
+	font-size: 9px;
+	padding: 0;
+}
+
+.summary_value{
+	font-weight: bold;
+}
+
+.summary_table caption, .summary_table h3{
+	font-weight: bold;
+	font-size: 110%;
+	color: red;
+}
+
+.summary_table a{
+	color: black;
+}
+
+.summary_table{
+	text-align: left;
+}
+
+.total_cost{
+	font-size: 10pt;
+	padding-left: 20pt;
+	padding-bottom: 1pt;
+	
+}
+
+.total_cost_value{
+	font-size: 105%;
+	font-weight: bold;
+	
+}
+
+
+.improvement, .improvement a:visited{
+     color:#4A4;
+}
+
+.worseing, .worseing a:visited{
+     color:#C44;
+}
+
+.neutral{
+    color: black;       
+}

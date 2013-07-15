@@ -1,0 +1,40 @@
+
+<table>
+   <tr>
+      <td>Row Variable?</td>
+      <td>
+         <select name="table_breakdown" id="table_breakdown" onmouseover='return overlibConditional( "" );' onmouseout="return nd();">
+            <option value="gender" >Gender of head of household</option>
+            <option value="tenure" selected="selected">Tenure Type</option>
+            <option value="marital_status">Marital Status of Head</option>
+            <option value="marital_status">Education Level of Head</option>
+         </select>
+      </td>
+
+      <td rowspan="3" valign="middle">
+         <input id="Run_Submit_Button" type="submit" name="Redraw" value="Redraw" onmouseover="return overlibConditional( 'Select this to run the model' );" onmouseout="return nd();" />
+      </td>
+
+   </tr>
+   <tr>
+      <td>Which System?</td>
+      <td>
+         <select name="system_select" id="system_select" onmouseover='return overlibConditional( "" );' onmouseout="return nd();">
+            <option value="abs_change">Change (level)</option>
+            <option value="pct_change">Change (percent)</option>
+            <option value="post" >After Changes Values</option>
+            <option value="pre">Before Changes Values</option>
+         </select>
+      </td>
+   </tr>
+   <tr>
+      <td>Costs or Caseloads?</td>
+      <td>
+         <select name="costs_or_caseloads" id="costs_or_caseloads" onmouseover='return overlibConditional( "" );' onmouseout="return nd();">
+            <option value="revenues">Revenues</option>
+            <option value="caseloads">Caseloads</option>
+         </select>
+         <td>
+    </tr>
+</table>
+

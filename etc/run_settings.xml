@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ParameterSystem SYSTEM "/home/graham_s/VirtualWorlds/projects/tax_benefit_model_components/etc/parameters/dtds/parameter_system.dtd" >
+<ParameterSystem name="wsc_run" instanceName="wsc_run">
+        <Description type="label" lang="en">
+             Wales Social Care - Model Settings
+         </Description>
+
+        <Parameter name="title" instanceName="title" type="string" maximumSize="80">
+                <Description type="label" lang="en">
+                     Give this run a name:
+                 </Description>
+                <EditInfo length="30" />
+        </Parameter>
+        <Parameter name="start_year" instanceName="start_year" type="integer">
+                <Description type="label" lang="en">
+                     Start Year
+                 </Description>
+                <EditInfo min="2012" max="2030" />
+        </Parameter>
+
+        <Parameter name="end_year" instanceName="end_year" type="integer">
+                <Description type="label" lang="en">
+                     End Year
+                 </Description>
+                <EditInfo min="2012" max="2030" />
+        </Parameter>
+
+        <Parameter name="use_random_threshold" instanceName="use_random_threshold" type="boolean">
+                <Description type="label" lang="en">
+                     Add random components to simulations?
+                 </Description>
+                <EditInfo min="2012" max="2030" />
+        </Parameter>
+
+        <Parameter name="dataset_name" instanceName="dataset_name" type="enumerated" enumTypeRef="Datasets">
+                <Description type="label" lang="en">
+                     Dataset to use
+                 </Description>
+        </Parameter>
+        
+        <Parameter name="do_reweighting" instanceName="do_reweighting" type="boolean">
+                <Description type="label" lang="en">
+                     Dynamically Re-Weight The Data?
+                 </Description>
+                <EditInfo min="2012" max="2030" />
+        </Parameter>
+        
+        <Parameter name="weighting_function" instanceName="weighting_function" type="enumerated" enumTypeRef="Weighting_Functions">
+                <Description type="label" lang="en">
+                     If Doing Reweighting, which function to use?
+                 </Description>
+                <Description type="description" lang="en">
+                     If Doing Reweighting, which function to use? (See: Creedy 
+                     [http://ideas.repec.org/p/nzt/nztwps/03-17.html] 2003 table 3; 
+                     Deville and Sarndal 
+                     [http://users.stat.umn.edu/~gmeeden/classes/8913/calibrate.pdf]
+                     1992)
+                 </Description>
+        </Parameter>
+        
+        <Parameter name="weighting_lower_bound" instanceName="weighting_lower_bound" logicalType="rate" units="level">
+                <Description type="label" lang="en">
+                     Weighting Lower Bound
+                 </Description>
+                <Description type="description" lang="en">
+                     If doing reweighting, and using a bounded function, new weight must be at least this ratio of original weight. (So, 0.5 for no less that 50% of original weight).
+                 </Description>
+                <EditInfo min="0.01" max="1" />
+        </Parameter>
+
+        <Parameter name="weighting_upper_bound" instanceName="weighting_upper_bound" logicalType="rate" units="level">
+                <Description type="label" lang="en">
+                     Weighting Upper Bound
+                 </Description>
+                <Description type="description" lang="en">
+                     If doing reweighting, and using a bounded function, new weight must be at most this ratio of original weight.
+                 </Description>
+                <EditInfo min="1" max="10" />
+        </Parameter>
+
+        <Parameter name="comparison_run_id" instanceName="comparison_run_id" type="enumerated" enumTypeRef="BaseSystem">
+                <Description type="label" lang="en">
+                     Default Run Settings
+                 </Description>
+                 <EditInfo display='hidden'/>
+        </Parameter>
+        
+        <Parameter name="assumed_interest_rate_pct" instanceName="assumed_interest_rate_pct" logicalType="rate" units="percent">
+                <Description type="label" lang="en">
+                     Assumed base interest rate (%)
+                 </Description>
+        </Parameter>
+
+        <Parameter name="num_iterations" instanceName="num_iterations" type="integer" >
+                <Description type="label" lang="en">
+                     Num Iterations To Do
+                 </Description>
+                 <EditInfo min='1' max='250' />
+        </Parameter>
+        
+        <ParameterSystemReference instanceName="uprate" type="Uprate_Assumption" collectionType="list" indexType="enumerated" indexEnumTypeRef="Uprate_Targets">
+                <Description type="label" lang="en">Uprating Assumptions</Description>
+        </ParameterSystemReference>
+
+        <ParameterSystem name="Uprate_Assumption" id="Uprate_Assumption">
+
+                <Parameter name="percent_change" instanceName="percent_change" logicalType="rate" units="percent">
+                        <Description type="label" lang="en">
+                             Percent Change?
+                         </Description>
+                        <EditInfo min="-50" max="50" />
+                </Parameter>
+                <Parameter name="use_obr" instanceName="use_obr" type="boolean">
+                        <Description type="label" lang="en">
+                             Use OBR Forecast?
+                         </Description>
+                </Parameter>
+                <Parameter name="element" instanceName="element" enumTypeRef="Forecast_Element" type="enumerated">
+                        <Description type="label" lang="en">
+                        Uprate In Line With
+                        </Description>
+                </Parameter>
+        </ParameterSystem>
+        
+        <ParameterSystemReference instanceName="probit_thresholds" type="Thresholds" collectionType="list" indexType="enumerated" indexEnumTypeRef="Probit_Types">
+                <Description type="label" lang="en">Probit Thresholds</Description>
+        </ParameterSystemReference>
+        
+        <ParameterSystem name="Thresholds" id="Thresholds">
+                <Parameter name="value" instanceName="value" logicalType="rate" units="level">
+                        <Description type="label" lang="en">
+                             Level (0.5 is usually default; 0 for never; 1 for always).
+                         </Description>
+                        <EditInfo min="0" max="1" />
+                </Parameter>
+        </ParameterSystem>
+
+        <EnumeratedType id="Forecast_Element" name="Forecast_Element">
+                <EnumValue name="uprate_none">
+                        <Text lang="en">None</Text>
+                </EnumValue>
+                <EnumValue name="rpi">
+                        <Text lang="en">RPI</Text>
+                </EnumValue>
+                <EnumValue name="rpix">
+                        <Text lang="en">RPI(X)</Text>
+                </EnumValue>
+                <EnumValue name="obr_earnings">
+                        <Text lang="en">Average Earnings</Text>
+                </EnumValue>
+                <EnumValue name="CPI">
+                        <Text lang="en">CPI</Text>
+                </EnumValue>
+                <EnumValue name="gdp_at_market_prices">
+                        <Text lang="en">GDP at Market Prices</Text>
+                </EnumValue>
+        </EnumeratedType>
+        
+
+        <EnumeratedType id="Weighting_Functions" name="Weighting_Functions">
+                <EnumValue name="chi_square">
+                        <Text lang="en">Chi-Square (Unconstrained)</Text>
+                </EnumValue>
+                <EnumValue name="d_and_s_type_a">
+                        <Text lang="en">Deville and Sarndal - Type 'A'</Text>
+                </EnumValue>
+                <EnumValue name="d_and_s_type_b">
+                        <Text lang="en">Deville and Sarndal - Type 'B'</Text>
+                </EnumValue>
+                <EnumValue name="constrained_chi_square">
+                        <Text lang="en">Constrained Chi Square</Text>
+                </EnumValue>
+                <EnumValue name="d_and_s_constrained">
+                        <Text lang="en">Deville and Sarndal - Constrained</Text>
+                </EnumValue>
+        </EnumeratedType>
+                         
+
+        <EnumeratedType id="Uprate_Targets" name="Uprate_Target">
+                <EnumValue name="upr_housing_costs">
+                        <Text lang="en">Housing Costs</Text>
+                </EnumValue>
+                <EnumValue name="upr_wealth">
+                        <Text lang="en">Wealth</Text>
+                </EnumValue>
+                <EnumValue name="upr_state_benefits">
+                        <Text lang="en">State Benefits</Text>
+                </EnumValue>
+                <EnumValue name="upr_earnings">
+                        <Text lang="en">Earnings</Text>
+                </EnumValue>
+                <EnumValue name="upr_other_income">
+                        <Text lang="en">All Other Income</Text>
+                </EnumValue>
+                <EnumValue name="upr_care_costs_1">
+                        <Text lang="en">Care Costs NOT USED - set in parameters page instead</Text>
+                </EnumValue>
+        </EnumeratedType>
+
+        <EnumeratedType id="Probit_Types" name="Probit_Types">
+                <EnumValue name="dies_this_period">
+                        <Text lang="en">Dies this period</Text>
+                </EnumValue>
+                <EnumValue name="has_wealth">
+                        <Text lang="en">Has wealth</Text>
+                </EnumValue>
+                <EnumValue name="informal_care_from_household_member">
+                        <Text lang="en">Informal Care From Household Member</Text>
+                </EnumValue>
+                <EnumValue name="informal_care_from_non_householder">
+                        <Text lang="en">Informal Care from non Householder</Text>
+                </EnumValue>
+                <EnumValue name="hh_split">
+                        <Text lang="en">Household Splits</Text>
+                </EnumValue>
+                <EnumValue name="health_better">
+                        <Text lang="en">Health Better</Text>
+                </EnumValue>
+                <EnumValue name="health_worse">
+                        <Text lang="en">Health Worse</Text>
+                </EnumValue>
+                <EnumValue name="adl_improve">
+                        <Text lang="en">ADL Improve</Text>
+                </EnumValue>
+                <EnumValue name="adl_worsen">
+                        <Text lang="en">ADL Worsen</Text>
+                </EnumValue>
+                <EnumValue name="retire">
+                        <Text lang="en">Retirement</Text>
+                </EnumValue>
+                <EnumValue name="to_care">
+                        <Text lang="en">Move to Care</Text>
+                </EnumValue>
+                <EnumValue name="receiving_aa">
+                        <Text lang="en">Receiving Attendance Allowance</Text>
+                </EnumValue>
+                <EnumValue name="receiving_dla">
+                        <Text lang="en">Receiving Disabled Living Allowance</Text>
+                </EnumValue>
+                <EnumValue name="private_care_demand">
+                        <Text lang="en">Demand For Private Domestic Care</Text>
+                </EnumValue>
+        </EnumeratedType>
+        
+        <EnumeratedType id='Datasets' name='Datasets'>
+                <EnumValue name="default" value='0'>
+                        <Text lang="en">Default Dataset</Text>
+                </EnumValue>
+        </EnumeratedType>
+        <EnumeratedType id='BaseSystem' name='BaseSystem'>
+                <EnumValue name="0"  value='0'>
+                        <Text lang="en">Default Run Settings</Text>
+                </EnumValue>
+        </EnumeratedType>
+        
+        
+        
+</ParameterSystem>

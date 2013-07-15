@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<config>
+        <log>
+                <ident>propel-adrs</ident>
+                <level>1</level>
+                <name>/var/tmp/log/propel.log</name>
+        </log>
+        <propel>
+                <datasources default="wsc_db_mysql">
+                        <!-- NB ONLY 1st one gets processed -->
+                        <datasource id="postgres">
+                                <adapter>postgres</adapter>
+                                <connection>
+                                        <hostspec>localhost</hostspec>
+                                        <database>wsc_db</database>
+                                        <username>postgres</username>
+                                        <password></password>
+                                </connection>
+                        </datasource>
+                        <datasource id="wsc_db_mysql">
+                                <adapter>mysql</adapter>
+                                <connection>
+                                        <hostspec>localhost</hostspec>
+                                        <database>wsc_db_mysql</database>
+                                        <username>root</username>
+                                        <password>iainkath</password>
+                                </connection>
+                        </datasource>
+                </datasources>
+        </propel>
+</config>

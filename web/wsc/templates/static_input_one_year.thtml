@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="row">
+            <div class='onecol'></div>
+            <div class='eightcol' >
+                      <h1>@_YEAR_@</h1>
+                     <table width='90%'>
+                             @@TABLE@@
+                             
+                                 @_INPUT-CELL_@
+                             
+                             @@END_TABLE@@
+                     </table>
+            </div>
+    </div>
+</div>
+

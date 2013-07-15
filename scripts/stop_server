@@ -1,0 +1,4 @@
+. /etc/profile.d/grahams.sh
+/sbin/start-stop-daemon \
+   --exec $WSC_MODEL2/bin/wsc_server \
+   --stop

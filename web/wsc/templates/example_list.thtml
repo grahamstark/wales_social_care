@@ -1,0 +1,22 @@
+    <table class='resultsTable'>
+        <tbody>
+            @@IF@@ @_EXAMPLES'Length_@ = 0
+            <tr><tr><td>No Examples</td></tr>
+            @@ELSE@@         
+              @@TABLE@@
+              @@IF@@ @_MOD(2):TABLE_LINE_@  = 1
+                      @@SET@@ NCLASS=tableRowOdd
+              @@ELSE@@
+                      @@SET@@ NCLASS=tableRowEven
+              @@END_IF@@
+             <tr class='@_NCLASS_@'>
+                <td>
+                        <a onclick="GalleryWindow( this.href, '@_TITLE_@', '800', '800' ); return false;" onfocus='this.blur()' href='@_WSC_WEB_ROOT_@example_popup?@_EXAMPLES_@'>#@_TABLE_LINE_@ (@_HID_@)</a>
+                </td>
+             </tr>
+             @@END_TABLE@@
+             @@END_IF@@
+      </tbody>
+    </table>
+
+    

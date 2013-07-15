@@ -1,0 +1,38 @@
+<h2>@_TITLE_@</h2>
+<h3>@_FOOTER_@</h3>
+<table class='resultsTable'>
+        <caption>@_CAPTION_@</caption>
+         @@IF@@ @_DO-COMPARISONS_@
+        <thead>
+              <tr>
+                <th></th>
+                <th>Before</th>
+                <th>After</th>
+              </tr>
+        </thead>
+        @@END_IF@@
+        <tbody>
+               @@TABLE@@
+              @@IF@@ @_DO-COMPARISONS_@
+                      @@IF@@ @_PRE_@ /= @_POST_@
+                              @@SET@@ DIFFCLASS=tableRowChanged
+                      @@ELSE@@
+                              @@SET@@ DIFFCLASS=tableRowNoChange
+                      @@END_IF@@
+              @@END_IF@@              
+              @@IF@@ @_MOD(2):TABLE_LINE_@  = 1
+                      @@SET@@ NCLASS=tableRowOdd
+              @@ELSE@@
+                      @@SET@@ NCLASS=tableRowEven
+              @@END_IF@@
+              <tr class='@_DIFFCLASS_@ @_NCLASS_@'>
+                 <td class='key'>@_LABEL_@</td>
+                 <td class='pre value'>@_PRE_@</td>
+                 @@IF@@ @_DO-COMPARISONS_@
+                        <td class='post value'>@_POST_@</td>
+                  @@END_IF@@
+              </tr>
+              @@END_TABLE@@
+        </tbody>
+       
+</table>

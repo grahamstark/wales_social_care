@@ -1,0 +1,135 @@
+   <p>Over 65s</p>
+   @@TABLE@@
+   <img src='@_LARGE-CHARTS_@' alt='test chart' />
+    @@END_TABLE@@     
+   @@TABLE@@
+   <img src='@_MEDIUM-CHARTS_@' alt='test chart' />
+    @@END_TABLE@@     
+   @@TABLE@@
+   <img src='@_THUMBNAIL-CHARTS_@' alt='test chart' />
+    @@END_TABLE@@    
+   @@TABLE@@
+   <img src='@_SVG-LARGE-CHARTS_@' alt='test chart svg' />
+    @@END_TABLE@@     
+   @@TABLE@@
+   <object type="image/svg+xml"
+        data='@_SVG-MEDIUM-CHARTS_@'  width="250" height="250"
+       >AMAAM</object> 
+    @@END_TABLE@@     
+   @@TABLE@@
+   <img src='@_SVG-THUMBNAIL-CHARTS_@' alt='test chart svg' />
+    @@END_TABLE@@    
+    
+   <table class='datatable' width='70%'>
+      <tbody>
+         <tr>
+                <th></th>
+                <th>Average</th>
+                <th>Smallest</th>
+                <th>Largest</th>
+                <th>Median</th>
+                <th>Standard Deviation</th>
+                <th>10th Percentile</th>
+                <th>90th Percentile</th>
+         </tr>
+         
+         <tr><td colspan='@_NUM-STATS_@'><em>Fully Publicly supported (with no private contributions)</em></td></tr>
+         <tr><th>Residential care</th>
+         @@TABLE@@
+            <td>@_RESIDENTIAL-FULLY-PUBLICLY-FUNDED_@</td>
+         @@END_TABLE@@
+         </tr>
+         <tr><th>Community care</th>
+         @@TABLE@@
+         <td>@_NON-RESIDENTIAL-FULLY-PUBLICLY-FUNDED_@</td>
+         @@END_TABLE@@
+         </tr>
+
+         <tr><td colspan='@_NUM-STATS_@'><em>Partially Publicly supported (with some private contributions)</em></td></tr>
+         <tr><th>Residential care</th>
+         @@TABLE@@
+            <td>@_RESIDENTIAL-PARTIALLY-PUBLICLY-FUNDED_@</td>
+         @@END_TABLE@@
+         </tr>
+         <tr><th>Community care</th>
+         @@TABLE@@
+         <td>@_NON-RESIDENTIAL-PARTIALLY-PUBLICLY-FUNDED_@</td>
+         @@END_TABLE@@
+         </tr>
+
+         <tr><td colspan='@_NUM-STATS_@'><em>Soley Privately funded (no public contributions)</em></td></tr>
+         <tr><th>Residential care</th>
+         @@TABLE@@
+            <td>@_RESIDENTIAL-PRIVATELY-FUNDED_@</td>
+         @@END_TABLE@@
+         </tr>
+         <tr><th>Community care</th>
+         @@TABLE@@
+            <td>@_NON-RESIDENTIAL-PRIVATELY-FUNDED_@</td>
+         @@END_TABLE@@
+         </tr>
+         
+         
+         <tr><th colspan='@_NUM-STATS_@'><strong>Social Security</strong></th></tr>
+         <tr><td colspan='@_NUM-STATS_@'><em>Recipients</em></td></tr>
+         <tr><th>Disability Living Allowance</th>
+         @@TABLE@@
+            <td>@_DLA-CASELOAD_@</td>
+         @@END_TABLE@@
+         </tr>
+         <tr><th>Attendance Allowance</th>
+         @@TABLE@@
+            <td>@_AA-CASELOAD_@</td>
+         @@END_TABLE@@
+         </tr>
+         
+         <tr><td colspan='@_NUM-STATS_@'><strong>Costs (&#163;000s)</strong></td></tr>
+         <tr><td colspan='@_NUM-STATS_@'><em>Social care</em></td></tr>
+                     
+         <tr><th> Residential Public expenditure (net of user charges and other income)</th>
+         @@TABLE@@
+            <td>@_RESIDENTIAL-PUBLIC-FUNDING_@</td>
+         @@END_TABLE@@
+         </tr>
+         <tr><th>Non Residential Public expenditure (net of user charges and other income)</th>
+         @@TABLE@@
+            <td>@_NON-RESIDENTIAL-PUBLIC-FUNDING_@</td>
+         @@END_TABLE@@
+         </tr>
+         
+         <tr>
+         <th>Private spend on social care</th>
+
+         <tr><th> Residential Private expenditure (net of user charges and other income)</th>
+         @@TABLE@@
+            <td>@_RESIDENTIAL-PRIVATE-FUNDING_@</td>
+         @@END_TABLE@@
+         </tr>
+         <tr><th>Non Residential Private expenditure (net of user charges and other income)</th>
+         @@TABLE@@
+            <td>@_NON-RESIDENTIAL-PRIVATE-FUNDING_@</td>
+         @@END_TABLE@@
+         </tr>
+
+         </tr>
+         <tr><td colspan='@_NUM-STATS_@'><em>Social security disability benefits</em></td></tr>
+         <tr>
+         <th>DLA (care component)</th>
+         @@TABLE@@
+            <td>@_DLA-CARE-EXPENDITURE_@</td>
+         @@END_TABLE@@
+         </tr>
+         <tr>
+         <th>DLA (mobility component)</th>
+         @@TABLE@@
+            <td>@_DLA-MOBILITY-EXPENDITURE_@</td>
+         @@END_TABLE@@
+         </tr>
+         <tr>
+         <th>Attendance Allowance</th>
+         @@TABLE@@
+            <td>@_AA-EXPENDITURE_@</td>
+         @@END_TABLE@@
+         </tr>
+      </tbody>
+   </table>

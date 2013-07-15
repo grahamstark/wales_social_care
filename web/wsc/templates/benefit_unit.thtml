@@ -1,0 +1,21 @@
+        <div id='benefitunit-@_BUNO_@'>
+                  <div class='info'>
+                   @_BENEFIT-UNIT-INFO_@
+                   </div> <!-- bu info -->
+                   <div class='results'>
+                   @_BENEFIT-UNIT-RESULTS_@
+                   </div> <!-- bu results -->
+                   
+                   <ul>
+                        @@TABLE@@
+                        <li><a href='#benefitunit-@_BUNO_@-person-@_PNO_@'>person# @_PNO_@</a></li>
+                        @@END_TABLE@@
+                   </ul>
+                   
+                   @@TABLE@@
+                   <div id='benefitunit-@_BUNO_@-person-@_PNO_@'>
+                        @_PERSON_@
+                   </div> <!-- person benefitunit-@_BUNO_@-person-@_PNO_@ -->
+                   @@END_TABLE@@
+        </div> <!-- benefit unit benefitunit-@_BUNO_@ -->
+

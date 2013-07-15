@@ -1,0 +1,15 @@
+<h3>@_TITLE_@</h3>
+<p class='total_cost'>@_AVERAGE-GAIN-STR_@:&nbsp;
+   @_AVERAGE-GAIN_@&nbsp;(@_UNITS-STR_@)&nbsp;<img src='@_ROOT_@images/@_GAIN-LOSE-ARROW_@.png' alt=''/>&nbsp;<a href='@_ROOT_@output_page/@_WHICH-YEAR_@/gain_lose_page/' class='summary_link'>@_MORE_@ &gt;&gt;</a>
+</p>
+<table class='gains_and_losses_summary'>
+  <tr>
+     <td><img src="@_CHART_@" width='350' height='240' alt='' /></td>
+     <td  class='summary_items'>
+      <ul>
+         <li><label for='pcgain'>@_PERCENT-GAINING-STR_@&nbsp;</label><span class='summary_value' id='pcgain'>@_PERCENT-GAINING_@</span></li>
+         <li><label for='pclose'>@_PERCENT-LOSING-STR_@&nbsp;</label><span class='summary_value' id='pclose'>@_PERCENT-LOSING_@</span></li>
+      </ul>
+     </td>
+  </tr>
+</table>

@@ -1,0 +1,94 @@
+<div id="header">
+        <h1>
+            <img src="@_ROOT_@images/flemosi.png" alt="" width="200" />
+        </h1>
+        <p>
+            A tool for ex ante evaluation of socio-economic policies in Flanders
+        </p>
+        <div id="langbar">
+         @_LANG-CHOICE_@
+        </div>
+        </div>
+        <!-- end #header -->
+        <div id="menu">
+        <div style="margin-left: 2em">
+            <div id="topnav">
+                <!-- begin menu -->
+                <ul id="csstopmenu">
+                    <li
+                    class="mainitems">
+                        <div class="headerlinks">
+                            <a
+                            href="http://www.flemosi.be/easycms/home">
+                            Home</a>
+                        </div>
+                    </li>
+                    <li class="mainitems ">
+                        <div class="headerlinks">
+                            Project
+                        </div>
+                        <ul class="submenus">
+                            <li>
+                                <a
+                                href="http://www.flemosi.be/easycms/doelstellingen">
+                                Doelstellingen</a>
+                            </li>
+                            <li>
+                                <a
+                                href="http://www.flemosi.be/easycms/historiek">
+                                Historiek</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="mainitems  current_page_item">
+                        <div class="headerlinks">
+                            Modellen
+                        </div>
+                        <ul class="submenus">
+                            <li>
+                                <a
+                                href="http://www.flemosi.be/easycms/wsc"
+                                 id="tooltip_wsc"
+                                name="tooltip_wsc">Mefisto</a>
+                            </li>
+                            <li>
+                                <a
+                                href="http://www.flemosi.be/easycms/motyff"
+                                 id="tooltip_motyff"
+                                name="tooltip_motyff">Motyff</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="mainitems ">
+                        <div class="headerlinks">
+                            <a
+                            href="http://www.flemosi.be/easycms/agenda">
+                            Agenda</a>
+                        </div>
+                    </li>
+                    <li class="mainitems ">
+                        <div class="headerlinks">
+                            <a
+                            href="http://www.flemosi.be/easycms/partners">
+                            Partners</a>
+                        </div>
+                    </li>
+                    <li class="mainitems ">
+                        <div class="headerlinks">
+                            <a
+                            href="http://www.flemosi.be/easycms/links">
+                            Links</a>
+                        </div>
+                    </li>
+                    <li class="mainitems ">
+                        <div class="headerlinks">
+                            <a
+                            href="http://www.flemosi.be/easycms/contacteerons">
+                            Contact</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+</div>
+

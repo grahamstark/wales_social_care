@@ -1,0 +1,40 @@
+<table width='100%'>
+<tr><td>
+   
+   <table class='dataTable'>
+      <caption>@_ASSETS_@</caption>
+      <tr class='tableRowOdd'  id='assets_main_residence_number_of_rooms'>
+         <td class='key'>@_ASSETS-MAIN-RESIDENCE-NUMBER-OF-ROOMS-STR_@</td>
+         <td class='value'>@_ASSETS-MAIN-RESIDENCE-NUMBER-OF-ROOMS-VALUE_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='assets_main_residence_tenure'>
+         <td class='key'>@_ASSETS-MAIN-RESIDENCE-TENURE-STR_@</td>
+         <td class='value'>@_ASSETS-MAIN-RESIDENCE-TENURE-VALUE_@</td>
+      </tr>
+      <tr class='tableRowOdd'  id='assets_financial_capital'>
+         <td class='key'>@_ASSETS-FINANCIAL-CAPITAL-STR_@</td>
+         <td class='value'>@_ASSETS-FINANCIAL-CAPITAL-VALUE_@</td>
+      </tr>
+   </table>
+</td></tr>
+
+
+<tr><td>
+   
+   <table class='dataTable'>
+   <caption>@_EXPENDITURE_@</caption>
+      <tr class='tableRowOdd'  id='expenditure_housing_cost'>
+         <td class='key'>@_EXPENDITURE-HOUSING-COST-STR_@</td>
+         <td class='value'>@_EXPENDITURE-HOUSING-COST-VALUE_@</td>
+      </tr>
+      <tr class='tableRowEven'  id='expenditure_housing_cost_rent'>
+         <td class='key'>@_EXPENDITURE-HOUSING-COST-RENT-STR_@</td>
+         <td class='value'>@_EXPENDITURE-HOUSING-COST-RENT-VALUE_@</td>
+      </tr>
+      <tr class='tableRowOdd'  id='expenditure_housing_cost_mortgage_payment_interest_and_capital_mortgage_interest'>
+         <td class='key'>@_EXPENDITURE-HOUSING-COST-MORTGAGE-PAYMENT-INTEREST-AND-CAPITAL-MORTGAGE-INTEREST-STR_@</td>
+         <td class='value'>@_EXPENDITURE-HOUSING-COST-MORTGAGE-PAYMENT-INTEREST-AND-CAPITAL-MORTGAGE-INTEREST-VALUE_@</td>
+      </tr>
+   </table>
+</td></tr>
+</table>

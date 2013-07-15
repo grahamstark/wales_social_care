@@ -1,0 +1,4173 @@
+INFO_LEVEL 2012: 9: 25: 68034.597092000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'default' and run_id =  3 
+INFO_LEVEL 2012: 9: 25: 68034.599885000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68034.602538000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'default' and run_id =  2 
+INFO_LEVEL 2012: 9: 25: 68034.605041000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68034.607460000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'default' and run_id =  1 
+INFO_LEVEL 2012: 9: 25: 68034.609719000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68034.614695000 : retrieve made this as query select username, run_id, household, other_counter, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user1' and run_id =  0 
+INFO_LEVEL 2012: 9: 25: 68034.616342000 : retrieve: Query Run OK
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  9| day =  25| hour =  18| minute =  53| second =  54| fraction =  0
+Date_Time_Rec : 2012-09-25 18:53:54
+INSERT 0 1
+INSERT 0 1
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  9| day =  25| hour =  18| minute =  53| second =  54| fraction =  0
+Date_Time_Rec : 2012-09-25 18:53:54
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68034.730484000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'default' and run_id =  3 
+INFO_LEVEL 2012: 9: 25: 68034.733339000 : retrieve: Query Run OK
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68034.736255000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'default' and run_id =  2 
+INFO_LEVEL 2012: 9: 25: 68034.738909000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68034.741641000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'default' and run_id =  1 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68034.744287000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68034.749634000 : retrieve made this as query select username, run_id, household, other_counter, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user1' and run_id =  0 
+INFO_LEVEL 2012: 9: 25: 68034.751391000 : retrieve: Query Run OK
+INSERT 0 1
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  9| day =  25| hour =  18| minute =  53| second =  54| fraction =  0
+Date_Time_Rec : 2012-09-25 18:53:54
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  9| day =  25| hour =  18| minute =  53| second =  52| fraction =  0
+Date_Time_Rec : 2012-09-25 18:53:52
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68034.947284000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user2' and run_id =  2 
+INFO_LEVEL 2012: 9: 25: 68034.950115000 : retrieve: Query Run OK
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68034.953146000 : retrieve made this as query select username, run_id, household, other_counter, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user2' and run_id =  2 
+INFO_LEVEL 2012: 9: 25: 68034.955077000 : retrieve: Query Run OK
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  9| day =  25| hour =  18| minute =  53| second =  54| fraction =  0
+Date_Time_Rec : 2012-09-25 18:53:54
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68036.522161000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'default' and run_id =  1 
+INFO_LEVEL 2012: 9: 25: 68036.524804000 : retrieve: Query Run OK
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68036.533801000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'default' and run_id =  1 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68036.536416000 : retrieve: Query Run OK
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68036.669023000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'default' and run_id =  1 and element =  0 
+INFO_LEVEL 2012: 9: 25: 68036.670443000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68036.670631000 : update; executing queryupdate probit_threshold set   threshold =  4.50000000000000E-01  where username = 'default' and run_id =  1 and element =  0 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68036.685434000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68036.685633000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'default' and run_id =  1 and element =  1 
+INFO_LEVEL 2012: 9: 25: 68036.687075000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68036.687260000 : update; executing queryupdate probit_threshold set   threshold =  5.00000000000000E-01  where username = 'default' and run_id =  1 and element =  1 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68036.702027000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68036.702268000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'default' and run_id =  1 and element =  2 
+INFO_LEVEL 2012: 9: 25: 68036.703749000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68036.703958000 : update; executing queryupdate probit_threshold set   threshold =  5.00000000000000E-01  where username = 'default' and run_id =  1 and element =  2 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68036.718814000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68036.719012000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'default' and run_id =  1 and element =  3 
+INFO_LEVEL 2012: 9: 25: 68036.720449000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68036.720634000 : update; executing queryupdate probit_threshold set   threshold =  5.00000000000000E-01  where username = 'default' and run_id =  1 and element =  3 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68036.735509000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68036.735707000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'default' and run_id =  1 and element =  4 
+INFO_LEVEL 2012: 9: 25: 68036.737141000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68036.737346000 : update; executing queryupdate probit_threshold set   threshold =  5.00000000000000E-01  where username = 'default' and run_id =  1 and element =  4 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68036.752112000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68036.752329000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'default' and run_id =  1 and element =  5 
+INFO_LEVEL 2012: 9: 25: 68036.753723000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68036.753917000 : update; executing queryupdate probit_threshold set   threshold =  5.00000000000000E-01  where username = 'default' and run_id =  1 and element =  5 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68036.768837000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68036.769037000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'default' and run_id =  1 and element =  6 
+INFO_LEVEL 2012: 9: 25: 68036.770408000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68036.770596000 : update; executing queryupdate probit_threshold set   threshold =  5.00000000000000E-01  where username = 'default' and run_id =  1 and element =  6 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68036.785448000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68036.785664000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'default' and run_id =  1 and element =  7 
+INFO_LEVEL 2012: 9: 25: 68036.787089000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68036.787294000 : update; executing queryupdate probit_threshold set   threshold =  5.00000000000000E-01  where username = 'default' and run_id =  1 and element =  7 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68036.802056000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68036.802272000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'default' and run_id =  1 and element =  8 
+INFO_LEVEL 2012: 9: 25: 68036.803704000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68036.803889000 : update; executing queryupdate probit_threshold set   threshold =  5.00000000000000E-01  where username = 'default' and run_id =  1 and element =  8 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68036.818781000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68036.818999000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'default' and run_id =  1 and element =  9 
+INFO_LEVEL 2012: 9: 25: 68036.820430000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68036.820617000 : update; executing queryupdate probit_threshold set   threshold =  5.00000000000000E-01  where username = 'default' and run_id =  1 and element =  9 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68036.835511000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68036.835726000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'default' and run_id =  1 and element =  10 
+INFO_LEVEL 2012: 9: 25: 68036.837076000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68036.837274000 : update; executing queryupdate probit_threshold set   threshold =  3.50000000000000E-01  where username = 'default' and run_id =  1 and element =  10 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68036.852180000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68036.852380000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'default' and run_id =  1 and element =  11 
+INFO_LEVEL 2012: 9: 25: 68036.853769000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68036.853956000 : update; executing queryupdate probit_threshold set   threshold =  3.00000000000000E-01  where username = 'default' and run_id =  1 and element =  11 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68036.868845000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68036.869045000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'default' and run_id =  1 and element =  12 
+INFO_LEVEL 2012: 9: 25: 68036.870425000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68036.870614000 : update; executing queryupdate probit_threshold set   threshold =  3.00000000000000E-01  where username = 'default' and run_id =  1 and element =  12 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68036.910510000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68036.910709000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'default' and run_id =  1 and element =  13 
+INFO_LEVEL 2012: 9: 25: 68036.912151000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68036.912337000 : update; executing queryupdate probit_threshold set   threshold =  3.00000000000000E-01  where username = 'default' and run_id =  1 and element =  13 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68036.927120000 : update; execute query OK
+INSERT 0 1
+INSERT 0 1
+save; executing queryinsert into uprate_assumption (username, run_id, percent_change, use_obr, target, element  ) values  ( 'test_user1',  1,  0.00000000000000E+00,  0,  0,  1 )
+INSERT 0 1
+save; executing queryinsert into uprate_assumption (username, run_id, percent_change, use_obr, target, element  ) values  ( 'test_user1',  1,  0.00000000000000E+00,  0,  1,  1 )
+INSERT 0 1
+save; executing queryinsert into uprate_assumption (username, run_id, percent_change, use_obr, target, element  ) values  ( 'test_user1',  1,  0.00000000000000E+00,  0,  2,  1 )
+INSERT 0 1
+save; executing queryinsert into uprate_assumption (username, run_id, percent_change, use_obr, target, element  ) values  ( 'test_user1',  1,  0.00000000000000E+00,  0,  3,  1 )
+INSERT 0 1
+save; executing queryinsert into uprate_assumption (username, run_id, percent_change, use_obr, target, element  ) values  ( 'test_user1',  1,  0.00000000000000E+00,  0,  4,  1 )
+INSERT 0 1
+save; executing queryinsert into uprate_assumption (username, run_id, percent_change, use_obr, target, element  ) values  ( 'test_user1',  1,  0.00000000000000E+00,  0,  5,  1 )
+INSERT 0 1
+save; executing queryinsert into uprate_assumption (username, run_id, percent_change, use_obr, target, element  ) values  ( 'test_user1',  1,  0.00000000000000E+00,  0,  6,  1 )
+INSERT 0 1
+save; executing queryinsert into uprate_assumption (username, run_id, percent_change, use_obr, target, element  ) values  ( 'test_user1',  1,  0.00000000000000E+00,  0,  7,  1 )
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68037.119081000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  0 
+INFO_LEVEL 2012: 9: 25: 68037.120405000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68037.120578000 : save; executing queryinsert into probit_threshold (username, run_id, element, threshold  ) values  ( 'test_user1',  1,  0,  4.50000000000000E-01 )
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68037.135600000 : save; execute query OK
+INFO_LEVEL 2012: 9: 25: 68037.135796000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  1 
+INFO_LEVEL 2012: 9: 25: 68037.137044000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68037.137250000 : save; executing queryinsert into probit_threshold (username, run_id, element, threshold  ) values  ( 'test_user1',  1,  1,  5.00000000000000E-01 )
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68037.152196000 : save; execute query OK
+INFO_LEVEL 2012: 9: 25: 68037.152412000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  2 
+INFO_LEVEL 2012: 9: 25: 68037.153682000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68037.153855000 : save; executing queryinsert into probit_threshold (username, run_id, element, threshold  ) values  ( 'test_user1',  1,  2,  5.00000000000000E-01 )
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68037.168862000 : save; execute query OK
+INFO_LEVEL 2012: 9: 25: 68037.169077000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  3 
+INFO_LEVEL 2012: 9: 25: 68037.170351000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68037.170539000 : save; executing queryinsert into probit_threshold (username, run_id, element, threshold  ) values  ( 'test_user1',  1,  3,  5.00000000000000E-01 )
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68037.185526000 : save; execute query OK
+INFO_LEVEL 2012: 9: 25: 68037.185726000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  4 
+INFO_LEVEL 2012: 9: 25: 68037.187025000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68037.187195000 : save; executing queryinsert into probit_threshold (username, run_id, element, threshold  ) values  ( 'test_user1',  1,  4,  5.00000000000000E-01 )
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68037.202266000 : save; execute query OK
+INFO_LEVEL 2012: 9: 25: 68037.202462000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  5 
+INFO_LEVEL 2012: 9: 25: 68037.203765000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68037.203936000 : save; executing queryinsert into probit_threshold (username, run_id, element, threshold  ) values  ( 'test_user1',  1,  5,  5.00000000000000E-01 )
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68037.218932000 : save; execute query OK
+INFO_LEVEL 2012: 9: 25: 68037.219129000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  6 
+INFO_LEVEL 2012: 9: 25: 68037.220364000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68037.220536000 : save; executing queryinsert into probit_threshold (username, run_id, element, threshold  ) values  ( 'test_user1',  1,  6,  5.00000000000000E-01 )
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68037.235641000 : save; execute query OK
+INFO_LEVEL 2012: 9: 25: 68037.235838000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  7 
+INFO_LEVEL 2012: 9: 25: 68037.237084000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68037.237280000 : save; executing queryinsert into probit_threshold (username, run_id, element, threshold  ) values  ( 'test_user1',  1,  7,  5.00000000000000E-01 )
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68037.252311000 : save; execute query OK
+INFO_LEVEL 2012: 9: 25: 68037.252507000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  8 
+INFO_LEVEL 2012: 9: 25: 68037.253779000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68037.253953000 : save; executing queryinsert into probit_threshold (username, run_id, element, threshold  ) values  ( 'test_user1',  1,  8,  5.00000000000000E-01 )
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68037.268977000 : save; execute query OK
+INFO_LEVEL 2012: 9: 25: 68037.269175000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  9 
+INFO_LEVEL 2012: 9: 25: 68037.270555000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68037.270729000 : save; executing queryinsert into probit_threshold (username, run_id, element, threshold  ) values  ( 'test_user1',  1,  9,  5.00000000000000E-01 )
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68037.285528000 : save; execute query OK
+INFO_LEVEL 2012: 9: 25: 68037.285725000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  10 
+INFO_LEVEL 2012: 9: 25: 68037.287039000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68037.287213000 : save; executing queryinsert into probit_threshold (username, run_id, element, threshold  ) values  ( 'test_user1',  1,  10,  3.50000000000000E-01 )
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68037.327243000 : save; execute query OK
+INFO_LEVEL 2012: 9: 25: 68037.327472000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  11 
+INFO_LEVEL 2012: 9: 25: 68037.328776000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68037.328948000 : save; executing queryinsert into probit_threshold (username, run_id, element, threshold  ) values  ( 'test_user1',  1,  11,  3.00000000000000E-01 )
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68037.343917000 : save; execute query OK
+INFO_LEVEL 2012: 9: 25: 68037.344134000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  12 
+INFO_LEVEL 2012: 9: 25: 68037.345529000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68037.345730000 : save; executing queryinsert into probit_threshold (username, run_id, element, threshold  ) values  ( 'test_user1',  1,  12,  3.00000000000000E-01 )
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68037.360650000 : save; execute query OK
+INFO_LEVEL 2012: 9: 25: 68037.361066000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  13 
+INFO_LEVEL 2012: 9: 25: 68037.362979000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68037.363226000 : save; executing queryinsert into probit_threshold (username, run_id, element, threshold  ) values  ( 'test_user1',  1,  13,  3.00000000000000E-01 )
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  9| day =  25| hour =  18| minute =  53| second =  54| fraction =  0
+Date_Time_Rec : 2012-09-25 18:53:54
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68037.377349000 : save; execute query OK
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68037.407730000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user2' and run_id =  2 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68037.412161000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68037.416853000 : retrieve made this as query select username, run_id, household, other_counter, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user2' and run_id =  2 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68037.419874000 : retrieve: Query Run OK
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  9| day =  25| hour =  18| minute =  53| second =  57| fraction =  0
+Date_Time_Rec : 2012-09-25 18:53:57
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68040.830286000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user2' and run_id =  2 
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68040.912445000 : retrieve: Query Run OK
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68040.996218000 : retrieve made this as query select username, run_id, household, other_counter, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user2' and run_id =  2 
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68041.063844000 : retrieve: Query Run OK
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  9| day =  25| hour =  18| minute =  54| second =  0| fraction =  0
+Date_Time_Rec : 2012-09-25 18:54:00
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68043.730881000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user2' and run_id =  2 
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68043.813439000 : retrieve: Query Run OK
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68043.896777000 : retrieve made this as query select username, run_id, household, other_counter, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user2' and run_id =  2 
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68043.972581000 : retrieve: Query Run OK
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  9| day =  25| hour =  18| minute =  54| second =  3| fraction =  0
+Date_Time_Rec : 2012-09-25 18:54:03
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68047.331641000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user2' and run_id =  2 
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68047.413836000 : retrieve: Query Run OK
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68047.497660000 : retrieve made this as query select username, run_id, household, other_counter, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user2' and run_id =  2 
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68047.548017000 : retrieve: Query Run OK
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  9| day =  25| hour =  18| minute =  54| second =  7| fraction =  0
+Date_Time_Rec : 2012-09-25 18:54:07
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68050.249133000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user2' and run_id =  2 
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68050.331245000 : retrieve: Query Run OK
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68050.407286000 : retrieve made this as query select username, run_id, household, other_counter, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user2' and run_id =  2 
+INFO_LEVEL 2012: 9: 25: 68050.409299000 : retrieve: Query Run OK
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  9| day =  25| hour =  18| minute =  54| second =  10| fraction =  0
+Date_Time_Rec : 2012-09-25 18:54:10
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68053.574825000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user2' and run_id =  2 
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68053.656906000 : retrieve: Query Run OK
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68053.740578000 : retrieve made this as query select username, run_id, household, other_counter, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user2' and run_id =  2 
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68053.791279000 : retrieve: Query Run OK
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  9| day =  25| hour =  18| minute =  54| second =  13| fraction =  0
+Date_Time_Rec : 2012-09-25 18:54:13
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68057.500689000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user2' and run_id =  2 
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68057.582834000 : retrieve: Query Run OK
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68057.666399000 : retrieve made this as query select username, run_id, household, other_counter, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user2' and run_id =  2 
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68057.717196000 : retrieve: Query Run OK
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  9| day =  25| hour =  18| minute =  54| second =  17| fraction =  0
+Date_Time_Rec : 2012-09-25 18:54:17
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68061.751340000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user2' and run_id =  2 
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68061.833777000 : retrieve: Query Run OK
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68061.917173000 : retrieve made this as query select username, run_id, household, other_counter, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user2' and run_id =  2 
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68061.968039000 : retrieve: Query Run OK
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  9| day =  25| hour =  18| minute =  54| second =  20| fraction =  0
+Date_Time_Rec : 2012-09-25 18:54:20
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68065.751076000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user2' and run_id =  2 
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68065.818679000 : retrieve: Query Run OK
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68065.926553000 : retrieve made this as query select username, run_id, household, other_counter, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user2' and run_id =  2 
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68065.977412000 : retrieve: Query Run OK
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  9| day =  25| hour =  18| minute =  54| second =  24| fraction =  0
+Date_Time_Rec : 2012-09-25 18:54:24
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68069.853028000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user2' and run_id =  2 
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68069.935548000 : retrieve: Query Run OK
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68070.035446000 : retrieve made this as query select username, run_id, household, other_counter, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user2' and run_id =  2 
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68070.086217000 : retrieve: Query Run OK
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  9| day =  25| hour =  18| minute =  54| second =  29| fraction =  0
+Date_Time_Rec : 2012-09-25 18:54:29
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68074.253876000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user2' and run_id =  2 
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68074.336377000 : retrieve: Query Run OK
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68074.419796000 : retrieve made this as query select username, run_id, household, other_counter, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user2' and run_id =  2 
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68074.470693000 : retrieve: Query Run OK
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  9| day =  25| hour =  18| minute =  54| second =  34| fraction =  0
+Date_Time_Rec : 2012-09-25 18:54:34
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68078.329191000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user2' and run_id =  2 
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68078.396601000 : retrieve: Query Run OK
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68078.495945000 : retrieve made this as query select username, run_id, household, other_counter, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user2' and run_id =  2 
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68078.546023000 : retrieve: Query Run OK
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  9| day =  25| hour =  18| minute =  54| second =  38| fraction =  0
+Date_Time_Rec : 2012-09-25 18:54:38
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68081.339781000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'default' and run_id =  1 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68081.359875000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68081.360128000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  0 
+INFO_LEVEL 2012: 9: 25: 68081.361844000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user2' and run_id =  2 
+INFO_LEVEL 2012: 9: 25: 68081.362858000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68081.363153000 : update; executing queryupdate probit_threshold set   threshold =  4.50000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  0 
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68081.380266000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68081.380635000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  1 
+INFO_LEVEL 2012: 9: 25: 68081.382795000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68081.383048000 : update; executing queryupdate probit_threshold set   threshold =  5.00000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  1 
+INFO_LEVEL 2012: 9: 25: 68081.383197000 : retrieve: Query Run OK
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68081.396871000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68081.397351000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  2 
+INFO_LEVEL 2012: 9: 25: 68081.399923000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68081.400203000 : update; executing queryupdate probit_threshold set   threshold =  5.00000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  2 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68081.413544000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68081.413866000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  3 
+INFO_LEVEL 2012: 9: 25: 68081.414757000 : retrieve made this as query select username, run_id, household, other_counter, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user2' and run_id =  2 
+INFO_LEVEL 2012: 9: 25: 68081.416268000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68081.416522000 : update; executing queryupdate probit_threshold set   threshold =  5.00000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  3 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68081.430180000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68081.430505000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  4 
+INFO_LEVEL 2012: 9: 25: 68081.431501000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68081.432569000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68081.432764000 : update; executing queryupdate probit_threshold set   threshold =  5.00000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  4 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68081.446923000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68081.447123000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  5 
+INFO_LEVEL 2012: 9: 25: 68081.448471000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68081.448657000 : update; executing queryupdate probit_threshold set   threshold =  5.00000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  5 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68081.463520000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68081.463762000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  6 
+INFO_LEVEL 2012: 9: 25: 68081.465283000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68081.465503000 : update; executing queryupdate probit_threshold set   threshold =  5.00000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  6 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68081.505247000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68081.505505000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  7 
+INFO_LEVEL 2012: 9: 25: 68081.506870000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68081.507057000 : update; executing queryupdate probit_threshold set   threshold =  5.00000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  7 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68081.521827000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68081.522028000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  8 
+INFO_LEVEL 2012: 9: 25: 68081.523466000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68081.523650000 : update; executing queryupdate probit_threshold set   threshold =  5.00000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  8 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68081.538627000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68081.538827000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  9 
+INFO_LEVEL 2012: 9: 25: 68081.540348000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68081.540554000 : update; executing queryupdate probit_threshold set   threshold =  5.00000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  9 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68081.555293000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68081.555493000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  10 
+INFO_LEVEL 2012: 9: 25: 68081.556856000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68081.557041000 : update; executing queryupdate probit_threshold set   threshold =  3.50000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  10 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68081.571965000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68081.572165000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  11 
+INFO_LEVEL 2012: 9: 25: 68081.573561000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68081.573751000 : update; executing queryupdate probit_threshold set   threshold =  3.00000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  11 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68081.588632000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68081.588831000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  12 
+INFO_LEVEL 2012: 9: 25: 68081.590219000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68081.590408000 : update; executing queryupdate probit_threshold set   threshold =  3.00000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  12 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68081.605328000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68081.605528000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  13 
+INFO_LEVEL 2012: 9: 25: 68081.606958000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68081.607144000 : update; executing queryupdate probit_threshold set   threshold =  3.00000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  13 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68081.621897000 : update; execute query OK
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68081.772143000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68081.790217000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68081.796072000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68081.798745000 : retrieve: Query Run OK
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68081.930588000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  0 
+INFO_LEVEL 2012: 9: 25: 68081.932290000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68081.932552000 : update; executing queryupdate probit_threshold set   threshold =  4.50000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  0 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68081.947008000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68081.947256000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  1 
+INFO_LEVEL 2012: 9: 25: 68081.948724000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68081.948921000 : update; executing queryupdate probit_threshold set   threshold =  5.00000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  1 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68081.963660000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68081.963874000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  2 
+INFO_LEVEL 2012: 9: 25: 68081.965360000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68081.965554000 : update; executing queryupdate probit_threshold set   threshold =  5.00000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  2 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68081.980330000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68081.980544000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  3 
+INFO_LEVEL 2012: 9: 25: 68081.981979000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68081.982166000 : update; executing queryupdate probit_threshold set   threshold =  5.00000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  3 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68081.997066000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68081.997318000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  4 
+INFO_LEVEL 2012: 9: 25: 68081.998766000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68081.998963000 : update; executing queryupdate probit_threshold set   threshold =  5.00000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  4 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68082.013586000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68082.013795000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  5 
+INFO_LEVEL 2012: 9: 25: 68082.015238000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68082.015425000 : update; executing queryupdate probit_threshold set   threshold =  5.00000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  5 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68082.030381000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68082.030598000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  6 
+INFO_LEVEL 2012: 9: 25: 68082.031966000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68082.032150000 : update; executing queryupdate probit_threshold set   threshold =  5.00000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  6 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68082.047045000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68082.047260000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  7 
+INFO_LEVEL 2012: 9: 25: 68082.048683000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68082.048881000 : update; executing queryupdate probit_threshold set   threshold =  5.00000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  7 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68082.063715000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68082.063930000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  8 
+INFO_LEVEL 2012: 9: 25: 68082.065458000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68082.065670000 : update; executing queryupdate probit_threshold set   threshold =  5.00000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  8 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68082.105413000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68082.105611000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  9 
+INFO_LEVEL 2012: 9: 25: 68082.107025000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68082.107209000 : update; executing queryupdate probit_threshold set   threshold =  5.00000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  9 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68082.121970000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68082.122201000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  10 
+INFO_LEVEL 2012: 9: 25: 68082.123648000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68082.123835000 : update; executing queryupdate probit_threshold set   threshold =  3.50000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  10 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68082.138715000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68082.138934000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  11 
+INFO_LEVEL 2012: 9: 25: 68082.140388000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68082.140575000 : update; executing queryupdate probit_threshold set   threshold =  3.00000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  11 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68082.155383000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68082.155600000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  12 
+INFO_LEVEL 2012: 9: 25: 68082.157112000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68082.157374000 : update; executing queryupdate probit_threshold set   threshold =  3.00000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  12 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68082.172111000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68082.172310000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  13 
+INFO_LEVEL 2012: 9: 25: 68082.173702000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68082.173889000 : update; executing queryupdate probit_threshold set   threshold =  3.00000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  13 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68082.188780000 : update; execute query OK
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68082.209008000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'default' and run_id =  3 
+INFO_LEVEL 2012: 9: 25: 68082.211764000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68082.214514000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'default' and run_id =  2 
+INFO_LEVEL 2012: 9: 25: 68082.217113000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68082.219829000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'default' and run_id =  1 
+INFO_LEVEL 2012: 9: 25: 68082.222472000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68082.225186000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 
+INFO_LEVEL 2012: 9: 25: 68082.227804000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68082.233143000 : retrieve made this as query select username, run_id, household, other_counter, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user1' and run_id =  1 
+INFO_LEVEL 2012: 9: 25: 68082.234952000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68082.235401000 : retrieve made this as query select username, run_id, household, other_counter, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user1' and run_id =  0 
+INFO_LEVEL 2012: 9: 25: 68082.237103000 : retrieve: Query Run OK
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  9| day =  25| hour =  18| minute =  53| second =  56| fraction =  0
+Date_Time_Rec : 2012-09-25 18:53:56
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  9| day =  25| hour =  18| minute =  54| second =  41| fraction =  0
+Date_Time_Rec : 2012-09-25 18:54:41
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68084.292428000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user2' and run_id =  2 
+INFO_LEVEL 2012: 9: 25: 68084.295118000 : retrieve: Query Run OK
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68084.298119000 : retrieve made this as query select username, run_id, household, other_counter, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user2' and run_id =  2 
+INFO_LEVEL 2012: 9: 25: 68084.299972000 : retrieve: Query Run OK
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  9| day =  25| hour =  18| minute =  54| second =  42| fraction =  0
+Date_Time_Rec : 2012-09-25 18:54:42
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68087.331510000 : retrieve made this as query select username, run_id, household, other_counter, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user1' and run_id =  0 
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  9| day =  25| hour =  18| minute =  54| second =  44| fraction =  0
+Date_Time_Rec : 2012-09-25 18:54:44
+INFO_LEVEL 2012: 9: 25: 68087.334686000 : retrieve: Query Run OK
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68087.852847000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 
+INFO_LEVEL 2012: 9: 25: 68087.854426000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user2' and run_id =  2 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68087.859599000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68087.860008000 : retrieve: Query Run OK
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68087.864523000 : retrieve made this as query select username, run_id, household, other_counter, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user1' and run_id =  1 
+INFO_LEVEL 2012: 9: 25: 68087.865797000 : retrieve made this as query select username, run_id, household, other_counter, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user2' and run_id =  2 
+INFO_LEVEL 2012: 9: 25: 68087.866801000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68087.867072000 : retrieve made this as query select username, run_id, household, other_counter, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user1' and run_id =  1 
+INFO_LEVEL 2012: 9: 25: 68087.869074000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68087.869955000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68087.870197000 : save; executing queryinsert into state (username, run_id, household, other_counter, year, phase, health, error_code, read_error, session_id ) values  ( 'test_user1',  1,  0,  0,  2003,  0,  0,  0,  0, '' )
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68087.881047000 : save; execute query OK
+INFO_LEVEL 2012: 9: 25: 68087.881271000 : retrieve made this as query select username, run_id, household, other_counter, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user1' and run_id =  0 
+INFO_LEVEL 2012: 9: 25: 68087.883023000 : retrieve: Query Run OK
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  9| day =  25| hour =  18| minute =  54| second =  46| fraction =  0
+Date_Time_Rec : 2012-09-25 18:54:46
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68087.904135000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'default' and run_id =  1 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68087.906789000 : retrieve: Query Run OK
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+Iterate_Parameters; looking for key |y[2012].benefits.state_pension.age_men
+default is  65
+label_str = Qualifying Age - Men
+Iterate_Parameters; looking for key |y[2012].benefits.state_pension.age_women
+default is  60
+label_str = Qualifying Age - Women
+Iterate_Parameters; looking for key |y[2012].benefits.state_pension.citizens_pension
+label_str = Citizen's Pension?
+Iterate_Parameters; looking for key |y[2012].benefits.state_pension.class_a
+label_str = Class A Amount
+edit.length =  8 edit.prec  2
+Iterate_Parameters; looking for key |y[2012].benefits.state_pension.preserve_for_existing_claimants
+label_str = Preserve Benefits for existing claimants?
+INFO_LEVEL 2012: 9: 25: 68088.117631000 : retrieve made this as query select username, run_id, household, other_counter, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user1' and run_id =  1 
+INFO_LEVEL 2012: 9: 25: 68088.118338000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68088.118428000 : update; executing queryupdate state set   household =  0 , other_counter =  0 , year =  2003 , phase =  0 , health =  0 , error_code =  0 , read_error =  0 , session_id = ''  where username = 'test_user1' and run_id =  1 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68088.156173000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68088.159554000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 
+INFO_LEVEL 2012: 9: 25: 68088.162244000 : retrieve: Query Run OK
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68088.297936000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  0 
+INFO_LEVEL 2012: 9: 25: 68088.299384000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68088.299575000 : update; executing queryupdate probit_threshold set   threshold =  4.50000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  0 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68088.314551000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68088.314751000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  1 
+INFO_LEVEL 2012: 9: 25: 68088.316185000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68088.316374000 : update; executing queryupdate probit_threshold set   threshold =  5.00000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  1 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68088.331082000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68088.331298000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  2 
+INFO_LEVEL 2012: 9: 25: 68088.332778000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68088.332990000 : update; executing queryupdate probit_threshold set   threshold =  5.00000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  2 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68088.347748000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68088.348000000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  3 
+INFO_LEVEL 2012: 9: 25: 68088.349423000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68088.349636000 : update; executing queryupdate probit_threshold set   threshold =  5.00000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  3 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68088.364545000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68088.364745000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  4 
+INFO_LEVEL 2012: 9: 25: 68088.366241000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68088.366457000 : update; executing queryupdate probit_threshold set   threshold =  5.00000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  4 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68088.381147000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68088.381389000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  5 
+INFO_LEVEL 2012: 9: 25: 68088.382841000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68088.383032000 : update; executing queryupdate probit_threshold set   threshold =  5.00000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  5 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68088.397739000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68088.397990000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  6 
+INFO_LEVEL 2012: 9: 25: 68088.399441000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68088.399633000 : update; executing queryupdate probit_threshold set   threshold =  5.00000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  6 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68088.414484000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68088.414701000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  7 
+INFO_LEVEL 2012: 9: 25: 68088.416073000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68088.416266000 : update; executing queryupdate probit_threshold set   threshold =  5.00000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  7 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68088.431152000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68088.431367000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  8 
+INFO_LEVEL 2012: 9: 25: 68088.432740000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68088.432932000 : update; executing queryupdate probit_threshold set   threshold =  5.00000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  8 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68088.447821000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68088.448037000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  9 
+INFO_LEVEL 2012: 9: 25: 68088.449586000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68088.449801000 : update; executing queryupdate probit_threshold set   threshold =  5.00000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  9 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68088.464488000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68088.464693000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  10 
+INFO_LEVEL 2012: 9: 25: 68088.466097000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68088.466291000 : update; executing queryupdate probit_threshold set   threshold =  3.50000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  10 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68088.481214000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68088.481436000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  11 
+INFO_LEVEL 2012: 9: 25: 68088.482874000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68088.483063000 : update; executing queryupdate probit_threshold set   threshold =  3.00000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  11 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68088.497777000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68088.497995000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  12 
+INFO_LEVEL 2012: 9: 25: 68088.499480000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68088.499692000 : update; executing queryupdate probit_threshold set   threshold =  3.00000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  12 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68088.514596000 : update; execute query OK
+INFO_LEVEL 2012: 9: 25: 68088.514797000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 and element =  13 
+INFO_LEVEL 2012: 9: 25: 68088.516231000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68088.516420000 : update; executing queryupdate probit_threshold set   threshold =  3.00000000000000E-01  where username = 'test_user1' and run_id =  1 and element =  13 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68088.531268000 : update; execute query OK
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  9| day =  25| hour =  18| minute =  54| second =  47| fraction =  0
+Date_Time_Rec : 2012-09-25 18:54:47
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68090.560293000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'default' and run_id =  3 
+INFO_LEVEL 2012: 9: 25: 68090.563069000 : retrieve: Query Run OK
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68090.565845000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'default' and run_id =  2 
+INFO_LEVEL 2012: 9: 25: 68090.568440000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68090.571163000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'default' and run_id =  1 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68090.573814000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68090.576523000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 
+INFO_LEVEL 2012: 9: 25: 68090.579177000 : retrieve: Query Run OK
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68090.584506000 : retrieve made this as query select username, run_id, household, other_counter, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user1' and run_id =  1 
+INFO_LEVEL 2012: 9: 25: 68090.586371000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68090.586848000 : retrieve made this as query select username, run_id, household, other_counter, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user1' and run_id =  0 
+INFO_LEVEL 2012: 9: 25: 68090.588577000 : retrieve: Query Run OK
+INSERT 0 1
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  9| day =  25| hour =  18| minute =  54| second =  50| fraction =  0
+Date_Time_Rec : 2012-09-25 18:54:50
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  9| day =  25| hour =  18| minute =  54| second =  50| fraction =  0
+Date_Time_Rec : 2012-09-25 18:54:50
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68090.643556000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'default' and run_id =  3 
+INFO_LEVEL 2012: 9: 25: 68090.646279000 : retrieve: Query Run OK
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68090.649311000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'default' and run_id =  2 
+INFO_LEVEL 2012: 9: 25: 68090.651944000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68090.654685000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'default' and run_id =  1 
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68090.657602000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68090.660346000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user1' and run_id =  1 
+INFO_LEVEL 2012: 9: 25: 68090.662974000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68090.668350000 : retrieve made this as query select username, run_id, household, other_counter, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user1' and run_id =  1 
+INFO_LEVEL 2012: 9: 25: 68090.670276000 : retrieve: Query Run OK
+INFO_LEVEL 2012: 9: 25: 68090.670740000 : retrieve made this as query select username, run_id, household, other_counter, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user1' and run_id =  0 
+INFO_LEVEL 2012: 9: 25: 68090.672454000 : retrieve: Query Run OK
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  9| day =  25| hour =  18| minute =  54| second =  50| fraction =  0
+Date_Time_Rec : 2012-09-25 18:54:50
+INSERT 0 1
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  9| day =  25| hour =  18| minute =  54| second =  47| fraction =  0
+Date_Time_Rec : 2012-09-25 18:54:47
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68090.719776000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user2' and run_id =  2 
+INFO_LEVEL 2012: 9: 25: 68090.722441000 : retrieve: Query Run OK
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68090.725749000 : retrieve made this as query select username, run_id, household, other_counter, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user2' and run_id =  2 
+INFO_LEVEL 2012: 9: 25: 68090.727644000 : retrieve: Query Run OK
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  9| day =  25| hour =  18| minute =  54| second =  50| fraction =  0
+Date_Time_Rec : 2012-09-25 18:54:50
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68093.518790000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user2' and run_id =  2 
+INFO_LEVEL 2012: 9: 25: 68093.521498000 : retrieve: Query Run OK
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68093.524464000 : retrieve made this as query select username, run_id, household, other_counter, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user2' and run_id =  2 
+INFO_LEVEL 2012: 9: 25: 68093.526374000 : retrieve: Query Run OK
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  9| day =  25| hour =  18| minute =  54| second =  53| fraction =  0
+Date_Time_Rec : 2012-09-25 18:54:53
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68096.910835000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user2' and run_id =  2 
+INFO_LEVEL 2012: 9: 25: 68096.913494000 : retrieve: Query Run OK
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68096.916276000 : retrieve made this as query select username, run_id, household, other_counter, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user2' and run_id =  2 
+INFO_LEVEL 2012: 9: 25: 68096.918216000 : retrieve: Query Run OK
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  9| day =  25| hour =  18| minute =  54| second =  56| fraction =  0
+Date_Time_Rec : 2012-09-25 18:54:56
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68099.803149000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user2' and run_id =  2 
+INFO_LEVEL 2012: 9: 25: 68099.806351000 : retrieve: Query Run OK
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68099.809369000 : retrieve made this as query select username, run_id, household, other_counter, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user2' and run_id =  2 
+INFO_LEVEL 2012: 9: 25: 68099.811269000 : retrieve: Query Run OK
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  9| day =  25| hour =  18| minute =  54| second =  59| fraction =  0
+Date_Time_Rec : 2012-09-25 18:54:59
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68102.603386000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user2' and run_id =  2 
+INFO_LEVEL 2012: 9: 25: 68102.606093000 : retrieve: Query Run OK
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68102.609053000 : retrieve made this as query select username, run_id, household, other_counter, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user2' and run_id =  2 
+INFO_LEVEL 2012: 9: 25: 68102.610961000 : retrieve: Query Run OK
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  9| day =  25| hour =  18| minute =  55| second =  2| fraction =  0
+Date_Time_Rec : 2012-09-25 18:55:02
+INSERT 0 1
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68105.612266000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user2' and run_id =  2 
+INFO_LEVEL 2012: 9: 25: 68105.614984000 : retrieve: Query Run OK
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68105.617966000 : retrieve made this as query select username, run_id, household, other_counter, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user2' and run_id =  2 
+INFO_LEVEL 2012: 9: 25: 68105.619858000 : retrieve: Query Run OK
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  9| day =  25| hour =  18| minute =  55| second =  5| fraction =  0
+Date_Time_Rec : 2012-09-25 18:55:05
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68108.796019000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user2' and run_id =  2 
+INFO_LEVEL 2012: 9: 25: 68108.798785000 : retrieve: Query Run OK
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68108.801715000 : retrieve made this as query select username, run_id, household, other_counter, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user2' and run_id =  2 
+INFO_LEVEL 2012: 9: 25: 68108.803620000 : retrieve: Query Run OK
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+sqlTime : SQL_TIMESTAMP_STRUCT:: year =  2012| month =  9| day =  25| hour =  18| minute =  55| second =  8| fraction =  0
+Date_Time_Rec : 2012-09-25 18:55:08
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68112.354753000 : retrieve made this as query select username, run_id, element, threshold  from probit_threshold   where username = 'test_user2' and run_id =  2 
+INFO_LEVEL 2012: 9: 25: 68112.357571000 : retrieve: Query Run OK
+INSERT 0 1
+INFO_LEVEL 2012: 9: 25: 68112.360382000 : retrieve made this as query select username, run_id, household, other_counter, year, phase, health, error_code, read_error, session_id from state   where username = 'test_user2' and run_id =  2 
+INFO_LEVEL 2012: 9: 25: 68112.362231000 : retrieve: Query Run OK
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1

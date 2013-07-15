@@ -1,0 +1,12 @@
+
+
+<div id='progress_indicator'></div>
+<script type="text/javascript">
+   updater = new Ajax.PeriodicalUpdater(
+             'progress_indicator', 
+             '@_ROOT_@progress/', 
+             {evalScripts:true,frequency:5 } );  
+   updater.start();
+</script>
+
+

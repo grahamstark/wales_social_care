@@ -1,0 +1,366 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="@_LANG_@">
+<head>
+
+@@INCLUDE@@ @_SEP_@@_TEMPLATE_ROOT_@@_LANG_@@_SEP_@header.thtml "@_PAGE-TITLE_@"
+
+@@INCLUDE@@ @_SEP_@@_TEMPLATE_ROOT_@@_SEP_@header_includes.thtml 
+
+</head>
+<body>
+<form action="@_URI_@" method="get" id="mainform" name="mainform">
+        <div class="container">
+            <div class="row">
+                <div class='twelvecol last'>
+                        @_MODEL-MENU_@
+                </div>
+            </div> <!-- menu row -->
+        @@IF@@ @_JOB-IS-RUNNING_@
+            <div class="row">
+                    <div class='onecol'></div>
+                        <div class='statusDiv tencol' id='progress'>        
+                        @@INCLUDE@@ progress_bar.thtml        
+                        </div>
+                    <div class='onecol last' ></div>
+            </div>
+        @@END_IF@@
+              <div class="row">
+                    <div class='onecol'></div>
+                        <div class='tencol information' >
+                        <h2>Welsh Social Care Simulation Model</h2>
+                        
+                        <p>
+                        Welcome <b>@_USER-DESCRIPTION_@</b> to the Welsh Social Care Model.
+                        </p>
+                        <p>
+                        On this home page, you can edit and create model runs. A Run contain all the parameters needed
+                        to describe the social care and fiscal system, and some 'run settings' such as inflation assumptions. Once you've run the model, the run also contains the output.
+                        You can then use 'change parameters' and 'run settings' options in the main menu to edit and submit the run.
+                        </p>
+                        <p>
+                        You can use the buttons next to the list of runs to:
+                        </p>
+                        <ul>
+                                <li>Create a run by making a copy of some pre-built runs, or one of your previous runs;</li>
+                                <li>Set any previous completed run to be displayed; and</li>
+                                <li>Delete previous runs.</li>
+                        </ul>
+                        <p>
+                        <em>Note you can't edit or delete the default runs; make a copy of them first.</em>
+                        </p>
+                        <p>
+                        You can view a <a href='http://virtual-worlds.biz/demonstrations/wsc/video/wsc.html' onclick="GalleryWindow( this.href, '', '1280', '800' )">short video about the model</a>.
+                        </p>
+                        </div>
+                        
+                    <div class='onecol last'></div>
+            </div>
+        <div class="row">
+                    <div class='onecol'></div>
+                    <div class='tencol' >        
+                                
+                                <table class='resultsTable' width='100%'>
+                                   <tr>
+                                        <th>Run Name</th>
+                                        <th>Run Number</th>
+                                        <th>Completed</th><th colspan='3' align='center'>Actions</th><td></td>
+                                   </tr>
+                                     @@TABLE@@
+                                     @@IF@@ @_MOD(2):TABLE_LINE_@  = 1
+                                              @@SET@@ NCLASS=tableRowOdd
+                                     @@ELSE@@
+                                              @@SET@@ NCLASS=tableRowEven
+                                     @@END_IF@@
+                        
+                                    <tr class='@_NCLASS_@'>
+                                               <td>@_RUN-NAME_@</td>
+                                               <td>
+                                               
+                                               @@IF@@ @_RUN-NUMBER_@ < 100000
+                                               @_RUN-NUMBER_@
+                                               @@END_IF@@
+                                               </td>
+                                               <td>
+                                               @@IF@@ @_IS-COMPLETED-RUN_@
+                                                &#x2713;
+                                               @@END_IF@@
+                                               </td>
+                                               <td>
+                                               @@IF@@ @_IS-COPYABLE_@
+                                               <input type='submit' name='@_RUN-NUMBER_@' value='Copy'/></td>
+                                               @@END_IF@@
+                                               <td>
+                                               @@IF@@ @_IS-OWNERS-RUN_@
+                                                       @@IF@@ not @_IS-COMPLETED-RUN_@ and not @_IS-EDITED-RUN_@
+                                                                <input type='submit' name='@_RUN-NUMBER_@' value='Edit'/>
+                                                       @@END_IF@@
+                                               @@END_IF@@
+                                               </td>
+                                               <td>
+                                               @@IF@@ @_IS-OWNERS-RUN_@
+                                                       @@IF@@ @_IS-COMPLETED-RUN_@
+                                                                <input type='submit' name='@_RUN-NUMBER_@' value='Display'/>
+                                                       @@END_IF@@
+                                               @@END_IF@@
+                                               </td>
+                                               <td>
+                                               @@IF@@ @_IS-OWNERS-RUN_@ AND @_ALLOW-DELETE_@
+                                                          <input type='submit' name='@_RUN-NUMBER_@' value='Delete'/>
+                                               @@END_IF@@
+                                               </td>
+                                               <td>
+                                               @@IF@@ @_IS-EDITED-RUN_@
+                                                       &larr;&nbsp;Edited Run
+                                               @@END_IF@@
+                                               @@IF@@ @_IS-DISPLAYED-RUN_@ and @_RUN-NUMBER_@ < 100000
+                                                       &larr;&nbsp;Displayed Run
+                                               @@END_IF@@
+                                               @@IF@@ @_IS-RUNNING_@
+                                                       &larr;&nbsp;Currently Running
+                                               @@END_IF@@
+                                               </td>
+                                     </tr>
+                                     @@END_TABLE@@
+                                  </table>
+                     </div>
+                     <div class='onecol'></div>
+              </div>
+              <div class="row">
+                    <div class='twocol'></div>
+                        <div class='eightcol' >  
+                        <h4>Version Information</h4>
+                        <pre>
+                        $Revision: 16195 $
+                        $Date: 2013-06-10 10:37:21 +0100 (Mon, 10 Jun 2013) $
+                        </pre>
+                        </div>
+                    <div class='twocol last'></div>
+            </div>
+            <div class="row">
+                   <div class='onecol last'></div>
+                    <div class='tencol'>
+                    @@INCLUDE@@ @_SEP_@@_TEMPLATE_ROOT_@@_LANG_@@_SEP_@footer.thtml
+                   </div>
+                   <div class='onecol last'></div>
+            </div>
+        </div>
+</form>
+</body>
+</html>
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 

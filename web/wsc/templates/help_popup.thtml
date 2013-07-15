@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+
+@@INCLUDE@@ @_SEP_@@_TEMPLATE_ROOT_@@_SEP_@@_LANG_@@_SEP_@header.thtml "@_PAGE-TITLE_@"
+@@INCLUDE@@ @_SEP_@@_TEMPLATE_ROOT_@@_SEP_@header_includes.thtml 
+  
+</head>
+
+<body class='help_section'>
+         <h1>@_PAGE-TITLE_@</h1>
+         <div id="tabs">  
+
+            <ul>            
+            @@TABLE'REVERSE@@
+               <li><a href='#@_LINKS_@'>@_TITLES_@</a></li>
+            @@END_TABLE@@
+            </ul>
+
+            @@TABLE'REVERSE@@
+               <div id='@_LINKS_@' class='help_section'>
+               <h3>@_TITLES_@</h3>
+               @_CONTENTS_@
+               </div>
+            @@END_TABLE@@
+         
+         </div> <!-- tab container -->
+</body>
+</html>

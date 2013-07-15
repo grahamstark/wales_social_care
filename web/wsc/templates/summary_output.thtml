@@ -1,0 +1,21 @@
+<a href='@_ROOT_@download_run'>Download Run</a>
+<table class='summary_table' width='920px'>
+   
+   <tr>
+      <td class='gains_and_losses_summary' width='50%' valign='top' align='center'>
+       @_GAIN-LOSE-SUMMARY_@
+      </td>
+      <td class='budget_summary' width='50%' valign='top' align='center'>
+      @_BUDGET-SUMMARY_@
+      </td>
+   </tr>
+   <tr>
+      <td class='poverty_summary'  valign='top' align='center'>
+          @_POVERTY-SUMMARY_@
+      </td>
+  
+      <td class='inequality_summary' valign='top' align='center'>
+         @_INEQUALITY-SUMMARY_@
+      </td>
+   </tr>
+</table>

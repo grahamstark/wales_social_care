@@ -1,0 +1,10 @@
+         @_HH-DATA_@
+         <p></p>
+         <h3>Aggregate Household Level Results</h3>
+         
+         @_MAIN-RESULTS_@
+         <p></p>
+         
+         <h3>Aggregate Household Incomes</h3>
+         @_INCOMES_@
+         

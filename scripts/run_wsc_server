@@ -1,0 +1,2 @@
+. /etc/profile.d/grahams.sh
+exec $WSC_MODEL2/bin/wsc_server 1> $WSC_MODEL2/log/wsc_server_out.log 2> $WSC_MODEL2/log/wsc_server_errs.log

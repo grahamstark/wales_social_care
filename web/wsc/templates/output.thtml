@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+
+@@INCLUDE@@ @_SEP_@@_TEMPLATE_ROOT_@@_SEP_@@_LANG_@@_SEP_@header.thtml "@_PAGE-TITLE_@"
+
+@@INCLUDE@@ @_SEP_@@_TEMPLATE_ROOT_@@_SEP_@header_includes.thtml 
+
+</head>
+
+<body class='output-page'>
+<form action="" method="post" id="outputform" name="outputform">
+        <input type='hidden' name='random_string' value="@_RANDOM_STRING_@" />
+
+<div class='container'>
+    <div class="row">
+        <div class='twelvecol last'>
+                @_MODEL-MENU_@
+        </div>
+        @_BREADCRUMB_@
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+            <div class='onecol'></div>
+                <div class='tencol run-title' >Output for run: @_TITLE_@ </div>
+            <div class='onecol last'></div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class='eightcol'></div>
+        <div class='fourcol last'>@_CONTROL-SECTION_@</div>
+    </div>
+    <div class="row">
+        <div class='twelvecol last'>
+                @_CONTENT-SECTION_@                          
+        </div>
+    </div>
+        <input type='hidden' name='which_page' id='which_page' value="@_WHICH_PAGE_@" /> 
+        <input type='hidden' name='which_section' id='which_section' value="output_page" />
+</div>
+
+<div class="container">
+    <div class="row">
+           <div class='onecol'></div>
+            <div class='tencol'>
+            
+@@INCLUDE@@ @_SEP_@@_TEMPLATE_ROOT_@@_LANG_@@_SEP_@footer.thtml
+
+            </div>
+           <div class='onecol last'></div>
+    </div>
+</div>
+
+</form>
+</body>
+</html>

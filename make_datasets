@@ -1,0 +1,5 @@
+rm data/full/* -f
+rm data/wales/* -f
+bin/make_wsc_data_from_bhps etc/run_settings.txt etc/global_settings.txt False &> errs_wales
+bin/make_wsc_data_from_bhps etc/run_settings.txt etc/global_settings.txt True &> errs_all
+

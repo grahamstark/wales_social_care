@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+
+@@INCLUDE@@ @_SEP_@@_TEMPLATE_ROOT_@@_SEP_@@_LANG_@@_SEP_@header.thtml "@_TITLE_@"
+@@INCLUDE@@ @_SEP_@@_TEMPLATE_ROOT_@@_SEP_@header_includes.thtml 
+  
+</head>
+
+<body class='summary_content'>
+<div class="container">
+    <div class="row">
+           <div class='twelvecol last'>  
+        <h1>@_TITLE_@</h1>
+        <div class='run-title'>
+        @_RUN-DESCRIPTION_@
+        </div>
+    </div>
+    <table width='100%'>
+        <tbody>
+        <tr>
+        <td >
+        @_TABLE_@
+        </td>
+        <td >
+        <img src='@_CHART_@' />
+        
+        </td>
+        @@IF@@ @_MULTI-ITERATIONS_@  
+        <td>
+                <table>
+                        <tr>
+                                <td style='background:#cef1f8;' width='20px'></td><td>Range</td>
+                        </tr>
+                        <tr>
+                                <td style='background:#a7e6f2;' width='20px'></td><td>10-90th %</td>
+                        </tr>
+                        <tr>
+                                <td style='background:#25c3e0;' width='20px'></td><td>Mean</td>
+                        </tr>
+                        
+                </table>
+        </td>
+        @@END_IF@@
+        </tr>
+        </tbody>
+        @@IF@@ @_DO-COMPARISONS_@
+         <tfoot>
+                <tr>
+                        <td></td>
+                        <td align='middle'>
+                                <table width='60'>
+                                        <tr>
+                                                 <td style='background:#@_PRE-COLOUR_@;' width='20px'></td><td>Pre</td>
+                                                 <td style='background:#@_POST-COLOUR_@;' width='20px'></td><td>Post</td>
+                                        </td>
+                                        </tr>
+                                </table>
+                        </td>
+                        @@IF@@ @_MULTI-ITERATIONS_@  
+                        <td></td>
+                        @@END_IF@@
+                </tr>
+        </tfoot>
+        @@END_IF@@
+     </table>
+
+                 @@INCLUDE@@ @_SEP_@@_TEMPLATE_ROOT_@@_LANG_@@_SEP_@footer.thtml
+ 
+<!--
+<div class="container">
+    <div class="row">
+        <div class='twelvecol last'>
+        <h1>@_TITLE_@</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class='twelvecol last run-title'>
+        @_RUN-DESCRIPTION_@
+        </div>
+    </div>
+    <div class="row">
+        <div class='sixcol'>
+        @_TABLE_@
+        </div>
+        @@IF@@ @_MULTI-ITERATIONS_@  
+        <div class='fivecol'>
+        <img src='@_CHART_@' />
+        </div>
+        <div class='onecol last'>
+                <table>
+                        <tr>
+                                <td style='background:#cef1f8;' width='20px'></td><td>Range</td>
+                        </tr>
+                        <tr>
+                                <td style='background:#a7e6f2;' width='20px'></td><td>10-90th %</td>
+                        </tr>
+                        <tr>
+                                <td style='background:#25c3e0;' width='20px'></td><td>Mean</td>
+                        </tr>
+                        
+                </table>
+        </div>
+        @@ELSE@@
+        <div class='sixcol last'>
+        <img src='@_CHART_@' />
+        </div>
+        @@END_IF@@
+     </div>
+
+
+<div class="container">
+    <div class="row">
+           <div class='onecol last'></div>
+            <div class='tencol'>
+@@INCLUDE@@ @_SEP_@@_TEMPLATE_ROOT_@@_LANG_@@_SEP_@footer.thtml
+           </div>
+           <div class='oncol last'></div>
+    </div>
+</div>     
+-->
+
+</body>
+</html>

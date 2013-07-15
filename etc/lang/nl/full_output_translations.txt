@@ -1,0 +1,263 @@
+identifier_household= huishoudens
+identifier_person= Persoon
+identifier_partner= Partner
+identifier_mother= Moeder
+identifier_father= Vader
+demographic_country= Land
+demographic_weight= Gewicht
+demographic_age= Leeftijd
+demographic_gender= Geslacht
+demographic_marital_status= Burgerlijke staat
+demographic_education_current_status= Onderwijs huidige status
+labour_market_economic_status= economische status
+labour_market_civil_servant= Ambtenaar
+demographic_consensual_union= consensuele Unie
+tax_income_tax_tax_allowance_tax_credit_simulated= Inkomstenbelasting: fiscale aftrek: belastingkrediet: gesimuleerde
+tax_income_tax_tax_credit_replacement_income_simulated= Inkomstenbelasting: belastingvermindering: de vervanging inkomen: gesimuleerde
+tax_income_tax_tax_credit_child_simulated= Inkomstenbelasting: belastingkrediet: kind: gesimuleerde
+tax_income_tax_tax_credit_low_pay_or_income_simulated= Inkomstenbelasting: belastingkrediet: laag loon / inkomen: gesimuleerde
+tax_income_tax_schedule_simulated= Inkomstenbelasting: schema: gesimuleerde
+income_employment= Werkgelegenheid
+income_investment= Investment
+income_other= Andere
+income_property= Object
+income_private_pension= particuliere pensioenregelingen
+income_private_transfers= prive transfers
+income_self_employment= Zelf werkgelegenheid
+expenditure_maintenance_payment= Onderhoud betaling
+benefit_child_simulated= Kind: gesimuleerde
+benefit_child_birth_or_adoption_simulated= Kind: bij geboorte of adoptie: gesimuleerde
+benefit_social_assistance_simulated= Sociale hulp: gesimuleerde
+tax_income_tax_national_government_simulated= Inkomstenbelasting: de nationale overheid: gesimuleerde
+tax_income_tax_capital_taxation_simulated= Inkomstenbelasting: vermogensbelasting: gesimuleerde
+tax_income_tax_municipal_government_simulated= Inkomstenbelasting: de gemeentelijke overheid: gesimuleerde
+tax_sic_employee_simulated= Sic: werknemer: gesimuleerde
+tax_sic_pensioner_simulated= Sic: gepensioneerde: gesimuleerde
+tax_sic_disabled_simulated= Sic: javascript: gesimuleerde
+tax_sic_employee_reduction_simulated= Sic: werknemer: vermindering: gesimuleerde
+tax_sic_employee_spouse_simulated= Sic: werknemer: de echtgenoot: gesimuleerde
+tax_sic_selfemployed_simulated= Sic: zelfstandigen: gesimuleerde
+standard_disposable_income= Standaard besteedbaar inkomen
+persons_monthly_original_income= maandelijkse oorspronkelijke persoon het inkomen
+sum_of_all_benefits_received_by_the_person= Som van alle voordelen genoten door de persoon
+sum_of_all_taxes_paid_by_the_person= Som van alle belastingen betaald door de persoon
+employee_social_insurance_contributions_paid_by_the_person= Werknemer sociale premies betaald door de persoon
+Werkgever employer_social_insurance_contributions_paid_for_the_person_not_included_in_ils_dispy= sociale premies betaald voor de persoon (niet inbegrepen in ils_dispy)
+self_employed_social_insurance_contributions_paid_by_the_person= Zelfstandigen sociale premies betaald door de persoon
+taxable_income= belastbaar inkomen
+taxable_income_something_mq= belastbaar inkomen (iets MQ)
+
+no_change=Geen verandering
+gainers=Stijgers
+losers=Verliezers
+#
+#28/11 
+#
+population=Bevolking
+people_in_poverty=Mensen die in armoede
+poverty_rate=Armoede
+poverty_gap_total=Armoedekloof (totaal &euro;000.000 s)
+poverty_gap_per_poor_person=Armoedekloof (Per arm persoon)
+Budgetary effects broken down by tenure type (&euro;)=Gevolgen voor de begroting, uitgesplitst naar type woning (&euro;)
+By Tenure Type=Per type van huisbezit
+By Decile=Door deciel
+By Age of Head=Van Age
+By Occupation of Head=Door Beroep
+By Tenure Type=Per type van woningen eigendom
+Gainers and Losers by tenure type=Winnaars en verliezers Per type van de woningen eigendom
+Gainers and Losers by decile=Winnaars en verliezers Door deciel
+Gainers and Losers by age of Head=Winnaars en verliezers Door Leeftijd 
+Gainers and Losers by occupation of head=Winnaars en verliezers Door Beroep
+
+no_breakdown=Geaggregeerde cijfers
+by_tenure=Per type van huisbezit
+by_marital_status=Naar burgerlijke staat
+by_citizenship=Door Burgerschap
+by_gender=Op Geslacht
+by_education=Door Education
+by_decile=Door deciel
+by_age_of_head=Van Age
+by_occupation_of_head=Door Beroep
+Poverty effects broken down by tenure type (money amounts in &euro; per month)=Armoede effecten uitgesplitst naar woningen eigendom van het type (geld bedragen in &euro; per maand)
+Income Distribution Effects=Effect op de verdeling van de inkomsten
+Population Share=Bevolking Aandeel
+Gini coefficient=Gini-coëfficiënt
+Income Share=Aandeel van het inkomen
+Gini Coefficients by=Gini-coëfficiënt
+Pre=Vóór
+Post=Na
+gini_explanation= Deze grafieken tonen <em> Lorenz-curven </ em>: de bevolking gerangschikt uit de armste naar rijkste op de x-as, en het aandeel van het inkomen van de bevolking tot op dat punt op de y-as. Indien de verdeling is perfect gelijk is, zou de bochten een 45 graden rechte lijn. De <em> Gini-coëfficiënt </ em> is een graadmeter van de Lorenz-curve; perfecte gelijkheid produceert een Gini van 0, volledige ongelijkheid produceert een Gini van 100.  
+Whole Population=Hele bevolking
+Lorenz Curves=Lorenz-curven
+poverty_explanation=Armoede
+Numbers in Poverty=Aantallen mensen die in armoede
+System Number=Systeem nummer
+caseloads=Aantal gevallen
+Caseloads=Aantal gevallen
+
+personal_income_tax=Persoonlijke inkomstenbelasting
+social_security_contributions=Socialezekerheidspremies
+child_benefits=Kinderbijslag
+unemployment_benefits=WW-uitkeringen
+mip=Minimuminkomensbescherming
+taxes_minus_benefits=belastingen minus uitkeringen
+gain_lose_explanation=Winsten en verliezen
+household_budget_explanation=begrotingen 
+1_gain_lose= > -50%  verlies
+2_gain_lose=-49.99 -10 verlies
+3_gain_lose=-9.99 - 1
+4_gain_lose=geen verandering
+5_gain_lose=< 10% winst
+6_gain_lose=10-49% winst
+7_gain_lose=50%+ winst
+Break Down By?=Variabele om dis-aggregaat door?
+Express table as?=Hoe moeten we tonen de waarden in de tabel?
+Item shown in cells= Wat moet worden weergegeven in de cellen van de gegevens-tabel?
+Print caseloads?= Moeten we print aantal gevallen?
+Print differences from base?=Print verschillen van de originele resultaten?
+Pre System=oorspronkelijke systeem?
+Post System=gewijzigde systeem?
+System to display?=systeem om te laten zien?
+gain_lose_page=Wie wint / wie verliest?
+budget_page=Impact op de begroting
+inequality_page=Effect op de verdeling van de inkomsten
+poverty_page=Effect op de armoede
+summary_page=Samenvatting van de resultaten
+
+home_page=Algemeen
+parameters_page=Hervormingen doorvoeren
+output_page=Bekijk de resultaten
+en=English
+nl=Dutch
+submit_error_message=Er zijn fouten in de waarden die u hebt ingevoerd. Corrigeer deze voordat je probeert om het model te draaien
+job_in_queue_message=Jouw taak is in de wachtrij en wachten om te beginnen.
+em_starting_message=Mefisto is bezig met opstarten.
+job_complete_message=Jouw taak is voltooid.
+Module=Module
+Households Processed=Aantal verwerkte Huishoudens.
+em_output_message=Euromod is het afdrukken van de resultaten.
+mf_output_message=Tabellen en grafieken worden gegenereerd.
+completed=Afgerond
+done=Gedaan
+All other income=Alle andere inkomsten
+Poverty line (&euro;s per month per person)=Armoedegrens (&euro;s per maand per persoon)
+per month=per maand
+per year=per jaar
+per anumn=per jaar
+per week=per week
+per day=per dag
+
+euros per month=&euro;s per maand
+euros per year=&euro;s per jaar
+euros per anumn=&euro;s per jaar
+euros per week=&euro;s per week
+euros per day=&euro;s per dag
+
+millions of euros per year=Millions of &euro;s per year
+
+equivalent_income_quintile=Equivalent income quintile
+household_income_quintile=Household income quintile
+equivalent_income_decile=Equivalent income decile
+household_income_decile=Household income decile
+equivalent_net_income=Equivalent net income
+equivalence_scale=Equivalence scale
+derived_variables=Derived Variables
+
+legislators_senior_officials_and_managers=Wetgevers, topambtenaren en managers 
+professionals=Professionals 
+technicians_and_associate_professionals=Technici en lagere functies
+clerks=Klerken
+service_workers_and_shop_and_market_sales_workers=Service werknemers en winkel en verkopen op de markt werknemers
+skilled_agricultural_and_fishery_workers=Schoolde werknemers landbouw-en visserijproducten
+craft_and_related_trades_workers=Ambacht en aanverwante beroepen
+plant_and_machine_operators_and_assemblers=Planten-en machine-operators en monteurs
+elementary_occupations=Elementaire beroepen
+armed_forces=Strijdkrachten
+no_occupation=Niet een bezigheid hebben
+
+age_0_15=0-15
+age_16_18=16-18
+age_19_21=19-21
+age_22_40=22-40
+age_41_60=41-60
+age_61_65=61-65
+age_over_65=66+
+
+Percent Gaining=% die beter af zijn
+Percent Losing=% die slechter af zijn
+Average Gain=Gemiddelde stijging / daling in inkomen
+Gains and Losses=Winsten en verliezen
+
+Change In Gini=Verandering in inkomensongelijkheid (Gini-coëfficiënt, %)
+Change in Numbers of People in Poverty=Verandering in het aantal mensen die in armoede
+
+Changes in net income=Verandering in geld beschikbaar, na belastingen
+Number of households=Aantal huishoudens
+
+Population Share=Aandeel van de bevolking
+Income Share=Aandeel van het inkomen
+Gini Coefficients=Gini-coëfficiënten
+Population=Bevolking
+Income=Inkomen
+
+Before Reform=Vóór de hervorming
+After Reform=Na de hervorming
+
+Average Gain by Income Decile=Gemiddelde stijging/daling van de opbrengsten door inkomensdeciel
+Average Gain/Loss=Gemiddelde stijging/daling in inkomen
+Budget Breakdown=Veranderingen in de openbare financiën
+Total cost of your measures=Totale kosten van alle wijzigingen
+millions of euros per year=Miljoenen &euro;s per jaar
+
+Before=Voordat uw wijzigingen
+After=Na uw wijzigingen
+Change=Verschil
+Poverty=Armoede
+Inequality=Ongelijkheid
+variable to dis-aggregate by?=Variabele om dis-aggregaat door?
+
+row_total=Het totaal voor de rij
+current_cell=De huidige tabelcel
+col_total=Het totaal voor de kolom
+total=Het totaal voor de hele bevolking
+
+Redraw=Herberekenen
+By age of the head of the household=Naar leeftijd van het hoofd van het huishouden
+National Budget broken down by  age of the head of the household(&euro; 000s)=Nationale begroting uitgesplitst naar leeftijd van het hoofd van het huishouden (&euro; 000s)
+National budget broken down by occupation of head of the household(&euro; 000s)=Nationale begroting uitgesplitst naar de bezetting van het hoofd van het huishouden (&euro; 000s)
+National budget broken down by decile (&euro; 000s)=Nationale begroting uitgesplitst per deciel (&euro; 000s)
+National budget broken down by tenure type (&euro; 000s)=Nationale begroting uitgesplitst naar woningen eigendom (&euro; 000s)
+
+Chart Gallery=Grafiek Gallery
+Aggregate Gini Coefficient=Gini-coëfficiënt voor de hele bevolking
+
+Poverty broken down by Decile (money amounts in &euro; per month)=Armoede uitgesplitst per deciel (geld bedragen in &euro; per maand)
+Poverty broken down by age of head of household (money amounts in &euro; per month)=Armoede effecten uitgesplitst naar de leeftijd van gezinshoofd (geld bedragen in &euro; per maand)
+Poverty broken down by occupation of the head of the household(money amounts in &euro; per month)=Armoede effecten uitgesplitst naar de bezetting van het hoofd van het huishouden (geld bedragen in &euro; per maand)
+Poverty broken down by tenure type (money amounts in &euro; per month)=Armoede effecten uitgesplitst naar type woning eigendom (geld bedragen in &euro; per maand)
+
+You have no completed model runs as yet=Je hebt nog geen klaar met een Mephisto-simulatie
+more=Extraatje
+
+inequality_effects=Effecten op de verdeling van inkomen
+
+Minimum Value=Minimale waarde
+Maximum Value=Maximale Waarde
+Units=Eenheden
+Information=Informatie
+
+Minimum income protection=Leefloon
+Regional Tax Credit=Regionaal Belastingkrediet (Jobkorting)
+Flat tax proposal=Forfaitaire Belastingen voorstel
+Mefsito Light: Quick Changes Page=Mefsito Light: Quick Changes Page
+Child Care=Kinderbijdrage- Basisbedrag
+light_page=Mefisto Licht: Snelle Veranderingen Page
+
+Basic Tax Credit=Belastingkrediet
+Base amount of child care=Basiswaarde van kinderopvang
+Base Amount=Basisbedrag
+Unique Tax Rate=Nieuwe single tarief van de belasting op inkomen
+Exemption=Belastingvrijstelling
+
+front_page=Met het <b>MEFISTO</b>-model ("<b>M</b>odelling and <b>E</b>valuating <b>F</b>landers' <b>FI</b>scal and <b>S</b>ocial <b>TO</b>morrow") kunnen gebruikers de verdelings- en budgettaire gevolgen analyseren van geplande beleidswijzigingen voor de Vlaamse bevolking. Zo kunnen gebruikers bijvoorbeeld nagaan of een geplande beleidsmaatregel de ongelijkheid binnen de Vlaamse bevolking vergroot en op welke manier de globale inkomensverdeling wijzigt.
+

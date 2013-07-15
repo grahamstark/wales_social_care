@@ -1,0 +1,17 @@
+<h3>@_TITLE_@</h3>
+
+<p class='total_cost'>@_TOTAL-COST-STR_@:&nbsp;
+   @_TOTAL-COST_@&nbsp;<img src='@_ROOT_@images/@_TOTAL-COST-ARROW_@.png' alt=''/>&nbsp;<a href='@_ROOT_@output_page/budget_page/' class='summary_link'>@_MORE_@ &gt;&gt;</a>
+   </p>
+   
+<table  width='100%' class='datatable'>
+  
+  <tr class='headerRow'>
+     <th width='40%'></th><th width='22%'>@_PRE_@</th><th width='22%'>@_POST_@</th><th width='16%'>@_DIFFERENCE_@ </th>
+  </tr>
+      @@TABLE@@
+          @_BUD-ROWS_@
+      @@END_TABLE@@
+</table>
+
+<p class='units'>@_UNITS_@</p>

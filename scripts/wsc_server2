@@ -1,0 +1,68 @@
+#!/bin/bash
+#
+#
+### BEGIN INIT INFO
+# Provides:          wsc_server2
+# Required-Start:    $local_fs $remote_fs $network $syslog $named
+# Required-Stop:     $local_fs $remote_fs $network $syslog $named
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# X-Interactive:     true
+# Short-Description: Start/stop wsc web server
+### END INIT INFO
+#
+# chkconfig: 
+# description: 	Start up the WSC Server.
+
+# Source function library.
+
+ENV="env -i LANG=C PATH=/usr/local/bin:/usr/bin:/bin"
+
+. /lib/lsb/init-functions
+#
+# some paths 
+#
+. /etc/profile.d/grahams.sh
+
+RETVAL=$?
+WSC_SERVER=$WSC_MODEL2/bin/wsc_server
+PIDFile=/var/lock/run_wsc_server2
+case "$1" in
+ start)
+        if [ -f $PIDFile ]; then
+           echo "$WSC_SERVER may be already running; try stop first or manually delete $PIDFile if not";
+           exit 1
+        fi
+        if [ -f $WSC_SERVER ];
+          then
+	    #
+            # run as Graham Stark - not sure if this is a good idea or not ..
+            # note the model pid is a child of the su
+            #
+	    /bin/su graham_s -c $WSC_SERVER 1> $WSC_MODEL2/log/wsc_server_out.log 2> $WSC_MODEL2/log/wsc_server_err.out &
+            echo $! > $PIDFile
+            echo "Starting WSC Server with PIDFile $PIDFile"
+        fi
+	;;
+ stop)
+        if [ -f $PIDFile ];
+          then
+	    # pid from file into a variable;
+            # see: http://stackoverflow.com/questions/8684447/how-to-get-variable-from-text-file-into-bash-variable
+	    CurPID=$(<"$PIDFile") 
+            echo $"Stopping WSC Server with pid $CurPID"
+	    # kill the main process (the su) and children (the server itself)
+            # from: http://stackoverflow.com/questions/392022/best-way-to-kill-all-child-processes/6481337#6481337
+            pkill -TERM -P $CurPID
+            rm -f $PIDFile
+        else
+            echo "No Pidfile $PIDFile found"
+        fi
+ 	;;
+ *)
+ 	echo $"Usage: $0 {start|stop}"
+	exit 1
+	;;
+esac
+
+exit $RETVAL

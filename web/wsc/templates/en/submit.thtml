@@ -1,0 +1,120 @@
+<table class="submit_table">
+        <colgroup class='submit_group_1' span='1'/> <!-- submit 1 col -->
+        <colgroup class='submit_group_2' span='2'/> <!-- save 2 cols -->
+        <colgroup class='submit_group_1' span='2'/> <!-- reset 2 cols -->
+        <colgroup class='submit_group_2' span='5'/> <!-- uprate 5 cols -->
+        <tr>
+        
+                <!-- put hiiden submit button first that does nothing to stop running on pressing 'return, which causes the 1st
+                     submit button to be sent. Never knew that .. -->
+                <input id="no_action" name="no_action" value="no_action"  type="submit" style='display:none' />
+        
+                <td>
+                        <input id="run_submit_button" name="run" value="Run"  @_DISABLE-RUN_@
+                                type="submit" />
+                </td>
+                <td valign="middle">
+                        <input id="save_button" name="apply" value="Apply" type="submit" />&nbsp;To:
+                </td>
+                <td>
+                <ul>
+                        <li>
+                                <input id='apply_this_year_only' type='radio'  name='apply_type' value='this_year_only' checked='checked' />
+                                <label for='apply_this_year_only'>Just This Year</label>
+                        </li>
+                        <li>
+                                <input id='apply_this_and_subsequent_years' type='radio'  name='apply_type' value='this_and_subsequent_years' />
+                                <label for='apply_this_and_subsequent_years'>This Year Onward</label>
+                        </li>
+                        <li>
+                                <input id='apply_all_years' type='radio'  name='apply_type' value='all_years' />
+                                <label for='apply_all_years'>All Years</label>
+                        </li>
+                </ul>
+                </td>
+                <td valign='middle' class='submit_header'>
+                        <input name="reset" value="Reset" type="submit" />&nbsp;:&nbsp;
+                </td>
+                <td>
+                <ul>
+                        <li>
+                                <input id='reset_this_year_these_items_only' type="radio" name='reset_type' value='this_year_these_items_only' checked='checked' />
+                                <label for='reset_this_year_these_items_only'>These Items, Only This Year</label>
+                        </li>
+                        <li>
+                                <input id='reset_this_year_all_items' type='radio'  name='reset_type' value='this_year_all_items' />
+                                <label for='reset_this_year_all_items'>All Items, This Year Only</label>
+                        </li>
+                        <li>
+                                <input id='reset_all_years_these_items_only' type='radio'  name='reset_type' value='all_years_these_items_only' />
+                                <label for='reset_all_years_these_items_only'>These Items, All Years</label>
+                        </li>
+                        <li>
+                                <input id='reset_all_years_all_items' type='radio'  name='reset_type' value='all_years_all_items' />
+                                <label for='reset_all_years_all_items'>All Items, All Years</label>
+                        </li>
+
+                </ul>
+                
+                </td>
+                <td valign="middle" class='submit_header'>
+                         Uprate:
+                </td>
+                <td valign="middle">
+                        <input size="6" name="uprate_amount" value="0.0" type="text" /> %
+                </td>
+                <td>
+                        <ul>
+                                <li>
+                                        <input id='uprate_this_year_these_items_only' type="radio" name='uprate_type' value='this_year_these_items_only' checked='checked' />
+                                        <label for='uprate_this_year_these_items_only'>These Items, This Year Only</label>
+                                </li>
+                                <li>
+                                        <input id='uprate_this_year_all_items' type='radio'  name='uprate_type' value='this_year_all_items' />
+                                        <label for='uprate_this_year_all_items'>All Items, This Year Only</label>
+                                </li>
+                                <!--
+                                <li>
+                                        <input id='uprate_this_and_subsequent_years_these_items_only' type='radio'  name='uprate_type' value='this_and_subsequent_years_these_items_only' />
+                                        <label for='uprate_this_and_subsequent_years_these_items_only'>These Items, This Year On</label>
+                                </li>
+                                -->
+                                <li>
+                                        <input id='uprate_this_and_subsequent_years_all_items' type='radio'  name='uprate_type' value='this_and_subsequent_years_all_items' />
+                                        <label for='uprate_this_and_subsequent_years_all_items'>All Items, This Year On</label>
+                                </li>
+                        </ul>
+                </td>
+                <td>
+                        <ul>
+                                <li>
+                                        <input id='uprate_none' checked="checked" type="radio" name='uprate_index' value='uprate_none'  />
+                                        <label for='uprate_none'>Just the amount in the field</label>
+                                </li>
+                                <li>
+                                        <input id='uprate_rpi' type='radio'  name='uprate_index' value='uprate_rpi'  />
+                                        <label for='uprate_rpi'>RPI</label>
+                                </li>
+                                <li>
+                                        <input id='uprate_rpix' type='radio'  name='uprate_index' value='uprate_rpix'  />
+                                        <label for='uprate_rpix'>RPI(X)</label>
+                                </li>
+                                <li>
+                                        <input id='uprate_earnings' type='radio'  name='uprate_index' value='uprate_earnings' />
+                                        <label for='uprate_earnings'>Nominal Earnings</label>
+                                </li>
+                                <li>
+                                        <input id='uprate_cpi' type='radio'  name='uprate_index' value='uprate_cpi'  />
+                                        <label for='uprate_cpi'>CPI</label>
+                                </li>
+                                <li>
+                                        <input id='uprate_gdp' type="radio" name='uprate_index' value='uprate_gdp'  />
+                                        <label for='uprate_gdp'>Nominal GDP</label>
+                                </li>        
+                        </ul>
+                </td>
+                <td  valign="middle">
+                        <input name="uprate" value="Uprate"  type="submit" />
+                </td>
+        </tr>
+</table>

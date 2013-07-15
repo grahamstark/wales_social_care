@@ -1,0 +1,75 @@
+--
+-- Created by ada_generator.py on 2011-11-29 16:58:56.612364
+-- 
+with Wsc_Db_Data;
+with db_commons;
+with base_types;
+with ADA.Calendar;
+with Ada.Strings.Unbounded;
+
+package Maxima_And_Totals_IO is
+  
+   package d renames db_commons;   
+   use base_types;
+   use Ada.Strings.Unbounded;
+   
+   --
+   -- returns true if the primary key parts of Maxima_And_Totals match the defaults in Wsc_Db_Data.Null_Maxima_And_Totals
+   --
+   function Is_Null( Maxima_And_Totals : Wsc_Db_Data.Maxima_And_Totals ) return Boolean;
+   
+   --
+   -- returns the single Maxima_And_Totals matching the primary key fields, or the Wsc_Db_Data.Null_Maxima_And_Totals record
+   -- if no such record exists
+   --
+   function Retrieve_By_PK( Username : Unbounded_String; Run_Id : Unbounded_String; Pid : Unbounded_String; Wave : Unbounded_String ) return Wsc_Db_Data.Maxima_And_Totals;
+   
+   --
+   -- Retrieves a list of Wsc_Db_Data.Maxima_And_Totals matching the criteria, or throws an exception
+   --
+   function Retrieve( c : d.Criteria ) return Wsc_Db_Data.Maxima_And_Totals_List.Vector;
+   
+   --
+   -- Retrieves a list of Wsc_Db_Data.Maxima_And_Totals retrived by the sql string, or throws an exception
+   --
+   function Retrieve( sqlstr : String ) return Wsc_Db_Data.Maxima_And_Totals_List.Vector;
+   
+
+
+   --
+   -- functions to add something to a criteria
+   --
+   procedure Add_Username( c : in out d.Criteria; Username : Unbounded_String; op : d.operation_type:= d.eq; join : d.join_type := d.join_and );
+   procedure Add_Username( c : in out d.Criteria; Username : String; op : d.operation_type:= d.eq; join : d.join_type := d.join_and );
+   procedure Add_Run_Id( c : in out d.Criteria; Run_Id : Unbounded_String; op : d.operation_type:= d.eq; join : d.join_type := d.join_and );
+   procedure Add_Run_Id( c : in out d.Criteria; Run_Id : String; op : d.operation_type:= d.eq; join : d.join_type := d.join_and );
+   procedure Add_Pid( c : in out d.Criteria; Pid : Unbounded_String; op : d.operation_type:= d.eq; join : d.join_type := d.join_and );
+   procedure Add_Pid( c : in out d.Criteria; Pid : String; op : d.operation_type:= d.eq; join : d.join_type := d.join_and );
+   procedure Add_Wave( c : in out d.Criteria; Wave : Unbounded_String; op : d.operation_type:= d.eq; join : d.join_type := d.join_and );
+   procedure Add_Wave( c : in out d.Criteria; Wave : String; op : d.operation_type:= d.eq; join : d.join_type := d.join_and );
+   procedure Add_Hid( c : in out d.Criteria; Hid : Unbounded_String; op : d.operation_type:= d.eq; join : d.join_type := d.join_and );
+   procedure Add_Hid( c : in out d.Criteria; Hid : String; op : d.operation_type:= d.eq; join : d.join_type := d.join_and );
+   procedure Add_Buno( c : in out d.Criteria; Buno : integer; op : d.operation_type:= d.eq; join : d.join_type := d.join_and );
+   procedure Add_Adno( c : in out d.Criteria; Adno : integer; op : d.operation_type:= d.eq; join : d.join_type := d.join_and );
+   procedure Add_Lifetime_La_Contributions( c : in out d.Criteria; Lifetime_La_Contributions : Real; op : d.operation_type:= d.eq; join : d.join_type := d.join_and );
+   procedure Add_Lifetime_Client_Contributions( c : in out d.Criteria; Lifetime_Client_Contributions : Real; op : d.operation_type:= d.eq; join : d.join_type := d.join_and );
+   procedure Add_Lifetime_Gross_Payments( c : in out d.Criteria; Lifetime_Gross_Payments : Real; op : d.operation_type:= d.eq; join : d.join_type := d.join_and );
+   procedure Add_Lifetime_Capital_Contributions( c : in out d.Criteria; Lifetime_Capital_Contributions : Real; op : d.operation_type:= d.eq; join : d.join_type := d.join_and );
+   procedure Add_Highest_La_Contribution( c : in out d.Criteria; Highest_La_Contribution : Real; op : d.operation_type:= d.eq; join : d.join_type := d.join_and );
+   --
+   -- functions to add an ordering to a criteria
+   --
+   procedure Add_Username_To_Orderings( c : in out d.Criteria; direction : d.Asc_Or_Desc );
+   procedure Add_Run_Id_To_Orderings( c : in out d.Criteria; direction : d.Asc_Or_Desc );
+   procedure Add_Pid_To_Orderings( c : in out d.Criteria; direction : d.Asc_Or_Desc );
+   procedure Add_Wave_To_Orderings( c : in out d.Criteria; direction : d.Asc_Or_Desc );
+   procedure Add_Hid_To_Orderings( c : in out d.Criteria; direction : d.Asc_Or_Desc );
+   procedure Add_Buno_To_Orderings( c : in out d.Criteria; direction : d.Asc_Or_Desc );
+   procedure Add_Adno_To_Orderings( c : in out d.Criteria; direction : d.Asc_Or_Desc );
+   procedure Add_Lifetime_La_Contributions_To_Orderings( c : in out d.Criteria; direction : d.Asc_Or_Desc );
+   procedure Add_Lifetime_Client_Contributions_To_Orderings( c : in out d.Criteria; direction : d.Asc_Or_Desc );
+   procedure Add_Lifetime_Gross_Payments_To_Orderings( c : in out d.Criteria; direction : d.Asc_Or_Desc );
+   procedure Add_Lifetime_Capital_Contributions_To_Orderings( c : in out d.Criteria; direction : d.Asc_Or_Desc );
+   procedure Add_Highest_La_Contribution_To_Orderings( c : in out d.Criteria; direction : d.Asc_Or_Desc );
+  
+end Maxima_And_Totals_IO;

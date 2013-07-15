@@ -1,0 +1,100 @@
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+        <!-- 1140px Grid styles for IE -->
+        <!--[if lte IE 9]><link rel="stylesheet" href="@_ROOT_@css/ie.css" type="text/css" media="screen" /><![endif]-->
+
+        <!-- The 1140px Grid - http://cssgrid.net/ -->
+        <link rel="stylesheet" href="@_ROOT_@css/1140.css" type="text/css" media="screen" />
+        
+        <!-- Your styles -->
+        <link rel="stylesheet" href="@_ROOT_@css/styles.css" type="text/css" media="screen" />
+        
+        <!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
+        <!--
+        <script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+        -->
+      
+        @@IF@@ @_IS-OUTPUT-PAGE_@ 
+        
+         <script type="text/javascript" src="@_ROOT_@js/jquery-1.3.2.js"></script> <!-- latest http://code.jquery.com/jquery-1.4.4.min.js" /> -->
+         <!--
+         <link type="text/css" href="@_ROOT_@css/galleriffic-3.css" rel="stylesheet" media="screen" />
+         -->
+         <!-- Optionally include jquery.history.js for history support -->
+         <script type="text/javascript" src="@_ROOT_@js/jquery.history.js"></script>
+         <script type="text/javascript" src="@_ROOT_@js/jquery.opacityrollover.js"></script>
+         <script type="text/javascript" src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js' ></script>
+         <script type="text/javascript" src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/jquery-ui.min.js' ></script>
+         <link type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/themes/base/jquery-ui.css" rel="stylesheet" media="screen" ></link>
+   
+         <script type='text/javascript'>
+
+          
+         $( document ).ready(function() {
+                $("#tabs").tabs();
+         });
+
+         function ExampleWindow( mypage ){
+             LeftPosition=(screen.width)?(screen.width-950)/2:100;
+             TopPosition=(screen.height)?(screen.height-450)/2:100;
+             settings='width=650,height=800,top='+TopPosition+',left='+LeftPosition+',scrollbars=yes,location=no,directories=no,status=no,menubar=no,toolbar=no,resizable=no';
+             w = window.open( mypage, 'Example', settings );
+             w.focus();
+          }
+
+        </script>
+		    
+        @@END_IF@@
+        
+        @@IF@@  @_IS-INPUT-PAGE_@ 
+          <script type="text/javascript" src="@_ROOT_@js/prototype.js"></script>
+        @@END_IF@@
+        
+        @@IF@@ @_IS-EXAMPLE-PAGE_@ 
+        
+        <script type="text/javascript" src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js' ></script>
+        <script type="text/javascript" src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/jquery-ui.min.js' ></script>
+        <link type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/themes/base/jquery-ui.css" rel="stylesheet" media="screen" ></link>
+        <script type='text/javascript'>
+          
+         $(document).ready(function() {
+         $("#tabs").tabs();
+         });
+         
+         </script>
+        @@END_IF@@
+                 
+        <link type="text/css" href="@_ROOT_@css/wsc.css" rel="stylesheet" media="screen" />
+        
+        <link type="text/css" href="@_ROOT_@css/example_page.css" rel="stylesheet" media="screen" />
+
+
+        <script type="text/javascript" src="@_ROOT_@js/gksfunctions.js"></script>
+          
+        <script type="text/javascript">
+        
+        function initTooltip(id) {
+        //------------------------------
+            var HelpTip = new Tips($(id), {
+                offsets: {
+                    'x': 60,       //default is 16
+                    'y': 25        //default is 16
+                },
+
+                initialize:function(){
+                    this.fx = new Fx.Style(this.toolTip, 'opacity', {duration: 500, wait: false}).set(0);
+                },
+                onShow: function(toolTip) {
+                    this.fx.start(1);
+                },
+                onHide: function(toolTip) {
+                    this.fx.start(0);
+                },
+                fixed: true
+            });
+        }
+        initTooltip("tooltip_wsc");
+        initTooltip("tooltip_motyff");
+        
+        </script>
+      

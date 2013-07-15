@@ -1,0 +1,15 @@
+physical_root=/home/graham_s/VirtualWorlds/projects/wales_social_care/model2/;
+wsc_web_root=/wsc2/;
+log_config_file_name=logging_config_file.txt;
+tmp_dir=tmp;
+template_components_path=/web/wsc/templates/;
+port=9096;
+charts_driver_script=???;
+language_components_path=etc/lang;
+dir_separator=/;
+parameters_xml_file=etc/wsc.xml;
+run_settings_xml_file=etc/run_settings.xml;
+charts_url=http://projectsvr.virtual-worlds-research.com/plotter/;
+default_text_parameter_file_name=etc/wsc.prm;
+default_text_run_settings_file_name=etc/run_settings.txt;
+working_root=working/users/;

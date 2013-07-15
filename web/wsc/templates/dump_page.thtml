@@ -1,0 +1,11 @@
+
+HTML-CELLS
+----------
+
+@@TABLE@@
+
+========= CELL @_TABLE_LINE_@ ==========
+
+@_HTML-CELLS_@
+
+@@END_TABLE@@

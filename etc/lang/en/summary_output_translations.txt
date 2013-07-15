@@ -1,0 +1,9 @@
+identifier_household=Household
+demographic_weight=Weight
+standard_disposable_income=Standard disposable income
+persons_monthly_original_income=Person’s monthly original income
+sum_of_all_benefits_received_by_the_person=Sum of all benefits received by the person
+sum_of_all_taxes_paid_by_the_person=Sum of all taxes paid by the person
+employee_social_insurance_contributions_paid_by_the_person=Employee social insurance contributions paid by the person
+employer_social_insurance_contributions_paid_for_the_person_not_included_in_ils_dispy=Employer social insurance contributions paid for the person (not included in ils_dispy)
+self_employed_social_insurance_contributions_paid_by_the_person=Self-employed social insurance contributions paid by the person

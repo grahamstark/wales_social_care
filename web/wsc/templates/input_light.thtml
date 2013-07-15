@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+
+@@INCLUDE@@ @_SEP_@@_TEMPLATE_ROOT_@@_SEP_@@_LANG_@@_SEP_@header.thtml "@_PAGE-TITLE_@"
+
+@@INCLUDE@@ @_SEP_@@_TEMPLATE_ROOT_@@_SEP_@header_includes.thtml 
+
+</head>
+<body>
+<div id="wrapper">
+
+
+@@INCLUDE@@ @_SEP_@@_TEMPLATE_ROOT_@@_LANG_@@_SEP_@main_menu.thtml 
+
+     <div id="page">
+     
+        <div id="page-bgtop">
+           <div id="page-bgbtm">
+    
+        <div id='content'>
+                @_MODEL-MENU_@
+                <h2>@_LIGHT-PAGE_@</h2>
+                @@IF@@ @_JOB-IS-RUNNING_@        
+                 <div class='statusDiv' id='progress'>        
+                        @@INCLUDE@@ progress_bar.thtml        
+                </div>
+                @@END_IF@@
+                <h3>@_FLAT-RATE-LABEL_@</h3>
+                <form action="@_URI_@" method="post" id="flat-rate-form" name="mainform">
+                      <fieldset>
+                               <input type='hidden' name='random_string' value="@_RANDOM_STRING_@" />
+                               <input type='hidden' name='which_page' value="light_page" />
+                               <input type='hidden' name='which_package' value='flat_tax' />
+                               <label for='rate-input'>@_RATE-INPUT-LABEL_@</label>&nbsp;@_RATE-INPUT_@
+                               <label for='exemption-input'>@_EXEMPTION-INPUT-LABEL_@</label>&nbsp;@_EXEMPTION-INPUT_@
+                               <input
+                                         id="save_button"
+                                         name="save"
+                                         value="@_SAVE_@"
+                                         onmouseover="return overlibConditional( 'Save Your Changes' );"
+                                         onmouseout="return nd();"
+                                         type="submit" />
+                                <input
+                                         id="run_submit_button"
+                                         name="run"
+                                         value="@_RUN_@"
+                                         onmouseover="return overlibConditional( 'Select this to run the model' );"
+                                         onmouseout="return nd();"
+                                         @_DISABLE-RUN_@
+                                         type="submit" />
+
+                     </fieldset>
+                </form>
+                <h3>@_RTC-LABEL_@</h3>
+                <form action="@_URI_@" method="post" id="flat-rate-form" name="mainform">
+                      <fieldset>
+                               <input type='hidden' name='random_string' value="@_RANDOM_STRING_@" />
+                               <input type='hidden' name='which_page' value="light_page" />
+                               <input type='hidden' name='which_package' value='regional_tax_credit' />
+                               <label for='exemption-input'>@_RTC-INPUT-LABEL_@</label>&nbsp;@_RTC-INPUT_@
+                               <input
+                                         id="save_button"
+                                         name="save"
+                                         value="@_SAVE_@"
+                                         onmouseover="return overlibConditional( 'Save Your Changes' );"
+                                         onmouseout="return nd();"
+                                         type="submit" />
+                                <input
+                                         id="run_submit_button"
+                                         name="run"
+                                         value="@_RUN_@"
+                                         onmouseover="return overlibConditional( 'Select this to run the model' );"
+                                         onmouseout="return nd();"
+                                         @_DISABLE-RUN_@
+                                         type="submit" />
+
+                     </fieldset>
+                </form>
+                <h3>@_CHILD-CARE-LABEL_@</h3>
+                <form action="@_URI_@" method="post" id="flat-rate-form" name="mainform">
+                      <fieldset>
+                               <input type='hidden' name='random_string' value="@_RANDOM_STRING_@" />
+                               <input type='hidden' name='which_page' value="light_page" />
+                               <input type='hidden' name='which_package' value='child_care' />
+                               <label for='exemption-input'>@_CHILD-CARE-INPUT-LABEL_@</label>&nbsp;@_CHILD-CARE-INPUT_@
+                               <input
+                                         id="save_button"
+                                         name="save"
+                                         value="@_SAVE_@"
+                                         onmouseover="return overlibConditional( 'Save Your Changes' );"
+                                         onmouseout="return nd();"
+                                         type="submit" />
+                                <input
+                                         id="run_submit_button"
+                                         name="run"
+                                         value="@_RUN_@"
+                                         onmouseover="return overlibConditional( 'Select this to run the model' );"
+                                         onmouseout="return nd();"
+                                         @_DISABLE-RUN_@
+                                         type="submit" />
+
+                     </fieldset>
+                </form>
+                
+                <h3>@_MIP-LABEL_@</h3>
+                <form action="@_URI_@" method="post" id="flat-rate-form" name="mainform">
+                      <fieldset>
+                               <input type='hidden' name='random_string' value="@_RANDOM_STRING_@" />
+                               <input type='hidden' name='which_page' value="light_page" />
+                               <input type='hidden' name='which_package' value='minimum_income_protection' />
+                               <label for='exemption-input'>@_MIP-INPUT-LABEL_@</label>&nbsp;@_MIP-INPUT_@
+                               <input
+                                         id="save_button"
+                                         name="save"
+                                         value="@_SAVE_@"
+                                         onmouseover="return overlibConditional( 'Save Your Changes' );"
+                                         onmouseout="return nd();"
+                                         type="submit" />
+                                <input
+                                         id="run_submit_button"
+                                         name="run"
+                                         value="@_RUN_@"
+                                         onmouseover="return overlibConditional( 'Select this to run the model' );"
+                                         onmouseout="return nd();"
+                                         @_DISABLE-RUN_@
+                                         type="submit" />
+
+                     </fieldset>
+                </form>
+                
+                    
+                
+        </div> <!-- content -->
+        </div>
+        </div>
+    </div> <!-- page -->
+    <div style="clear: both;">&nbsp;</div>
+</div> <!-- wrapper -->
+
+@@INCLUDE@@ @_SEP_@@_TEMPLATE_ROOT_@@_LANG_@@_SEP_@footer.thtml
+
+</body>
+</html>

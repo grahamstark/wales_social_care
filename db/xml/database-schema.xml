@@ -1,0 +1,794 @@
+<?xml version="1.0" 
+      encoding="ISO-8859-1" 
+      standalone="no"
+       ?>
+<!DOCTYPE database PUBLIC "http://virtual-worlds.biz/Mill"  "http://www.virtual-worlds.biz/dtds/mill.dtd">
+<database name="wsc_db">
+
+
+        <adaTypePackage name="WSC_Enums"/>
+        <adaTypePackage name="Base_Types"/>
+
+        <table name="user_type" description="user">
+                <column name="username" primaryKey="true" type="CHAR" size="32" description="Username" />
+                <column name="password" type="CHAR" size="60" description="password" />
+                <column name="title" type="CHAR" size="60" description="title" />
+                <column name="description" type="CHAR" size="60" description="description" />
+                <column name="email" type="CHAR" size="60" description="email" />
+                <column name="work_dir" type="CHAR" size="60" description="work_dir" />
+                <column name="utype" type="ENUM" values='anon registered expert admin invalid deleted' description="utype" />
+                <column name="lang" type="ENUM"  values='en' description="lang" />
+                <column name="preferences" type="CHAR" size="60" description="preferences" />
+                <column name="last_used" type="TIMESTAMP" description="last_used" />
+        </table>
+        
+        <table name='dataset'>
+                <column name='name' primaryKey="true" type="CHAR" size="32" description="Name" />
+                <column name="creator" type="CHAR" size="32" description="Username of creator" />
+                <column name="title" type="CHAR" size="60" description="title" />
+                <column name="run_id"  type="INTEGER"  /> <!-- should really be a foreign key but don't see how" -->
+                
+                <foreign-key foreignTable="user_type" onDelete='SETNULL' onUpdate='CASCADE' >
+                        <reference foreign="username" local="creator" />
+                </foreign-key>
+        </table>
+
+        <table name='run'>
+       
+                <column name="run_id"  primaryKey="true" type="INTEGER"  />
+                <column name="username" primaryKey="true" type="CHAR" size="32" description="Username" />
+                <column name="comparison_username" type="CHAR" size="60" description="comparison_run_id" />
+                <column name="comparison_run_id" type="INTEGER" description="comparison_run_id" />
+                
+                <column name="title" type="CHAR" size="60" description="title" />
+                <column name="use_random_threshold" type="BOOLEAN"  />
+                <column name="num_iterations" type="INTEGER" default='1' />
+                <column name="interest_rate_pct" type="REAL" size="60" description="interest_rate_pct" />
+                <column name="real_terms" type='BOOLEAN'  />
+                <column name="is_null_settings" type="BOOLEAN" default='0' /> <!-- not bug in parser means default 'true' won't work -->
+                      
+                <column name="working_root" type="CHAR" size="120" description="working_root" />
+                      
+                <column name="users_directory" type="CHAR" size="120" description="users_directory" />
+                <column name="output_directory" type="CHAR" size="120" description="output_directory" />
+                <column name="dir_separator" type="CHAR" size="1" description="dir_separator" />
+                <column name="session_id" type="CHAR" size="60" description="session_id" />
+                      
+                <column name="dataset_name" type="CHAR" size='32' description="Dataset Name" />
+                <column name="default_run_dir_id" type="INTEGER" description="default_run_dir_id" />
+                      
+                <column name="start_year" type="INTEGER" description="start_year" />
+                <column name="end_year" type="INTEGER" description="end_year" />
+                <column name="weighting_function" type="ENUM" values=
+                             'chi_square 
+                              d_and_s_type_a 
+                              d_and_s_type_b
+                              constrained_chi_square 
+                              d_and_s_constrained' 
+                        description="weighting_function" default='3'/>
+                <column name="weighting_lower_bound" type="REAL" description="weighting_lower_bound" default='0.2'/>
+                <column name="weighting_upper_bound" type="REAL" description="weighting_upper_bound" default='2.0' />
+                <column name="status" type="ENUM" values='edited displayed neither' description="Run Status" />
+                <column name="type_of_run" type="ENUM" values='simulation data_creation' default='0' description="Run Status" />
+                <column name="do_reweighting" type="BOOLEAN" default='0' description="Do Reweighting Step" />
+                
+                <foreign-key foreignTable="user_type"  onUpdate='CASCADE' onDelete='CASCADE'>
+                        <reference foreign="username" local="username"  />
+                </foreign-key>
+                <foreign-key foreignTable="dataset"  onUpdate='CASCADE' onDelete='SETNULL'>
+                        <reference foreign="name" local="dataset_name"  />
+                </foreign-key>
+                
+      </table>
+      
+      <table name='state'>
+                <column name="username" primaryKey="true" type="CHAR" size="32" description="Username" />
+                <column name="run_id"  primaryKey="true" type="INTEGER"  />
+                <column name="household" type="INTEGER" default='0' />
+                <column name="other_counter" type="INTEGER" default='0' />
+                <column name="other_counter2" type="INTEGER" default='0' />
+                <column name="other_counter3" type="INTEGER" default='0' />
+                <column name="other_counter4" type="INTEGER" default='0' />
+                <column name="year" type="INTEGER" default='0' />
+                <column name="phase" type="ENUM" values='not_started queued run_starting pre_calculations running generating_output complete'  />
+                <column name="health" type="ENUM" values='normal aborted in_error queued'  />
+                <column name="error_code" type="INTEGER" default='0' />
+                <column name="read_error" type="BOOLEAN" default='0' />
+                <column name="session_id" type="CHAR" size='120' description='session id from which this run was stated, if any' />
+                
+                <foreign-key foreignTable="run">
+                        <reference foreign="username" local="username"/>
+                        <reference foreign="run_id" local="run_id"/>
+                </foreign-key>
+      </table>
+      
+      
+        <table name='key_value_parameter'>
+                <column name="username" primaryKey="true" type="CHAR" size="32" description="Username" />
+                <column name="run_id"  primaryKey="true" type="INTEGER"  />
+                <column name="key" type="CHAR" size='250' primaryKey="true" />
+                <column name="val" type="CHAR" size='250' />
+                <foreign-key foreignTable="run">
+                        <reference foreign="username" local="username"/>
+                        <reference foreign="run_id" local="run_id"/>
+                </foreign-key>
+        </table>
+        
+        <table name='uprate_assumption'>
+                <column name="username" primaryKey="true" type="CHAR" size="32" description="Username" />
+                <column name="run_id"  primaryKey="true" type="INTEGER"  />
+                <column name="percent_change" type="REAL" default='0.0'/>
+                <column name="use_obr" type="BOOLEAN" default='0' />
+                <column name='target' type='ENUM' primaryKey='true' values='
+                      upr_housing_costs
+                      upr_wealth
+                      upr_state_benefits
+                      upr_earnings
+                      upr_other_income
+                      upr_care_costs_1
+                      upr_care_costs_2
+                      upr_care_costs_3' /> 
+                <column name='element' type='ENUM' values='
+                        obr_earnings
+                        rpi
+                        rpix
+                        cpi
+                        producer_output_prices
+                        government_consumption
+                        fixed_investment
+                        business_investment
+                        private_dwellings
+                        general_government
+                        net_acquisition_of_valuables
+                        change_in_inventories
+                        exports
+                        total_final_expenditure
+                        imports
+                        statistical_discrepancy
+                        gdp_at_market_prices
+                        private_consumption_nominal
+                        government_consumption_nominal
+                        fixed_investment_nominal
+                        net_acquisition_of_valuables_nominal
+                        change_in_inventories_nominal
+                        exports_nominal
+                        total_final_expenditure_nominal
+                        imports_nominal
+                        statistical_discrepancy_nominal
+                        gdp_at_market_prices_nominal
+                        gross_national_income_nominal
+                        employment
+                        employment_rate
+                        ilo_unemployment
+                        ilo_unemployment_rate
+                        participation_rate
+                        claimant_count
+                        trend_employment_rate
+                        other1
+                        other2
+                        other3
+                        other4
+                        other5
+                        other6'/>
+                <foreign-key foreignTable="run">
+                        <reference foreign="username" local="username"/>
+                        <reference foreign="run_id" local="run_id"/>
+                </foreign-key>
+        </table>
+        
+        <table name='probit_threshold'>
+                <column name="username" primaryKey="true" type="CHAR" size="32" description="Username" />
+                <column name="run_id"  primaryKey="true" type="INTEGER" size="60" />
+                <column name='element' primaryKey="true" type="ENUM" values='
+                      dies_this_period
+                      has_wealth
+                      informal_care_from_household_member
+                      informal_care_from_non_householder
+                      hh_split
+                      health_better
+                      health_worse
+                      adl_improve
+                      adl_worsen
+                      retire
+                      to_care
+                      receiving_aa
+                      receiving_dla' />
+                <column name="threshold" type="REAL" default='0.0'/>
+                <foreign-key foreignTable="run">
+                        <reference foreign="username" local="username"/>
+                        <reference foreign="run_id" local="run_id"/>
+                </foreign-key>
+        </table>
+        
+        
+        <table name="personal_results" description="personal results">
+                <column name="username" primaryKey="true" type="CHAR" size="32" description="Username" />
+                <column name="run_id"  primaryKey="true" type="INTEGER"  />
+                <column name="sysno" primaryKey="true" type="INTEGER" />
+                <column name="iteration" primaryKey="true" type="INTEGER" />
+                <column name="pid" primaryKey="true" type="BIGINT" />
+                <column name="wave" primaryKey="true" type="CHAR" size="2" />
+                <column name="hid" type="BIGINT" />
+                <column name='buno' type='INTEGER' default='0' required="true" />
+                <column name='adno' type='INTEGER' default='0' required="true"/>
+                
+                <column name="passes_non_residential_capital_test" type='ENUM' values='not_applicable not_entitled partially_entitled fully_entitled' description="" />
+                <column name="passes_non_residential_income_test" type='ENUM' values='not_applicable not_entitled partially_entitled fully_entitled' description="" />
+                <column name="passes_residential_capital_test" type='ENUM' values='not_applicable not_entitled partially_entitled fully_entitled' description="" />
+                <column name="passes_residential_income_test" type='ENUM' values='not_applicable not_entitled partially_entitled fully_entitled' description="" />
+                <column name="passes_residential_means_test" type='ENUM' values='not_applicable not_entitled partially_entitled fully_entitled' description="" />
+                <column name="passes_non_residential_means_test" type='ENUM' values='not_applicable not_entitled partially_entitled fully_entitled' description="" />
+                <column name="la_contributions" type='REAL' default='0.0' description=""/>
+                <column name="client_contributions" type='REAL' default='0.0' description=""/>
+                <column name="gross_care_costs" type='REAL' default='0.0' description=""/>
+                <column name="total_payments_to_date" type='REAL' default='0.0' description=""/>
+                <column name="disposable_income" type='REAL' default='0.0' description=""/>
+                <column name="net_income" type='REAL' default='0.0' description=""/>
+                <column name="marginal_rate" type='REAL' default='0.0' description=""/>
+                <column name="capital_contribution" type='REAL' default='0.0' description=""/>
+                
+                
+                <column name="minimum_income_guarantee" type='REAL' default='0.0' description=""/>
+                <column name="hours_of_care_la" type='REAL' default='0.0' description=""/>
+                <column name="hours_of_care_private" type='REAL' default='0.0' description=""/>
+                <column name="uap" type='ENUM' values='critical substantial moderate low none' description=""/>
+                
+                <column name="remaining_capital_stock" type='REAL' adaTypeName="Amount" default='0.0' description=""/>
+                
+                <foreign-key foreignTable="run">
+                        <reference foreign="username" local="username"/>
+                        <reference foreign="run_id" local="run_id"/>
+                </foreign-key>
+        </table>
+
+        <table name="personal_income" description="Normalised Income List">
+                <column name="username" primaryKey="true" type="CHAR" size="32" description="Username" />
+                <column name="run_id"  primaryKey="true" type="INTEGER"  />
+                <column name="pid" primaryKey="true" type="BIGINT" />
+                <column name="sysno" primaryKey="true" type="INTEGER" />
+                <column name="iteration" primaryKey="true" type="INTEGER" />
+                <column name="wave" primaryKey="true" type="CHAR" size="2" />
+                <column name="income_type" primaryKey="true" type="ENUM" values='
+                      gross_wage
+                      gross_self_employment
+                      net_wage
+                      net_self_employment
+                      income_tax
+                      ni
+                      ni_retir_pension
+                      sev_disabl_allow
+                      invalidity_pens
+                      ind_injury_allow
+                      attendance_allow
+                      pension_prev_emp
+                      mobility_allow
+                      inv_care_allow
+                      war_disabl_pens
+                      disab_livng_allwnce
+                      disab_wrkng_allwnce
+                      incapacity_benefit
+                      disab_liv_allowcare
+                      disab_liv_allowmob
+                      disab_liv_allow_dk
+                      pens_spse_prev_emp
+                      unempl_or_incme_supt
+                      income_support
+                      unempl_benefit
+                      ni_sick_benefit
+                      child_benefit
+                      one_parent_benefit
+                      family_credit
+                      maternity_allow
+                      housing_benefit
+                      comm_charge_bene
+                      other_state_bene
+                      job_seekers_allow
+                      child_tax_credit
+                      return_to_work_credit
+                      widow_or_war_pens
+                      foster_allowance
+                      sick_or_acci_insurance
+                      any_other_payment
+                      wid_mothr_allow
+                      pension_credit
+                      educa_grant
+                      t_u_or_friendly_soc_payt
+                      maint_or_alimony
+                      payment_abs_relative
+                      rent_or_boarders_or_lodgers
+                      rent_other_prop
+                      annuity_or_priv_pens' />
+                <column name="hid" type="BIGINT" />
+                <column name='buno' type='INTEGER' default='0' required="true" />
+                <column name='adno' type='INTEGER' default='0' required="true"/>
+                <column name="value"  type='REAL' default='0.0' />
+                <foreign-key foreignTable="run">
+                        <reference foreign="username" local="username"/>
+                        <reference foreign="run_id" local="run_id"/>
+                </foreign-key>
+        </table>
+       
+        <table name="disaggregated_data_table_description" description="">
+                <column
+                        name="model_table_name"
+                        type="CHAR"
+                        size="40"
+                        primaryKey='true'
+                        description="name of Asghars Table"/>
+                <column
+                        name="filename"
+                        type="CHAR"
+                        size="80"
+                        description="file"/>   
+                <column
+                        name="has_totals"
+                        type="INTEGER" />   
+                <column
+                        name="table_type"
+                        type="CHAR"
+                        size='60' />   
+                <column
+                        name="table_subtype"
+                        type="CHAR"
+                        size='60' />   
+         </table>
+         
+         <table name="disaggregated_data_table_cell_description" description="">
+                <column
+                        name="model_table_name"
+                        type="CHAR"
+                        size="40"
+                        primaryKey='true'
+                        description="name of Asghars Table"/>
+                <column
+                        name="cell_pos"
+                        type="INTEGER"
+                        primaryKey='true'
+                        size="80" />   
+                <column
+                        name="cell_label"
+                        type="CHAR"
+                        size="80" />   
+                        
+                <column
+                        name="cell_type"
+                        type="CHAR"
+                        size="20" />   
+                <column
+                        name="file_pos"
+                        type="INTEGER" />   
+                        
+                <foreign-key foreignTable="disaggregated_data_table_description" onDelete="CASCADE">
+                        <reference foreign="model_table_name" local="model_table_name"/>
+                </foreign-key>
+         </table>
+
+          <!-- data from a run table -->
+         <table name="disaggregated_data_table" description="">
+         
+                <column name="run_id"  primaryKey="true" type="INTEGER"  />
+                <column name="username" primaryKey="true" type="CHAR" size="32" description="Username" />
+                <column
+                        name="model_table_name"
+                        type="CHAR"
+                        size="40"
+                        primaryKey='true'
+                        description="name of Asghars Table"/>
+        
+                <column name="iteration" primaryKey="true" type="INTEGER" default='1' />
+                
+                <foreign-key foreignTable="disaggregated_data_table_description" onDelete="CASCADE">
+                        <reference foreign="model_table_name" local="model_table_name"/>
+                </foreign-key>
+                <foreign-key foreignTable="run" onDelete="CASCADE">
+                        <reference foreign="run_id" local="run_id"/>
+                        <reference foreign="username" local="username"/>
+                </foreign-key>
+         </table>
+
+         <table name="disaggregated_data_table_cell" description="">
+         
+                <column name="run_id"  primaryKey="true" type="INTEGER"  />
+                <column name="username" primaryKey="true" type="CHAR" size="32" description="Username" />
+                <column
+                        name="model_table_name"
+                        type="CHAR"
+                        size="40"
+                        primaryKey='true'
+                        description="name of Asghars Table"/>
+                <column
+                        name="row_num"
+                        type="INTEGER"
+                        primaryKey='true'
+                        description=""/>
+                <column
+                        name="col_num"
+                        type="INTEGER"
+                        primaryKey='true'
+                        description=""/>
+                <column name="wave"  
+                        required="true"
+                        type="CHAR"
+                        size='2'
+                        primaryKey='true'
+                        description="Year this parameter refers to, or -99"/>
+                <column name="iteration" primaryKey="true" type="INTEGER" />
+                <column name="system_number" primaryKey="true" type="INTEGER" default='1' />
+                
+                <column
+                        name="value1"
+                        default='0.0'
+                        type="DOUBLE"
+                        description=""/>
+                <column
+                        name="value2"
+                        default='0.0'
+                        type="DOUBLE"
+                        description=""/>
+                <column
+                        name="value3"
+                        default='0.0'
+                        type="DOUBLE"
+                        description=""/>
+                <column
+                        name="value4"
+                        default='0.0'
+                        type="DOUBLE"
+                        description=""/>
+                <column
+                        name="value5"
+                        default='0.0'
+                        type="DOUBLE"
+                        description=""/>
+                <column
+                        name="value6"
+                        default='0.0'
+                        type="DOUBLE"
+                        description=""/>
+                <column
+                        name="i"
+                        default='0'
+                        type="BIGINT"
+                        description=""/>
+                <column
+                        name="p1"
+                        default='0'
+                        type="INTEGER"
+                        description=""/>
+                <column
+                        name="p2"
+                        default='0'
+                        type="INTEGER"
+                        description=""/>
+                <column
+                        name="p3"
+                        default='0'
+                        type="INTEGER"
+                        description=""/>
+                <!--     
+                <foreign-key foreignTable="disaggregated_data_table_cell_description" onDelete="CASCADE">
+                        <reference foreign="model_table_name" local="model_table_name"/>
+                        <reference foreign="cell_pos" local="row_num"/>
+                </foreign-key>
+                <foreign-key foreignTable="disaggregated_data_table_cell_description" onDelete="CASCADE">
+                        <reference foreign="model_table_name" local="model_table_name"/>
+                        <reference foreign="cell_pos" local="col_num"/>
+                </foreign-key>
+                too much bother to add these  .. -->
+                <foreign-key foreignTable="disaggregated_data_table" onDelete="CASCADE">
+                        <reference foreign="run_id" local="run_id"/>
+                        <reference foreign="username" local="username"/>
+                        <reference foreign="iteration" local="iteration"/>
+                        <reference foreign="model_table_name" local="model_table_name"/>
+                </foreign-key>
+         </table>
+         <!-- dummy table -->
+         <table name="maxima_and_totals" description="Really a dummy table">
+                <column name="lifetime_la_contributions" type='REAL' default='0.0' description=""/>
+                <column name="lifetime_client_contributions" type='REAL' default='0.0' description=""/>
+                <column name="lifetime_gross_payments" type='REAL' default='0.0' description=""/>
+                <column name="lifetime_capital_contributions" type='REAL' default='0.0' description=""/>
+                <column name="highest_la_contribution" type='REAL' default='0.0' description=""/>
+         </table>
+
+         <table name="uap_threshold" description="">
+                <column name="run_id"  primaryKey="true" type="INTEGER"  />
+                <column name="username" primaryKey="true" type="CHAR" size="32" description="Username" />
+                <column name="sysno" primaryKey="true" type="INTEGER" />
+                <column name="iteration" primaryKey="true" type="INTEGER" />
+                <column name="wave" primaryKey="true" type="CHAR" size="2" />
+                <column name="uap_level" primaryKey="true" type='ENUM' values='critical substantial moderate low none' />
+                <column name="threshold"  type='REAL' default='0.0' />
+                <foreign-key foreignTable="run">
+                        <reference foreign="username" local="username"/>
+                        <reference foreign="run_id" local="run_id"/>
+                </foreign-key>
+         </table>
+         
+         <table name="table_stats" description="Really a dummy table">
+                <column name="run_id"  primaryKey="true" type="INTEGER"  />
+                <column name="username" primaryKey="true" type="CHAR" size="32" description="Username" />
+                <column
+                        name="model_table_name"
+                        type="CHAR"
+                        size="40"
+                        primaryKey='true'
+                        description="name of Asghars Table"/>
+                <column
+                        name="row_num"
+                        type="INTEGER"
+                        primaryKey='true'
+                        description=""/>
+                <column
+                        name="col_num"
+                        type="INTEGER"
+                        primaryKey='true'
+                        description=""/>
+                <column name="wave"  
+                        required="true"
+                        type="CHAR"
+                        size='2'
+                        primaryKey='true'
+                        description="Year this parameter refers to, or -99"/>
+                <column name="system_number" primaryKey="true" type="INTEGER" default='1' />
+                
+                <column name="nvalues" type='INTEGER' default='0' description="Count of Values"/>
+
+                <column name="rmean_1" type='REAL' default='0.0' description="Mean, Value1"/>                
+                <column name="rmin_1" type='REAL' default='0.0' description="Min, Value1"/>
+                <column name="rmax_1" type='REAL' default='0.0' description="Max, Value1"/>
+                <column name="rmed_1" type='REAL' default='0.0' description="Median, Value1"/>
+                <column name="sddev_1" type='REAL' default='0.0' description="Standard Deviation, Value1"/>
+                <column name="dec1_1" type='REAL' default='0.0' description="1st Decile, Value1"/>
+                <column name="dec10_1" type='REAL' default='0.0' description="10th Decile, Value1"/>
+
+                <column name="rmean_2" type='REAL' default='0.0' description="Mean, Value2"/>                
+                <column name="rmin_2" type='REAL' default='0.0' description="Min, Value2"/>
+                <column name="rmax_2" type='REAL' default='0.0' description="Max, Value2"/>
+                <column name="rmed_2" type='REAL' default='0.0' description="Median, Value2"/>
+                <column name="sddev_2" type='REAL' default='0.0' description="Standard Deviation, Value2"/>
+                <column name="dec1_2" type='REAL' default='0.0' description="1st Decile, Value2"/>
+                <column name="dec10_2" type='REAL' default='0.0' description="10th Decile, Value2"/>
+                
+                <column name="rmean_3" type='REAL' default='0.0' description="Mean, Value3"/>                
+                <column name="rmin_3" type='REAL' default='0.0' description="Min, Value3"/>
+                <column name="rmax_3" type='REAL' default='0.0' description="Max, Value3"/>
+                <column name="rmed_3" type='REAL' default='0.0' description="Median, Value3"/>
+                <column name="sddev_3" type='REAL' default='0.0' description="Standard Deviation, Value3"/>
+                <column name="dec1_3" type='REAL' default='0.0' description="1st Decile, Value3"/>
+                <column name="dec10_3" type='REAL' default='0.0' description="10th Decile, Value3"/>
+                
+                <column name="rmean_4" type='REAL' default='0.0' description="Mean, Value4"/>                
+                <column name="rmin_4" type='REAL' default='0.0' description="Min, Value4"/>
+                <column name="rmax_4" type='REAL' default='0.0' description="Max, Value4"/>
+                <column name="rmed_4" type='REAL' default='0.0' description="Median, Value4"/>
+                <column name="sddev_4" type='REAL' default='0.0' description="Standard Deviation, Value4"/>
+                <column name="dec1_4" type='REAL' default='0.0' description="1st Decile, Value4"/>
+                <column name="dec10_4" type='REAL' default='0.0' description="10th Decile, Value4"/>
+                
+                <column name="rmean_5" type='REAL' default='0.0' description="Mean, Value5"/>                
+                <column name="rmin_5" type='REAL' default='0.0' description="Min, Value5"/>
+                <column name="rmax_5" type='REAL' default='0.0' description="Max, Value5"/>
+                <column name="rmed_5" type='REAL' default='0.0' description="Median, Value5"/>
+                <column name="sddev_5" type='REAL' default='0.0' description="Standard Deviation, Value5"/>
+                <column name="dec1_5" type='REAL' default='0.0' description="1st Decile, Value5"/>
+                <column name="dec10_5" type='REAL' default='0.0' description="10th Decile, Value5"/>
+                
+                <column name="rmean_6" type='REAL' default='0.0' description="Mean, Value6"/>                
+                <column name="rmin_6" type='REAL' default='0.0' description="Min, Value6"/>
+                <column name="rmax_6" type='REAL' default='0.0' description="Max, Value6"/>
+                <column name="rmed_6" type='REAL' default='0.0' description="Median, Value6"/>
+                <column name="sddev_6" type='REAL' default='0.0' description="Standard Deviation, Value6"/>
+                <column name="dec1_6" type='REAL' default='0.0' description="1st Decile, Value6"/>
+                <column name="dec10_6" type='REAL' default='0.0' description="10th Decile, Value6"/>
+                
+          </table>
+          
+        <table name="household_capital" description="remaining household capital">
+                <column name="username" primaryKey="true" type="CHAR" size="32" description="Username" />
+                <column name="run_id"  primaryKey="true" type="INTEGER"  />
+                <column name="sysno" primaryKey="true" type="INTEGER" />
+                <column name="iteration" primaryKey="true" type="INTEGER" />
+                <column name="hid" primaryKey="true" type="BIGINT" />
+                <column name="wave" primaryKey="true" type="CHAR" size="2" />
+                <column name="capital_stock" type='REAL' adaTypeName='Amount' default='0.0' description=""/>
+         </table>
+
+         <table name='gain_lose' description='Dummy Gain Lose Table'>
+                <column name="username" primaryKey="true" type="CHAR" size="32" description="Username" />
+                <column name="run_id"  primaryKey="true" type="INTEGER"  />
+                <column name="iteration" primaryKey="true" type="INTEGER" />
+                <column name="hid" type="BIGINT" />
+                <column name="pid" primaryKey="true" type="BIGINT" />
+                <column name="wave" primaryKey="true" type="CHAR" size="2" />
+                <column name="pre" type='REAL' adaTypeName='Amount' default='0.0' description=""/>
+                <column name="post" type='REAL' adaTypeName='Amount' default='0.0' description=""/>
+         </table>
+         
+
+        <table name='household_data'>
+                <column name='dataset_name' primaryKey="true" type="CHAR" size="32" description="Name" />
+                <column name="iteration" primaryKey="true" type="INTEGER" />
+                <column name='wave' primaryKey="true" type="CHAR" size="2" />       
+                <column name='interview_date' type='DATE' default='0000-00-00' />
+                <column name='current_simulated_date' type='DATE' default='0000-00-00' />
+                <column name="hid" primaryKey="true" type="BIGINT" adaTypeName="Sernum_Value"/>
+                <column name="origin_hid" primaryKey="true" type="BIGINT" adaTypeName="Sernum_Value" />
+                <column name="tenure" type='ENUM' adaTypeName='Tenure_Type' />  
+                <column name="region"  type='ENUM' adaTypeName='Region_Type'/>
+              
+                <column name='gross_rent' type='REAL' adaTypeName='Amount'/>
+                <column name='net_rent' type='REAL' adaTypeName='Amount'/>
+                <column name='mortgage_outstanding' type='REAL' adaTypeName='Amount'/>
+                <column name='gross_housing_costs' type='REAL' adaTypeName='Amount'/>
+                <column name='net_housing_costs' type='REAL' adaTypeName='Amount'/>
+                <column name='total_income' type='REAL' adaTypeName='Amount'/>
+                <column name='house_value' type='REAL' adaTypeName='Amount'/>
+                <column name='other_property_value' type='REAL' adaTypeName='Amount'/>
+                <column name='mortgage_payment' type='REAL' adaTypeName='Amount'/>
+                <column name='years_outstanding_on_mortgage' type='INTEGER' adaTypeName='Natural'/>
+                <column name='years_outstanding_on_mortgage' type='INTEGER' adaTypeName='Natural'/>
+                <column name='weight_basic' type='REAL' adaTypeName='Amount'/>
+                <column name='weight_extended_1' type='REAL' adaTypeName='Amount'/>
+                <column name='weight_extended_2' type='REAL' adaTypeName='Amount'/>
+                <column name='ct_band' type='ENUM' adaTypeName='Council_Tax_Band'/>
+                <column name='has_full_sample' type='INTEGER' adaTypeName='Boolean'/>
+                <foreign-key foreignTable="dataset"  onUpdate='CASCADE' onDelete='SETNULL'>
+                        <reference foreign="name" local="dataset_name"  />
+                </foreign-key>
+        </table>
+        
+        <table name='person'>
+
+                <column name='dataset_name' primaryKey="true" type="CHAR" size="32" description="Name" />
+                <column name="iteration" primaryKey="true" type="INTEGER" />
+                <column name='wave' primaryKey="true" type="CHAR" size="2" />       
+                <column name="hid" primaryKey="true" type="BIGINT" adaTypeName="Sernum_Value"/> <!-- don't really need hid here -->
+                <column name="pid" primaryKey="true" type="BIGINT" adaTypeName="Sernum_Value" />
+
+                <column name="buno" adaTypeName="Benefit_Unit_Number" default='0' type='INTEGER' />
+                <column name="chno" adaTypeName="Child_Number"  default='0' type='INTEGER' />
+                <column name="adno" adaTypeName="Adult_Number" default='0' type='INTEGER' />
+                
+                 <column name='pno' type='INTEGER' adaTypeName='Person_Number'/>
+                 <column name='age' type='INTEGER' adaTypeName='Age_Range'/>
+                 <column name='sex' type='ENUM' adaTypeName='Gender_Type'/>
+                 <column name='activities_of_daily_living_score' type='REAL' adaTypeName='Amount'/>
+                 <column name='health_score' type='REAL' adaTypeName='Amount'/>
+                 <column name='years_in_residential_care' type='INTEGER' adaTypeName='Integer'/>
+                 <!--
+                 <column name='regressors' type='REAL' adaTypeName='Regressors_Array'/>
+                 -->
+                 <column name='respondent_weight_basic' type='REAL' adaTypeName='Amount'/>
+                 <column name='respondent_weight_extended_1' type='REAL' adaTypeName='Amount'/>
+                 <column name='respondent_weight_extended_2' type='REAL' adaTypeName='Amount'/>
+
+                 <column name='enumeration_weight_basic' type='REAL' adaTypeName='Amount'/>
+                 <column name='enumeration_weight_extended_1' type='REAL' adaTypeName='Amount'/>
+                 <column name='enumeration_weight_extended_2' type='REAL' adaTypeName='Amount'/>
+                 
+                 <!--
+                 <column name='current_income' type='REAL' adaTypeName='Incomes_Array'/>
+                 <column name='annual_income' type='REAL' adaTypeName='Incomes_Array   '/>
+                 -->
+                 
+                 <column name='hdsp' type='ENUM' adaTypeName='Head_Or_Spouse'/>
+                 <column name='has_full_sample' type='INTEGER' adaTypeName='Boolean'/>
+                 <column name='receives_informal_care_from_household_member' type='BOOLEAN' adaTypeName='Boolean'/>
+                 <column name='receives_informal_care_from_non_householder' type='BOOLEAN' adaTypeName='Boolean'/>
+                 <column name='hours_of_care_recieved' type='INTEGER' adaTypeName='Hours_Count'/>
+                 <column name='hours_of_care_given' type='INTEGER' adaTypeName='Hours_Count'/>
+                 <column name='dies_this_period' type='BOOLEAN' adaTypeName='Boolean'/>
+                 <column name='seperates_this_period' type='BOOLEAN' adaTypeName='Boolean'/>
+                 
+                <column name='manage_stairs_help'  type='ENUM' adaTypeName='Help_Needed_Type' />
+                <column name='get_around_house_help'   type='ENUM' adaTypeName='Help_Needed_Type' />
+                <column name='get_in_or_out_of_bed_help'   type='ENUM' adaTypeName='Help_Needed_Type' />
+                <column name='cut_toenails_help'  type='ENUM' adaTypeName='Help_Needed_Type' />
+                <column name='bathing_or_showering_help'  type='ENUM' adaTypeName='Help_Needed_Type' />
+                <column name='walk_down_road_help'  type='ENUM' adaTypeName='Help_Needed_Type' />
+                <column name='manage_stairs_difficulty'  type='ENUM' adaTypeName='Difficulty_Type' />
+                <column name='get_around_house_difficulty' type='ENUM' adaTypeName='Difficulty_Type' />
+                <column name='get_in_or_out_of_bed_difficulty' type='ENUM' adaTypeName='Difficulty_Type' />
+                <column name='cut_toenails_difficulty' type='ENUM' adaTypeName='Difficulty_Type' />
+                <column name='bathing_or_showering_difficulty' type='ENUM' adaTypeName='Difficulty_Type' />
+                <column name='walk_down_road_difficulty'  type='ENUM' adaTypeName='Difficulty_Type' />
+
+                 <column name='employment_status' type='ENUM' adaTypeName='Employment_Status_Type'/>
+                 <column name='usual_hours_worked_per_week' type='INTEGER' adaTypeName='Hours_Count'/>
+                 <column name='highest_qualification' type='ENUM' adaTypeName='Qualification_Type'/>
+                 <column name='is_disabled' type='BOOLEAN' adaTypeName='Boolean'/>
+                 <column name='marital_status' type='ENUM' adaTypeName='Marital_Status_Type'/>
+                 <column name='partner_status' type='ENUM' adaTypeName='Partner_Status_Type'/>
+                 <column name='health_status' type='ENUM' adaTypeName='Health_Status_Type'/>
+                 <column name='base_personal_wealth' type='REAL' adaTypeName='Amount'/>
+                 <column name='personal_wealth' type='REAL' adaTypeName='Amount'/>
+                      
+                 <column name='disability_living_allowance_mobility_level' type='ENUM' adaTypeName='High_Low_Nil_Type'/>
+                 <column name='disability_living_allowance_care_level' type='ENUM' adaTypeName='High_Middle_Low_Nil_Type'/>
+                 <column name='attendance_allowance_level' type='ENUM' adaTypeName='High_Low_Nil_Type'/>
+                 
+                <foreign-key foreignTable="dataset"  onUpdate='CASCADE' onDelete='SETNULL'>
+                        <reference foreign="name" local="dataset_name"  />
+                </foreign-key>
+                <foreign-key foreignTable="household_data"  onUpdate='CASCADE' onDelete='SETNULL'>
+                        <reference foreign="dataset_name" local="dataset_name"  />
+                        <reference foreign="iteration" local="iteration"  />
+                        <reference foreign="hid" local="hid"  />
+                </foreign-key>
+        </table>
+
+        <table name='weighting_targets'>
+               <column name="run_id"  primaryKey="true" type="INTEGER"  />
+                <column name="username" primaryKey="true" type="CHAR" size="32" description="Username" />
+                <column name='wave' primaryKey="true" type="CHAR" size="2" />       
+                <column name='v1'  type='REAL' adaTypeName='Amount' />       
+                <column name='v2'  type='REAL' adaTypeName='Amount' />       
+                <column name='v3'  type='REAL' adaTypeName='Amount' />       
+                <column name='v4'  type='REAL' adaTypeName='Amount' />       
+                <column name='v5'  type='REAL' adaTypeName='Amount' />       
+                <column name='v6'  type='REAL' adaTypeName='Amount' />       
+                <column name='v7'  type='REAL' adaTypeName='Amount' />       
+                <column name='v8'  type='REAL' adaTypeName='Amount' />       
+                <column name='v9'  type='REAL' adaTypeName='Amount' />       
+                <column name='v10'  type='REAL' adaTypeName='Amount' />       
+                <column name='v11'  type='REAL' adaTypeName='Amount' />       
+                <column name='v12'  type='REAL' adaTypeName='Amount' />       
+                <column name='v13'  type='REAL' adaTypeName='Amount' />       
+                <column name='v14'  type='REAL' adaTypeName='Amount' />       
+                <column name='v15'  type='REAL' adaTypeName='Amount' />       
+                <column name='v16'  type='REAL' adaTypeName='Amount' />       
+                <column name='v17'  type='REAL' adaTypeName='Amount' />       
+                <column name='v18'  type='REAL' adaTypeName='Amount' />       
+                <column name='v19'  type='REAL' adaTypeName='Amount' />       
+                <column name='v20'  type='REAL' adaTypeName='Amount' />       
+                <column name='v21'  type='REAL' adaTypeName='Amount' />       
+                <column name='v22'  type='REAL' adaTypeName='Amount' />       
+                <column name='v23'  type='REAL' adaTypeName='Amount' />       
+                <column name='v24'  type='REAL' adaTypeName='Amount' />       
+                <column name='v25'  type='REAL' adaTypeName='Amount' />       
+                <column name='v26'  type='REAL' adaTypeName='Amount' />       
+                <column name='v27'  type='REAL' adaTypeName='Amount' />       
+                <column name='v28'  type='REAL' adaTypeName='Amount' />       
+                <column name='v29'  type='REAL' adaTypeName='Amount' />       
+                <column name='v30'  type='REAL' adaTypeName='Amount' />       
+                <column name='v31'  type='REAL' adaTypeName='Amount' />       
+                <column name='v32'  type='REAL' adaTypeName='Amount' />       
+                <column name='v33'  type='REAL' adaTypeName='Amount' />       
+                <column name='v34'  type='REAL' adaTypeName='Amount' />       
+                <column name='v35'  type='REAL' adaTypeName='Amount' />       
+                <column name='v36'  type='REAL' adaTypeName='Amount' />       
+                <column name='v37'  type='REAL' adaTypeName='Amount' />       
+                <column name='v38'  type='REAL' adaTypeName='Amount' />       
+                <column name='v39'  type='REAL' adaTypeName='Amount' />       
+                <column name='v40'  type='REAL' adaTypeName='Amount' />       
+                <column name='v41'  type='REAL' adaTypeName='Amount' />       
+                <column name='v42'  type='REAL' adaTypeName='Amount' />       
+                <column name='v43'  type='REAL' adaTypeName='Amount' />       
+                <column name='v44'  type='REAL' adaTypeName='Amount' />       
+                <column name='v45'  type='REAL' adaTypeName='Amount' />       
+                <column name='v46'  type='REAL' adaTypeName='Amount' />       
+                <column name='v47'  type='REAL' adaTypeName='Amount' />       
+                <column name='v48'  type='REAL' adaTypeName='Amount' />       
+                <column name='v49'  type='REAL' adaTypeName='Amount' />       
+                <column name='v50'  type='REAL' adaTypeName='Amount' />       
+                <foreign-key foreignTable="run">
+                        <reference foreign="username" local="username"/>
+                        <reference foreign="run_id" local="run_id"/>
+                </foreign-key>
+        </table>
+        
+        <table name='weights'>
+               <column name="run_id"  primaryKey="true" type="INTEGER"  />
+               <column name="username" primaryKey="true" type="CHAR" size="32" description="Username" />
+               <column name='wave' primaryKey="true" type="CHAR" size="2" />       
+               <column name="hid" primaryKey="true" type="BIGINT" adaTypeName="Sernum_Value"/> <!-- don't really need hid here -->
+               <column name='weight'  type='REAL' adaTypeName='Amount' />       
+               <foreign-key foreignTable="run">
+                        <reference foreign="username" local="username"/>
+                        <reference foreign="run_id" local="run_id"/>
+                </foreign-key>
+        </table>
+         
+</database>
+

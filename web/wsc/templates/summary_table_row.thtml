@@ -1,0 +1,15 @@
+<tr class='' style='padding:0'>
+
+<th width='30%'>@_TITLE_@</th>
+
+@@TABLE@@
+        @_YEAR-CELLS_@
+@@END_TABLE@@
+
+<td class='picture_thumbnail' >
+        <a href='@_POPUP-URL_@' onclick="ExampleWindow( this.href, 'totals', 'totals' ); return false;" onfocus='this.blur()'>
+                <img src='@_THUMBNAIL_@'  alt='thumbnail chart of @_TITLE_@'/>
+        </a>
+</td>
+
+</tr>

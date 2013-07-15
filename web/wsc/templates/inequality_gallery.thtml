@@ -1,0 +1,30 @@
+            <h2>@_GINI_@</h2>  
+            <p>
+            @_INTRO_TEXT_@
+            </p>
+            <div id="tabs">  
+
+            <ul>            
+            @@TABLE@@
+               <li><a href='#@_LINKS_@'>@_TITLES_@</a></li>
+            @@END_TABLE@@
+            </ul>
+
+            @@TABLE@@
+               <div id='@_LINKS_@'>
+                <div >
+                 <table class='legend_table'>
+                   <tr>
+                      <td class='pre_change'>&bull;&nbsp;@_BEFORE_@</td>
+                      <td class='post_change'>&bull;&nbsp;@_AFTER_@</td>
+                    </tr>
+                 </table>
+                </div>
+                
+                @_TABLES_@
+                
+               </div>
+            @@END_TABLE@@
+         
+         </div> <!-- tab container -->
+         
