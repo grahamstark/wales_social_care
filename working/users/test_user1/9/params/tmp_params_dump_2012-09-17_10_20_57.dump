@@ -1,2 +1,0 @@
-psql:/home/graham_s/VirtualWorlds/projects/wales_social_care/model2/working/users/test_user1/9/params/tmp_params_dump_2012-09-17_10_20_57.sql:1: ERROR:  insert or update on table "key_value_parameter" violates foreign key constraint "key_value_parameter_fk_0"
-DETAIL:  Key (username, run_id)=(test_user1, 9) is not present in table "run".

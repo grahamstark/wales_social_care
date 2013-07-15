@@ -1,1 +1,0 @@
-insert into key_value_parameter( username, run_id, key, val ) values ( 'graham_s',  2, 'y[2025].benefits.state_pension.age_men', ' 65' ),( 'graham_s',  2, 'y[2025].benefits.state_pension.class_a', ' 4.02150000000000E+02' ),( 'graham_s',  2, 'y[2025].benefits.state_pension.age_women', ' 60' )
