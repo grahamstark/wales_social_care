@@ -1255,7 +1255,7 @@ package body Callbacks.Wales is
       Log( "Build_Help_Page; path_length = " & Natural'Image( path_length ));
       -- FIXME HELP SYS
       for i in reverse 1 .. path_length loop
-         path_str :=  TOP_LEVEL_PREFIX & TuS( Join( path_copy, '.' ));
+         path_str :=  TOP_LEVEL_PREFIX & "." & TuS( Join( path_copy, '.' ));
          Log( "getting system " & TS( path_str ));
          help_sys := GLOBAL_EDITING_SYSTEM.Get( TS( path_str ));
          text := TuS( help_sys.Description( wsc_params.WSC_Parameter_Editing_System.description, en ));
@@ -1474,8 +1474,8 @@ package body Callbacks.Wales is
       --
       -- this gets the xml parameters system description of the component we're on
       --
-      fully_qualified_path_Str := TOP_LEVEL_PREFIX & TuS( Join( path, '.' ));
-      path_str := TuS( Join( path, '.' ));
+      fully_qualified_path_Str := TOP_LEVEL_PREFIX & "." & TuS( Join( path, '.' ));
+      path_str := "." & TuS( Join( path, '.' ));
       target_subsystem := GLOBAL_EDITING_SYSTEM.Get( TS( fully_qualified_path_Str ));
       
       trail.Add(
