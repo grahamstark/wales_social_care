@@ -1,7 +1,7 @@
-*.ali
-*.o
 bin/*
-docs/*.pdf
-working/users
-data/
-
+data/*
+created_datasets/*
+working/users/*
+log/*
+tmp/*
+*~
