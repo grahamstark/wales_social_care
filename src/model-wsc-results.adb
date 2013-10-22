@@ -287,23 +287,6 @@ package body Model.WSC.Results is
       return inc;
    end Calculate_Income;
    
-   function To_String( intermediate : Auxiliary_Results; indent : String ) return String is
-   use Ada.Strings.Unbounded;
-   use Auxiliary_Results_Package;
-      s : Unbounded_String;
-    
-      procedure Print_One( c : Cursor ) is
-         k   : Unbounded_String := Key( c );
-         a   : Amount := Element( c );
-      begin
-         s := s & indent & k & " = " & Format( a ) & Text_Utils.LINE_BREAK;
-      end Print_One;
-      
-   begin
-       intermediate.Iterate( Print_One'Access );
-       return To_String( s );
-   end To_String;
-    
    procedure Accumulate( 
       hh       : Model.WSC.Household.Household; 
       res      : in out Household_Result; 
