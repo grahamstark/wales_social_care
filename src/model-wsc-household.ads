@@ -53,20 +53,6 @@ package Model.WSC.Household is
    subtype Households_Per_Wave_Number is Households_Per_Wave_Count range 1 .. Households_Per_Wave_Count'Last;
    type Sernum_Array                  is array( Households_Per_Wave_Number ) of Sernum_Value;
    
-   subtype Child_Count         is Natural range 0 .. 10;
-   subtype Child_Number        is Child_Count range 1 .. Child_Count'Last;
-   
-   subtype Adult_Count         is Natural range 0 .. 10;
-   subtype Adult_Number        is Adult_Count range 1 .. Adult_Count'Last;
-   
-   subtype Person_Count        is Natural range 0 .. (Child_Count'Last + Adult_Count'Last);
-   subtype Person_Number       is Person_Count range 1 .. Person_Count'Last;
-
-   subtype Benefit_Unit_Count  is Natural range 0 .. 12; -- Person_Count'Last;
-   subtype Benefit_Unit_Number is Benefit_Unit_Count range 1 .. Benefit_Unit_Count'Last;
-   
-   subtype Hours_Count         is Natural range 0 .. (7 * 24);
-
    type Diff_And_Help is record
       help : Help_Needed_Type := Help_Needed_Type'First;
       diff : Difficulty_Type := Difficulty_Type'First;
