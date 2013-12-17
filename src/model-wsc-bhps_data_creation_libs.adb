@@ -579,9 +579,9 @@ package body Model.WSC.BHPS_Data_Creation_Libs is
       num_people       : BHPS.Person_Count := hh.Num_People;
       pnos             : Found_Person_Number_Array := hh.Get_All_Person_Numbers; 
       potential_carer  : BHPS.Adult;
-      adno             : wscm.Adult_Count;
-      chno             : wscm.Child_Count;
-      buno             : wscm.Child_Number;
+      adno             : Base_Model_Types.Adult_Count;
+      chno             : Base_Model_Types.Child_Count;
+      buno             : Base_Model_Types.Child_Number;
       found            : Boolean;
       total_num_cared_for : Amount := 0.0;
       care_per_person  : Amount;
@@ -650,12 +650,12 @@ package body Model.WSC.BHPS_Data_Creation_Libs is
          for buno in 1 .. mhh.num_benefit_units loop
             for adno in 1 .. mhh.benefit_units( buno ).num_adults loop
                if( mhh.benefit_units( buno ).adults( adno ).receives_informal_care_from_household_member )then
-                  mhh.benefit_units( buno ).adults( adno ).hours_of_care_recieved := wscm.Hours_Count( care_per_person );
+                  mhh.benefit_units( buno ).adults( adno ).hours_of_care_recieved := Base_Model_Types.Hours_Count( care_per_person );
                end if;
             end loop;
             for chno in 1 .. mhh.benefit_units( buno ).num_children loop
                if( mhh.benefit_units( buno ).children( chno ).receives_informal_care_from_household_member )then
-                  mhh.benefit_units( buno ).children( chno ).hours_of_care_recieved := wscm.Hours_Count( care_per_person );
+                  mhh.benefit_units( buno ).children( chno ).hours_of_care_recieved := Base_Model_Types.Hours_Count( care_per_person );
                end if;
             end loop;
          end loop;
@@ -667,9 +667,9 @@ package body Model.WSC.BHPS_Data_Creation_Libs is
       pnos       : Found_Person_Number_Array := hh.Get_All_Person_Numbers; 
       ad         : BHPS.Adult;
       mad        : wscm.Person;
-      adno       : wscm.Adult_Count;
-      chno       : wscm.Child_Count;
-      buno       : wscm.Child_Number;
+      adno       : Base_Model_Types.Adult_Count;
+      chno       : Base_Model_Types.Child_Count;
+      buno       : Base_Model_Types.Child_Number;
       found      : Boolean;
    begin
       for pno in 1 .. num_people loop 
@@ -975,7 +975,7 @@ package body Model.WSC.BHPS_Data_Creation_Libs is
       mad.fitness( WSC_Enums.cut_toenails ) := Make_Diff_And_Help( ad.indresp.adld, ad.indresp.adldd );
       mad.fitness( WSC_Enums.bathing_or_showering ) := Make_Diff_And_Help( ad.indresp.adle, ad.indresp.adled );
       mad.fitness( WSC_Enums.walk_down_road  ) := Make_Diff_And_Help( ad.indresp.adlf, ad.indresp.adlfd );  
-      mad.hours_of_care_given := wscm.Hours_Count( Map_Aidhrs( ad.indresp.aidhrs ));
+      mad.hours_of_care_given := Base_Model_Types.Hours_Count( Map_Aidhrs( ad.indresp.aidhrs ));
       
    end Create_Person_Details;
    
@@ -1035,9 +1035,9 @@ package body Model.WSC.BHPS_Data_Creation_Libs is
                         if( rr.vp < 0.0 )then
                            ad.hours_of_care_recieved := 0;
                         elsif( rr.vp > Amount( Hours_Count'Last ))then
-                           ad.hours_of_care_recieved := wscm.Hours_Count'Last; 
+                           ad.hours_of_care_recieved := Base_Model_Types.Hours_Count'Last; 
                         else
-                           ad.hours_of_care_recieved := wscm.Hours_Count( rr.vp );
+                           ad.hours_of_care_recieved := Base_Model_Types.Hours_Count( rr.vp );
                         end if;
                      end if;
                      Recalculate_Regressors( ad, hh.Num_Adults, hh.Num_Children, hh.hdata );

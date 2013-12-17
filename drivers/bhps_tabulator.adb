@@ -74,13 +74,13 @@ use BHPS_Enums;
    
    procedure Load_Household( c : Index_Cursor ) is
       index : Index_Rec := Element( c );
-      num_people : Person_Count := 0;
+      num_people : Base_Model_Types.Person_Count := 0;
       bu         : Benefit_Unit;
       ad         : Adult;
       weight     : Amount;
       hh_weight  : Amount;
       ch         : BHPS.Child;
-      num_bus    : Benefit_Unit_Count := 0;
+      num_bus    : Base_Model_Types.Benefit_Unit_Count := 0;
       ppos       : Found_Person_Number_Array;
       age_band   : ONS_Definitions.Age_Band;
       data       : Table_Col := ( others => 0.0 );
@@ -124,10 +124,10 @@ use BHPS_Enums;
                Assert( ch.age < 16, "age should be < 16 was " & Age_Range'Image( ch.age ));
             end loop;
             Assert( bu.Num_Children + bu.Num_With_Adult_Records = bu.num_people, 
-               "child+adult mismatch for bu " & Benefit_Unit_Count'Image( b ) &
-               " child " & Person_Count'Image( bu.Num_Children ) &
-               " adult " & Person_Count'Image( bu.Num_With_Adult_Records ) &
-               " total " & Person_Count'Image( bu.Num_People ));
+               "child+adult mismatch for bu " & Base_Model_Types.Benefit_Unit_Count'Image( b ) &
+               " child " & Base_Model_Types.Person_Count'Image( bu.Num_Children ) &
+               " adult " & Base_Model_Types.Person_Count'Image( bu.Num_With_Adult_Records ) &
+               " total " & Base_Model_Types.Person_Count'Image( bu.Num_People ));
          end loop;
       end if;
    end Load_Household;

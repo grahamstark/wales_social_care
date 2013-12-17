@@ -526,7 +526,7 @@ package body WSC_Tests is
    
       procedure Load_Adult( c : Index_Cursor ) is
          index : Index_Rec := Element( c );
-         num_people : Person_Count := 0;
+         num_people : Base_Model_Types.Person_Count := 0;
          ad         : Adult := Load_Adult( index, ptrs, wave );
          weight     : Amount;
       begin

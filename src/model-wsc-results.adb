@@ -8,6 +8,10 @@ package body Model.WSC.Results is
    use Text_Utils;
    use Ada.Assertions;
  
+   function To_String( intermediate : Auxiliary_Results; indent : String ) return String is
+   begin
+      return Base_Model_Types.To_String( intermediate, indent );
+   end To_String;
 
    function Which_Incomes_Received( a : Calculated_Incomes_Array ) return Income_Package.Set is
       s : Income_Package.Set;
