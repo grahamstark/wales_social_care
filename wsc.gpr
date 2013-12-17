@@ -54,6 +54,7 @@ project WSC is
       "random_tests.adb",
       "create_user.adb",
       "wsc_server.adb",
+      "sql_tester.adb",
       "basic_stats_generator"
        );
 
