@@ -7,8 +7,6 @@ with "tb_2012.gpr";
 --
 project WSC_Windows is
 
-   type Op_Type is ( "std", "asis", "optimised", "none" );
-   op : Op_Type := external( "OP", "std" );
    for Languages use( "Ada" );
 
    for Source_Dirs use (
@@ -16,7 +14,7 @@ project WSC_Windows is
         "drivers/**",
         "tests/**",
         "web_src/**",
-        "c:/Users/graham_s/Wales/gnade/**",
+        "c:/cygwin/home/graham_s/Wales/gnade/**",
         "db_src/**" );
         
 
@@ -39,8 +37,6 @@ project WSC_Windows is
       "make_wsc_data_from_bhps.adb",
       "mtests.adb",
       "compare_raw_and_derived.adb",
-      -- "create_weights.adb",
-      -- "load_weights.adb",
       "dump_model_data.adb",
       "bhps_tabulator",
       "make_md5.adb",
@@ -49,24 +45,13 @@ project WSC_Windows is
       "random_tests.adb",
       "create_user.adb",
       "wsc_server.adb",
-      "basic_stats_generator"
-       );
-
-   -- "adr_c_test.adb
+      "basic_stats_generator" );
       
-   Includeopt := ("-gnat2012");
-   Libopt := "";
-   AsisOpts := (  "-gnatc", "-gnatt" );
-   OptimisedOpts := ( "-gnatp", "-O3", "-fomit-frame-pointer", "-lpthread", "-funroll-loops" );
-   SimpleOpts := ( "" );
-   
    for Exec_Dir use "bin/";
    for Object_Dir use "bin/";
 
-   -- "-ftest-coverage", "-lcrypto", "-lssl", "-llapack" ); -- last of these is lapack maths,
-
    package Linker is
-      for Default_Switches ("ada") use ( "-g"  ); -- ,
+      for Default_Switches ("ada") use ( "-g"  ); 
    end Linker;
 
    package Pretty_Printer is
@@ -74,25 +59,15 @@ project WSC_Windows is
    end Pretty_Printer;
 
    package Binder is
-      for Default_Switches ("ada") use ("-static", "-E" ); --, "-d500m" , "-D500m"); -- stack at exceptions, list restrictions, static linking
+      for Default_Switches ("ada") use ("-static", "-E" );
    end Binder;
 
    package Compiler is
-      case op is
-         when "std" =>
-            for Default_Switches ( "ada" ) use IncludeOPT & ( "-g", "-gnato", "-E", "-fstack-check"  ); -- );
-         when "none" =>
-            for Default_Switches ( "ada" ) use IncludeOPT & SimpleOpts;
-         when "asis" =>
-            for Default_Switches ( "ada" ) use IncludeOPT & AsisOpts;
-         when "optimised" =>
-            for Default_Switches ( "ada" ) use IncludeOPT & OptimisedOpts;
-      end case;
+      for Default_Switches ( "ada" ) use ( "-g", "-gnato", "-E", "-fstack-check"  );
    end Compiler;
 
    package Builder is
-      for Default_Switches ("ada")
-      use  IncludeOPT & ("-g", "-gnatQ", "-x",  "-E" );
+      for Default_Switches ("ada") use ("-g", "-gnatQ", "-x",  "-E" );
    end Builder;
 
 end WSC_Windows;
