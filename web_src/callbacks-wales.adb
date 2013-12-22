@@ -152,6 +152,7 @@ package body Callbacks.Wales is
       run_just_aborted : Boolean := AWS.Session.Get( session_id, globals.SESSION_ABORTING );
       root_str         : constant String := Model.WSC.Global_Settings.WSC_Web_Root;
    begin
+      Log( "Run_Progress_Callback entered" );
       if(( not logresult.validated ) or ( logresult.new_session )) then
          return logresult.response;
       end if;
@@ -183,6 +184,7 @@ package body Callbacks.Wales is
             state_string := web_runner.Get_State_Of_Run_As_HTML( wsc_run, run_state );
          end if;
       end if;
+      Log( "Run_Progress_Callback exiting with |" & TS( state_string ) & "|"  );
       return AWS.Response.Build( "text/html", state_string );
    end Run_Progress_Callback;
    

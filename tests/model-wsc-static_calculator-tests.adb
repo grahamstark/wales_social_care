@@ -754,7 +754,6 @@ package body Model.WSC.Static_Calculator.Tests is
       Put_Line( "Static_Tests: register tests" );
       Register_Routine( tc, Test_Calculate_Residential'Access, "Test_Calc_Residential" );
       Register_Routine( tc, Test_Basic_Stats'Access, "Test_Basic_Stats" );
-      Register_Routine( tc, Test_Run_Settings_IO'Access, "Test_Run_Settings_IO" );
       Register_Routine( tc, Test_Get_UAP_Level'Access, "Test UAP Level" );
       Register_Routine( tc, Test_Apply_Income_Means_Test'Access, "Test_Apply_Income_Means_Test" ); 
       Register_Routine( tc, Test_Get_Non_Residential_Care_Hours_Offer'Access, " Test_Get_Non_Residential_Care_Hours_Offer" );
@@ -764,6 +763,7 @@ package body Model.WSC.Static_Calculator.Tests is
       Register_Routine( tc, Test_DLA'Access, "Test_DLA" );
       Register_Routine( tc, Test_Pension_Credit'Access , "Pension Credit " );
       Register_Routine( tc, Test_Means_Tests'Access, "Test_Means_Tests" );
+      -- Register_Routine( tc, Test_Run_Settings_IO'Access, "Test_Run_Settings_IO" );
       -- Register_Routine( tc,Test_Results_IO'Access, "Test_Results_IO" );
       -- Register_Routine( tc,Test_Rounding'Access, "Test Rounding" );
       -- Register_Routine( t, Test_Rand_List'Access, "Test_Rand_List" );

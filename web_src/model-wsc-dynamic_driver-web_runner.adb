@@ -66,8 +66,9 @@ package body Model.WSC.Dynamic_Driver.Web_Runner is
          run_state.health := in_error;
          run_state.error_code := observer.m.Get_Counter( 6 );
          run_state.message := TuS( observer.m.Get_Message & ": stack trace: " &  observer.m.Get_Stack_Trace );
-         Log( "ERROR: username " & TS( username ) & " run id " & run_id'Img &
-            TS( run_state.message ));
+         Log( "ERROR: username |" & TS( username ) & "| run id |" & run_id'Img & "| message |" &
+            TS( run_state.message )  & Utils.Get_Stack_Trace );
+         Log( "error message " & observer.m.Get_Message );
       else
          run_state.phase := observer.m.Get_Stage;
          run_state.health := observer.m.Get_Health;
@@ -236,6 +237,7 @@ package body Model.WSC.Dynamic_Driver.Web_Runner is
                         default_params : Parameters_Array := 
                            Model.WSC.Parameter_System_Declarations.Get_Default_Model_Parameters( rc.wsc_run );
                      begin
+                        monitor.Reset;
                         Log( "run starting for user " & TS( rc.wsc_run.username ) & " run_id " & rc.wsc_run.run_id'Img );
                         Put_Line( "run starting for user " & TS( rc.wsc_run.username ) & " run_id " & rc.wsc_run.run_id'Img );
                         monitor.Set_Id( rc.wsc_run.run_id );
