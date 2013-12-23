@@ -1,0 +1,104 @@
+with "aws";
+with "aunit";
+with "gnatcoll";
+with "strings_edit";
+with "tb_2012.gpr";
+-- with "components-odbc";
+--
+-- components odbc
+-- this needs -XODBC_Driver=unixODBC -XArch=x86_64
+-- see the top of the file for options
+--
+
+project WSC is
+
+   type Op_Type is ( "std", "asis", "optimised", "none" );
+   op : Op_Type := external( "OP", "std" );
+   for Languages use( "Ada" );
+
+   for Source_Dirs use (
+        "src/**",
+        "drivers/**",
+        "tests/**",
+        "web_src/**",
+        "/opt/ada_libraries/gnade/**",
+        "db_src/**" );
+        
+
+   for Object_Dir use "bin";
+
+   for Main use (
+      "run_emailer.adb",
+      "run_creator.adb",
+      "sql_driver.adb",
+      "parameter_uprater.adb",
+      "run_settings_renderer_tester.adb",
+      "einstein.adb",
+      "templates_test_driver.adb",
+      "user_tester.adb",
+      "run_tester.adb",
+      "wsc_harness.adb",
+      "wsc_basic_harness.adb",
+      "transitions_runner.adb",
+      "dynamic_model_runner.adb",
+      "make_wsc_data_from_bhps.adb",
+      "mtests.adb",
+      "compare_raw_and_derived.adb",
+      -- "create_weights.adb",
+      -- "load_weights.adb",
+      "dump_model_data.adb",
+      "bhps_tabulator",
+      "make_md5.adb",
+      "probs_tester.adb",
+      "random_list_generator.adb",
+      "random_tests.adb",
+      "create_user.adb",
+      "wsc_server.adb",
+      "sql_tester.adb",
+      "basic_stats_generator"
+       );
+
+   -- "adr_c_test.adb
+      
+   Includeopt := ("-gnat2012");
+   Libopt := "";
+   AsisOpts := (  "-gnatc", "-gnatt" );
+   OptimisedOpts := ( "-gnatp", "-O3", "-fomit-frame-pointer", "-lpthread", "-funroll-loops" );
+   SimpleOpts := ( "" );
+   
+   for Exec_Dir use "bin/";
+   for Object_Dir use "bin/";
+
+   -- "-ftest-coverage", "-lcrypto", "-lssl", "-llapack" ); -- last of these is lapack maths,
+
+   package Linker is
+      for Default_Switches ("ada") use ( "-g"  ); -- ,
+   end Linker;
+
+   package Pretty_Printer is
+      for Default_Switches ("ada") use ("-M140", "-l3");
+   end Pretty_Printer;
+
+   package Binder is
+      for Default_Switches ("ada") use ("-static", "-E" ); --, "-d500m" , "-D500m"); -- stack at exceptions, list restrictions, static linking
+   end Binder;
+
+   package Compiler is
+      case op is
+         when "std" =>
+            for Default_Switches ( "ada" ) use IncludeOPT & ( "-g", "-gnato", "-E", "-fstack-check"  ); -- );
+         when "none" =>
+            for Default_Switches ( "ada" ) use IncludeOPT & SimpleOpts;
+         when "asis" =>
+            for Default_Switches ( "ada" ) use IncludeOPT & AsisOpts;
+         when "optimised" =>
+            for Default_Switches ( "ada" ) use IncludeOPT & OptimisedOpts;
+      end case;
+   end Compiler;
+
+   package Builder is
+      for Default_Switches ("ada")
+      use  IncludeOPT & ("-g", "-gnatQ", "-x",  "-E" );
+   end Builder;
+
+end WSC;
