@@ -14,12 +14,8 @@
 -- Boston, MA 02110-1301, USA.                                              --
 --                                                                          --
 --                                                                          --
-with Ada.Strings.Unbounded;
-with Text_Utils;
 
-with AWS.Session;
 with AWS.Response;
-with AWS.Parameters;
 with AWS.Status;
 
 --
@@ -28,9 +24,6 @@ with AWS.Status;
 --
 package Callbacks.Wales is
    
-   use Ada.Strings.Unbounded;
-   use Text_Utils;
-
    function Index_Page_Callback( request : in AWS.Status.Data ) return AWS.Response.Data;
    function Run_Progress_Callback( request : in AWS.Status.Data ) return AWS.Response.Data;
    function Parameter_Page_Callback( request : in AWS.Status.Data ) return AWS.Response.Data;

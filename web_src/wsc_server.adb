@@ -101,9 +101,8 @@ begin
       Dispatchers.URI.Register_Regexp( my_dispatcher, STATIC_FILE_REGEP,
                                       Callbacks.Serve_Static_Resource'Access );
       Dispatchers.URI.Register_Regexp( my_dispatcher, WSC_Web_Root & "progress.*",      Callbacks.Wales.Run_Progress_Callback'Access );   
-       -- Dispatchers.URI.Register_Regexp( my_dispatcher, WSC_Web_Root & "save_file.*",     Callbacks.Serve_File_Callback'Access );
-      Dispatchers.URI.Register_Regexp( my_dispatcher, WSC_Web_Root & "logout.*",        Callbacks.Logout_Callback'Access );
       
+      -- Dispatchers.URI.Register_Regexp( my_dispatcher, WSC_Web_Root & "save_file.*",     Callbacks.Serve_File_Callback'Access );
       -- Dispatchers.URI.Register_Regexp( my_dispatcher, WSC_Web_Root & "download_run",    Callbacks.Wales.Download_Run_Callback'Access );
       
       Dispatchers.URI.Register_Regexp( my_dispatcher, WSC_Web_Root & ".*example_popup.*", Callbacks.Wales.Example_Popup_Callback'Access );

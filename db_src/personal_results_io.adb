@@ -74,7 +74,7 @@ package body Personal_Results_IO is
    --
    UPDATE_PART : constant String := "update personal_results set  ";
  
-   log_trace : GNATColl.Traces.Trace_Handle := GNATColl.Traces.Create( "MODEL.WSC.BHPS_DATA_CREATION_LIBS" );
+   log_trace : GNATColl.Traces.Trace_Handle := GNATColl.Traces.Create( "PERSONAL_RESULTS_IO" );
    
    procedure Log( s : String ) is
    begin
