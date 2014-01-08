@@ -7,22 +7,23 @@
 -- it under the terms of the GNU General Public License as published by
 -- the Free Software Foundation; either version 3, or (at your option)
 -- any later version.
--- 
+--
 -- It is distributed in the hope that it will be useful,
 -- but WITHOUT ANY WARRANTY; without even the implied warranty of
 -- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 -- GNU General Public License for more details.
--- 
+--
 -- You should have received a copy of the GNU General Public License
 -- along with this software; see the file docs/gpl_v3.  If not, write to
 -- the Free Software Foundation, Inc., 51 Franklin Street,
 -- Boston, MA 02110-1301, USA.
--- 
+--
 -- /////////////////////////////
 
 pragma License( Modified_GPL );
 
 with Ada.Text_IO;
+
 with Ada.Assertions;
 with Ada.Command_Line;
 
@@ -64,7 +65,7 @@ procedure Make_WSC_Data_From_BHPS is
    use BHPS.Binary_IO;
    use BHPS.XLookup;
    use Ada.Assertions;
-   
+
    hh        : BHPS.Household_Access;
    this_wave : Waves;
    ptrs      : Record_Pointers_Array;
@@ -75,7 +76,7 @@ procedure Make_WSC_Data_From_BHPS is
    wales_only : Boolean;
 
    log_trace : GNATColl.Traces.Trace_Handle := GNATColl.Traces.Create( "MAKE_WSC_DATA_FROM_BHPS" );
-   
+
    procedure Log( s : String ) is
    begin
       GNATColl.Traces.Trace( log_trace, s );
@@ -95,8 +96,8 @@ procedure Make_WSC_Data_From_BHPS is
       return True;
    end Set_Up;
 
-   
-   procedure Create_Model_Household( c : Index_Cursor ) is 
+
+   procedure Create_Model_Household( c : Index_Cursor ) is
    use BHPS_Enums;
       index : Index_Rec := Element( c );
       mhh : wsch.Household;
@@ -140,7 +141,7 @@ procedure Make_WSC_Data_From_BHPS is
                               ad_last_period := hh_last_period.Get_Person( wave_loc.pno );
                            end if;
                            Free( hh_last_period );
-                        end;   
+                        end;
                      end if;
                      if( this_wave < Waves_With_Data'Last )then
                         declare
@@ -150,9 +151,9 @@ procedure Make_WSC_Data_From_BHPS is
                            next_index     : Index_Rec;
                         begin
                            next_period_wave_loc := Get_Household_Id( xptr, next_wave, ad.pid );
-                           if next_period_wave_loc.pno > 0 and 
-                              next_period_wave_loc.hid > 0 and 
-                              next_period_wave_loc.individual_interview_ok and 
+                           if next_period_wave_loc.pno > 0 and
+                              next_period_wave_loc.hid > 0 and
+                              next_period_wave_loc.individual_interview_ok and
                               next_period_wave_loc.household_interview_ok then
                               next_index := next_index_map.Element( next_period_wave_loc.hid );
                               hh_next_period.all := Load_Household( next_index, ptrs( next_wave ), next_wave );
@@ -160,12 +161,12 @@ procedure Make_WSC_Data_From_BHPS is
                               ad_next_period := hh_next_period.Get_Person( next_period_wave_loc.pno );
                            end if;
                            Free( hh_next_period );
-                        end;   
+                        end;
                      end if;
-                     regressors := wscl.Make_Individual_Regressors( 
-                        ad, 
-                        ad_last_period, 
-                        ad_next_period, 
+                     regressors := wscl.Make_Individual_Regressors(
+                        ad,
+                        ad_last_period,
+                        ad_next_period,
                         next_period_wave_loc.summary_status,
                         hh.hhresp.region,
                         hh.hhresp.nkids );
@@ -173,7 +174,7 @@ procedure Make_WSC_Data_From_BHPS is
                      Log( "regressors are " & wscr.Regressors_Package.To_String( regressors ));
                      if( ad.indresp.pid > 0 )then
                         declare
-                           buno  : Benefit_Unit_Count; 
+                           buno  : Benefit_Unit_Count;
                            adno  : Adult_Count;
                            chno  : Child_Count;
                            found : Boolean;
@@ -207,8 +208,8 @@ procedure Make_WSC_Data_From_BHPS is
          Log( "hh data missing for " & mhh.hid'Img & " wave " & this_wave & " num_non_empty_benefit_units = " & num_non_empty_benefit_units'Img );
       end if;
    end Create_Model_Household;
-   
-   
+
+
    nhhs : Positive := 1;
 begin
    if( not Set_Up )then
@@ -218,11 +219,11 @@ begin
          db.Create( "data/wales/actual/", actual, 1 );
       else
          db.Create( "data/full/actual/", actual, 1 );
-      end if;      
+      end if;
       hh := new BHPS.Household;
       Open( ptrs );
       xptr := Load_XWave;
-      Restore_All_Indexes( "/mnt/data/bhps/bin/", index_map ); 
+      Restore_All_Indexes( "/mnt/data/bhps/bin/", index_map );
       for wave in  'b' .. Waves_With_Data'Last loop
          this_wave := wave;
          Log( "on wave " & wave );
@@ -230,11 +231,11 @@ begin
       end loop;
       Close( ptrs );
       Free( hh );
-      
+
       for wave in WSC_Enums.g .. WSC_Enums.r loop
         trans.Create_Initial_Care_Home_Population( db, default_settings, wave, False );
       end loop;
-      
+
       db.Close;
    end if;
 end Make_WSC_Data_From_BHPS;
