@@ -98,7 +98,7 @@ package Run_IO is
    
    function Map_Associated_Params_To_Text_Buffer( r : Run ) return Keyed_Text_Buffer.Text_Buffer;
    procedure Store_Params_From_Text_Buffer( r : Run; buff : Keyed_Text_Buffer.Text_Buffer );
-   procedure Bulk_Save_Parameters( r : Run; iteration : Positive; kvs : Keyed_Text_Buffer.Text_Buffer );
+   procedure Bulk_Save_Parameters( r : Run; kvs : Keyed_Text_Buffer.Text_Buffer );
    
    function Retrieve_Associated_Probit_Thresholds( r : Run ) return Wsc_Db_Data.Probit_Threshold_List.Vector;
    function Retrieve_Associated_Personal_Results( r : Run ) return Wsc_Db_Data.Personal_Results_List.Vector;

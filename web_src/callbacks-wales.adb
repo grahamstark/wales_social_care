@@ -476,7 +476,7 @@ package body Callbacks.Wales is
       cgi_values         : constant AWS.Parameters.List := AWS.Status.Parameters( request );
       settings_sys       : wsc_params.WSC_Parameter_Editing_System.Parameter_System_Rec := wsc_params.Get_WSC_Run_Settings;
       extra_translations : Translate_Set;
-      full_translations : Translate_Set;
+      full_translations  : Translate_Set;
       error_message      : Unbounded_String;
       main_error_message : Unbounded_String;
       job_is_running     : Boolean := Is_Job_Running( request );
@@ -1527,8 +1527,8 @@ package body Callbacks.Wales is
                -- make a new run and make it the edited run
                --
                wsc_run := Run_IO.Make_New_Copy( wsc_run, logresult.user.username );
-               wsc_run.status := edited;
                Run_IO.Clear_Status_Flag_For( logresult.user.username, edited ); 
+               wsc_run.status := edited;
                Run_IO.Save( wsc_run );
             end;
          end if;

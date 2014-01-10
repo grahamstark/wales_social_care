@@ -266,7 +266,7 @@ package body Run_IO is
    end Is_Null;
     use Keyed_Text_Buffer;
  
-   procedure Bulk_Save_Parameters( r : Run; iteration : Positive; kvs : Keyed_Text_Buffer.Text_Buffer ) is   
+   procedure Bulk_Save_Parameters( r : Run; kvs : Keyed_Text_Buffer.Text_Buffer ) is   
    use Text_Utils;
    use Text_IO;
    use Text_Utils.String_Maps_Package;

@@ -153,8 +153,6 @@ package body Callbacks is
       end if;
       this_user := globals.Validate( username, password );
       if( this_user = users.INVALID_USER )then
-          users.User_Session_Data.Set( session_id, Globals.SESSION_USER_ID, result.user.username );
-          -- AWS.Session.Set( session_id, globals.SESSION_RUN_ID, 0 );
           users.User_Session_Data.Set( session_id, globals.SESSION_USER_ID, Null_Unbounded_String );
           result.response := AWS.Response.Authenticate( globals.AUTHENTICATION_DOMAIN, AWS.Response.Basic );
       else
@@ -182,21 +180,6 @@ package body Callbacks is
       username       : Unbounded_String := users.User_Session_Data.Get( session_id, globals.SESSION_USER_ID );
    begin
       return Run_IO.Has_Run_In_State( username, running_or_queued );
-      -- run_state := State_IO.Retrieve_By_PK( username, run_id );
-      -- Log( "Is_Job_Running: got phase as " & 
-           -- run_state.phase'Img &  
-           -- "session id |" & AWS.Session.Image( session_id ) & "| run_id " & run_id'Img );
-      -- if( run_state = Blank_State_Type )then
-         -- running := False;
-      -- elsif( run_state.phase = queued )then
-         -- running := True;
-      -- elsif( run_state.phase = not_started or run_state.phase = complete )then
-         -- running := False;
-      -- else
-         -- running := True;
-      -- end if;
-      -- Log( "Is_Job_Running: got running as " & Boolean'Image( running ));
-      -- return running;
    end Is_Job_Running;
    
    function Get_Std_Translations( request : in AWS.Status.Data; user : users.User_Type ) return Templates_Parser.Translate_Set is
@@ -216,11 +199,6 @@ package body Callbacks is
       Insert( translations, Assoc( "RANDOM_STRING", Utils.Random_String ));
       Insert( translations, Assoc( "URI", URI ));
       Insert( translations, Assoc( "PAGE-TITLE", "" ));
-      -- if( user.lang = en )then
-         -- Insert( translations, Assoc( "LANG-CHOICE", "EN&nbsp;|&nbsp;<a href='lang/nl'>NL</a>" ));
-      -- else
-         -- Insert( translations, Assoc( "LANG-CHOICE", "<a href='lang/en'>EN</a>&nbsp;|&nbsp;NL" ));
-      -- end if;
       return translations;
    end Get_Std_Translations;
 
