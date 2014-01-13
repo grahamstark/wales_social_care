@@ -187,7 +187,7 @@ package body Model.WSC.Globals is
            " end_year " & end_year'Img );
       if( error_count = 0 )then
          kvb :=  param_editing_buffer.To_Text_Buffer( which, start_year, end_year );
-         Run_IO.Bulk_Save_Parameters( wsc_run, 1, kvb );
+         Run_IO.Bulk_Save_Parameters( wsc_run, kvb );
       end if; 
       param_editing_buffer.Set_Current_Year( current_year );
    end Map_And_Set_Parameters; 
