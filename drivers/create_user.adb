@@ -30,7 +30,8 @@ begin
          Model.WSC.Globals.Initialise_Globals_And_Pools( 1 );
          user.username := TuS( Ada.Command_Line.Argument( 2 ));
          user.password := TuS( Ada.Command_Line.Argument( 3 ));
-            -- TuS( GNAT.MD5.Digest( Ada.Command_Line.Argument( 3 )));
+         -- note: this makes MD5 hash of the password 
+         -- TuS( GNAT.MD5.Digest( Ada.Command_Line.Argument( 3 )));
          if( Ada.Command_Line.Argument_Count >= 4 )then
             user.description  := TuS( Ada.Command_Line.Argument( 4 ));
          else
