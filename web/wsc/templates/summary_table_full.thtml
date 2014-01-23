@@ -18,7 +18,7 @@
    <h2>Population</h2>
    
    <table class='datatable' width='100%' >
-      <caption>000s</caption>
+      <caption>Cases</caption>
       <tbody>
          <tr>    
                 <th align='right'></th>
@@ -98,7 +98,7 @@
    <h2>Benefits</h2>
    
    <table class='datatable' width='100%'>
-      <caption>Costs in &pound;000,000s PA; cases in 000s</caption>
+      <caption>Costs in &pound;000,000s PA; counts </caption>
       <tbody>
          <tr>    
                 <th align='right'></th>
