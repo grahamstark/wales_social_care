@@ -65,7 +65,7 @@ package body Model.WSC.Output.Web_IO is
          dla_mob_recipients |
          pension_recipients |
          aa_recipients |
-         pc_recipients => divisor := 1_000.0;
+         pc_recipients => divisor := 1.0;
       when 
          net_income |
          disposable_income |
