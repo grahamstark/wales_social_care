@@ -9,7 +9,7 @@ with Ada.Strings.Unbounded;
 
 with WSC_Enums;
 with WSC_Web_Enums;
-with Model.Run_Settings;
+with Model.WSC.Run_Settings;
 with Model.WSC.Run_Declarations;
 
 package User_Type_IO is
@@ -20,7 +20,7 @@ package User_Type_IO is
 
    use WSC_Enums;
    use WSC_Web_Enums;
-   use Model.Run_Settings;
+   use Model.WSC.Run_Settings;
    use Model.WSC.Run_Declarations;
    
 

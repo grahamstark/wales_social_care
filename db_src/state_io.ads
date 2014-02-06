@@ -8,7 +8,7 @@ with ADA.Calendar;
 with Ada.Strings.Unbounded;
 with WSC_Enums;
 with WSC_Web_Enums;
-with Model.Run_Settings;
+with Model.WSC.Run_Settings;
 
 -- M1
 with DB_Commons.ODBC; 
@@ -24,7 +24,7 @@ package State_IO is
    
    use WSC_Enums;
    use WSC_Web_Enums;
-   use Model.Run_Settings;
+   use Model.WSC.Run_Settings;
    
    function Next_Free_Run_Id return integer;
 

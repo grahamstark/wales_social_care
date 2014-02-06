@@ -9,7 +9,7 @@ with Ada.Strings.Unbounded;
 
 with WSC_Enums;
 with WSC_Web_Enums;
-with Model.Run_Settings;
+with Model.WSC.Run_Settings;
 
 package Personal_Results_IO is
   
@@ -18,7 +18,7 @@ package Personal_Results_IO is
    use Ada.Strings.Unbounded;
    use WSC_Enums;
    use WSC_Web_Enums;
-   use Model.Run_Settings;
+   use Model.WSC.Run_Settings;
    
    -- returns true if the primary key parts of Personal_Results match the defaults in Wsc_Db_Data.Null_Personal_Results
    --

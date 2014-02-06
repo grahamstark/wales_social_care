@@ -1,7 +1,7 @@
 --
 -- Created by ada_generator.py on 2012-02-12 15:05:10.219314
 -- 
-with Wsc_Db_Data;
+with WSC_DB_Data;
 
 
 with Ada.Containers.Vectors;
@@ -255,10 +255,10 @@ package body Run_IO is
    end  Get_New_Run_For;
 
    --
-   -- returns true if the primary key parts of Run match the defaults in Wsc_Db_Data.Null_Run
+   -- returns true if the primary key parts of Run match the defaults in WSC_DB_Data.Null_Run
    --
    --
-   -- Does this Run equal the default Wsc_Db_Data.Null_Run ?
+   -- Does this Run equal the default WSC_DB_Data.Null_Run ?
    --
    function Is_Null( r : Run ) return Boolean is
    begin
@@ -316,7 +316,7 @@ package body Run_IO is
 
 
    --
-   -- returns the single Run matching the primary key fields, or the Wsc_Db_Data.Null_Run record
+   -- returns the single Run matching the primary key fields, or the WSC_DB_Data.Null_Run record
    -- if no such record exists
    --
    function Retrieve_By_PK( Run_Id : integer; Username : Unbounded_String ) return Run is
@@ -354,8 +354,8 @@ package body Run_IO is
    end Retrieve;
    
    procedure Save_Arrays( r : Run ) is
-      us      : Wsc_Db_Data.Uprate_Assumption;
-      pt      : Wsc_Db_Data.Probit_Threshold;
+      us      : WSC_DB_Data.Uprate_Assumption;
+      pt      : WSC_DB_Data.Probit_Threshold;
    begin
       Log( "Run_IO::save_arrays; entered" );
       for i in Uprate_Targets loop
@@ -378,12 +378,12 @@ package body Run_IO is
    end Save_Arrays;
    
    procedure Fill_In_Arrays( r : in out Run ) is
-      probs   : Wsc_Db_Data.Probit_Threshold_List.Vector := Retrieve_Associated_Probit_Thresholds( r );
+      probs   : WSC_DB_Data.Probit_Threshold_List.Vector := Retrieve_Associated_Probit_Thresholds( r );
       n_probs : Natural := Natural( probs.Length );
-      pt      : Wsc_Db_Data.Probit_Threshold;
-      uprs    : Wsc_Db_Data.Uprate_Assumption_List.Vector := Retrieve_Associated_Uprate_Assumptions( r );
+      pt      : WSC_DB_Data.Probit_Threshold;
+      uprs    : WSC_DB_Data.Uprate_Assumption_List.Vector := Retrieve_Associated_Uprate_Assumptions( r );
       n_uprs  : Natural := Natural( uprs.Length );
-      us      : Wsc_Db_Data.Uprate_Assumption;
+      us      : WSC_DB_Data.Uprate_Assumption;
    begin
       r.probit_thresholds := ( others => 0.0 );
       r.uprate_assumptions := ( others => NULL_UPRATE_ASSUMPTION );
@@ -983,7 +983,7 @@ package body Run_IO is
 
    
    --
-   -- Delete the given record. Throws DB_Exception exception. Sets value to Wsc_Db_Data.Null_Run
+   -- Delete the given record. Throws DB_Exception exception. Sets value to WSC_DB_Data.Null_Run
    --
 
    procedure Delete( r : in out Run ) is
@@ -1040,7 +1040,7 @@ package body Run_IO is
    -- functions to retrieve records from tables with foreign keys
    -- referencing the table modelled by this package
    --
-   function Retrieve_Associated_Key_Value_Parameters( r : Run ) return Wsc_Db_Data.Key_Value_Parameter_List.Vector is
+   function Retrieve_Associated_Key_Value_Parameters( r : Run ) return WSC_DB_Data.Key_Value_Parameter_List.Vector is
       c : d.Criteria;
    begin
       Key_Value_Parameter_IO.Add_Username( c, r.Username );
@@ -1051,7 +1051,7 @@ package body Run_IO is
    function Map_Associated_Params_To_Text_Buffer( r : Run ) return Keyed_Text_Buffer.Text_Buffer is
       use WSC_DB_Data;
       b : Keyed_Text_Buffer.Text_Buffer;
-      v : Wsc_Db_Data.Key_Value_Parameter_List.Vector := Retrieve_Associated_Key_Value_Parameters( r );
+      v : WSC_DB_Data.Key_Value_Parameter_List.Vector := Retrieve_Associated_Key_Value_Parameters( r );
       k : Key_Value_Parameter;
       n : Natural := Natural( v.Length );
    begin
@@ -1087,7 +1087,7 @@ package body Run_IO is
    -- functions to retrieve records from tables with foreign keys
    -- referencing the table modelled by this package
    --
-   function Retrieve_Associated_Probit_Thresholds( r : Run ) return Wsc_Db_Data.Probit_Threshold_List.Vector is
+   function Retrieve_Associated_Probit_Thresholds( r : Run ) return WSC_DB_Data.Probit_Threshold_List.Vector is
       c : d.Criteria;
    begin
       Probit_Threshold_IO.Add_Username( c, r.Username );
@@ -1096,7 +1096,7 @@ package body Run_IO is
    end Retrieve_Associated_Probit_Thresholds;
 
 
-   function Retrieve_Associated_Personal_Results( r : Run ) return Wsc_Db_Data.Personal_Results_List.Vector is
+   function Retrieve_Associated_Personal_Results( r : Run ) return WSC_DB_Data.Personal_Results_List.Vector is
       c : d.Criteria;
    begin
       Personal_Results_IO.Add_Username( c, r.Username );
@@ -1105,7 +1105,7 @@ package body Run_IO is
    end Retrieve_Associated_Personal_Results;
 
 
-   function Retrieve_Child_State( r : Run ) return Wsc_Db_Data.State is
+   function Retrieve_Child_State( r : Run ) return WSC_DB_Data.State is
    begin
       return State_IO.retrieve_By_PK( r.Username, r.Run_Id );
    end Retrieve_Child_State;
@@ -1119,12 +1119,12 @@ package body Run_IO is
    end Delete_State_For_Run;
    
    
-   function Retrieve_State_For_Run( r : Run ) return Wsc_Db_Data.State is
-      s : Wsc_Db_Data.State;
+   function Retrieve_State_For_Run( r : Run ) return WSC_DB_Data.State is
+      s : WSC_DB_Data.State;
    begin
       s := Retrieve_Child_State( r );
       if( s.run_id /= r.run_id )then
-         s := Model.Run_Settings.BLANK_STATE_TYPE;
+         s := Model.WSC.Run_Settings.BLANK_STATE_TYPE;
          s.run_id := r.run_id;
          s.username := r.username;
          State_IO.Save( s );        
@@ -1133,7 +1133,7 @@ package body Run_IO is
    end Retrieve_State_For_Run;
 
 
-   function Retrieve_Associated_Disaggregated_Data_Tables( r : Run ) return Wsc_Db_Data.Disaggregated_Data_Table_List.Vector is
+   function Retrieve_Associated_Disaggregated_Data_Tables( r : Run ) return WSC_DB_Data.Disaggregated_Data_Table_List.Vector is
       c : d.Criteria;
    begin
       Disaggregated_Data_Table_IO.Add_Run_Id( c, r.Run_Id );
@@ -1142,7 +1142,7 @@ package body Run_IO is
    end Retrieve_Associated_Disaggregated_Data_Tables;
 
 
-   function Retrieve_Associated_Uprate_Assumptions( r : Run ) return Wsc_Db_Data.Uprate_Assumption_List.Vector is
+   function Retrieve_Associated_Uprate_Assumptions( r : Run ) return WSC_DB_Data.Uprate_Assumption_List.Vector is
       c : d.Criteria;
    begin
       Uprate_Assumption_IO.Add_Username( c, r.Username );
@@ -1151,7 +1151,7 @@ package body Run_IO is
    end Retrieve_Associated_Uprate_Assumptions;
 
 
-   function Retrieve_Associated_Personal_Incomes( r : Run ) return Wsc_Db_Data.Personal_Income_List.Vector is
+   function Retrieve_Associated_Personal_Incomes( r : Run ) return WSC_DB_Data.Personal_Income_List.Vector is
       c : d.Criteria;
    begin
       Personal_Income_IO.Add_Username( c, r.Username );

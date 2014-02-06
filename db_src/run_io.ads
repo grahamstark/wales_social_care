@@ -7,7 +7,7 @@ with Base_Types;
 with ADA.Calendar;
 with Ada.Strings.Unbounded;
 with WSC_Web_Enums;
-with Model.Run_Settings;
+with Model.WSC.Run_Settings;
 with WSC_Enums;
 with Model.WSC.Run_Declarations;
 with Weighting_Commons;
@@ -22,7 +22,7 @@ package Run_IO is
    use Ada.Strings.Unbounded;
    use WSC_Enums;
    use WSC_Web_Enums;
-   use Model.Run_Settings;
+   use Model.WSC.Run_Settings;
    use Model.WSC.Run_Declarations;
    use Weighting_Commons;
    use Text_Utils;

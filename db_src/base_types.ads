@@ -15,7 +15,7 @@ with Base_Model_Types;
 with WSC_Enums;
 with WSC_Web_Enums;
 
-with Model.Run_Settings;
+with Model.WSC.Run_Settings;
 with Text_Utils;
 
 package Base_Types is
@@ -44,8 +44,8 @@ package Base_Types is
    -- subtype Uprate_Targets      is WSC_Enums.Uprate_Targets;
    -- subtype UAP_Level           is WSC_Enums.UAP_Level;
    -- subtype Forecast_Element    is WSC_Enums.Forecast_Element;
-   -- subtype Health_Type         is Model.Run_Settings.Health_Type;
-   -- subtype Phase_Type          is Model.Run_Settings.Phase_Type;
+   -- subtype Health_Type         is Model.WSC.Run_Settings.Health_Type;
+   -- subtype Phase_Type          is Model.WSC.Run_Settings.Phase_Type;
    -- subtype Incomes_Type        is WSC_Enums.Incomes_Type;
    -- subtype Languages           is WSC_Enums.Languages;
     

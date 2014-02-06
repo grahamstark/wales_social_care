@@ -8,7 +8,7 @@ with ADA.Calendar;
 with Ada.Strings.Unbounded;
 
 with WSC_Web_Enums;
-with Model.Run_Settings;
+with Model.WSC.Run_Settings;
 with WSC_Enums;
 
 package Uprate_Assumption_IO is
@@ -19,7 +19,7 @@ package Uprate_Assumption_IO is
 
    use WSC_Enums;
    use WSC_Web_Enums;
-   use Model.Run_Settings;
+   use Model.WSC.Run_Settings;
    
    function Next_Free_Run_Id return integer;
 

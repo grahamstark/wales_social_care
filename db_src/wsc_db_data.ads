@@ -14,7 +14,7 @@ with Ada.Strings.Unbounded;
 with Model.WSC.Users;
 with WSC_Enums;
 with WSC_Web_Enums;
-with Model.Run_Settings;
+with Model.WSC.Run_Settings;
 with Base_Model_Types;
 with Weighting_Commons;
 with Model.WSC.Run_Declarations;
@@ -26,7 +26,7 @@ package Wsc_Db_Data is
    use Base_Types;
    use WSC_Enums;
    use WSC_Web_Enums;
-   use Model.Run_Settings;
+   use Model.WSC.Run_Settings;
    use Weighting_Commons;
    
    
@@ -702,7 +702,7 @@ package Wsc_Db_Data is
    -- container for state : 
    --
    
-   subtype State is Model.Run_Settings.State_Type;
+   subtype State is Model.WSC.Run_Settings.State_Type;
    package State_List is new Ada.Containers.Vectors
       (Element_Type => State,
       Index_Type => Positive );
@@ -711,7 +711,7 @@ package Wsc_Db_Data is
    -- default value for state : 
    --
    function To_String( rec : State ) return String;
-   Null_State : State renames Model.Run_Settings.BLANK_STATE_TYPE;
+   Null_State : State renames Model.WSC.Run_Settings.BLANK_STATE_TYPE;
    --
    -- record modelling run : 
    --
