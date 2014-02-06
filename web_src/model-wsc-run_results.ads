@@ -1,7 +1,7 @@
 with AWS.Session;
 with Ada.Strings.Unbounded;
 with Model.WSC.Run_Declarations;
-with Model.Run_Settings;
+with Model.WSC.Run_Settings;
 with WSC_Enums;
 with Ada.Calendar;
 with Ada.Containers.Vectors;
@@ -14,7 +14,7 @@ package Model.WSC.Run_Results is
    
    use Ada.Strings.Unbounded;
    use Model.WSC.Run_Declarations;
-   use Model.Run_Settings;
+   use Model.WSC.Run_Settings;
    use WSC_Enums;
    use Model.WSC.Parameters;
    

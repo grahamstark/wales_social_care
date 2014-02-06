@@ -50,7 +50,7 @@ with Html_Utils;
 with Key_Value_DAO;
 with Key_Value_Parameter_IO;
 with Keyed_Text_Buffer;
-with Model.Run_Settings;
+with Model.WSC.Run_Settings;
 with Model.WSC.Dynamic_Driver.Web_Runner;
 with Model.WSC.Parameters.DAO;
 
@@ -89,7 +89,7 @@ package body Callbacks is
    use Ada.Strings.Unbounded;
    use Model.WSC.Parameter_System_Declarations;
    use Model.WSC.Run_Declarations;
-   use Model.Run_Settings;
+   use Model.WSC.Run_Settings;
 
    log_trace : GNATColl.Traces.Trace_Handle := GNATColl.Traces.Create( "CALLBACKS" );
    

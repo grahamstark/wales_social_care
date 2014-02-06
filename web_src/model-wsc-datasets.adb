@@ -8,7 +8,7 @@ with Ada.Text_IO;
 
 with GNATColl.Traces;
 
-with Model.Run_Settings;
+with Model.WSC.Run_Settings;
 
 with Model.WSC.Formatting;
 with Model.WSC.Globals;
@@ -60,7 +60,7 @@ package body Model.WSC.Datasets is
    use Ada.Text_IO;
    use Text_Utils;
    use Model.WSC.Run_Declarations;
-   use Model.Run_Settings;
+   use Model.WSC.Run_Settings;
 
       l : Datasets_List;
       local_ctl : Run := Ctl.copy;

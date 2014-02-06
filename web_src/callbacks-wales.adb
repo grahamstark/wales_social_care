@@ -51,7 +51,7 @@ with Parameter_System_IO_Commons;
 with General_Chart_Constants;
 with Time_Series_Chart_Generator;
 
-with Model.Run_Settings;
+with Model.WSC.Run_Settings;
 -- with Model.WSC.Datasets;
 with Model.WSC.Dynamic_Driver.Web_Runner;
 with Model.WSC.Formatting;
@@ -103,7 +103,7 @@ package body Callbacks.Wales is
    use Ada.Strings.Unbounded;
    use WSC_Enums;
    use WSC_Web_Enums;
-   use Model.Run_Settings;
+   use Model.WSC.Run_Settings;
    use type Ada.Containers.Count_Type;
    use Model.WSC.Run_Declarations;
 
@@ -481,7 +481,7 @@ package body Callbacks.Wales is
       main_error_message : Unbounded_String;
       job_is_running     : Boolean := Is_Job_Running( request );
       input_page         : Unbounded_String;
-      run_state          : Model.Run_Settings.State_Type;
+      run_state          : Model.WSC.Run_Settings.State_Type;
       path_str           : constant Unbounded_String := settings_sys.instance_name;
       output_disabled    : Boolean := Dont_Show_Output( request, logresult.user );
       action             : Action_Type := Extract_Action( cgi_values );
@@ -1416,7 +1416,7 @@ package body Callbacks.Wales is
       model_menu         : Unbounded_String;
       path               : Unbounded_String_List := Split( URI, '/' );
       prefix             : Unbounded_String := TuS( Model.WSC.Global_Settings.WSC_Web_Root & "parameters_page/" );
-      run_state          : Model.Run_Settings.State_Type;
+      run_state          : Model.WSC.Run_Settings.State_Type;
       output_disabled    : Boolean;
       in_help_mode       : Boolean := False;
       year               : Year_Number;
@@ -1445,19 +1445,20 @@ package body Callbacks.Wales is
       Log( "Parameter_Page_Callback; got wsc_run as " & wsc_run.To_String );
       extra_translations := Get_Std_Translations( request, logresult.user );
 
-      if( path.length > 2 )then
-         year_str := path.Element( 3 );
-         year := Year_Number'Value( TS( year_str ));
+      if( path.Length > 0 ) and then (path.Element( Natural( path.Length )) = TuS( "help" ))then
+          path.Delete( Natural( path.Length ));
+          in_help_mode := True;
       else
-         year := wsc_run.start_year;
+         if( path.length > 2 )then
+            year_str := path.Element( 3 );
+            year := Year_Number'Value( TS( year_str ));
+         else
+            year := wsc_run.start_year;
+         end if;
       end if;
       param_editing_buffer.Set_Current_Year( year );
       path.Delete( 1, 3 );
       Log( "Parameter_Page_Callback; got year as " & Year_Number'Image( year ));
-      if( path.Length > 0 ) and then (path.Element( Natural( path.Length )) = TuS( "help" ))then
-          path.Delete( Natural( path.Length ));
-          in_help_mode := True;
-      end if;
       -- the path this page represents in the menu, e.g. the 1st tax page and so on
       GLOBAL_EDITING_SYSTEM.Complete_Path_To_Left( path, depth );
       -- use this to complete the top menu    

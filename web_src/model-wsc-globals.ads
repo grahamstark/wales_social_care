@@ -10,7 +10,7 @@ with Model.WSC.Parameters;
 with Model.WSC.Parameter_System_Declarations;
 with Model.WSC.Output;
 with Model.WSC.Users;
-with Model.Run_Settings;
+with Model.WSC.Run_Settings;
 -- with Model.WSC.Run_Results;
 with Model.WSC.Results;
 with Parameter_System_IO_Commons;

@@ -6,7 +6,7 @@ with Ada.Exceptions;
 with Ada.Strings.Unbounded;
 with Ada.Text_IO;
 
-with Model.Run_Settings;
+with Model.WSC.Run_Settings;
 
 with Model.WSC.Formatting;
 with Model.WSC.Globals;
@@ -105,7 +105,7 @@ package body Model.WSC.Run_Results is
    use Ada.Text_IO;
    use Text_Utils;
    use Model.WSC.Run_Declarations;
-   use Model.Run_Settings;
+   use Model.WSC.Run_Settings;
 
       l : Run_Results_List;
       local_ctl : Run := Ctl.copy;

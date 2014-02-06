@@ -5,7 +5,7 @@ with Ada.IO_Exceptions;
 with Ada.Strings.Unbounded;
 with Ada.Text_IO;
 with Ada.Assertions;
-with Model.Run_Settings;
+with Model.WSC.Run_Settings;
 
 with Model.WSC.Formatting;
 with Model.WSC.Globals;
@@ -50,7 +50,7 @@ package body Model.WSC.Dynamic_Driver.Web_Runner is
       return Censor_String( "run_" & Ada.Calendar.Formatting.Image( Ada.Calendar.Clock ) & "_run" );
    end Get_New_Run_Id;
    
-   type Web_Observer is new Model.Run_Settings.Model_Observer with null record;
+   type Web_Observer is new Model.WSC.Run_Settings.Model_Observer with null record;
    overriding procedure Update( observer : access Web_Observer ) is
       run_state  : State_Type;
       session_id : AWS.Session.Id;
@@ -230,9 +230,9 @@ package body Model.WSC.Dynamic_Driver.Web_Runner is
                   case rc.wsc_run.type_of_run is
                   when simulation =>
                      declare
-                        monitor        : aliased Model.Run_Settings.Model_Monitor;
+                        monitor        : aliased Model.WSC.Run_Settings.Model_Monitor;
                         web_obs        : Web_Observer( monitor'Access );
-                        -- text_obs       : Model.Run_Settings.Model_Observer( monitor'Access );
+                        -- text_obs       : Model.WSC.Run_Settings.Model_Observer( monitor'Access );
                         email_result   : WSC_Emailer.Email_Result;
                         default_params : Parameters_Array := 
                            Model.WSC.Parameter_System_Declarations.Get_Default_Model_Parameters( rc.wsc_run );
@@ -251,6 +251,7 @@ package body Model.WSC.Dynamic_Driver.Web_Runner is
                            state,
                            monitor );
                         state.phase := generating_output;
+                        State_IO.Save( state );
                         declare
                            main_table : Unbounded_String := Model.WSC.Output.Web_IO.Get_All_Years_Summary( rc.wsc_run );
                         begin
@@ -260,11 +261,13 @@ package body Model.WSC.Dynamic_Driver.Web_Runner is
                         end;
                         email_result := WSC_Emailer.Send_Run_End_Email( rc.wsc_run ); 
                         Log( "send run end email to user " & TS( rc.wsc_run.username ) & " result " & email_result'Img );
+                        state.phase := complete;
+                        State_IO.Save( state );
                      end;
                   when data_creation =>
                      declare
-                        monitor        : aliased Model.Run_Settings.Model_Monitor;
-                        -- text_obs       : Model.Run_Settings.Model_Observer( monitor'Access );
+                        monitor        : aliased Model.WSC.Run_Settings.Model_Monitor;
+                        -- text_obs       : Model.WSC.Run_Settings.Model_Observer( monitor'Access );
                         web_obs        : Web_Observer( monitor'Access );
                         ds : Dataset;
                         email_result : WSC_Emailer.Email_Result;
