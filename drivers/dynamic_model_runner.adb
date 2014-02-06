@@ -12,7 +12,7 @@ with Ada.Command_Line;
 with Ada.Strings.Unbounded;
 with Ada.Text_IO;
 
-with Model.Run_Settings;
+with Model.WSC.Run_Settings;
 with Model.WSC.Dynamic_Driver;
 with Model.WSC.Global_Settings;
 with Model.WSC.Globals;
@@ -38,7 +38,7 @@ with GNATColl.Traces;
 procedure Dynamic_Model_Runner is
 
    use Model.UK_Format_Utils;
-   use Model.Run_Settings;
+   use Model.WSC.Run_Settings;
    use Model.WSC.Run_Declarations;
    use Model.WSC.Output;
    use Model.WSC.Parameters;
@@ -65,8 +65,8 @@ procedure Dynamic_Model_Runner is
    root            : Unbounded_String;
    n_iter          : Positive;
    stats           : WSC_DB_Data.Table_Stats;
-   monitor         : aliased Model.Run_Settings.Model_Monitor;
-   text_obs        : Model.Run_Settings.Model_Observer( monitor'Access );
+   monitor         : aliased Model.WSC.Run_Settings.Model_Monitor;
+   text_obs        : Model.WSC.Run_Settings.Model_Observer( monitor'Access );
 begin
    if( Ada.Command_Line.Argument_Count /= 3 )then
       Put_Line( "use : global_settings_file username num_iterations" );

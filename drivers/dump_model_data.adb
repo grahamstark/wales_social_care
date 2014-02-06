@@ -5,7 +5,7 @@ with Ada.Command_Line;
 with Ada.Calendar;
 
 with Model;
-with Model.Run_Settings;
+with Model.WSC.Run_Settings;
 with Model.WSC.Household;
 with Model.WSC.Household.Database;
 with Model.WSC.Household.Regressions;

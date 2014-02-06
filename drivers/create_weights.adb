@@ -10,7 +10,7 @@ with Ada.Strings.Unbounded;
 with Ada.Text_IO;
 with Format_Utils;
 
-with Model.Run_Settings;
+with Model.WSC.Run_Settings;
 with Model.WSC.Global_Settings;
 with Model.WSC.Household.Transitions_Basic;
 with Model.WSC.Run_Declarations;
@@ -23,7 +23,7 @@ with WSC_Enums;
 procedure Create_Weights is
 
    use Ada.Text_IO;
-   use Model.Run_Settings;
+   use Model.WSC.Run_Settings;
    use Model.WSC.Run_Declarations;
    use Model.WSC.Household.Transitions_Basic;
    use WSC_Enums;

@@ -88,6 +88,7 @@ procedure Make_WSC_Data_From_BHPS is
          default_settings := Model.WSC.Run_Declarations.Read_Settings( Ada.Command_Line.Argument( 1 ));
          Model.WSC.Global_Settings.Read_Settings( Ada.Command_Line.Argument( 2 ));
          wales_only := Boolean'Value( Ada.Command_Line.Argument( 3 ));
+         Model.WSC.Global_Settings.Initialise_Logging;
          -- FIXME Open log config
       else
          Put_Line( "usage: run_settings_file global_settings_file wales_only (True|False )" );
@@ -233,7 +234,12 @@ begin
       Free( hh );
 
       for wave in WSC_Enums.g .. WSC_Enums.r loop
-        trans.Create_Initial_Care_Home_Population( db, default_settings, wave, False );
+         Log( "Create_Initial_Care_Home_Population for wave " & wave'Img );
+         trans.Create_Initial_Care_Home_Population( 
+            DB          => db, 
+            WSC_Run     => default_settings, 
+            Wave        => wave,
+            Auto_Update => True );
       end loop;
 
       db.Close;

@@ -14,7 +14,7 @@ with Ada.Text_IO;
 
 with ONS_Definitions;
 
-with Model.Run_Settings;
+with Model.WSC.Run_Settings;
 
 with Model.WSC.BHPS_Data_Creation_Libs;
 
@@ -50,7 +50,7 @@ procedure Transitions_Runner is
    
    use Base_Model_Types;
    
-   use Model.Run_Settings;
+   use Model.WSC.Run_Settings;
    use Model.WSC.Run_Declarations;
    use Model.WSC.Household.Transitions;
    use Model.WSC.Regressors;
@@ -182,11 +182,10 @@ procedure Transitions_Runner is
    username      : Unbounded_String;
    dataset_name  : Unbounded_String;
    outf        : File_Type;
-   monitor     : Model.Run_Settings.Model_Monitor;
-   include_care_home : Boolean := False;
+   monitor     : Model.WSC.Run_Settings.Model_Monitor;
 begin
    if Ada.Command_Line.Argument_Count /= 5 then
-      Put_Line( "use: global_settings username out_file num_iterations dataset_name " );
+      Put_Line( "use: global_settings username out_file num_iterations dataset_name" );
       return;
    end if;
    Connection_Pool.Initialise(
@@ -195,7 +194,9 @@ begin
          Environment.Get_Password,
          50 );
 
-   Model.WSC.Global_Settings.Read_Settings( Ada.Command_Line.Argument( 1 ));   
+   Model.WSC.Global_Settings.Read_Settings( Ada.Command_Line.Argument( 1 ));  
+   Model.WSC.Global_Settings.Initialise_Logging;
+   
    username := TuS( Ada.Command_Line.Argument( 2 ));
    Create( outf, Out_File, Ada.Command_Line.Argument( 3 )); 
    
@@ -203,9 +204,7 @@ begin
    
    wsc_run.Num_Iterations := Positive'Value( Ada.Command_Line.Argument( 4 ));
    wsc_run.dataset_name := TuS( Ada.Command_Line.Argument( 5 ));
-   
-   Put_Line( "Made run dir as " & TS( run_dir ));
-   Put_Line( outf, "include care home, " & Boolean'Image( include_care_home ));
+   Log( "Transitions_Runner: Made run dir as " & TS( run_dir ));
    run_dir := Create_Directories_For_Run( wsc_run );    
    for iteration in 1 .. wsc_run.Num_Iterations loop
       declare
@@ -215,7 +214,7 @@ begin
             wsc_run           => wsc_run, 
             monitor           => monitor, 
             do_reweighting    => False,
-            include_care_home => include_care_home,
+            include_care_home => False, -- not actually needed here
             event_count       => event_count,
             iteration         => iteration,
             uprate_type       => no_uprating );

@@ -23,11 +23,13 @@ begin
       Put_Line( "usage <global config file> <username> <password> [optional description] [optional title]" );
    else
       Model.WSC.Global_Settings.Read_Settings( Ada.Command_Line.Argument( 1 ));
+      Model.WSC.Global_Settings.Initialise_Logging;
       declare
          sep : constant String := Model.WSC.Global_Settings.Dir_Separator;
          user : User_Type;
       begin
          Model.WSC.Globals.Initialise_Globals_And_Pools( 1 );
+         
          user.username := TuS( Ada.Command_Line.Argument( 2 ));
          user.password := TuS( Ada.Command_Line.Argument( 3 ));
          -- note: this makes MD5 hash of the password 
