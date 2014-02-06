@@ -93,6 +93,10 @@ begin
         -- output.all,
         state,        
         monitor );
+   if( state.health = in_error )then
+      Put_Line( "Error Detected!" & TS( state.message ));
+      return;
+   end if;
    for wave in u .. am loop
       for row_num in 1 .. 25 loop
          for sysno in 1 .. 2 loop

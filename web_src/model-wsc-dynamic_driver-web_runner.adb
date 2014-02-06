@@ -383,7 +383,7 @@ package body Model.WSC.Dynamic_Driver.Web_Runner is
       Log( "Monitor_To_HTML entered; run_id " & wsc_run.run_id'Img & " username " & TS( wsc_run.username ) &
            "Phase " & state.phase'Img );
       if( state.health = in_error ) or ( state.error_code /= 0 )then
-         table_str := table_str & "<div class='error'>Error encountered<pre>" & state.message & "</pre>" &
+         table_str := table_str & "<div class='error'><p><b>Error encountered; message:</b> |" & state.message & "</p>" &
               "<p>state.health : <b>" & 
               state.health'Img & "</b></p><p>state.error_code: <b>" & state.error_code'Img & "</b></p></div>" & LINE_BREAK;
       else

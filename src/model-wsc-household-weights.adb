@@ -637,6 +637,7 @@ package body Model.WSC.Household.Weights is
             if( wsc_run.do_reweighting )then
                initial_weights := initial_weights * (population_total/sample_population);
                Log( "made obs matrix as " & To_String( obs ));
+               Log( "target populations " & To_String( target_populations ));
                Log( "Initial Weights " & To_String( initial_weights ));
                declare
                   curr_iterations     : Positive;
@@ -672,7 +673,7 @@ package body Model.WSC.Household.Weights is
                      iterations := curr_iterations;
                   end if;
                   Log( " iterations " & iterations'Img & " error " & error'Img );   
-                  for k in Col_Range loop
+                  for k in Row_Range loop
                      Log( k'Img & " " & Format( initial_weights( k )) & " " & Format( weights( k )));
                   end loop;
                   household_weights:
