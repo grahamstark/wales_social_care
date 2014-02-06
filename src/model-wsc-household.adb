@@ -194,7 +194,7 @@ package body Model.WSC.Household is
       pers             : in out Person; 
       num_adults       : Person_Count;
       num_children     : Person_Count;
-      hdata            : Household_Data ) is
+      hdata            : Household_Data'Class ) is
       r : Regressors_Array renames pers.regressors;
       rage : constant Amount := Amount( pers.age );
 

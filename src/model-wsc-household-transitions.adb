@@ -440,7 +440,7 @@ package body Model.WSC.Household.Transitions is
             hh := db.Get_Household( wave, po.hid );
             if( auto_update )then
                hh_last_period := hh;
-               Age( hh, wsc_run, local_event_count );
+               -- Age( hh, wsc_run, local_event_count );
                Impute_Care_Amounts( hh, hh_last_period, wsc_run, local_event_count );
                Predict_Health_Needs_And_Employment_Status( hh, wsc_run, local_event_count );
                hh.hid := hh.hid + 2_000_000;
@@ -966,14 +966,14 @@ package body Model.WSC.Household.Transitions is
       
    procedure Create_Simulation_Data( 
       wsc_run           : Run; 
-      monitor           : in out Model.Run_Settings.Model_Monitor'Class;
+      monitor           : in out Model.WSC.Run_Settings.Model_Monitor'Class;
       do_reweighting    : Boolean;
       include_care_home : Boolean;
       event_count       : in out ev_count.Recorder;
       iteration         : Iteration_Number;
       uprate_type       : Type_Of_Uprating ) is
 
-      use Model.Run_Settings;
+      use Model.WSC.Run_Settings;
       use Matrix_Functions;
       use Model.WSC.Household.Database;
       use Model.WSC.Household;
@@ -1058,9 +1058,9 @@ package body Model.WSC.Household.Transitions is
    
    procedure Create_Simulation_Data( 
       wsc_run           : Run; 
-      monitor           : in out Model.Run_Settings.Model_Monitor'Class;
+      monitor           : in out Model.WSC.Run_Settings.Model_Monitor'Class;
       uprate_type       : Type_Of_Uprating ) is
-      use Model.Run_Settings;
+      use Model.WSC.Run_Settings;
       package t_counter renames  Transition_Events.Transition_Events_Counter; 
       include_care_home : constant Boolean := True; -- FIXME to run settings
       outf        : File_Type;

@@ -23,7 +23,7 @@ pragma License( Modified_GPL );
 
 with Ada.Text_IO;
 
-with Model.Run_Settings;
+with Model.WSC.Run_Settings;
 with Model.WSC.Run_Declarations;
 with Maths_Functions;
 with Model.WSC.Uprate;
@@ -45,7 +45,7 @@ package Model.WSC.Household.Transitions is
 
    procedure Create_Simulation_Data( 
       wsc_run           : Run; 
-      monitor           : in out Model.Run_Settings.Model_Monitor'Class;
+      monitor           : in out Model.WSC.Run_Settings.Model_Monitor'Class;
       do_reweighting    : Boolean;
       include_care_home : Boolean;
       event_count       : in out ev_count.Recorder;
@@ -54,7 +54,7 @@ package Model.WSC.Household.Transitions is
       
    procedure Create_Simulation_Data( 
       wsc_run           : Run; 
-      monitor           : in out Model.Run_Settings.Model_Monitor'Class;
+      monitor           : in out Model.WSC.Run_Settings.Model_Monitor'Class;
       uprate_type       : Type_Of_Uprating );
       
    
@@ -65,11 +65,10 @@ package Model.WSC.Household.Transitions is
       -- event_count    : in out ev_count.Recorder );
       
    procedure Create_Initial_Care_Home_Population(       
-      db             : in out Model.WSC.Household.Database.DB_Type;
-      wsc_run : Run;   
-      wave           : Waves;
-      auto_update    : Boolean
-      );
+      db          : in out Model.WSC.Household.Database.DB_Type;
+      wsc_run     : Run;   
+      wave        : Waves;
+      auto_update : Boolean );
       
    type Wealth_Random_Type is ( has_wealth, sig_wealth_male, sig_wealth_female );
    type Wealth_Random_Array is array( Wealth_Random_Type ) of Rate;

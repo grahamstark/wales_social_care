@@ -8,7 +8,7 @@ with GNATColl.Traces;
 with Weighting_Commons;
 with Maths_Functions.Weights_Generator;
 with Maths_Functions;
-with Model.Run_Settings;
+with Model.WSC.Run_Settings;
 with Event_Counter;
 
 package body Model.WSC.Household.Weights is
@@ -25,7 +25,7 @@ package body Model.WSC.Household.Weights is
    subtype Populations_Range is Calmar_Targets_Range range 1 .. 30;
    subtype Short_Populations_Range is Calmar_Targets_Range range 1 .. 20;
    subtype Calmar_Targets_Vector is Vector( Calmar_Targets_Range );
-   subtype Compressed_Targets_Range is Positive range 1 .. 25;   
+   subtype Compressed_Targets_Range is Positive range 1 .. 22;   
    subtype Compressed_Targets_Vector is Vector( Compressed_Targets_Range );
    subtype Full_Weights_Vector is Vector( Calmar_Targets_Range );
   
@@ -465,10 +465,11 @@ package body Model.WSC.Household.Weights is
          case i is 
             when 1 .. 6 => comp( 1 ) := comp( 1 ) + full( i );
             when 7 .. 15 => comp( i - 5 ) := full( i );
-            when 16 .. 21 => comp( 11 ) := comp( 12 ) + full( i );
+            when 16 .. 21 => comp( 11 ) := comp( 11 ) + full( i );
             when 22 .. 30 => comp( i - 10 ) := full( i );
-            when 31 .. 35 => comp( 21 ) := comp( 23 ) + full( i );
-            when 36 .. Full_Weights_Vector'Last => comp( i - 14 ) := full( i ); 
+            when 31 .. 35 => comp( 21 ) := comp( 21 ) + full( i );
+            -- when 36 .. Full_Weights_Vector'Last => comp( i - 14 ) := full( i ); 
+            when 36 .. Full_Weights_Vector'Last => comp( 22 ) := comp( 22 ) + full( i ); 
          end case;
       end loop;
       return comp;
@@ -562,7 +563,7 @@ package body Model.WSC.Household.Weights is
       w              : in out Weighter;
       db             : in out Model.WSC.Household.Database.DB_Type;
       wsc_run        : Run; 
-      monitor        : in out Model.Run_Settings.Model_Monitor'Class;
+      monitor        : in out Model.WSC.Run_Settings.Model_Monitor'Class;
       iterations     : out Positive;
       error          : out Eval_Error_Type ) is
    use Matrix_Functions;
@@ -570,7 +571,7 @@ package body Model.WSC.Household.Weights is
    use Model.WSC.Household;
    use Base_Model_Types;
    use WSC_Enums;
-   use Model.Run_Settings;
+   use Model.WSC.Run_Settings;
    use Weighting_Commons;
       
       sernums     : Sernum_List;

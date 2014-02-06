@@ -10,10 +10,9 @@ package Model.WSC.Results is
    use WSC_Enums;
    use Model.WSC.Run_Declarations;
 
-   
-   type Personal_Result is record
+   type Personal_Result is tagged record
       sernum                            : Sernum_Value;
-      is_residential                    : Boolean;
+      is_residential                    : Boolean := False;
       receives_social_care              : Boolean := False;
 
       lifetime_gross_payments           : Amount := 0.0;
@@ -42,9 +41,9 @@ package Model.WSC.Results is
       marginal_rate                     : Amount := 0.0;
       capital_contribution              : Amount := 0.0;
       minimum_income_guarantee          : Amount := 0.0;
-      summary                           : Summary_Items_Array;
-      costs_summary                     : Costs_Array;
-      intermediate                      : Auxiliary_Results;
+      summary                           : Summary_Items_Array := ( others => 0.0 );
+      costs_summary                     : Costs_Array := ( others => 0.0 );
+      intermediate                      : Auxiliary_Results := NULL_AUX_RESULTS;
       passes_residential_means_test     : Means_Test_Result := not_applicable;
       passes_non_residential_means_test : Means_Test_Result := not_applicable;
       hours_of_care_la                  : Amount := 0.0;
@@ -56,7 +55,7 @@ package Model.WSC.Results is
    function Which_Incomes_Received( a : Calculated_Incomes_Array ) return Income_Package.Set;
    type Personal_Array is array( Adult_Number ) of Personal_Result;
 
-   type Benefit_Unit_Results_Data is record
+   type Benefit_Unit_Results_Data is tagged record
       num_people               : Person_Count;
       receives_social_care     : Boolean;
       income                   : Calculated_Incomes_Array := ( others => 0.0 );
@@ -87,7 +86,7 @@ package Model.WSC.Results is
       intermediate             : Auxiliary_Results;
    end record;
    
-   type Benefit_Unit_Result is record
+   type Benefit_Unit_Result is tagged record
       res                      : Benefit_Unit_Results_Data;
       people                   : Personal_Array;
       people_last_period       : Personal_Array;
@@ -97,7 +96,7 @@ package Model.WSC.Results is
 
    type Benefit_Unit_Array is array( Benefit_Unit_Number ) of  Benefit_Unit_Result;
 
-   type Household_Results_Data is record
+   type Household_Results_Data is tagged record
       sernum                   : Sernum_Value;
       num_benefit_units        : Benefit_Unit_Count;
       receives_social_care     : Boolean;
@@ -128,7 +127,7 @@ package Model.WSC.Results is
    end record;
 
    
-   type Household_Result is record
+   type Household_Result is tagged record
       is_used_as_example       : Boolean;
       res                      : Household_Results_Data;
       benefit_units            : Benefit_Unit_Array;

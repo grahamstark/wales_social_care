@@ -1,6 +1,6 @@
 with Ada.Strings.Unbounded;
 
-with Model.Run_Settings;
+with Model.WSC.Run_Settings;
 with Model.WSC.Household.Database;
 with Model.WSC.Output;
 with Model.WSC.Parameters;
@@ -14,7 +14,7 @@ package Model.WSC.Dynamic_Driver is
 
    use Ada.Strings.Unbounded;
    use WSC_Enums;
-   use Model.Run_Settings;
+   use Model.WSC.Run_Settings;
    use Model.WSC.Run_Declarations;
    use Model.WSC.Output;
    use Model.WSC.Parameters;

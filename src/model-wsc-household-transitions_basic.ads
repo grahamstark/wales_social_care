@@ -21,7 +21,7 @@
 -- /////////////////////////////
 pragma License( Modified_GPL );
 
-with Model.Run_Settings;
+with Model.WSC.Run_Settings;
 with Model.WSC.Run_Declarations;
 with Maths_Functions;
 with Model.WSC.Uprate;
@@ -83,7 +83,7 @@ package Model.WSC.Household.Transitions_Basic is
       in_db_name     : String;
       out_db_name    : String;
       wsc_run        : Run; 
-      monitor        : Model.Run_Settings.Model_Monitor'Class );
+      monitor        : Model.WSC.Run_Settings.Model_Monitor'Class );
 
    subtype R_Weights_Range is Positive range 1 .. 1434;
    subtype R_Weights_Vector is Vector( R_Weights_Range );

@@ -133,6 +133,7 @@ package body Model.WSC.Global_Settings is
       use Ada.Text_IO;
       fname : constant String := ( if filename = "" then Log_Config_File_Name else filename );
    begin
+      
       Put_Line( "Initialise_Logging reading from: |" & fname );
       GNATColl.Traces.Parse_Config_File( fname );
       Put_Line( "Log file read OK" );

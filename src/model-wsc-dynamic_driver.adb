@@ -7,7 +7,7 @@ with Ada.Text_IO;
 
 with Base_Model_Types;
 with DB_Commons;
-with Model.Run_Settings;
+with Model.WSC.Run_Settings;
 with Model.WSC.Global_Settings;
 with Model.WSC.Household.Transitions;
 with Model.WSC.Household;
@@ -425,7 +425,7 @@ package body Model.WSC.Dynamic_Driver is
       monitor        : in out Model_Monitor'Class ) is
    use Model.WSC.Results;
    use Model.WSC.Static_Calculator;
-   use Model.Run_Settings;
+   use Model.WSC.Run_Settings;
       start_wave      : Waves;
       end_wave        : Waves;
       run_id_str      : constant String := "; username |" & TS( wsc_run.username ) & "| id " & wsc_run.run_id'Img & ";";

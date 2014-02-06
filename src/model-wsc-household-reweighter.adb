@@ -1055,7 +1055,7 @@ package body Model.WSC.Household.Transitions_Basic is
       in_db_name     : String;
       out_db_name    : String;
       wsc_run : Run; 
-      monitor        : Model.Run_Settings.Model_Monitor'Class ) is
+      monitor        : Model.WSC.Run_Settings.Model_Monitor'Class ) is
          
       use Matrix_Functions;
       use Model.WSC.Household.Database;

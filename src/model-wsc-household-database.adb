@@ -3,11 +3,20 @@ with Ada.Directories;
 with Text_Utils;
 with Ada.Text_IO;
 with Ada.Strings.Unbounded;
+with GNATColl.Traces;
 
 package body Model.WSC.Household.Database is
    use Text_Utils;
    use Ada.Assertions;
    use Ada.Text_IO;
+
+   log_trace : GNATColl.Traces.Trace_Handle := GNATColl.Traces.Create( "MODEL.WSC.HOUSEHOLD.DATABASE" );
+   
+   procedure Log( s : String ) is
+   begin
+      GNATColl.Traces.Trace( log_trace, s );
+   end Log;
+
 
    WARN_ON_DUPS : constant Boolean := False;
    
@@ -178,7 +187,7 @@ package body Model.WSC.Household.Database is
          idw : Id_And_Wave := Key( c );
          pos : Positive := Element( c );
       begin
-         Put_Line( "idw.id " & idw.id'Img & " idw.wave " & idw.wave'Img & " pos " & pos'Img );
+         Log( "idw.id " & idw.id'Img & " idw.wave " & idw.wave'Img & " pos " & pos'Img );
       end Print;
    begin    
       imap.Iterate( Print'Access );
@@ -210,7 +219,7 @@ package body Model.WSC.Household.Database is
       iteration      : Iteration_Number  ) is
       dir_name : constant String := Make_Dir_Name( data_directory, which, iteration );
    begin
-      Put_Line( "opening files from directory " & dir_name );
+      Log( "opening files from directory " & dir_name );
       db.data_directory( which ) := TuS( dir_name );
       db.is_active( which ) := True;
       --
@@ -221,7 +230,7 @@ package body Model.WSC.Household.Database is
          HH_Skel_IO.Close( db.skel_f( which ));
          HH_Data_IO.Close( db.hdata_f( which ));
       exception 
-         when others=>Put_Line( "close failed" );
+         when others=>Log( "close failed" );
       end;
       --
       -- see: http://docs.adacore.com/gnat-unw-docs/html/gnat_rm_10.html for the shared=no parameter
@@ -264,7 +273,7 @@ package body Model.WSC.Household.Database is
    begin
       for origin in Data_Origin loop
          if( db.is_active( origin ))then
-            Put_Line( "Closing Files for " & origin'Img );
+            Log( "Closing Files for " & origin'Img );
             Person_IO.Close( db.pers_f( origin ));
             HH_Skel_IO.Close( db.skel_f( origin ));
             HH_Data_IO.Close( db.hdata_f( origin ));
@@ -319,18 +328,18 @@ package body Model.WSC.Household.Database is
       which    : Data_Origin := Which_Data_Origin( wave );
    begin
       if( not db.hh_ptrs.Contains( idw ))then
-         Put_Line( "Get_Household; looking for hid " & idw.id'Img & " wave " & idw.wave'Img & " NOT FOUND IN " );
+         Log( "Get_Household; looking for hid " & idw.id'Img & " wave " & idw.wave'Img & " NOT FOUND IN " );
          Dump_Index( db.hh_ptrs );
       end if;
-      
+      Log( "looking for " );
       location := db.hh_ptrs.Element( idw );
       HH_Data_IO.Read( db.hdata_f( which ), hh.hdata, HH_Data_IO.Count( location ));
       HH_Skel_IO.Read( db.skel_f( which ), skel, HH_Skel_IO.Count( location ) );
       hh.hid := hh.hdata.hid;
       hh.wave := hh.hdata.wave;
       hh.num_benefit_units := skel.num_benefit_units;
-      -- Ada.Text_IO.Put_Line( "skel.num_people " & skel.num_people'Img & 
-      --           " skel.num_benefit_units " & skel.num_benefit_units'Img );
+      Log( "skel.num_people " & skel.num_people'Img & 
+                 " skel.num_benefit_units " & skel.num_benefit_units'Img );
       for pno in 1 .. skel.num_people loop
          idw.id := skel.people( pno ).pid;
          declare
@@ -340,7 +349,7 @@ package body Model.WSC.Household.Database is
             pos  : Person_IO.Count := Person_IO.Count( skel.people( pno ).file_location );
          begin
             
-            -- Ada.Text_IO.Put_Line( "which " & which'Img & 
+            -- Ada.Text_IO.Log( "which " & which'Img & 
             --    " pos " & pos'Img );
             Person_IO.Read( db.pers_f( which ), pers, pos );
             hh.benefit_units( buno ).num_people :=  hh.benefit_units( buno ).num_people + 1;
@@ -390,7 +399,7 @@ package body Model.WSC.Household.Database is
       hsize       : constant HH_Data_IO.Positive_Count := HH_Data_IO.Positive_Count'Succ( HH_Data_IO.Size( db.hdata_f( which )));
       psize       : Person_IO.Positive_Count;
    begin
-      -- Ada.Text_IO.Put_Line( "which : " & which'Img );
+      -- Ada.Text_IO.Log( "which : " & which'Img );
       idw.wave := hh.wave;
       
       -- this code ensures we always write to the end of the file even
@@ -416,8 +425,8 @@ package body Model.WSC.Household.Database is
             
             if( db.pers_ptrs.Contains( idw ))then
                if( WARN_ON_DUPS )then
-                  Put_Line( "pers-ptrs; warning: attempting to add duplicate idw " & To_String( idw ));
-                  Put_Line( "db.pers_ptrs is " );
+                  Log( "pers-ptrs; warning: attempting to add duplicate idw " & To_String( idw ));
+                  Log( "db.pers_ptrs is " );
                   Dump_Index( db.pers_ptrs );
                end if;
                db.pers_ptrs.Replace( idw, file_pos );
@@ -447,8 +456,8 @@ package body Model.WSC.Household.Database is
             
             if( db.pers_ptrs.Contains( idw ))then
                if( WARN_ON_DUPS )then
-                  Put_Line( "pers-ptrs; warning: attempting to add duplicate idw " & To_String( idw ));
-                  Put_Line( "db.pers_ptrs is " );
+                  Log( "pers-ptrs; warning: attempting to add duplicate idw " & To_String( idw ));
+                  Log( "db.pers_ptrs is " );
                   Dump_Index( db.pers_ptrs );
                end if;
                db.pers_ptrs.Replace( idw, file_pos );
@@ -468,13 +477,13 @@ package body Model.WSC.Household.Database is
       idw.id := hh.hdata.hid;
       if( db.hh_ptrs.Contains( idw ))then
          if( WARN_ON_DUPS )then
-            Put_Line( "warning: attempting to add duplicate idw " & To_String( idw ));
-            Put_Line( "db.hh_ptrs is " );
+            Log( "warning: attempting to add duplicate idw " & To_String( idw ));
+            Log( "db.hh_ptrs is " );
             Dump_Index( db.hh_ptrs );
          end if;
          db.hh_ptrs.Replace( idw, hh_file_pos );
       else
-         Put_Line( "Write_Household; adding " & To_String( idw ));
+         Log( "Write_Household; adding " & To_String( idw ));
          db.hh_ptrs.Insert( idw, hh_file_pos );
       end if;
       db.is_dirty( which ) := True;

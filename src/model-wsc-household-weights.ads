@@ -26,7 +26,7 @@ with Ada.Containers.Ordered_Maps;
 
 with Maths_Functions;
 
-with Model.Run_Settings;
+with Model.WSC.Run_Settings;
 with Model.WSC.Run_Declarations;
 with Model.WSC.Household.Database;
 
@@ -43,7 +43,7 @@ package Model.WSC.Household.Weights is
       w              : in out Weighter;
       db             : in out Model.WSC.Household.Database.DB_Type;
       wsc_run        : Run; 
-      monitor        : in out Model.Run_Settings.Model_Monitor'Class;
+      monitor        : in out Model.WSC.Run_Settings.Model_Monitor'Class;
       iterations     : out Positive;
       error          : out Eval_Error_Type );
 

@@ -1,7 +1,7 @@
 with Model.WSC.Run_Declarations;
 with Model.WSC.Parameters;
 with Model.WSC.Output;
-with Model.Run_Settings;
+with Model.WSC.Run_Settings;
 with Model.WSC.Household;
 with Model.WSC.Results;
 with Model.WSC.Results.IO;
@@ -10,7 +10,7 @@ with WSC_Enums;
 
 package Model.WSC.Static_Calculator is
 
-   use Model.Run_Settings;
+   use Model.WSC.Run_Settings;
    use Model.WSC.Run_Declarations;
    use Model.WSC.Output;
    use Model.WSC.Parameters;

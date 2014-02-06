@@ -60,7 +60,7 @@ package Model.WSC.Household is
     
    type Fitness_Array is array( Task_Type ) of Diff_And_Help;
 
-   type Household_Data is record
+   type Household_Data is tagged record
       interview_date                : Time;
       current_simulated_date        : Time;
       wave                          : Waves;
@@ -138,7 +138,7 @@ package Model.WSC.Household is
       -- pers_last_period : in person; 
       num_adults       : Person_Count;
       num_children     : Person_Count;
-      hdata            : Household_Data );
+      hdata            : Household_Data'Class );
       
    type Adult_Array is array( Adult_Number ) of Person;
    type Child_Array is array( Child_Number ) of Person;
