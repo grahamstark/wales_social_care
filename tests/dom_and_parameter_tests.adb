@@ -35,7 +35,7 @@ with Web_Utils;
 with XML_Utils.Conversions;
 with XML_Utils;
 
-with Model.Run_Settings;
+with Model.WSC.Run_Settings;
 with Model.WSC.Formatting;
 with Model.WSC.Global_Settings;
 with Model.WSC.Globals;
@@ -230,7 +230,7 @@ package body DOM_And_Parameter_Tests is
    end Test_Run_Settings_IO;
 
    procedure Test_Run_State_IO( t : in out AUnit.Test_Cases.Test_Case'Class ) is
-   use Model.Run_Settings;
+   use Model.WSC.Run_Settings;
       rs1, rs2 : State_Type;
    begin
       rs1.household := 1001;

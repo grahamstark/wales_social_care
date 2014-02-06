@@ -32,7 +32,7 @@ with Maths_Functions.Weights_Generator;
 with Maths_Functions;
 with Weighting_Commons;
 
-with Model.Run_Settings;
+with Model.WSC.Run_Settings;
 with Model.WSC.BHPS_Data_Creation_Libs;
 with Model.WSC.Global_Settings;
 with Model.WSC.Household.Database;
@@ -59,7 +59,7 @@ package body Model.WSC.Household.Transitions.Tests is
    use BHPS.Print;
    use Base_Model_Types;
    use Weighting_Commons;
-   use Model.Run_Settings;
+   use Model.WSC.Run_Settings;
    
    default_wsc_run : Model.WSC.Run_Declarations.Run;
    default_username : Unbounded_String;
@@ -200,7 +200,7 @@ package body Model.WSC.Household.Transitions.Tests is
    procedure Test_Create_Simulation_Data_Via_Func( t : in out AUnit.Test_Cases.Test_Case'Class ) is
       wsc_run : Model.WSC.Run_Declarations.Run := default_wsc_run;
       event_count : Transition_Events.Transition_Events_Counter.Recorder;
-      monitor : Model.Run_Settings.Model_Monitor;
+      monitor : Model.WSC.Run_Settings.Model_Monitor;
    begin
  
       Transitions.Create_Simulation_Data( 
