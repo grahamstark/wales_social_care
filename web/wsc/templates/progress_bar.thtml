@@ -5,7 +5,7 @@
    updater = new Ajax.PeriodicalUpdater(
              'progress_indicator', 
              '@_ROOT_@progress/', 
-             {evalScripts:true,frequency:5 } );  
+             {evalScripts:true,frequency:8,decay:2 } );  
    updater.start();
 </script>
 
