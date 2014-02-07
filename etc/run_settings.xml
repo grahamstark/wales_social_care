@@ -75,7 +75,7 @@
                 <Description type="description" lang="en">
                      If doing reweighting, and using a bounded function, new weight must be at most this ratio of original weight.
                  </Description>
-                <EditInfo min="1" max="10" />
+                <EditInfo min="1" max="20" />
         </Parameter>
 
         <Parameter name="comparison_run_id" instanceName="comparison_run_id" type="enumerated" enumTypeRef="BaseSystem">
@@ -95,7 +95,7 @@
                 <Description type="label" lang="en">
                      Num Iterations To Do
                  </Description>
-                 <EditInfo min='1' max='250' />
+                 <EditInfo min='1' max='10' />
         </Parameter>
         
         <ParameterSystemReference instanceName="uprate" type="Uprate_Assumption" collectionType="list" indexType="enumerated" indexEnumTypeRef="Uprate_Targets">
