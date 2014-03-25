@@ -147,12 +147,12 @@ procedure Compare_Raw_And_Derived is
       
       if db.Household_Exists( 
             wave => mwave, 
-            hid  => WSC_Enums.Sernum_Value( hh.hid ))then
+            hid  => hh.hid )then
          mhh := db.Get_Household( 
                wave => mwave, 
-               hid  => WSC_Enums.Sernum_Value( hh.hid ));
-         Assert( WSC_Enums.Sernum_Value( hh.hid ) = mhh.hid, " hids don't match raw=" & 
-            WSC_Enums.Sernum_Value( hh.hid )'Img & " vs model " & mhh.hid'Img );
+               hid  => hh.hid );
+         Assert( hh.hid = mhh.hid, " hids don't match raw=" & 
+            hh.hid'Img & " vs model " & mhh.hid'Img );
          num_comparisons := num_comparisons + 1;
          Assert( mhh.num_benefit_units = hh.num_benefit_units, "mismatch in bu counts " & 
             mhh.num_benefit_units'Img & " vs " 

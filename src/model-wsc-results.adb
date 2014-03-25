@@ -40,6 +40,7 @@ package body Model.WSC.Results is
       return a;
    end Calculate_Income;
    
+   
       
    function Make_Summary_Items( 
       ad  : Person;

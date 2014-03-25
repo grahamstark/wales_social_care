@@ -34,7 +34,7 @@ with BHPS.Binary_IO;
 with BHPS.XLookup;
 with BHPS_Indexes;
 with BHPS.State_Changes;
-
+with Base_Model_Types;
 with Model.WSC;
 with Model.WSC.Household;
 with Model.WSC.BHPS_Data_Creation_Libs;
@@ -180,7 +180,7 @@ procedure Make_WSC_Data_From_BHPS is
                            chno  : Child_Count;
                            found : Boolean;
                          begin
-                            wsch.Find_Person_By_Pid( mhh, WSC_Enums.Sernum_Value( ad.indresp.pid ), buno, adno, chno, found );
+                            wsch.Find_Person_By_Pid( mhh, ad.indresp.pid, buno, adno, chno, found );
                             if( not found )then
                                Log( "nobody located in model for hh " & mhh.hid'Img & " pid " & ad.pid'Img & wsch.To_String( mhh ));
                                Assert( found, " nobody located in model for hh " & mhh.hid'Img & " pid " & ad.pid'Img );

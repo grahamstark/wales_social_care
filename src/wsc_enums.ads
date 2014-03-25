@@ -43,10 +43,10 @@ package WSC_Enums is
    --
    -- FIXME: move this somewgere common with BHPS? 
    --
-   subtype Sernum_Value is Big_Integer range -9 .. 1_000_000_000; -- the variable 'gechphid' has -8s sometimes for missing values
+   -- subtype Sernum_Value is Big_Integer range -9 .. 1_000_000_000; -- the variable 'gechphid' has -8s sometimes for missing values
    -- type Sernum_Value is range -9 .. 1_000_000_000; -- the variable 'gechphid' has -8s sometimes for missing values
                              --  9223372036854775807
-   MISSING_SERNUM : constant Sernum_Value := Sernum_Value'First;
+   -- MISSING_SERNUM : constant Sernum_Value := Sernum_Value'First;
    
    function To_Unbounded_String( s : Sernum_Value ) return Unbounded_String;
    

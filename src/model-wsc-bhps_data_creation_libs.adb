@@ -854,9 +854,9 @@ package body Model.WSC.BHPS_Data_Creation_Libs is
    begin
       mad.pid := -9;
       if( ad.indresp.pid > 0 )then
-         mad.pid := WSC_Enums.Sernum_Value( ad.indresp.pid );
+         mad.pid := Sernum_Value( ad.indresp.pid );
       elsif( ad.indsamp.pid > 0 )then
-         mad.pid := WSC_Enums.Sernum_Value( ad.indsamp.pid );
+         mad.pid := Sernum_Value( ad.indsamp.pid );
       end if;
       mad.age := ad.age;
       mad.pno := ad.pno;
@@ -1224,7 +1224,7 @@ package body Model.WSC.BHPS_Data_Creation_Libs is
       end if;
       mhh.hdata.interview_date := Make_Interview_Date( hresp, wave );
       mhh.hdata.current_simulated_date := mhh.hdata.interview_date;
-      mhh.hid := WSC_Enums.Sernum_Value( hresp.hid );
+      mhh.hid := Sernum_Value( hresp.hid );
       mhh.hdata.hid := mhh.hid;
       mhh.hdata.origin_hid := mhh.hid;      
       mhh.hdata.has_full_sample := True;

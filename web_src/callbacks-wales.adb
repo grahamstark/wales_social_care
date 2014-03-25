@@ -106,6 +106,7 @@ package body Callbacks.Wales is
    use Model.WSC.Run_Settings;
    use type Ada.Containers.Count_Type;
    use Model.WSC.Run_Declarations;
+   use Base_Model_Types;
 
    package dao renames Model.WSC.Results.DAO;
     

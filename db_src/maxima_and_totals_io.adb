@@ -51,7 +51,7 @@ package body Maxima_And_Totals_IO is
         "case when sum( la_contributions ) is null then 0.0 else sum( la_contributions )* 52.0 end as lifetime_la_contributions, " &
         "case when sum( client_contributions ) is null then 0.0 else sum( client_contributions ) * 52.0 end as lifetime_client_contributions, " & 
         "case when sum( gross_care_costs ) is null then 0.0 else sum( gross_care_costs )* 52.0 end as lifetime_gross_payments, " &
-        "case when sum( capital_contribution ) is null then 0.0 else sum( capital_contribution )* 52.0 end as lifetime_capital_contributions, " & 
+        "case when sum( capital_contribution ) is null then 0.0 else sum( capital_contribution ) * 52.0 end as lifetime_capital_contributions, " & 
         "case when max( la_contributions ) is null then 0.0 else max( la_contributions ) end as highest_la_contribution " &
         " from personal_results "; 
 

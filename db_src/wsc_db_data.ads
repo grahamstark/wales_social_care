@@ -768,7 +768,7 @@ package Wsc_Db_Data is
          -- Use_Random_Threshold => false,
          -- Num_Iterations => 1,
          -- Interest_Rate_Pct => 0.0,
-         -- Real_Terms => false,
+         -- Real_Terms => false, 
          -- Is_Null_Settings => 0,
          -- Working_Root => Ada.Strings.Unbounded.Null_Unbounded_String,
          -- Users_Directory => Ada.Strings.Unbounded.Null_Unbounded_String,

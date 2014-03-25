@@ -5,6 +5,7 @@ with Text_Utils;
 
 with GNAT.Calendar.Time_IO;
 with GNATColl.Traces;
+with Base_Model_Types;
 
 package body Wsc_Db_Data is
 
@@ -52,6 +53,8 @@ package body Wsc_Db_Data is
    
    function Index_To_Personal_Results( raw : Personal_Index_List ) return Personal_Results_Location_List is
       use  Personal_Index_List_Package;
+      use Base_Model_Types;
+
       l : Personal_Results_Location_List;
       
       procedure Convert( c : Cursor ) is
@@ -72,7 +75,8 @@ package body Wsc_Db_Data is
    end Index_To_Personal_Results;
    
    function Gain_Lose_To_Personal_Results( raw : Gain_Lose_List.Vector ) return Personal_Results_Location_List is
-      use  Gain_Lose_List;
+      use Gain_Lose_List;
+      use Base_Model_Types;
       l : Personal_Results_Location_List;
       
       procedure Convert( c : Cursor ) is
